@@ -2,8 +2,8 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 153,
-  "totalBytes": 70705122,
+  "fileCount": 154,
+  "totalBytes": 97481642,
   "files": [
     {
       "path": ".nojekyll",
@@ -396,6 +396,10 @@
     {
       "path": "exports/rehearsal-room-saved-layouts-v1.5.json",
       "bytes": 91070
+    },
+    {
+      "path": "exports/rehearsal-room-sharing-kit-v1.5.zip",
+      "bytes": 26776520
     },
     {
       "path": "exports/rehearsal-room-sharing-kit-v1.6.zip",
