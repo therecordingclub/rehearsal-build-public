@@ -1,14 +1,14 @@
 # $25,000 allocation options · v1.6
 
-Source: `research/room-budget-v1.6.json`, price revision 1.6.2, checked 2026-09-28. The options are mutually exclusive. Every option keeps the $1,000 film allowance, 10% material-tax reserve, 3% material-freight reserve, and 10% contingency on the room, film, tax and freight. The sofa, swivel chairs and TV stay in every option; the ceiling-first package defers the bar stools. The main black fabric remains a new purchase. The existing black ceiling and warm honey floor remain.
+Source: `research/room-budget-v1.6.json`, price revision 1.7, checked 2026-09-28. The options are mutually exclusive. Every option keeps the $1,000 evidence-capture allowance, 10% material-tax reserve, 3% material-freight reserve, and 10% contingency on the room, film, tax and freight. The sofa, swivel chairs and TV stay in every option; the ceiling-first package defers the bar stools. The main black fabric remains a new purchase. The existing black ceiling and warm honey floor remain.
 
-| Option | Materials | Labor | Services | Room base | Film | Tax | Freight | Contingency | All-in | Headroom |
+| Option | Materials | Labor | Services | Room base | Capture | Tax | Freight | Contingency | All-in | Headroom |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **1. Balanced package · recommended** | $11,580.06 | $7,625.00 | $970.00 | $20,175.06 | $1,000.00 | $1,158.01 | $347.40 | $2,268.05 | **$24,948.52** | **$51.48** |
+| **1. Balanced package · visual preference after quotes** | $11,580.06 | $7,625.00 | $970.00 | $20,175.06 | $1,000.00 | $1,158.01 | $347.40 | $2,268.05 | **$24,948.52** | **$51.48** |
 | **2. Ceiling-first package** | $11,132.96 | $7,785.00 | $1,320.00 | $20,237.96 | $1,000.00 | $1,113.30 | $333.99 | $2,268.53 | **$24,953.78** | **$46.22** |
 | **3. Functional studio + reserve** | $10,723.78 | $7,055.00 | $970.00 | $18,748.78 | $1,000.00 | $1,072.38 | $321.71 | $2,114.29 | **$23,257.16** | **$1,742.84** |
 
-## 1. Balanced package · recommended
+## 1. Balanced package · visual preference after quotes
 
 Use the current v1.6 package without row changes.
 
@@ -50,7 +50,7 @@ The result keeps the five wall arches, sofa and swivel chairs, cocktail table, T
 
 Choose this only if the lit ceiling is the signature feature. A qualified reviewer must release the overhead support, attachment, fire and electrical details before construction.
 
-## 3. Functional studio + reserve
+## 3. Functional studio + reserve · recommended before quotes
 
 This option leaves the working studio, complete bar, bottle shelves, all seating, rug, TV/guitar wall, lighting, new black fabric and booth work intact. It defers three visual layers.
 

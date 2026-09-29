@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-09-28",
+  "scope": "Online retail and discount candidates only; visualization research, no BOM selection or purchase authorization.",
+  "baseline": {
+    "id": "FUR-036",
+    "name": "Jennifer Taylor Home Alpine",
+    "price_usd": 1252.99,
+    "dimensions_in": {
+      "width": 90.5,
+      "depth": 36,
+      "height": 27.5
+    },
+    "shape_note": "Gently rounded profile, not a true half-moon."
+  },
+  "recommendation": {
+    "candidate_id": "RET-SOFA-01",
+    "reason": "Strongest black retail match to the approved crescent. Official angled photography visibly proves a concave conversation arc, and the live Walmart offer is only $84.79 above the sofa baseline.",
+    "tradeoff": "The 100.5 by 47.5 inch footprint adds 10 inches of width and 11.5 inches of depth; exact occupied-layout and delivery-route checks are required."
+  },
+  "candidates": [
+    {
+      "id": "RET-SOFA-01",
+      "rank": 1,
+      "brand": "Modway",
+      "product": "Resolute Curved Performance Velvet Sofa",
+      "sku": "EEI-3408-BLK",
+      "color": "Black performance velvet with gold stainless steel base",
+      "shape_assessment": "True concave crescent; confirmed by official three-quarter product photography.",
+      "price_usd": 1337.78,
+      "price_delta_vs_baseline_usd": 84.79,
+      "price_source": "https://www.walmart.com/ip/657862469",
+      "price_status": "Black variant showed Add to cart, free shipping, sold and shipped by Modway. Manufacturer direct was preorder-only at $1,674.40.",
+      "dimensions_in": {
+        "width": 100.5,
+        "depth": 47.5,
+        "height": 30.5
+      },
+      "dimension_delta_vs_baseline_in": {
+        "width": 10,
+        "depth": 11.5,
+        "height": 3
+      },
+      "seat_dimensions_in": {
+        "width": 71,
+        "depth": 25,
+        "height": 19.5
+      },
+      "construction": "Dense foam, individually wrapped pocket coils, removable seat cushion and cover; fully assembled; stated maximum capacity 900 lb.",
+      "manufacturer_url": "https://modway.com/products/resolute-curved-performance-velvet-sofa-by-modway-eei-3408",
+      "retailer_url": "https://www.walmart.com/ip/657862469",
+      "local_image": "sofa-retail-assets/modway-resolute-black-curved-100.jpg",
+      "image_source": "https://modway.com/cdn/shop/files/EEI-3408-BLK_1.jpg?v=1749731280&width=1920",
+      "fit_gate": "Re-run M-12 at 100.5 by 47.5 inches and M-15 for a fully assembled sofa."
+    },
+    {
+      "id": "RET-SOFA-02",
+      "rank": 2,
+      "brand": "TOV Furniture",
+      "product": "Kendall 90-inch Sofa",
+      "sku": "TOV-L69004",
+      "color": "Chocolate brown performance velvet",
+      "shape_assessment": "Deep sculptural conversation arc; confirmed by official and retailer three-quarter imagery.",
+      "price_usd": 1599,
+      "price_delta_vs_baseline_usd": 346.01,
+      "price_source": "https://www.highfashionhome.com/products/kendall-sofa-chocolate-brown",
+      "price_status": "High Fashion Home showed In Stock and 4–6 weeks for the special order. Furniture.com showed the same price, free shipping, sold by TOV, ships within 4 weeks.",
+      "dimensions_in": {
+        "width": 89.7,
+        "depth": 43.7,
+        "height": 28.4
+      },
+      "dimension_delta_vs_baseline_in": {
+        "width": -0.8,
+        "depth": 7.7,
+        "height": 0.9
+      },
+      "seat_dimensions_in": {
+        "width": 70.9,
+        "depth": 24,
+        "height": 15.8
+      },
+      "construction": "Kiln-dried pine frame, spring support, fiber-wrapped foam; fully assembled.",
+      "manufacturer_url": "https://tovfurniture.com/products/kendall-velvet-sofa",
+      "retailer_url": "https://www.highfashionhome.com/products/kendall-sofa-chocolate-brown",
+      "crosscheck_url": "https://www.furniture.com/shop/kendall-chocolate-brown-velvet-sofa-tov-furniture-tov-l69004",
+      "local_image": "sofa-retail-assets/tov-kendall-chocolate-brown-90.jpg",
+      "image_source": "https://www.highfashionhome.com/cdn/shop/files/TOV-L69004-2.jpg?v=1734644419",
+      "fit_gate": "Re-run M-12 at 89.7 by 43.7 inches and M-15. Published carton is approximately 90.8 by 44.5 by 30.7 inches."
+    },
+    {
+      "id": "RET-SOFA-03",
+      "rank": 3,
+      "brand": "Willa Arlo Interiors",
+      "product": "Shelly 90-inch Velvet Curved Sofa",
+      "sku": "W002982774",
+      "color": "Black velvet with brushed-gold stainless base",
+      "shape_assessment": "Visible curved shell and concave seat front; shallower and more modern than the approved traditional crescent.",
+      "price_usd": 1999.99,
+      "price_delta_vs_baseline_usd": 747,
+      "price_source": "https://www.wayfair.com/furniture/pdp/willa-arlo-interiors-shelly-90-velvet-curved-sofa-w002982774.html",
+      "price_status": "Black velvet showed 1 left and free full-service delivery. The displayed delivery window was ZIP-specific.",
+      "dimensions_in": {
+        "width": 91.5,
+        "depth": 40,
+        "height": 32
+      },
+      "dimension_delta_vs_baseline_in": {
+        "width": 1,
+        "depth": 4,
+        "height": 4.5
+      },
+      "seat_dimensions_in": {
+        "width": 74,
+        "depth": 23.5,
+        "height": 17
+      },
+      "construction": "Black velvet, pocket-spring seat, brushed-gold stainless base; fully assembled; published minimum door width 24 inches.",
+      "retailer_url": "https://www.wayfair.com/furniture/pdp/willa-arlo-interiors-shelly-90-velvet-curved-sofa-w002982774.html",
+      "local_image": "sofa-retail-assets/wayfair-shelly-black-velvet.jpg",
+      "image_source": "https://assets.wfcdn.com/im/31153252/resize-h800-w800%5Ecompr-r85/1103/110312384/Shelly%2B90%22%2BVelvet%2BCurved%2BSofa-1937912975.jpg",
+      "fit_gate": "Re-run M-12 at 91.5 by 40 inches; Wayfair publishes a 24-inch minimum door width, but the room route still requires M-15."
+    }
+  ],
+  "rejected": [
+    {
+      "product": "US Pride Harcane S5873",
+      "reason": "Marketing says half-moon, but usable product imagery reads nearly straight or only softly bowed."
+    },
+    {
+      "product": "Magic Home MH-S-139BK",
+      "reason": "Low-cost foam floor sofa with a bubble front; does not deliver the requested conversation crescent."
+    },
+    {
+      "product": "Walmart ReyTinn S5-P55",
+      "reason": "Dark glam finish but visibly shallow curve."
+    },
+    {
+      "product": "Homary 89-inch Nordic black curved sofa",
+      "reason": "Live structured data showed out of stock."
+    },
+    {
+      "product": "Wayfair generic 90-inch half-moon listings",
+      "reason": "Black variants were out of stock during direct checks."
+    }
+  ],
+  "limitations": [
+    "Stock, prices, and delivery estimates are volatile and must be rechecked for the project ZIP immediately before purchase.",
+    "No candidate is approved for purchase or selected into the BOM by this research.",
+    "Published dimensions do not prove occupied-room clearance or the delivery route."
+  ]
+}

@@ -44,7 +44,7 @@ The $1,199.90 MIR-01 base includes the five mirrors, consumables and 12 paid ins
 
 ## Black acoustic-wall re-skin
 
-The working fabric field is **493.97 sq ft before openings**: 609.92 gross wall sq ft minus the five installed stock-mirror footprints (**49.87 sq ft total**, using the project takeoff's rectangular bodies plus nominal 12-in-radius semicircular tops) and 66.08 sq ft of slats. At 15% allowance, 568.07 sq ft requires **35 linear yd** of 66-in-wide [Guilford FR701 Black 408](https://www.soundaway.com/FR701-Acoustical-Fabric-s/147.htm) at the observed **$43.15/yd**, or **$1,510.25**. Confirm the physical frame outline and field openings before release.
+The working fabric field is **491.82 sq ft before openings**: 609.92 gross wall sq ft minus the five installed stock-mirror footprints (**52.02 sq ft total**, 5 × [24 × (65 − 12) + π × 12² / 2] / 144, using nominal semicircular tops) and 66.08 sq ft of slats. At 15% allowance, 565.59 sq ft requires **35 linear yd** of 66-in-wide [Guilford FR701 Black 408](https://www.soundaway.com/FR701-Acoustical-Fabric-s/147.htm) at the observed **$43.15/yd**, or **$1,510.25**. Confirm the physical frame outline and field openings before release.
 
 The $2,750.25 FIN-02 base comprises:
 

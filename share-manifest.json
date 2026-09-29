@@ -2,8 +2,8 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 156,
-  "totalBytes": 130120708,
+  "fileCount": 215,
+  "totalBytes": 264742485,
   "files": [
     {
       "path": ".nojekyll",
@@ -11,7 +11,7 @@
     },
     {
       "path": "app.js",
-      "bytes": 43352
+      "bytes": 43350
     },
     {
       "path": "assets/approved-concept.png",
@@ -90,6 +90,10 @@
       "bytes": 1650
     },
     {
+      "path": "assets/products/audrey-marketplace-gray/seller-photo-1.jpg",
+      "bytes": 126376
+    },
+    {
       "path": "assets/products/cb2-mylene-nomad-charcoal/fabric-swatch.jpg",
       "bytes": 413077
     },
@@ -146,6 +150,42 @@
       "bytes": 2636
     },
     {
+      "path": "assets/products/facebook-1041212948678051/seller-photo-1.jpg",
+      "bytes": 50146
+    },
+    {
+      "path": "assets/products/facebook-1044757847936016/seller-photo-1.jpg",
+      "bytes": 55136
+    },
+    {
+      "path": "assets/products/facebook-1182680476872508/seller-photo-1.jpg",
+      "bytes": 82104
+    },
+    {
+      "path": "assets/products/facebook-1242998524587841/seller-photo-1.jpg",
+      "bytes": 59286
+    },
+    {
+      "path": "assets/products/facebook-1384992756863850/seller-photo-1.jpg",
+      "bytes": 151532
+    },
+    {
+      "path": "assets/products/facebook-1749062956472262/seller-photo-1.jpg",
+      "bytes": 70156
+    },
+    {
+      "path": "assets/products/facebook-2390355648135377/seller-photo-1.jpg",
+      "bytes": 33522
+    },
+    {
+      "path": "assets/products/facebook-4626892007597581/seller-photo-1.jpg",
+      "bytes": 61349
+    },
+    {
+      "path": "assets/products/facebook-937848509229942/seller-photo-1.jpg",
+      "bytes": 24980
+    },
+    {
       "path": "assets/products/hay-aal81-soft-obsidian-black/dimensions.jpg",
       "bytes": 62828
     },
@@ -172,6 +212,10 @@
     {
       "path": "assets/products/ikea-dyvlinge-kelinge-black/source.md",
       "bytes": 1608
+    },
+    {
+      "path": "assets/products/interior-crafts-curved-used/seller-photo-1.jpg",
+      "bytes": 43710
     },
     {
       "path": "assets/products/jennifer-taylor-alpine-ebony-black/official-front.jpg",
@@ -234,6 +278,10 @@
       "bytes": 2016
     },
     {
+      "path": "assets/products/marketplace-black-curved/seller-photo-1.jpg",
+      "bytes": 32904
+    },
+    {
       "path": "assets/products/mercer41-90-black-half-moon/official-side-detail.jpg",
       "bytes": 212033
     },
@@ -254,12 +302,20 @@
       "bytes": 2087
     },
     {
+      "path": "assets/products/modway-resolute/official-product.jpg",
+      "bytes": 45196
+    },
+    {
       "path": "assets/products/robert-allen-revive-obsidian/fabric.jpg",
       "bytes": 115807
     },
     {
       "path": "assets/products/robert-allen-revive-obsidian/source.md",
       "bytes": 1625
+    },
+    {
+      "path": "assets/products/tov-kendall/official-product.jpg",
+      "bytes": 57182
     },
     {
       "path": "assets/records/labeled-floor-plan-2024.pdf",
@@ -306,6 +362,62 @@
       "bytes": 2666643
     },
     {
+      "path": "assets/sofa-options/audrey-gray-v1.0.png",
+      "bytes": 2179599
+    },
+    {
+      "path": "assets/sofa-options/bronze-fringe-v1.0.png",
+      "bytes": 2187336
+    },
+    {
+      "path": "assets/sofa-options/brown-tufted-v1.0.png",
+      "bytes": 2185573
+    },
+    {
+      "path": "assets/sofa-options/brown-two-tone-v1.0.png",
+      "bytes": 2111372
+    },
+    {
+      "path": "assets/sofa-options/charcoal-kidney-v1.0.png",
+      "bytes": 2179132
+    },
+    {
+      "path": "assets/sofa-options/charcoal-modular-v1.0.png",
+      "bytes": 2173946
+    },
+    {
+      "path": "assets/sofa-options/charcoal-modular-v1.1.png",
+      "bytes": 2108031
+    },
+    {
+      "path": "assets/sofa-options/charcoal-modular-v1.2.png",
+      "bytes": 2014061
+    },
+    {
+      "path": "assets/sofa-options/gray-wave-v1.0.png",
+      "bytes": 2163416
+    },
+    {
+      "path": "assets/sofa-options/interior-crafts-v1.0.png",
+      "bytes": 2117567
+    },
+    {
+      "path": "assets/sofa-options/kardiel-black-v1.0.png",
+      "bytes": 2169416
+    },
+    {
+      "path": "assets/sofa-options/kendall-v1.0.png",
+      "bytes": 2106075
+    },
+    {
+      "path": "assets/sofa-options/marketplace-black-v1.0.png",
+      "bytes": 2139864
+    },
+    {
+      "path": "assets/sofa-options/resolute-v1.0.png",
+      "bytes": 2104545
+    },
+    {
       "path": "assets/vendor/OrbitControls.js",
       "bytes": 29868
     },
@@ -318,20 +430,24 @@
       "bytes": 670681
     },
     {
+      "path": "astra-room-documentary-v1.0.html",
+      "bytes": 44678
+    },
+    {
       "path": "budget-data.js",
-      "bytes": 296313
+      "bytes": 296324
     },
     {
       "path": "budget-options-data.js",
-      "bytes": 13893
+      "bytes": 13995
     },
     {
       "path": "budget-options.js",
-      "bytes": 5206
+      "bytes": 5212
     },
     {
       "path": "budget-v1.6.html",
-      "bytes": 18570
+      "bytes": 18936
     },
     {
       "path": "budget.css",
@@ -339,11 +455,15 @@
     },
     {
       "path": "budget.js",
-      "bytes": 16397
+      "bytes": 16473
     },
     {
       "path": "current.json",
-      "bytes": 1340
+      "bytes": 1766
+    },
+    {
+      "path": "documentary.css",
+      "bytes": 13257
     },
     {
       "path": "evidence/claude-elements-reviewed.json",
@@ -374,6 +494,14 @@
       "bytes": 2367
     },
     {
+      "path": "exports/astra-room-documentary-v1.1.docx",
+      "bytes": 8753910
+    },
+    {
+      "path": "exports/astra-room-documentary-v1.1.pdf",
+      "bytes": 11873461
+    },
+    {
       "path": "exports/material-kits-v1.5.csv",
       "bytes": 40314
     },
@@ -388,6 +516,10 @@
     {
       "path": "exports/rehearsal-room-budget-v1.6.csv",
       "bytes": 138457
+    },
+    {
+      "path": "exports/rehearsal-room-budget-v1.7.csv",
+      "bytes": 141580
     },
     {
       "path": "exports/rehearsal-room-build-guide-v1.0.pdf",
@@ -412,6 +544,10 @@
     {
       "path": "exports/rehearsal-room-sharing-kit-v1.6.zip",
       "bytes": 32434627
+    },
+    {
+      "path": "exports/rehearsal-room-sharing-kit-v1.7.zip",
+      "bytes": 81722775
     },
     {
       "path": "exports/shopping-list-v1.5.csv",
@@ -455,7 +591,7 @@
     },
     {
       "path": "index.html",
-      "bytes": 2546
+      "bytes": 2654
     },
     {
       "path": "initial-photo.json",
@@ -487,7 +623,7 @@
     },
     {
       "path": "recap-prospectus-v1.0.html",
-      "bytes": 49191
+      "bytes": 49480
     },
     {
       "path": "reference-layout.js",
@@ -496,6 +632,14 @@
     {
       "path": "research/affordable-seating-v1.4.md",
       "bytes": 8780
+    },
+    {
+      "path": "research/astra-room-documentary-v1.0.json",
+      "bytes": 36566
+    },
+    {
+      "path": "research/astra-room-documentary-v1.0.md",
+      "bytes": 34380
     },
     {
       "path": "research/audit-findings.md",
@@ -507,11 +651,11 @@
     },
     {
       "path": "research/budget-options-v1.6.json",
-      "bytes": 22221
+      "bytes": 22339
     },
     {
       "path": "research/budget-options-v1.6.md",
-      "bytes": 5550
+      "bytes": 5630
     },
     {
       "path": "research/build-completeness-audit-v1.5.md",
@@ -526,6 +670,14 @@
       "bytes": 8292
     },
     {
+      "path": "research/circular-sofa-retail-v1.0.json",
+      "bytes": 6963
+    },
+    {
+      "path": "research/circular-sofa-retail-v1.0.md",
+      "bytes": 5194
+    },
+    {
       "path": "research/furniture-accuracy-v1.1.md",
       "bytes": 5038
     },
@@ -538,6 +690,10 @@
       "bytes": 124755
     },
     {
+      "path": "research/kardiel-model-dimensions-v1.0.json",
+      "bytes": 710
+    },
+    {
       "path": "research/material-install-notes-v1.5.md",
       "bytes": 28271
     },
@@ -546,12 +702,16 @@
       "bytes": 46378
     },
     {
+      "path": "research/openai-documentary-evidence-v1.0.md",
+      "bytes": 22269
+    },
+    {
       "path": "research/pricing-architecture-v1.6.json",
-      "bytes": 87226
+      "bytes": 87216
     },
     {
       "path": "research/pricing-architecture-v1.6.md",
-      "bytes": 8449
+      "bytes": 8439
     },
     {
       "path": "research/pricing-furnishings-v1.6.json",
@@ -587,11 +747,71 @@
     },
     {
       "path": "research/room-budget-v1.6.json",
-      "bytes": 368824
+      "bytes": 368812
     },
     {
       "path": "research/room-dimensions-records-v1.2.md",
       "bytes": 15241
+    },
+    {
+      "path": "research/sofa-audrey-listing-v1.0.json",
+      "bytes": 833
+    },
+    {
+      "path": "research/sofa-black-listing-v1.0.json",
+      "bytes": 675
+    },
+    {
+      "path": "research/sofa-marketplace-la-v1.1.md",
+      "bytes": 4991
+    },
+    {
+      "path": "research/sofa-options-v1.0.json",
+      "bytes": 16189
+    },
+    {
+      "path": "research/sofa-retail-assets/bedbath-half-moon-black-detail-1.jpg",
+      "bytes": 1856
+    },
+    {
+      "path": "research/sofa-retail-assets/bedbath-half-moon-detail-2.jpg",
+      "bytes": 2077
+    },
+    {
+      "path": "research/sofa-retail-assets/bedbath-half-moon-detail-3.jpg",
+      "bytes": 1966
+    },
+    {
+      "path": "research/sofa-retail-assets/bedbath-half-moon-detail-4.jpg",
+      "bytes": 1554
+    },
+    {
+      "path": "research/sofa-retail-assets/groovyboardz-black-half-moon-90.jpg",
+      "bytes": 337195
+    },
+    {
+      "path": "research/sofa-retail-assets/home-depot-harcane-black-half-moon-91.jpg",
+      "bytes": 27190
+    },
+    {
+      "path": "research/sofa-retail-assets/home-depot-magic-home-black-curved-90.jpg",
+      "bytes": 177404
+    },
+    {
+      "path": "research/sofa-retail-assets/modway-resolute-black-curved-100.jpg",
+      "bytes": 45196
+    },
+    {
+      "path": "research/sofa-retail-assets/tov-kendall-chocolate-brown-90.jpg",
+      "bytes": 57182
+    },
+    {
+      "path": "research/sofa-retail-assets/walmart-reytinn-black-retro-86.jpg",
+      "bytes": 251460
+    },
+    {
+      "path": "research/sofa-retail-assets/wayfair-shelly-black-velvet.jpg",
+      "bytes": 117695
     },
     {
       "path": "research/sofa-source-match-v1.3.md",
@@ -611,15 +831,31 @@
     },
     {
       "path": "room-v1.3.html",
-      "bytes": 10260
+      "bytes": 10256
     },
     {
       "path": "room-v1.5.html",
-      "bytes": 12223
+      "bytes": 12353
     },
     {
       "path": "shared-layouts.js",
       "bytes": 43251
+    },
+    {
+      "path": "sofa-options-data.js",
+      "bytes": 21669
+    },
+    {
+      "path": "sofa-options-v1.0.html",
+      "bytes": 8760
+    },
+    {
+      "path": "sofa-options.css",
+      "bytes": 18778
+    },
+    {
+      "path": "sofa-options.js",
+      "bytes": 38178
     },
     {
       "path": "styles.css",

@@ -1,0 +1,446 @@
+{
+  "title": "Room for Revision",
+  "subtitle": "A 25-minute documentary proposal for OpenAI about using Astra to plan, build, test, and account for a real rehearsal room",
+  "version": "1.1",
+  "status": "Development proposal. Planning is underway; field verification, construction and the finished documentary remain ahead.",
+  "deck": "A working musician with no design or construction background pushes Astra through a poor first model, wrong assumptions, real records, buyable products, a $25,000 cap, trade validation, and the physical build. The errors stay in the film. The completed room, controlled performance, and paid invoices determine the ending.",
+  "sections": [
+    {
+      "id": "proposal",
+      "kicker": "The ask",
+      "title": "Follow the project from first prompt to finished room",
+      "lead": "The proposed film begins in the untouched room and follows the plan all the way through survey, trades, procurement, construction, commissioning, performance, and invoice closeout.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Greg Spero is a working musician and studio owner who began this room project without design or construction experience. He did know how musicians use the room, what a session needs, and when an image felt wrong. Through a long correction loop, he used Astra to turn an approved visual concept into an inspectable planning system: recorded geometry, editable 2D and 3D models, buyable furniture research, a line-item budget, trade scopes, material kits, ordered installation steps, and release gates for facts that still need people on site."
+        },
+        {
+          "type": "text",
+          "text": "Proposed format: a 25-minute observational documentary, 16:9 master, clean master, full captions, transcript, trailer, cutdowns, production stills, and a public source appendix. OpenAI is asked to evaluate whether to follow or develop the story and to identify an editorial contact for a first conversation. If there is interest, TRC and a production partner would agree on access, production scope, editorial roles, distribution, and a quoted full-film budget. Production resources or support are an optional discussion, not a request approved by this document. No OpenAI participation, funding, or endorsement is claimed."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Room project cap: $25,000 all-in, separate from documentary financing.",
+            "Baseline price revision 1.7, checked 2026-09-28: $24,948.52 balanced; $24,953.78 ceiling-first; $23,257.16 with more cost protection.",
+            "The room ledger includes a $1,000 evidence-capture allowance for an archive and rough assembly. The finished 25-minute documentary needs a separate production agreement and quoted budget.",
+            "The final film is a completed case only after construction, commissioning, musical use, and cost records exist."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-openai",
+      "kicker": "Why OpenAI",
+      "title": "A visible chain of responsibility",
+      "lead": "The camera can show where an agent expands a user’s reach and where authority returns to the person, the trade, the site, or the receipt.",
+      "blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Astra organizes records, compares sources, researches products, debugs geometry and code, generates or revises planning images, assembles budget logic, and keeps unresolved facts visible.",
+            "Greg decides the room’s purpose, musical use, taste, acceptable compromises, spending cap, and whether a result works for people in sessions.",
+            "Bounded GPT workers perform isolated research, extraction, implementation, testing, or review. Astra integrates and judges the work.",
+            "The approved September 13 concept came from Greg’s earlier room work with Claude. The film credits that source and does not present the concept as Astra’s original creation.",
+            "Qualified people measure, engineer or approve loads and attachment details, quote, fabricate, install, inspect, and commission. A model does not certify a wall, circuit, overhead assembly, or field fit."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The errors remain in the film because correction is the evidence. Viewers see a musician use an agent to plan beyond his formal training while keeping human control over taste, money, physical facts, and safety."
+        }
+      ]
+    },
+    {
+      "id": "premise",
+      "kicker": "Premise",
+      "title": "Will the physical room accept the plan?",
+      "lead": "A musician pushes Astra past a bad first model and a beautiful but incomplete concept, then follows the resulting plan into a real $25,000 build where measurements, trades, receipts, and music decide what survives.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The stakes are already present. The first 3D pass is poor. The room shape and door assumptions change when old plans surface. The sofa direction changes after price, availability, shape, and fit review; the concept-faithful custom configuration still lacks a final dealer quote. Two raised storage-door platforms remain missing from the usable record and must be measured before fit can be released. The balanced budget comes within $51.48 of the cap. A wrong dimension can move furniture, change quantities, or stop custom work."
+        },
+        {
+          "type": "text",
+          "text": "The ending stays conditional. If the room opens, the film compares the installed result with the model and records musicians using it. If a feature is deferred, the film shows the change and reason. If the build pauses, the documentary ends on the verified limit rather than manufacturing a reveal."
+        },
+        {
+          "type": "image",
+          "src": "assets/current-room.jpeg",
+          "caption": "REAL ROOM / BEFORE. The film starts here, before measurements, deliveries, or construction change the evidence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-now",
+      "kicker": "Current record",
+      "title": "Current evidence and open work",
+      "lead": "Planning artifacts exist. Construction proof does not.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Evidence", "Status", "Film use"],
+          "rows": [
+            ["Real room before construction", "Ready", "Opening location, matched final angle, normal studio use"],
+            ["Approved concept", "Ready; earlier Greg/Claude work", "Visual target with visible source credit"],
+            ["Early rough 3D", "Ready", "Failure and correction sequence"],
+            ["Corrected live 3D", "Ready as planning model", "Model comparison, never labeled as built"],
+            ["AI visualization", "Ready; not built", "Visual intent with a permanent NOT BUILT label"],
+            ["Interactive room, guide, and v1.5 PDF", "Ready for planning and quotation", "Geometry, 37 scopes, kits, steps, checks, and hold points"],
+            ["Budget v1.6", "Ready as planning ledger", "238 lines, 158 mapped materials, 65 price-observed lines, options under the cap"],
+            ["Survey, trade bids, orders, invoices, construction, inspection, reveal", "Pending", "Future principal photography and release gates"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The balanced package allocates $7,625 to paid installation labor. This is a proposed allocation, not paid labor. The current counts and totals describe the versioned plan; they are not accepted bids, realized savings, installed costs, or proof of completion. Public project: https://therecordingclub.github.io/rehearsal-build-public/ ; live room: https://therecordingclub.github.io/rehearsal-build-public/room-v1.5.html ; current budget: https://therecordingclub.github.io/rehearsal-build-public/budget-v1.6.html ."
+        },
+        {
+          "type": "image",
+          "src": "assets/approved-concept.png",
+          "caption": "APPROVED CONCEPT / STARTING POINT. Credit: Greg’s earlier room work with Claude."
+        }
+      ]
+    },
+    {
+      "id": "roles",
+      "kicker": "Credits",
+      "title": "Accurate human, model, and trade roles",
+      "lead": "Every title card and line of narration should preserve this authorship map.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Participant", "Accurate role", "Do not imply"],
+          "rows": [
+            ["Greg Spero", "Project owner, working musician, studio operator, creative director, final decision-maker", "That he lacked music, production, studio, or room-use expertise"],
+            ["Astra", "Primary AI planning agent for the independent guide; research, organization, debugging, modeling/code coordination, image work, budget logic, integration, final agent judgment", "That Astra measured, engineered, invented the approved concept, or physically built the room"],
+            ["Bounded GPT workers", "Scoped contributors for research, extraction, implementation, tests, or review", "That every output came from one uninterrupted model session"],
+            ["Earlier Greg/Claude work", "Source of the approved concept and background artifacts", "That its concept authorship belongs to Astra"],
+            ["Surveyor and trades", "Field truth, shop drawings, technical judgment, quotes, fabrication, installation, inspection, commissioning", "That AI substitutes for their release"],
+            ["OpenAI", "Proposed commissioning or supporting partner if an agreement is signed", "That OpenAI has already commissioned, endorsed, or approved the work"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "kicker": "25 minutes",
+      "title": "Eight chapters from first prompt to paid invoices",
+      "lead": "Each chapter has something physical to observe, something exact to hear, and a record that turns the story.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Time", "Chapter", "What we see and hear", "Evidence and turning point"],
+          "rows": [
+            ["00:00–02:00", "1. The real room and the brief", "Untouched room in normal use; locked wide; approved concept and earliest preserved conversation; natural room sound and a performance fragment.", "The first exact prompt appears with its source. Earlier Greg/Claude concept credit is explicit."],
+            ["02:00–05:00", "2. Reject the model, correct the process", "Poor early 3D against the real room; wrong orientation, generic forms, bad scale; exact corrections and version diffs.", "The rejection moves Astra from visual polish to source records, editable geometry, and traceable revisions."],
+            ["05:00–08:00", "3. Put field truth into the geometry", "Old plan, doors, booth, M-01–M-16 survey, and both raised storage-door areas.", "A measured discrepancy updates the model and affected clearances or quantities. Unmeasured conditions remain holds."],
+            ["08:00–11:00", "4. Make the room buyable under $25K", "Sofa candidates, tear sheets, furniture footprints, material rows, mirror and lighting kits, three budget options.", "Source-backed products replace generic forms. The cap forces explicit choices while quotes and selections remain pending."],
+            ["11:00–14:00", "5. Give trades something they can challenge", "Full-size mockups, samples, scope packets, redlines, trade questions, and bids.", "Field facts and bids revise the package. Trades release physical methods; Greg approves scope and cost."],
+            ["14:00–21:00", "6. Build with Astra in the loop", "Protection, deliveries, price proof, concealed conditions, fabrication and installation; crew photos and measurements beside versioned updates.", "Each condition follows a visible chain: site evidence, plan comparison, trade decision, drawing/quantity/order/budget update, approval, installation, captured check, and as-built log."],
+            ["21:00–23:00", "7. Commission, correct, close the holds", "Clearances, service access, lighting, AV cold start, appliance and ventilation checks, defect list, and corrected records.", "Failed or changed checks update dependencies, punch list, budget, and as-built record. Open defects stay visible."],
+            ["23:00–25:00", "8. Music and receipts", "Matched before/after, controlled performance, completed-room walkthrough, invoice ledger, and plan-versus-built comparison.", "Paid invoices replace allowances. The close states planned and actual totals, approved changes, deferred work, and open defects."]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Astra during construction is a proposed future workflow. It has not happened yet."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "The crew submits labeled photos, measurements, delivery records, and the condition found.",
+            "Astra compares them with the versioned plan, identifies affected scopes, and requests missing facts instead of guessing.",
+            "The qualified trade chooses and releases the physical method, attachment, circuit, fabrication detail, or repair.",
+            "Astra updates the drawing, quantity, order tracker, budget, dependency, and change log.",
+            "Greg approves the cost and design tradeoff within the $25,000 cap before work or purchase proceeds.",
+            "The installer completes the work; the crew captures the check; Astra logs the as-built result, invoice state, and remaining holds."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Possible scenes include a raised platform dimension changing a route or fit check; wall backing for five mirrors or the TV requiring a trade detail; a stock item becoming unavailable; or an on-site clearance missing the model. Capture them only if they occur."
+        }
+      ]
+    },
+    {
+      "id": "prompts",
+      "kicker": "Primary record",
+      "title": "The prompt journey stays verbatim and traceable",
+      "lead": "Prompts appear as evidence cards with source type, date when available, and the artifact they changed.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Prompt or direction", "Document status", "Downstream effect"],
+          "rows": [
+            ["Earliest room-planning prompt", "Retrieve from source transcript and clear before picture lock. Current public package does not establish exact wording; do not reconstruct it.", "Opens the film and defines the original request."],
+            ["make the furniture accurately sized and shaped!!", "Verified excerpt preserved in recap-prospectus-v1.0.md", "Moves from generic boxes to source dimensions and furniture shapes."],
+            ["this new room looks like shit", "Supplied as exact transcript evidence for the documentary evidence brief; not frozen in this repository", "Makes the gap between a functional model and Greg’s visual judgment explicit. Preserve the original transcript locator before use."],
+            ["you still have to do better", "Verified excerpt preserved in recap-prospectus-v1.0.md", "Holds on the poor early model and begins the records-and-corrections chapter."],
+            ["when i've re-arranged the firnutire, the new rendering should be the same beautiful full rendering you had made originally, just with the new positions", "Supplied as exact transcript evidence for the documentary evidence brief; not frozen in this repository", "Connects editable positions to the full-room visualization while preserving separate evidence states. Keep firnutire unchanged."],
+            ["also get the room dimensions right from our records", "Supplied as exact transcript evidence for the documentary evidence brief; not frozen in this repository", "Leads to the plan audit, corrected entry-door record, retained bay uncertainty, and field survey."],
+            ["no but i need you to find available ones and place those in the image with the proper dimensions", "Supplied as exact transcript evidence for the documentary evidence brief; not frozen in this repository", "Starts manufacturer-backed furniture research and exact planning envelopes."],
+            ["that couch sucks. Find one that actually fits the original design!!!", "Supplied as exact transcript evidence for the documentary evidence brief; not frozen in this repository", "Rejects a weak candidate and moves toward the C9 reference, with quote, fabric, access, and occupied-fit gates open."],
+            ["i mean EVERYTHING - all the walls mirrors desk every last detail of the room needs to be found and priced out", "Verified excerpt preserved in recap-prospectus-v1.0.md", "Expands the work into 37 scopes, mapped materials, pricing, and release gates."],
+            ["your budget is $25k all in", "Supplied as exact transcript evidence for the documentary evidence brief; not frozen in this repository", "Produces three allocation plans and forces visible deferrals and allowances."],
+            ["no for the doc i mean a full doc on using astra to build the plan and build the room the whole way through - to give to open ai", "Current user direction, 2026-09-28", "Replaces the short recap as the main proposal and adds construction, commissioning, performance, and invoices."]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Preserve original spelling and punctuation. Private transcripts, contact details, account screens, and unredacted commercial documents stay out of the public appendix. For every transcript-only excerpt, the production quote ledger preserves the original conversation identifier, turn or line locator, date, speaker, exact text, screen capture, and edit use. The film cannot display it as verified until that source check passes."
+        }
+      ]
+    },
+    {
+      "id": "conflicts",
+      "kicker": "Observed tension",
+      "title": "The project already contains the conflict",
+      "lead": "No producer needs to invent a crisis.",
+      "blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "The poor first 3D has visible orientation, scale, shape, and relationship problems.",
+            "Room polygon, non-45-degree returns, doors, booth, and object axes change what fits and how quantities calculate.",
+            "A concept-faithful custom sofa has uncertain price, lead time, configuration, and orderability; lower-cost candidates compromise curve, arms, upholstery, or size.",
+            "The balanced package leaves $51.48 after current reserves; ceiling-first leaves $46.22; reserve-protected leaves $1,742.84. Accepted quotes may force deferral.",
+            "Two raised storage-door platforms need width, depth, height, edge, and door-clearance measurements before fit is released.",
+            "Mirror retention, overhead support, fire performance, electrical compatibility, backing, and final attachments require qualified trade or engineering judgment.",
+            "The budget is a planning ledger. Only quotes, purchase records, changes, and invoices establish actual cost."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "evidence/planner-3d-export-v1.1.png",
+          "caption": "EARLY 3D / ITERATION. Hold on the flaws long enough for viewers to inspect them."
+        }
+      ]
+    },
+    {
+      "id": "style",
+      "kicker": "Direction",
+      "title": "Let the room and the records carry the film",
+      "lead": "No fake terminal typing, glowing AI interface, or omniscient model voice.",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Lock one 4K 16:9 master camera before any room change and recreate it after commissioning. Record lens, height, distance, tilt, white balance, lighting state, and time-of-day window. Keep the before grade honest. Native screen recordings show source changes; cameras show Greg deciding, trades measuring, and the room changing."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Use five fixed evidence labels: RECORD, MODEL, VISUALIZATION, FIELD VERIFIED, PENDING.",
+            "Every cost carries its version and status: observed price, allowance, accepted quote, purchase, or invoice.",
+            "Build the soundtrack from room tone, tape pulls, laser beeps, keys, drums, saws, drivers, and relay clicks. Capture 60 seconds of room tone at every phase.",
+            "Do not grade the before footage to look worse. Do not substitute a visualization for installed-room photography.",
+            "Use native screen capture when a readable interface matters. Record Greg and trades with independent clean audio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capture-matrix",
+      "kicker": "Producer matrix",
+      "title": "Capture what cannot be recreated",
+      "lead": "These shots become impossible or misleading after the room changes.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Moment", "Required capture", "Proof and gate"],
+          "rows": [
+            ["Before any move or demo", "Locked master, eight corners, ceiling, doors, platforms, continuous walkthrough, room tone", "Camera map and slate; two verified backups before work"],
+            ["First prompt and early failure", "Native screen at readable resolution; Greg at workstation; exact source record", "Source ID; Greg clears private content"],
+            ["Field survey", "Wide location, medium on datum, close value readable on tape/laser", "M-01–M-16 signed record; both raised platforms"],
+            ["Full-size mockup", "Tape layout and occupied sofa, chair, door, instrument, service envelopes", "Marked plan and discrepancy log before orders"],
+            ["Demo or concealed condition", "Continuous before/open/after; clean sound", "Dated condition and decision before disposal or closure"],
+            ["Behind walls/ceilings", "Wide location plus backing, wiring, drivers, supports, ventilation, labels", "Trade sign-off or inspection evidence; no close until logged"],
+            ["Unboxing and delivery", "Package, model/SKU, condition, quantity, route, assembly", "Redacted receipt or price record; hide address and serials"],
+            ["Price or scope change", "Old/new budget line and decision interview", "Quote or change order cleared for publication"],
+            ["Site-forced correction", "Condition, discussion, corrected model/drawing, installed result", "Change log names qualified approver"],
+            ["Commissioning", "Door, access, lighting, AV cold start, appliance, furniture, punch list", "Acceptance checks; defects remain visible"],
+            ["Final and performance", "Recreated locked angle, clean and occupied passes, controlled recording", "Same camera metadata; performer release; signal-path note"],
+            ["Invoice postmortem", "Greg and producer at ledger; totals and changes readable", "Accepted quotes, invoices, payment status, exclusions; privacy redaction"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interviews",
+      "kicker": "Interviews",
+      "title": "Ask for examples, corrections, and limits",
+      "lead": "No one is asked to endorse Astra or OpenAI.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Role", "Questions"],
+          "rows": [
+            ["Greg, before and after", "What did the first model miss about using the room? What was visibly wrong? Which concept detail mattered most? Which source changed your mind? What would you refuse to order before a field check? What stayed, changed, or was deferred at the cap? What did the final model get right or wrong?"],
+            ["Lead builder or survey lead", "Which pages helped you quote or sequence? Which assumptions failed at the tape? What required trade or engineering release? Which mockup prevented rework? Where did the documentation create work, and was it useful?"],
+            ["Glazier or millworker", "What did the image communicate? Which dimensions, templates, substrates, loads, edges, and service needs controlled fabrication? What changed in the released shop drawing?"],
+            ["Electrician or systems installer", "Which lighting or power assumptions survived? What did circuit condition, drivers, dimming, access, or code require? Which labels and tests will remain useful?"],
+            ["Musicians in the completed room", "Can you set up, see one another, reach instruments, move, and use doors as intended? Which physical choice affects the session most? What still gets in the way?"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "kicker": "Proof",
+      "title": "Measure repeatable changes without inventing acoustics or ROI",
+      "lead": "The same method must exist on both sides of the comparison.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Measure", "Before and after method", "Claim allowed"],
+          "rows": [
+            ["Geometry and clearances", "Same dated tape/laser datums, including doors and platforms", "Dimensional differences and verified clearances"],
+            ["Furniture and circulation", "Same occupied envelope and setup tasks", "Fit, reach, route, swing, and service pass/fail"],
+            ["Lighting", "Same camera settings and named lux points if available", "Measured illuminance and controllable scene behavior"],
+            ["AV startup", "Same timed cold-start checklist and fault log", "Startup time, checked connections, observed faults"],
+            ["Background sound", "Same calibrated recorder, position, settings, HVAC and room state", "Recorded level difference under disclosed conditions; no broad acoustic claim"],
+            ["Musical record", "Same short performance, players, mic positions, gain, room state where practical", "Audible comparison with method disclosed; preference is labeled preference"],
+            ["Budget", "Versioned allowances versus accepted quotes, purchases, changes, paid invoices", "Planned versus actual by scope and total"],
+            ["Schedule", "Milestone plan versus dated build log", "Planned versus actual dates and reasons"],
+            ["Documentation", "Current open gates versus final as-built package", "Which records existed and which gates closed"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Time savings, productivity gains, return on investment, testimonials, and acoustic improvement stay out unless the production defines and completes a credible method."
+        }
+      ]
+    },
+    {
+      "id": "production-control",
+      "kicker": "Field plan",
+      "title": "Shoot by milestone, protect the source record",
+      "lead": "The dates follow the real construction calendar. A missed moment is logged, not silently reenacted.",
+      "blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Phase A, now through survey: recover prompt history; lock story and source map; capture untouched room, first interview, native screens, and model versions; collect releases; photograph all surfaces and access points.",
+            "Phase B, trade development and procurement: film M-01–M-16, mockups, samples, redlines, scope choices, bids, final selections, quote revisions, and order releases.",
+            "Phase C, construction: capture demolition, deliveries, concealed conditions, inspections, changes, closure, installation, and commissioning. Seek 48 hours notice for irreversible events when the real schedule allows.",
+            "Phase D, closeout: matched final views, controlled performance, final interviews, punch list, as-built records, and actual-invoice review. Picture lock follows fact and rights checks."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Name media YYYYMMDD_PHASE_CAMERA_SHOT_TAKE.ext. Before any card is cleared, copy it to two separate verified backups and update the shot/asset register with source, creator, capture date, consent, rights, privacy, evidence state, intended edit use, and both backup locations. Keep one backup physically separate from the working drive."
+        },
+        {
+          "type": "text",
+          "text": "Obtain appearance releases and location permission. Redact private prompts, account data, contacts, addresses, serial numbers, payment data, unreleased commercial terms, and sensitive security details. Make redacted review exports of readable screens. At fact check, audit every model role so Astra work is not assigned to Claude, earlier Claude concept work is not assigned to Astra, helper work is not collapsed into a single session, and trade judgment is not assigned to AI."
+        }
+      ]
+    },
+    {
+      "id": "estimate",
+      "kicker": "Production estimate",
+      "title": "Crew and postproduction scope",
+      "lead": "This scale estimate is not a funding request, approved budget, or accepted vendor quote.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Work", "Paid hours", "Typical owner"],
+          "rows": [
+            ["Development, evidence producing, schedule, releases", "70–110", "Producer/director"],
+            ["Direction, interviews, build-day coverage", "80–120", "Director/field producer"],
+            ["Camera and lighting", "90–150", "DP/operator; occasional assistant"],
+            ["Location sound and performance recording", "55–95", "Sound recordist/audio engineer"],
+            ["Media management, transcriptions, assistant work", "45–75", "DIT/production assistant"],
+            ["Story edit and archive integration", "190–280", "Documentary editor"],
+            ["Evidence graphics, prompt cards, captions", "45–80", "Editor/motion designer/accessibility"],
+            ["Color, mix, mastering, QC, delivery", "45–75", "Colorist, mixer, online editor"],
+            ["Total", "620–985", "Crew may combine roles on small days"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Assumptions: local observational production, existing TRC access and archive, existing cameras and basic sound gear where suitable, eight to twelve milestone shoot days spread across the build, no celebrity fees, and restrained graphics. Greg contributes an estimated 30–50 owner hours for access, interviews, decisions, archive review, fact review, and approvals. Trade participation beyond normal project meetings must be quoted or agreed separately. Astra can prepare evidence maps, shot prompts, comparison scripts, transcript summaries, caption drafts, and fact-check lists through Greg’s existing account; that account use and Greg’s supervision are explicit contributions, not free production labor."
+        },
+        {
+          "type": "text",
+          "text": "A production partner must quote the full-film scope after the construction schedule and crew plan exist. That future scope includes the listed paid hours plus local expenses, drives, transcription and captions, music or performance clearance as needed, insurance/admin where required, and postproduction. The full film is currently unfunded. Its budget is outside the approved $25,000 room project, authorizes no spending, and assumes no extra contribution from Greg. Travel, union requirements, delays, reshoots, original score, extensive animation, or a larger campaign would change the quote. The first OpenAI conversation asks whether the story fits an editorial or documentary program and who should evaluate it."
+        }
+      ]
+    },
+    {
+      "id": "fallback",
+      "kicker": "$1,000 fallback",
+      "title": "Preserve evidence within the existing allowance",
+      "lead": "The room’s $1,000 evidence-capture allowance preserves a disciplined archive and rough assembly.",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": ["Use", "Cash ceiling", "Result"],
+          "rows": [
+            ["Milestone capture assistant", "$300", "Up to 12 paid hours at a $25/hour planning allowance, using existing phone/cameras and prioritizing irreversible work; travel time must fit those hours"],
+            ["Two backup drives or storage gap", "$250", "Two-copy media record if suitable drives are not already available"],
+            ["Audio, transcript, and caption support", "$200", "Clean transcript and caption base"],
+            ["Assembly edit and exports", "$250", "Rough chronological evidence reel and source log; not the finished documentary"],
+            ["Total", "$1,000", "Evidence preservation only"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Priorities are the locked before angle, field measurements, demo and behind-wall conditions, unboxing and price proof, site changes, matched final angle, controlled performance, and invoice closeout. Greg contributes interviews and access; existing TRC gear and owner time are declared. If storage already exists, keep that cash in the room. Video never displaces required electrical, safety, or field-verification work."
+        }
+      ]
+    },
+    {
+      "id": "deliverables",
+      "kicker": "Delivery",
+      "title": "A film, its cutdowns, and the proof behind it",
+      "lead": "The source appendix lets a careful viewer inspect the claims without exposing private project data.",
+      "blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "25-minute 4K 16:9 documentary master with full mix.",
+            "Clean-text master and clean music/effects master where rights permit.",
+            "English closed captions, subtitle file, corrected verbatim transcript.",
+            "60–90 second trailer; 60-second and 30-second cutdowns in 16:9 and 9:16; one square version.",
+            "Poster frame, 12–20 cleared stills, five labeled comparison frames.",
+            "Public appendix linking cleared guide states, plan and model versions, budget versions, methods, corrections, and final cost summary.",
+            "Private source log, releases and rights index, fact-check ledger, caption source, edit project, graphics package, and two-backup inventory."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Proposed release: discuss an OpenAI premiere or editorial channel, then TRC’s YouTube and project page, event or festival screenings where rights allow, and short-form cutdowns. Co-branding, exclusivity, premiere window, paid media, and OpenAI channel placement require a written agreement. Until then, these are proposals rather than commitments."
+        }
+      ]
+    },
+    {
+      "id": "release-gates",
+      "kicker": "Picture lock",
+      "title": "The documentary finishes when the evidence finishes",
+      "lead": "Construction completion alone is insufficient; the authorship, rights, performance, and actual-cost records must also close.",
+      "blocks": [
+        {
+          "type": "bullets",
+          "items": [
+            "Trace and clear the earliest displayed prompt and every later direct quote.",
+            "Credit the approved concept to earlier Greg/Claude work; describe Astra and bounded GPT roles accurately.",
+            "Document survey, qualified trade releases, accepted quotes, procurement, construction, commissioning, and punch-list status.",
+            "Label every model, render, and visualization when confusion with the installed room is possible.",
+            "Complete the matched before/after camera record and controlled musical performance.",
+            "Use accepted quotes, changes, purchases, and invoices for planned-versus-actual costs; state exclusions.",
+            "Remove unsupported time-saved, ROI, acoustic, code, engineering, or OpenAI-endorsement claims.",
+            "Pass consent, privacy, brand, music, product-image, plan-record, and location clearance.",
+            "Deliver captions, transcript, masters, cutdowns, stills, appendix, project archive, and two verified backups."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The immediate decision is whether OpenAI wants to evaluate the story and name an editorial contact. Evidence capture should begin before the first site measurement or room change because the untouched room, concealed conditions, and first reactions cannot be recovered later."
+        }
+      ]
+    }
+  ]
+}

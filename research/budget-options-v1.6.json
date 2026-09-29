@@ -8,7 +8,7 @@
     "version": "1.6",
     "hardCap": 25000,
     "baselineAllIn": 24948.52,
-    "priceRevision": "1.6.2"
+    "priceRevision": "1.7"
   },
   "calculationPolicy": {
     "filmAllowance": 1000,
@@ -36,7 +36,8 @@
     {
       "id": "balanced-baseline",
       "name": "Balanced package",
-      "recommended": true,
+      "recommended": false,
+      "visualPreferenceAfterQuotes": true,
       "rowOverrides": [],
       "additionalRows": [],
       "categoryAllocations": {
@@ -604,7 +605,8 @@
     {
       "id": "functional-reserve",
       "name": "Functional studio + reserve",
-      "recommended": false,
+      "recommended": true,
+      "recommendationStage": "Before field measurements and fixed trade bids",
       "rowOverrides": [
         {
           "id": "ARCH-028",
@@ -771,5 +773,5 @@
       "decisionRule": "Choose this while field measurements and trade bids are outstanding. Keep both the contingency and unallocated funds available for required work."
     }
   ],
-  "priceRevision": "1.6.2"
+  "priceRevision": "1.7"
 }
