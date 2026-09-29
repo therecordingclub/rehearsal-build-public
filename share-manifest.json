@@ -2,8 +2,8 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 154,
-  "totalBytes": 97481642,
+  "fileCount": 156,
+  "totalBytes": 130120708,
   "files": [
     {
       "path": ".nojekyll",
@@ -11,7 +11,7 @@
     },
     {
       "path": "app.js",
-      "bytes": 43350
+      "bytes": 43352
     },
     {
       "path": "assets/approved-concept.png",
@@ -319,19 +319,19 @@
     },
     {
       "path": "budget-data.js",
-      "bytes": 292462
+      "bytes": 296313
     },
     {
       "path": "budget-options-data.js",
-      "bytes": 13663
+      "bytes": 13893
     },
     {
       "path": "budget-options.js",
-      "bytes": 5166
+      "bytes": 5206
     },
     {
       "path": "budget-v1.6.html",
-      "bytes": 18092
+      "bytes": 18570
     },
     {
       "path": "budget.css",
@@ -339,11 +339,11 @@
     },
     {
       "path": "budget.js",
-      "bytes": 16371
+      "bytes": 16397
     },
     {
       "path": "current.json",
-      "bytes": 1298
+      "bytes": 1340
     },
     {
       "path": "evidence/claude-elements-reviewed.json",
@@ -382,6 +382,10 @@
       "bytes": 2765
     },
     {
+      "path": "exports/rehearsal-room-budget-v1.6.2.csv",
+      "bytes": 141584
+    },
+    {
       "path": "exports/rehearsal-room-budget-v1.6.csv",
       "bytes": 138457
     },
@@ -400,6 +404,10 @@
     {
       "path": "exports/rehearsal-room-sharing-kit-v1.5.zip",
       "bytes": 26776520
+    },
+    {
+      "path": "exports/rehearsal-room-sharing-kit-v1.6.2.zip",
+      "bytes": 32479799
     },
     {
       "path": "exports/rehearsal-room-sharing-kit-v1.6.zip",
@@ -479,7 +487,7 @@
     },
     {
       "path": "recap-prospectus-v1.0.html",
-      "bytes": 49084
+      "bytes": 49191
     },
     {
       "path": "reference-layout.js",
@@ -499,11 +507,11 @@
     },
     {
       "path": "research/budget-options-v1.6.json",
-      "bytes": 19011
+      "bytes": 22221
     },
     {
       "path": "research/budget-options-v1.6.md",
-      "bytes": 5337
+      "bytes": 5550
     },
     {
       "path": "research/build-completeness-audit-v1.5.md",
@@ -539,19 +547,19 @@
     },
     {
       "path": "research/pricing-architecture-v1.6.json",
-      "bytes": 86997
+      "bytes": 87226
     },
     {
       "path": "research/pricing-architecture-v1.6.md",
-      "bytes": 8102
+      "bytes": 8449
     },
     {
       "path": "research/pricing-furnishings-v1.6.json",
-      "bytes": 100217
+      "bytes": 103864
     },
     {
       "path": "research/pricing-furnishings-v1.6.md",
-      "bytes": 8472
+      "bytes": 9523
     },
     {
       "path": "research/pricing-systems-v1.6.json",
@@ -567,7 +575,7 @@
     },
     {
       "path": "research/recap-prospectus-v1.0.md",
-      "bytes": 29035
+      "bytes": 29140
     },
     {
       "path": "research/remaining-purchases-v1.5.json",
@@ -579,7 +587,7 @@
     },
     {
       "path": "research/room-budget-v1.6.json",
-      "bytes": 364727
+      "bytes": 368824
     },
     {
       "path": "research/room-dimensions-records-v1.2.md",
@@ -603,11 +611,11 @@
     },
     {
       "path": "room-v1.3.html",
-      "bytes": 10256
+      "bytes": 10260
     },
     {
       "path": "room-v1.5.html",
-      "bytes": 12219
+      "bytes": 12223
     },
     {
       "path": "shared-layouts.js",

@@ -2,15 +2,15 @@
 
 **Checked:** 2026-09-28  
 **Owner:** furnishings  
-**Hard-cap baseline:** **$4,866.25** before tax  
+**Hard-cap baseline:** **$4,904.12** before tax
 **Coverage:** 55 of 55 exact kit material names mapped once  
-**Lines:** 83 total
+**Lines:** 84 total
 
 ## Cap baseline
 
 | Scope | Base |
 |---|---:|
-| Bar carcass, laminate counter, acrylic infill, two shelves and assistant labor | $1,378.50 |
+| Bar carcass, laminate counter, acrylic infill, two shelves and assistant labor | $1,416.37 |
 | Three 13.5-in Safavieh stools and glides | $343.44 |
 | Retained-piano accessories and lamp | $125.85 |
 | Selected sofa and two DYVLINGE chairs | $1,655.46 |
@@ -18,13 +18,14 @@
 | Retail patterned rug and pad | $214.68 |
 | Retained worktable/chair, external 12U rack, accessories and setup | $396.92 |
 | Plant, pot, restrained styling, frame/print, binder and placement | $518.94 |
-| **Base total** | **$4,866.25** |
+| **Base total** | **$4,904.12** |
 
-Materials are **$3,986.25** and independent studio-assistant labor is **$880.00**. The base unit-range extension is **$4,671.25–$5,718.84**. Root handles sales tax. General freight is excluded unless a seller states it is free; checkout remains a release check.
+Materials are **$4,024.12** and independent studio-assistant labor is **$880.00**. The base unit-range extension is **$4,709.12–$5,736.71**. Root handles sales tax. General freight is excluded unless a seller states it is free; checkout remains a release check.
 
 ## Decisions that make the cap work
 
-- **Bar stays 48 × 26 × 42 in.** A two-sheet plywood cut plan replaces bespoke millwork. Sheet A yields the two 42 × 25-in sides and rails. Sheet B yields the 48 × 26-in top substrate, 46.5 × 24.5-in bottom, 34 × 24.5-in divider, service panel and shelf blanks. Kerfs and the two 48 × 10-in shelves must appear on the issued nesting drawing before cutting.
+- **Bar stays 48 × 26 × 42 in.** A two-sheet 3/4-in plywood cut plan replaces bespoke millwork. Sheet A yields two 42 × 25-in side blanks, two 48 × 10-in base shelf blanks and rails. Sheet B yields the 48 × 26-in top substrate, 46.5 × 24.5-in bottom, 34 × 24.5-in divider and service-panel stock. One additional [$29.88 PureBond 1/2-in × 24 × 48-in panel](https://www.homedepot.com/p/311925834) yields two supplemental shelf layers. Each shelf bonds a 0.703-in base to a 0.453-in layer for an approximately **1.156-in unfinished thickness**, inside Rockler's listed 1 to 1-1/4-in standard range. One [$7.99 16-oz Titebond II bottle](https://www.rockler.com/titebond-reg-ii-premium-wood-glue) covers the 6.67-sq-ft bond area; six of the fourteen paid bar hours are reserved for cutting, clamping, cure handling, edge/laminate finish and hardware drilling.
+- **Shelf support remains a trade hold.** Two pairs of [Rockler I-Semble heavy-duty supports, item 78373](https://www.rockler.com/rockler-i-semble-heavy-duty-floating-shelf-supports-pair), cost **$19.99 per pair**, one pair per 48 × 10-in shelf. Rockler requires two wooden wall studs and publishes 125 lb per pair for shelf plus load under its listed conditions. That rating and any bottle count remain unassigned until the installer verifies the cured laminated shelf, two-stud attachment, mortises, wall condition and actual shelf-plus-bottle load.
 - **Counter finish changes.** The baseline uses one [$72.88 FORMICA Blackstone 4 × 8 sheet](https://www.homedepot.com/p/202833179) over the plywood substrate. It is printed high-pressure laminate with a gloss finish; it is not honed stone or quartz.
 - **Front infill changes.** The baseline combines a [$37.64 OPTIX 24 × 48-in acrylic sheet](https://www.homedepot.com/p/310292326), [$29.98 Gila smoke film](https://www.homedepot.com/p/203807951) and decorative brushed-gold trim. Acrylic and film replace smoked safety glass; the film must pass an offcut adhesion test. The gold trim is decorative and cannot retain the panel or shelf loads.
 - **Refrigerator is a disclosed phase.** The baseline bar has a capped, removable, passively vented future-appliance bay and no refrigerator. The exact Zephyr PRB15C01CG remains a **$1,499 optional exclusion**. No countertop freestanding refrigerator is proposed because cabinet ventilation, service access and door operation are not proven.

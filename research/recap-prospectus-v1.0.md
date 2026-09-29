@@ -287,7 +287,7 @@ Ask for concrete examples. Cut generic praise. Never ask a trade to endorse Astr
 ### Camera and sound
 
 - Shoot the hero film at 4K, 23.98 fps, with locked shutter, exposure, and white balance. Use 59.94 fps only for specific hands, fabrication, and reveal details intended for slow motion.
-- Protect a centered 4:5 area during wides so 9:16 and 1:1 cutdowns remain usable.
+- Use centered 9:16 framing guides for essential faces, captions and evidence. Capture separate wide coverage for the room and group performances, and check the square crop before export.
 - Record Greg with a lav and a boom when possible. Record each trade interview with a boom or lav independent of camera scratch audio.
 - Capture 60 seconds of room tone for each stage and every new trade environment.
 - Avoid mixed color temperatures unless the room's lighting change is the subject.

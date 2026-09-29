@@ -15,11 +15,11 @@ The baseline buys the black fabric and slats needed for the design while retaini
 
 | Included scenario | Total |
 |---|---:|
-| Low | **$5,405.86** |
-| Recommended base | **$6,045.86** |
-| High | **$7,105.86** |
+| Low | **$5,449.01** |
+| Recommended base | **$6,089.01** |
+| High | **$7,149.01** |
 
-The recommended architecture base is below the **$6,500 planning allocation**. It is **$2,618.53 less** than the prior photo-corrected $8,664.39 base through documented scope and labor-method changes, not reduced unit prices.
+The recommended architecture base is below the **$6,500 planning allocation**. It is **$2,575.38 less** than the prior photo-corrected $8,664.39 base through documented scope and labor-method changes, with the corrected stock-mirror fabric takeoff included.
 
 ## Included base by scope
 
@@ -28,7 +28,7 @@ The recommended architecture base is below the **$6,500 planning allocation**. I
 | MIR-01 | $1,199.90 | Five 24 × 65-in full-length gold arch mirrors and paid two-person installation |
 | MIR-02 | $0.00 | Existing black ceiling and both illuminated skylight/access openings retained unchanged |
 | FIN-01 | $65.00 | Paid condition inspection; photographed warm-honey floor retained |
-| FIN-02 | $2,707.10 | 34 yd new FR701 Black, edge/penetration components, paid assistants and skilled supervision |
+| FIN-02 | $2,750.25 | 35 yd new FR701 Black, edge/penetration components, paid assistants and skilled supervision |
 | FIN-03 | $889.88 | Two Seafuloy matte-black four-panel sets, access trim, paid assistants and skilled supervision |
 | FIN-04 | $833.98 | Targeted black/charcoal touch-up, primer, preparation and eight painter hours |
 | BOO-01 | $0.00 | Booth observation folded into the shared HVAC/source-condition inspection; treatments deferred |
@@ -44,11 +44,11 @@ The $1,199.90 MIR-01 base includes the five mirrors, consumables and 12 paid ins
 
 ## Black acoustic-wall re-skin
 
-The working fabric field is **475.32 sq ft before openings**: 609.92 gross wall sq ft minus 68.52 mirror and 66.08 slat footprints. At 15% allowance, 546.62 sq ft requires **34 linear yd** of 66-in-wide [Guilford FR701 Black 408](https://www.soundaway.com/FR701-Acoustical-Fabric-s/147.htm) at the observed **$43.15/yd**, or **$1,467.10**.
+The working fabric field is **493.97 sq ft before openings**: 609.92 gross wall sq ft minus the five installed stock-mirror footprints (**49.87 sq ft total**, using the project takeoff's rectangular bodies plus nominal 12-in-radius semicircular tops) and 66.08 sq ft of slats. At 15% allowance, 568.07 sq ft requires **35 linear yd** of 66-in-wide [Guilford FR701 Black 408](https://www.soundaway.com/FR701-Acoustical-Fabric-s/147.htm) at the observed **$43.15/yd**, or **$1,510.25**. Confirm the physical frame outline and field openings before release.
 
-The $2,707.10 FIN-02 base comprises:
+The $2,750.25 FIN-02 base comprises:
 
-- 34 yd FR701 Black: **$1,467.10**.
+- 35 yd FR701 Black: **$1,510.25**.
 - Measured edge, corner and penetration repair-component allowance: **$100.00**.
 - 20 paid studio-assistant hours at $40 base: **$800.00**.
 - Four skilled fabric-track supervisor hours at $85 base: **$340.00**.
@@ -88,7 +88,8 @@ Both raised-platform sides remain one combined excluded measured finish/nosing s
 | Slat system: $2,438.41 WoodUpp/batten/ROCKWOOL build replaced by the supported Seafuloy purchase and paid labor above | $1,548.53 |
 | Ceiling review deferred with the insert | $350.00 |
 | Duplicate booth survey removed and folded into shared inspection | $300.00 |
-| **Total reduction** | **$2,618.53** |
+| Corrected stock-mirror footprint adds one fabric yard versus the prior v1.6 takeoff | −$43.15 |
+| **Total reduction** | **$2,575.38** |
 
 ## Procurement stop
 
