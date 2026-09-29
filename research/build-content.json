@@ -1,0 +1,861 @@
+{
+  "phases": [
+    {
+      "id": "P0",
+      "title": "Freeze the field record",
+      "owner": "Owner representative + field survey lead",
+      "duration": "Low-confidence allowance: 1-2 site days after access",
+      "depends_on": [],
+      "ready_when": [
+        "Current brief, approved concept, frozen Pass 7 source commit 1a1d56d, initial 70-element snapshot, labeled plan and inventory are in the field packet.",
+        "Main room, closet, vestibule and booth are accessible with ceiling and electrical access arranged."
+      ],
+      "tasks": [
+        {
+          "id": "P0-T1",
+          "text": "Laser-check every main-room wall, both diagonals, ceiling height at four points and both bay returns.",
+          "check": "Dimension log, marked plan and scale photos agree."
+        },
+        {
+          "id": "P0-T2",
+          "text": "Survey D-2, the south-wall D-3 entry at x 0.99..37.31, the nominal 34 by 46 inch closet, the 29.04 inch vestibule, both 70.6 inch slider layers and the nominal 123 by 95 inch booth body from named control points.",
+          "check": "Openings, jambs, swings, thresholds and glass overlap are recorded; D-3 is photographed from both sides with its west-jamb hinge and northward swing into the room identified."
+        },
+        {
+          "id": "P0-T3",
+          "text": "Open one approved ceiling and wall inspection point; record plenum, structure, studs, backing and acoustic-fabric build-up.",
+          "check": "Photos include a ruler and the exact inspection location."
+        },
+        {
+          "id": "P0-T4",
+          "text": "Photograph the panel schedule, breakers, receptacles, data plates, tie lines, lighting controls and HVAC supply/return path.",
+          "check": "Each device is keyed to the marked plan."
+        },
+        {
+          "id": "P0-T5",
+          "text": "Audit every retained instrument, speaker, rack item and booth object against the inventory by model and current location.",
+          "check": "Discrepancies are listed without relabeling assumed items as owned."
+        },
+        {
+          "id": "P0-T6",
+          "text": "Lay out the current proposed west-wall sequence and the rest of the room full size: NU1X center x9.5/z90 at 270 degrees, 16.4375-inch modeled body gap, 48-inch bar center x13/z160 at 270 degrees, stools at x37/z142, 160 and 178, uninterrupted west wall, lounge, desk, Korg and the south-entry and D-2 swings. Test the proposed 26-inch bar depth required by the verified refrigerator candidate.",
+          "check": "Dimensioned photos show the north-to-south west-wall order, furniture and occupied envelopes, access route and both door swings; neither bar depth, gap nor any seating fit is released by the mockup alone."
+        },
+        {
+          "id": "P0-T7",
+          "text": "Complete M-16 before revising the floor plan: survey both raised platforms in front of the left and right storage doors facing the speakers.",
+          "check": "The field record gives each platform width, depth and height from the main finished floor; step or slope geometry; threshold as a separate reading; offsets to adjacent door and wall corners; door-clearance operation; and labeled scale photos plus a dimensioned sketch."
+        }
+      ],
+      "stop_if": [
+        "Any shell discrepancy changes fit, access or a fabrication dimension; discrepancies over 2 percent escalate immediately to Greg and the design professional.",
+        "The labeled-plan door or booth geometry does not match the room.",
+        "Ceiling, wall, floor or panel access cannot be inspected safely."
+      ]
+    },
+    {
+      "id": "P1",
+      "title": "Issue the coordination set",
+      "owner": "Design professional + general contractor",
+      "duration": "Low-confidence allowance: 1-3 weeks after the field record",
+      "depends_on": [
+        "P0"
+      ],
+      "ready_when": [
+        "Field record is signed and dated.",
+        "Every conflict has an owner and a written resolution path."
+      ],
+      "tasks": [
+        {
+          "id": "P1-T1",
+          "text": "Redraw the main room, closet, vestibule and booth from the original-record controls and field record; keep the west wall uninterrupted and place D-3 on the south boundary at its west end.",
+          "check": "Plan dimensions close and match the field log."
+        },
+        {
+          "id": "P1-T2",
+          "text": "Prepare furniture, equipment, door-swing and access plans around the approved three-stool concept, the TV between the right-wall instruments and every field-recorded raised platform.",
+          "check": "The plan shows NU1X north of the bar, D-3 on the south boundary with its west hinge and northward swing, both raised platforms, and every unresolved seating and equipment-fit hold."
+        },
+        {
+          "id": "P1-T3",
+          "text": "Prepare north, west, bay and booth elevations with AFF heights, mounting zones and field-verified backing.",
+          "check": "Mirror, shelf, piano, desk, TV, actual instrument, absorber, platform and 94.49-inch slat-panel termination heights are dimensioned."
+        },
+        {
+          "id": "P1-T4",
+          "text": "Prepare a reflected ceiling plan for the ceiling mirror, cove, downlights, track, booth lights, detectors and retained devices.",
+          "check": "Every fixture has a coordinate, circuit/control zone and access note."
+        },
+        {
+          "id": "P1-T5",
+          "text": "Have the electrician and building official or design professional confirm permit/review scope, egress criteria and the 36-inch planning target.",
+          "check": "Written direction states the governing review and required path width."
+        },
+        {
+          "id": "P1-T6",
+          "text": "Issue structural attachment details for wall mirrors, overhead mirror, TV mount, instrument blocking, track, panels and ceiling-mounted work.",
+          "check": "Details name substrates, fasteners, loads and inspection hold points."
+        },
+        {
+          "id": "P1-T7",
+          "text": "Set change control: every field or as-built departure updates each affected plan, elevation, reflected ceiling plan, fit check, quote and order before work resumes.",
+          "check": "Revision log names the changed dimension, downstream documents, reviewer and release decision."
+        }
+      ],
+      "stop_if": [
+        "Permit or review responsibility is still unnamed.",
+        "Door swings, access path or equipment service zones remain unresolved.",
+        "Any attachment detail relies on unverified backing or ceiling structure."
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Quote, sample and release purchases",
+      "owner": "Owner representative + general contractor",
+      "duration": "Vendor lead times; release only after field and design holds clear",
+      "depends_on": [
+        "P1"
+      ],
+      "ready_when": [
+        "Issued coordination drawings carry a revision and date.",
+        "Quote requests use field-verified quantities and written alternates."
+      ],
+      "tasks": [
+        {
+          "id": "P2-T1",
+          "text": "Quote five wall arches and the overhead mirror as separate packages with safety, edge, backing, weight and attachment data.",
+          "check": "Glazier quote follows issued dimensions and attachment details."
+        },
+        {
+          "id": "P2-T2",
+          "text": "Quote the 48-inch bar, shelves and three stools with the Pass 7 source's 24-inch depth and the proposed 26-inch depth allowance; coordinate the Zephyr body, 1-inch rear plug clearance, front vent and service pullout against the uninterrupted west wall.",
+          "check": "Shop drawing proves appliance, outlet, vent and pull-out service while the full-size layout records the current furniture and occupied envelopes; depth, gap and seating remain held for Greg's approval."
+        },
+        {
+          "id": "P2-T3",
+          "text": "Obtain samples for wall finishes, 94.49-inch slat panels, booth finishes, a compatible dark-floor assembly and the explicit keep-oak-plus-rugs alternative.",
+          "check": "Approved sample board records product, color, sheen, assembly, fire data and room location."
+        },
+        {
+          "id": "P2-T4",
+          "text": "Quote the complete lighting and control package from the reflected ceiling plan, including drivers, dimming, emergency compatibility and commissioning.",
+          "check": "Fixture and control schedule has approved SKUs and substitutions."
+        },
+        {
+          "id": "P2-T5",
+          "text": "Confirm the 59.125 by 18.25 by 40.3125 inch NU1X, the 53.98 by 18.15 inch Grandstage X body and stand, PMC model, booth kit, selected TV and the six listed guitars/basses physically present.",
+          "check": "Purchase list separates owned, relocate, buy and pending-verification items and uses verified product envelopes."
+        },
+        {
+          "id": "P2-T6",
+          "text": "Release long-lead orders only after field dimensions, finish samples, access path and written owner approval match the order.",
+          "check": "Order log records approver, revision, deposit, lead time and cancellation terms."
+        }
+      ],
+      "stop_if": [
+        "A quote uses the old 96-inch bar, four stools, reversed bar/piano order, invented west-wall D-3, old booth position or an uncoordinated refrigerator depth.",
+        "A vendor substitutes a product without a reviewed sample or technical submittal.",
+        "A long-lead item lacks verified delivery access or field dimensions.",
+        "A field or as-built change has not been reviewed against every affected quote and order."
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "Protect, isolate and open the work",
+      "owner": "General contractor",
+      "duration": "Low-confidence allowance: 2-4 site days",
+      "depends_on": [
+        "P1"
+      ],
+      "ready_when": [
+        "Permit/review path and selective-demolition scope are documented.",
+        "Retained equipment, glass, flooring and acoustic fabric are tagged and protected."
+      ],
+      "tasks": [
+        {
+          "id": "P3-T1",
+          "text": "Photograph, label, disconnect and relocate retained AV, instruments and booth contents to a protected inventory zone.",
+          "check": "Move log identifies each item and destination."
+        },
+        {
+          "id": "P3-T2",
+          "text": "Protect the oak LVP, sliders, closet door, camera, grille and acoustic fabric while flooring and finish decisions remain open.",
+          "check": "Protection is continuous at traffic and dust paths."
+        },
+        {
+          "id": "P3-T3",
+          "text": "Remove the main-room and booth troffers, abandoned fixtures and only the finishes marked for removal on issued drawings.",
+          "check": "Circuits are made safe and removed items are logged."
+        },
+        {
+          "id": "P3-T4",
+          "text": "Open only the wall and ceiling areas needed for approved backing, wiring, lighting and inspection.",
+          "check": "Hidden conditions are photographed before concealment."
+        },
+        {
+          "id": "P3-T5",
+          "text": "Confirm whether the oak LVP is floating or adhered, then record flatness, moisture, threshold build-up and dark-floor assembly options.",
+          "check": "Installer states whether the proposed product is warrantable; oak removal remains a Greg approval hold."
+        }
+      ],
+      "stop_if": [
+        "Demolition exposes moisture, damaged framing, unsafe wiring or undocumented isolation construction.",
+        "The acoustic fabric cannot be removed and reinstated as assumed.",
+        "Protected equipment or glass remains in the active work zone.",
+        "A hidden condition changes an issued layout and the affected documents have not been reissued."
+      ]
+    },
+    {
+      "id": "P4",
+      "title": "Complete rough-in and backing",
+      "owner": "General contractor + licensed electrician + AV integrator",
+      "duration": "Low-confidence allowance: 1-2 weeks, subject to inspection",
+      "depends_on": [
+        "P2",
+        "P3"
+      ],
+      "ready_when": [
+        "Approved submittals and attachment details are on site.",
+        "Wall and ceiling cavities are open for coordinated work."
+      ],
+      "tasks": [
+        {
+          "id": "P4-T1",
+          "text": "Install inspected backing for arches, shelves, TV mount, instrument hangers, slat panels, displays, absorbers and ceiling mirror supports.",
+          "check": "Backing photos include dimensions before closure."
+        },
+        {
+          "id": "P4-T2",
+          "text": "Install permitted branch circuits, receptacles, drivers and controls from the electrician's field-verified design.",
+          "check": "Rough inspection and circuit directory are complete."
+        },
+        {
+          "id": "P4-T3",
+          "text": "Route separate labeled pathways for power, analog audio, digital audio, network, display and member-laptop connections.",
+          "check": "Pathway plan and pull labels match the rack schedule."
+        },
+        {
+          "id": "P4-T4",
+          "text": "Rough in the cove, downlights, guitar track, mirror halos, bar LEDs and booth lighting from the approved ceiling and control plans.",
+          "check": "Driver access and fixture cutouts are verified before closure."
+        },
+        {
+          "id": "P4-T5",
+          "text": "Service the documented HVAC scope without covering the closet grille, return path, controls or camera view.",
+          "check": "Air path and maintenance access remain open."
+        },
+        {
+          "id": "P4-T6",
+          "text": "Run an inspection hold before walls and ceiling close; compare every rough-in to the issued revision.",
+          "check": "Signed punch list is closed or carried visibly."
+        }
+      ],
+      "stop_if": [
+        "Electrical capacity, grounding topology or control compatibility is unresolved.",
+        "A ceiling fixture or mirror support lacks verified structure.",
+        "Door, slider, HVAC or equipment-service access is obstructed.",
+        "Installed rough-in departs from the issued revision without downstream layout review."
+      ]
+    },
+    {
+      "id": "P5",
+      "title": "Install shell, finishes and fixed elements",
+      "owner": "General contractor + finish trades",
+      "duration": "Low-confidence allowance: 1-3 weeks plus vendor lead time",
+      "depends_on": [
+        "P4"
+      ],
+      "ready_when": [
+        "Rough inspections and concealment photos are complete.",
+        "Approved samples and field templates are on site."
+      ],
+      "tasks": [
+        {
+          "id": "P5-T1",
+          "text": "Close and finish wall and ceiling openings; apply the controlled main-room wall-finish decision and matte-black ceiling finish.",
+          "check": "Mockup, sheen and acoustic-treatment disposition match the approval record."
+        },
+        {
+          "id": "P5-T2",
+          "text": "Execute Greg's approved floor decision: keep oak with rugs, or remove/preserve it as feasible and install a warrantable dark-floor assembly; complete the booth floor finish.",
+          "check": "Written approval, installer warranty, transitions and door/slider operation are recorded."
+        },
+        {
+          "id": "P5-T3",
+          "text": "Install the approved bar, shelves, fridge, slat-panel termination and desk; preserve appliance, rack and cable service access.",
+          "check": "Millwork dimensions, refrigerator clearances, 102-inch-wall panel joint/trim and service openings match submittals."
+        },
+        {
+          "id": "P5-T4",
+          "text": "Install wall arches and overhead mirror under the approved glazing and attachment details.",
+          "check": "Glazier documents safety backing, edge condition, fasteners and final inspection."
+        },
+        {
+          "id": "P5-T5",
+          "text": "Install booth absorbers, ceiling cloud and lighting while retaining sliders, kit sightline, TV, desk and mic-boom use.",
+          "check": "Booth plan and elevations match the installed work."
+        },
+        {
+          "id": "P5-T6",
+          "text": "Mount the approved TV-and-instrument layout from the full-size M-13 field template only after the actual instruments and selected TV are assigned.",
+          "check": "The TV body, mount, connectors and service path clear every yoke, instrument body, headstock, removal arc, light, desk and speaker; install only the field-approved instrument count."
+        }
+      ],
+      "stop_if": [
+        "A field template or as-built condition differs from an issued layout and the affected documents have not been reviewed and reissued.",
+        "Mirror, millwork or flooring dimensions require site cutting outside approved tolerances.",
+        "A finish change would remove acoustic treatment without written disposition."
+      ]
+    },
+    {
+      "id": "P6",
+      "title": "Set equipment, commission and hand over",
+      "owner": "AV integrator + general contractor + owner representative",
+      "duration": "Low-confidence allowance: 2-4 commissioning days",
+      "depends_on": [
+        "P5"
+      ],
+      "ready_when": [
+        "Fixed work is complete, clean and powered.",
+        "Open inspection and safety items are closed."
+      ],
+      "tasks": [
+        {
+          "id": "P6-T1",
+          "text": "Set the approved three stools, NU1X, lounge, Korg, desk, monitors, rack, amps and booth kit from the verified plan, preserving the north-to-south west-wall order of NU1X and bar and keeping the south entry clear.",
+          "check": "Full-size layout, recorded seating clearances and both door swings match the approved field record."
+        },
+        {
+          "id": "P6-T2",
+          "text": "Patch and label every cable R-01 onward at the cable head; issue rack, tie-line and signal-flow records.",
+          "check": "A second person traces each labeled path successfully."
+        },
+        {
+          "id": "P6-T3",
+          "text": "Have the electrician and AV integrator test circuits, investigate hum/static and document the accepted power arrangement.",
+          "check": "Test record names the observed fault, corrective work and retest result."
+        },
+        {
+          "id": "P6-T4",
+          "text": "Commission lounge, session and meditation lighting scenes at 2700K; verify all controls, drivers and service access.",
+          "check": "Scene levels and control labels are recorded."
+        },
+        {
+          "id": "P6-T5",
+          "text": "Measure room response, noise floor and HVAC-on/HVAC-off conditions; tune monitoring from the recorded baseline.",
+          "check": "Before/after files, mic position and settings are archived."
+        },
+        {
+          "id": "P6-T6",
+          "text": "Verify member laptop audio, always-on Korg audio, Turbosound PA coverage and stability, no-sleep computer, separate Apollo/TV power, empty front Furman plug and always-powered Trinnov/sub rules.",
+          "check": "A cold-start member workflow completes without troubleshooting; PA aiming and cable routes preserve occupied access."
+        },
+        {
+          "id": "P6-T7",
+          "text": "Deliver as-builts, change-impact log, approved submittals, warranties, spare finishes, cleaning instructions and open-item log.",
+          "check": "As-builts include every approved field change and the owner representative signs the handover record."
+        }
+      ],
+      "stop_if": [
+        "Door, slider, access or required egress path is blocked.",
+        "Electrical noise, overheating, control failure or unstable mounting remains.",
+        "The member workflow or retained power rules fail the witnessed test."
+      ]
+    }
+  ],
+  "trades": [
+    {
+      "id": "TR-01",
+      "name": "General contractor / site coordinator",
+      "scope": [
+        "Site logistics, protection, selective demolition, sequencing and daily coordination.",
+        "Coordinate main room, closet, vestibule and booth as one work area."
+      ],
+      "deliverables": [
+        "Baseline schedule with low-confidence allowances identified.",
+        "Submittal, RFI, inspection, photo and punch logs."
+      ],
+      "acceptance": [
+        "Issued revision is present at each installation.",
+        "Retained items and access routes remain protected and usable."
+      ],
+      "exclusions": [
+        "Structural, electrical, HVAC, acoustic or code design outside the contractor's license."
+      ]
+    },
+    {
+      "id": "TR-02",
+      "name": "Design professional / permit coordinator",
+      "scope": [
+        "Field-verified plans, elevations, reflected ceiling plan and attachment coordination.",
+        "Confirm permit/review and egress criteria with the building official."
+      ],
+      "deliverables": [
+        "Issued coordination set with revision history.",
+        "Written permit, review and inspection matrix."
+      ],
+      "acceptance": [
+        "Drawings reconcile the corrected doors, vestibule, booth and closet.",
+        "Locked owner decisions are visible and unresolved choices are marked."
+      ],
+      "exclusions": [
+        "Treating the concept render or old v0.1 draft as permit documents."
+      ]
+    },
+    {
+      "id": "TR-03",
+      "name": "Licensed electrician / lighting controls",
+      "scope": [
+        "Survey panel, circuits, grounding topology, fixtures, controls and available capacity.",
+        "Design and install permitted power and lighting work."
+      ],
+      "deliverables": [
+        "Circuit and control schedules, fixture submittals and test results.",
+        "Updated panel directory and as-built device plan."
+      ],
+      "acceptance": [
+        "Rough and final inspections pass.",
+        "Lighting scenes, drivers, dimming and service access work under load."
+      ],
+      "exclusions": [
+        "Assuming a ground-loop cause or copying the unverified old circuit scheme."
+      ]
+    },
+    {
+      "id": "TR-04",
+      "name": "Carpenter / millworker / flooring installer",
+      "scope": [
+        "Backing, bar, shelves, desk interfaces, wall preparation, slat panels and floor finishes.",
+        "Build from field templates at bay, closet, door and slider edges."
+      ],
+      "deliverables": [
+        "Shop drawings, finish samples, hardware schedule and field templates.",
+        "Substrate, floor-flatness, floor-assembly and transition report."
+      ],
+      "acceptance": [
+        "Fixed work matches verified dimensions and approved samples.",
+        "Appliance, rack, cable, door and slider service access remains open."
+      ],
+      "exclusions": [
+        "Changing the 48-inch bar, three stools or approved TV-between-instruments direction, removing oak flooring or hiding a slat-panel joint without written approval."
+      ]
+    },
+    {
+      "id": "TR-05",
+      "name": "Glazier / mirror installer",
+      "scope": [
+        "Five wall arches, overhead mirror, edge treatment, safety backing and attachment system.",
+        "Coordinate halos, brass trim, access panels and adjacent finishes."
+      ],
+      "deliverables": [
+        "Shop drawings, glass makeup, weights, samples and attachment calculations.",
+        "Installation and final inspection record."
+      ],
+      "acceptance": [
+        "Glass, backing, edges and supports match approved details.",
+        "No exposed sharp edge, unstable panel or blocked service access remains."
+      ],
+      "exclusions": [
+        "Fabricating from concept-image proportions or unverified ceiling structure."
+      ]
+    },
+    {
+      "id": "TR-06",
+      "name": "HVAC / acoustic consultant",
+      "scope": [
+        "Document supply, return, airflow, noise and main-room/booth acoustic baseline.",
+        "Review wall-fabric disposition, booth absorbers and ceiling cloud."
+      ],
+      "deliverables": [
+        "HVAC access and performance note.",
+        "Before/after acoustic measurements and treatment placement plan."
+      ],
+      "acceptance": [
+        "Air path, maintenance access and camera/grille clearances remain open.",
+        "Treatment decisions cite measured conditions rather than assumed NRC."
+      ],
+      "exclusions": [
+        "Claiming the existing grey fabric's performance without testing or construction data."
+      ]
+    },
+    {
+      "id": "TR-07",
+      "name": "AV / studio integrator",
+      "scope": [
+        "Verify equipment, rack, monitoring, Turbosound PA/pole north of desk, patching, laptop workflow, labels and signal paths.",
+        "Coordinate AV power and low-voltage routes with the electrician."
+      ],
+      "deliverables": [
+        "Equipment and cable schedule, rack elevation, patch map and signal-flow drawing.",
+        "Commissioning record for monitoring and member workflow."
+      ],
+      "acceptance": [
+        "All R-number labels trace correctly.",
+        "Cold-start laptop, Korg, DAW, PA coverage and monitoring tests pass."
+      ],
+      "exclusions": [
+        "Substituting IB1S for IB1 or moving unidentified inventory without approval."
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "id": "M-01",
+      "title": "Main-room polygon and diagonals",
+      "method": "Laser each wall at floor and 60 inches AFF; tape-check both diagonals.",
+      "record": "Marked plan, raw readings, closure calculation and scale photos.",
+      "unlocks": [
+        "P1-T1",
+        "P1-T2",
+        "P2-T2"
+      ],
+      "source_status": "Greg tape measurement from May 2026; measured-as-typed, unverified current. A 2 percent discrepancy triggers escalation and redesign review, not fabrication tolerance."
+    },
+    {
+      "id": "M-02",
+      "title": "Bay face and canted returns",
+      "method": "Measure both return lengths, offsets from the east wall line, face length and corner angles.",
+      "record": "Four control points, diagonals and a rigid full-size desk-wall template.",
+      "unlocks": [
+        "P1-T2",
+        "P1-T3",
+        "P5-T3",
+        "P5-T6"
+      ],
+      "source_status": "Typed polygon gives 30.54 and 28 degrees; least reliable shell dimensions."
+    },
+    {
+      "id": "M-03",
+      "title": "Ceiling plane, plenum and structure",
+      "method": "Laser floor-to-ceiling at four points; inspect one approved opening to structure.",
+      "record": "Heights, plenum depth, framing direction, member spacing and photos.",
+      "unlocks": [
+        "P1-T4",
+        "P1-T6",
+        "P2-T1",
+        "P4-T4"
+      ],
+      "source_status": "No original room plan states the ceiling height. The 102-inch plane is a low-confidence working assumption; slab/drop construction and load capacity are unknown."
+    },
+    {
+      "id": "M-04",
+      "title": "D-2 and D-3 door schedule",
+      "method": "Measure rough and finished openings, leafs, jambs, hinges, swings, thresholds and hardware.",
+      "record": "Door schedule with photos from both sides and swing arcs on plan.",
+      "unlocks": [
+        "P1-T1",
+        "P1-T2",
+        "P1-T5",
+        "P6-T1"
+      ],
+      "source_status": "The 2024 plan vectors place D-3 on the south boundary at x 0.99..37.31 after normalization, hinged at the west jamb and swinging north into the room. That planner registration is moderate-confidence; current opening, clear width, hardware and head remain unverified."
+    },
+    {
+      "id": "M-05",
+      "title": "Booth, vestibule and sliders",
+      "method": "Survey control points for vestibule depth, booth boundaries, curve, glass tracks, overlap and head height.",
+      "record": "Point list, curve offsets, slider section and booth interior dimensions.",
+      "unlocks": [
+        "P1-T1",
+        "P1-T3",
+        "P5-T5"
+      ],
+      "source_status": "The 2024 plan prints a 123 by 95 inch nominal booth body. Its vectors register a 29.04 inch vestibule and two parallel 70.6 inch slider layers aligned at x 75.65..146.25 for planning; curve, leaf position and head remain unverified."
+    },
+    {
+      "id": "M-06",
+      "title": "HVAC closet, grille and camera",
+      "method": "Measure closet faces, door, grille, camera view, access panels and visible duct path.",
+      "record": "Plan/elevation dimensions plus access and maintenance envelopes.",
+      "unlocks": [
+        "P1-T1",
+        "P4-T5"
+      ],
+      "source_status": "Closet is nominally 34 by 46 inches from the labeled plan; field size and HVAC performance are unknown."
+    },
+    {
+      "id": "M-07",
+      "title": "Wall build-up and backing",
+      "method": "Open one approved fabric panel; locate studs and measure layers, spacing and existing blocking.",
+      "record": "Annotated section, stud map, photos and attachment assessment.",
+      "unlocks": [
+        "P1-T3",
+        "P1-T6",
+        "P4-T1"
+      ],
+      "source_status": "Existing grey stretched fabric is confirmed; its construction and acoustic performance are unknown."
+    },
+    {
+      "id": "M-08",
+      "title": "Floor, substrate and thresholds",
+      "method": "Inspect one threshold, determine floating versus adhered installation, map flatness, measure existing plank and test moisture for each proposed assembly.",
+      "record": "Substrate report, warranty statement, transition heights, door clearances and keep-oak/dark-floor options.",
+      "unlocks": [
+        "P2-T3",
+        "P3-T5",
+        "P5-T2"
+      ],
+      "source_status": "Light-oak LVP is existing. Karndean SCB89 forbids installation over a floating floor; existing installation and substrate are unknown."
+    },
+    {
+      "id": "M-09",
+      "title": "Panel, circuits and device map",
+      "method": "Licensed electrician traces breakers and records receptacles, loads, grounding topology and controls.",
+      "record": "Panel photo, circuit schedule, device plan and test notes.",
+      "unlocks": [
+        "P1-T4",
+        "P2-T4",
+        "P4-T2",
+        "P6-T3"
+      ],
+      "source_status": "No verified panel or circuit schedule exists for this room."
+    },
+    {
+      "id": "M-10",
+      "title": "Existing lighting and control",
+      "method": "Count, locate and energize each troffer, can, track head, entertainment fixture, switch and controller.",
+      "record": "Fixture map, circuit/control response and retained/remove disposition.",
+      "unlocks": [
+        "P1-T4",
+        "P2-T4",
+        "P4-T4"
+      ],
+      "source_status": "Prior rig was partly moved; current fixtures and control are unverified."
+    },
+    {
+      "id": "M-11",
+      "title": "Gear identity and dimensions",
+      "method": "Read model plates and measure actual PMC cabinets/stands, piano, Grandstage body/stand, drum kit, PA, display, desk and rack.",
+      "record": "Photo inventory with model, quantity, location and measured envelope; compare against manufacturer dimensions.",
+      "unlocks": [
+        "P2-T5",
+        "P6-T1",
+        "P6-T2"
+      ],
+      "source_status": "Manufacturer data gives NU1X 59.125 W by 18.25 D by 40.3125 H inches and Grandstage X 53.98 W by 18.15 D inches excluding stand; field identity and installed envelopes remain open."
+    },
+    {
+      "id": "M-12",
+      "title": "Full-room floor fit",
+      "method": "Tape the current v1.5 furniture footprints and occupied envelopes at their issued rotations, including the conservative 90.5 by 36 inch Alpine sofa envelope at x83/z53, two 24.75 by 29.5 inch DYVLINGE chairs at x126/z103 rotated 90 degrees and x107/z145 rotated 150 degrees, NU1X center x9.5/z90 at 270 degrees, bar center x13/z160 at 270 degrees, three stools at x37/z142, 160 and 178, D-3 on the south boundary at x 0.99..37.31, both M-16 platforms, and every service zone. Operate doors, sliders, fridge, stools, chairs and service panels.",
+      "record": "Dimensioned overhead and corner photos; actual furniture and occupied-envelope clearances; south-wall D-3 northward swing; M-16 platform boundaries; access and service routes; and a signed current-layout sketch.",
+      "unlocks": [
+        "P1-T2",
+        "P2-T2",
+        "P6-T1"
+      ],
+      "source_status": "The v1.5 plan uses current selected-furniture body sizes and the ReferenceLayout.affordable proposed poses. The 16.4375-inch piano-to-bar body gap is modeled, not taped; occupied clearances, raised platforms and physical fit have not been field-proven."
+    },
+    {
+      "id": "M-13",
+      "title": "Full-size TV and instrument wall template",
+      "method": "Place the selected TV between the right-wall guitars/basses. Trace the actual TV body and mount plus every physically present instrument body, headstock, yoke and removal arc on paper or removable wall film at proposed elevations.",
+      "record": "TV body, mount, connector and service-clearance dimensions; instrument-to-position map; yoke centers; removal arcs; field-approved display count; and interference photos.",
+      "unlocks": [
+        "P1-T3",
+        "P4-T1",
+        "P5-T6"
+      ],
+      "source_status": "The TV-between-instruments arrangement is approved design direction. Actual bodies and removal arcs control the count; no ten-instrument fit is promised."
+    },
+    {
+      "id": "M-14",
+      "title": "Acoustic and HVAC baseline",
+      "method": "Record calibrated room response, noise floor and HVAC-on/off readings in the empty main room and booth.",
+      "record": "Audio files, mic position, settings, temperature and operating conditions.",
+      "unlocks": [
+        "P2-T3",
+        "P5-T1",
+        "P5-T5",
+        "P6-T5"
+      ],
+      "source_status": "No measured RT60, noise-floor, bleed or airflow baseline is on record."
+    },
+    {
+      "id": "M-15",
+      "title": "Delivery and service access",
+      "method": "Measure the route from loading point to room, including doors, turns, stairs, elevator, thresholds and staging area.",
+      "record": "Route plan with minimum dimensions and item-specific handling notes.",
+      "unlocks": [
+        "P2-T1",
+        "P2-T5",
+        "P2-T6"
+      ],
+      "source_status": "No verified delivery route exists for piano, glass, millwork or selected lounge furniture."
+    },
+    {
+      "id": "M-16",
+      "title": "Raised storage-door platforms",
+      "method": "Survey both raised platforms in front of the storage doors at the left and right sides when facing the speakers. For each platform, measure width, depth and height from the main finished-floor datum; record every step or slope; measure the door threshold separately; and locate the platform from the nearest door jambs and wall corners.",
+      "record": "Separate left/right W × D × H records; main-floor datum; step/slope profile; threshold reading; door- and wall-corner offsets; operated door-clearance envelope; labeled scale photos; and a dimensioned plan plus section sketch.",
+      "unlocks": [
+        "P0-T7",
+        "P1-T1",
+        "P1-T2",
+        "P1-T3"
+      ],
+      "source_status": "Both raised areas are visible in the room condition but have no verified dimensions, profiles, offsets or operated-door clearance record."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "C-01",
+      "title": "Door and booth geometry has superseded versions",
+      "evidence": "Derived brief and Pass 7 files place D-3 on the west wall, but the primary 2024 plan vectors place the entry on the south boundary at its west end. After registration to the Magicplan controls, its jambs are x 0.99..37.31 at z 259.50, with a west-jamb hinge and northward swing. The same original record supports a 29.04 inch vestibule, two parallel 70.6 inch slider layers and a nominal 123 by 95 inch booth body.",
+      "consequence": "Wrong walls, openings, circulation and booth dimensions could be issued or fabricated.",
+      "resolve": "Use the original-record registration for current planning, field-survey D-2, D-3, vestibule, sliders and booth, then revise every affected plan before fabrication.",
+      "status": "Corrected in the active guide; field proof remains open. Derived west-wall-door files are superseded geometry and provenance only."
+    },
+    {
+      "id": "C-02",
+      "title": "TV and instrument fit is not field-proven",
+      "evidence": "The v1.5 direction places the selected TV between the right-wall guitars/basses. Ten instrument positions are shown only as an illustrative modeled arrangement, while the source list identifies six owned instruments without recording their actual bodies, yokes or removal arcs.",
+      "consequence": "Backing, hangers, TV mount and device locations could be installed for a layout that cannot be serviced safely.",
+      "resolve": "Build the M-13 full-size template from the selected TV and physically present instruments, then release only the instrument count that fits.",
+      "status": "Open; do not promise ten instruments or preselect hanger centers."
+    },
+    {
+      "id": "C-03",
+      "title": "PMC model and cabinet envelope conflict",
+      "evidence": "Brief and inventory say PMC IB1 at 15.8 by 19.7 inches; current elements say PMC IB1S at 11 by 17.7 inches.",
+      "consequence": "Speaker stands, toe-in, desk spacing and service access can be wrong.",
+      "resolve": "Read model plates and measure the installed pair and stands before fixing the bay elevation.",
+      "status": "Open."
+    },
+    {
+      "id": "C-04",
+      "title": "NU1X identity and source dimensions are wrong",
+      "evidence": "Yamaha lists the NU1X at 59.125 W by 18.25 D by 40.3125 H inches; the brief and Pass 7 source use 57.5 inches wide, and inventory lists a Clavinova rather than an NU1X.",
+      "consequence": "Using the wrong piano body or the obsolete z32.5625 pose changes the current x9.5/z90 piano proposal, the x13/z160 bar proposal, their modeled 16.4375-inch body gap, bench envelope, delivery and circulation checks.",
+      "resolve": "Confirm the physical instrument, then field-test the current proposal: 59.125 by 18.25 inch body centered x9.5/z90 at 270 degrees, bar centered x13/z160 at 270 degrees, and 16.4375 inches between modeled bodies before bar or floor-layout release.",
+      "status": "Open; NU1X remains the approved design intent."
+    },
+    {
+      "id": "C-05",
+      "title": "Booth drum identity is unresolved",
+      "evidence": "Photos are described as Yamaha; inventory records a Gretsch Catalina; current elements combine Yamaha naming with Gretsch inventory details.",
+      "consequence": "Kit footprint, setup, mic positions and asset handling may be assigned to the wrong kit.",
+      "resolve": "Photograph badges and shells, inventory the complete setup and measure its deployed envelope.",
+      "status": "Open; 72 by 66 inches is a planning envelope only."
+    },
+    {
+      "id": "C-06",
+      "title": "Main-room fabric and plaster directions conflict",
+      "evidence": "Old v0.1 retains the existing grey acoustic fabric; current elements remove it and apply charcoal plaster; performance is unmeasured.",
+      "consequence": "Finish work could remove paid acoustic treatment without a replacement plan.",
+      "resolve": "Inspect the wall build-up, measure the room, mock up both controlled finish options and record Greg's decision.",
+      "status": "Open; existing fabric is retained until the finish decision is released."
+    },
+    {
+      "id": "C-07",
+      "title": "Lighting intent exceeds verified ceiling and controls",
+      "evidence": "The brief calls for cove, recessed cans and track; requirements call for DMX-addressable control; current elements name Caseta Pro; plenum and circuits are unknown.",
+      "consequence": "Fixture type, control protocol, cutouts, drivers and permit scope can change.",
+      "resolve": "Survey ceiling and circuits, then issue a coordinated fixture/control schedule and reflected ceiling plan.",
+      "status": "Open."
+    },
+    {
+      "id": "C-08",
+      "title": "Overhead mirror has no issued attachment design",
+      "evidence": "Current elements show a 96 by 96 inch mirror on plywood under a 102-inch ceiling; weight, glass makeup and structure are unverified.",
+      "consequence": "Fabrication or installation could proceed without a safe supported assembly.",
+      "resolve": "Glazier and qualified design professional issue glass, backing, load and attachment details after ceiling inspection.",
+      "status": "Hold fabrication and overhead installation."
+    },
+    {
+      "id": "C-09",
+      "title": "Published model, notes and old build sheet are stale",
+      "evidence": "An older 59-element published artifact, old notes and the v0.1 sheet describe obsolete scope. The initial 70-element snapshot and frozen Pass 7 commit 1a1d56d remain historical proposal evidence: Pass 7 removes the unsupported booth floor lamp, records the booth rug as a provisional 66 by 88 inches and corrects the piano/bar order, but its west-wall D-3 claim is superseded by the primary 2024 plan vectors.",
+      "consequence": "Crews can quote, order or build obsolete scope.",
+      "resolve": "Issue one dated coordination set and mark stale files reference-only; do not reuse old totals or durations as current facts.",
+      "status": "Open until the field-verified set is issued."
+    },
+    {
+      "id": "C-10",
+      "title": "Grandstage X body is larger than the working model",
+      "evidence": "Korg lists 53.98 W by 18.15 D inches excluding the stand; current elements use 53 W by 14.6 D inches for the staged rig.",
+      "consequence": "Bench, D-2 swing, HVAC and playing clearances can fail after the stand, pedals and rear cable bend are added.",
+      "resolve": "Measure the selected stand and full playing envelope, then re-run the southeast full-size fit check.",
+      "status": "Open; keep the instrument at sitting height and always in audio."
+    },
+    {
+      "id": "C-11",
+      "title": "The candidate refrigerator does not fit the source bar depth",
+      "evidence": "Zephyr lists a 23.375-inch body plus 1 inch rear plug clearance. The Pass 7 source bar is 24 inches deep, still 0.375 inch short before finish tolerance.",
+      "consequence": "The unit, outlet, vent or door can project into the stool and sofa zone or make service impossible.",
+      "resolve": "Test a proposed 26-inch bar allowance full size and require a coordinated shop drawing; Greg approves the final depth and adjacent layout.",
+      "status": "Hold bar and refrigerator orders."
+    },
+    {
+      "id": "C-12",
+      "title": "Candidate dark flooring cannot overlay a floating floor",
+      "evidence": "Karndean's SCB89 installation guide requires floating flooring to be removed; the existing oak LVP installation is unknown.",
+      "consequence": "The recoverable overlay concept may void the floor warranty or force removal of existing oak.",
+      "resolve": "Identify the existing assembly. Keep oak plus rugs as an explicit option; any oak removal and dark-floor scope requires Greg's written approval and a preservation plan where feasible.",
+      "status": "Hold dark-floor order and demolition."
+    },
+    {
+      "id": "C-13",
+      "title": "Candidate slat panels do not cover the 102-inch wall",
+      "evidence": "WoodUpp item 1029 is 94.49 inches high; the room plane is 102 inches before field verification.",
+      "consequence": "A 7.51-inch joint, trim or custom extension affects the guitar elevation, cove and backing.",
+      "resolve": "Show the exact termination in the elevation and shop drawing; coordinate it with the M-13 TV-and-instrument field-fit layout.",
+      "status": "Hold panel quantity and cut plan."
+    },
+    {
+      "id": "C-14",
+      "title": "Current furniture layout still needs occupied field proof",
+      "evidence": "The v1.5 plan uses a conservative 90.5 by 36 inch Alpine envelope and two smaller DYVLINGE chairs at the current issued poses. The sofa's official graphic says 90.5 inches while its text specification says 90 inches. Body footprints are coordinated, but occupied swivel, recline, approach, door, platform and service clearances are not field measurements.",
+      "consequence": "Furniture may fit as drawn yet obstruct a door, raised platform, appliance service path, instrument removal path or comfortable occupied circulation.",
+      "resolve": "Run M-12 and M-16 together at full size with every seat occupied and swiveled, refrigerator and doors operated, service zones marked and access walked; route any changed pose through the current layout record before order or installation.",
+      "status": "Open; current geometry is a coordinated proposal pending occupied field proof."
+    }
+  ],
+  "retained": [
+    {
+      "name": "Existing light-oak LVP; dark-floor change remains controlled",
+      "verify": "Floating versus adhered assembly, substrate, moisture, flatness, transitions and door clearances.",
+      "action": "Protect and keep oak-plus-rugs explicit; if the selected dark floor requires removal, obtain Greg's written approval and preserve the oak where feasible."
+    },
+    {
+      "name": "Grandfathered existing grey acoustic fabric and hidden wall assembly",
+      "verify": "Construction, attachment, condition and measured acoustic contribution.",
+      "action": "Keep in place until the controlled finish/acoustic decision is issued."
+    },
+    {
+      "name": "HVAC closet, D-2, supply grille and dome camera",
+      "verify": "Field dimensions, airflow, access, swing and camera view.",
+      "action": "Protect and keep serviceable; finish only exposed approved faces."
+    },
+    {
+      "name": "D-3 entry and required access path",
+      "verify": "South-wall opening at x 0.99..37.31, west-jamb hinge, northward swing into the room, hardware, threshold and official egress criteria.",
+      "action": "Keep the full swing and reviewed path clear through every phase."
+    },
+    {
+      "name": "Two-layer sliding glass booth doors",
+      "verify": "Track condition, pane makeup, overlap, seals, head height and service access.",
+      "action": "Protect, clean and retain unless a reviewed repair is required."
+    },
+    {
+      "name": "Booth kit, Persian rug, desk, TV and mic boom",
+      "verify": "Actual identity, dimensions, condition and deployed positions; Pass 7 records the Persian rug as a provisional 66 by 88 inches from photos, still requiring field measurement, and includes no booth floor lamp.",
+      "action": "Inventory before moving; reset from the verified booth plan."
+    },
+    {
+      "name": "Korg Grandstage X and sitting-height stand",
+      "verify": "53.98 by 18.15 inch body, stand footprint, bench, music rest, pedals, cable bend, power, audio and MIDI paths.",
+      "action": "Keep in the main room and always available in audio."
+    },
+    {
+      "name": "HS8 pair, PMC pair, Turbosound PA/pole, rack and production electronics",
+      "verify": "Models, stand/base footprints, pole stability, PA aiming, service clearances, signal paths and power behavior.",
+      "action": "Protect, label, reinstall and commission; do not infer the PMC model."
+    },
+    {
+      "name": "Front Furman outlet, Trinnov and sub power rules",
+      "verify": "Witness current behavior and accepted electrician/AV power arrangement.",
+      "action": "Keep the front plug free; preserve required always-powered devices in the commissioned workflow."
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "source": "Hardcoded ROOM polygon in local-source/trc-rehearsal-room-site/3d/index.html:97 (duplicate at local-source/claude-grid/public/responses/2026-05-30-trc-rehearsal-room-3d/index.html:97).",
+  "provenance": "Greg's own tape measurement typed into the 2026-05-28 brief, which calls it 'Your measured polygon'. No DWG, PDF, DXF, scan or lease exhibit exists on this machine.",
+  "confidence": "MEASURED but unverified. Treat the two bay splay edges as the least reliable numbers in the set.",
+  "units": "feet unless a key says otherwise",
+  "coordinate_frame": {
+    "origin": "NW corner of the room, floor level",
+    "x_axis": "+X runs EAST along the north wall",
+    "z_axis": "+Z runs SOUTH along the west wall",
+    "y_axis": "+Y is up",
+    "handedness": "Right-handed, matching Three.js: +X east, +Y up, +Z south. Astra must state which handedness its export uses."
+  },
+  "vertices_ft": [
+    [
+      0,
+      0
+    ],
+    [
+      12.19,
+      0
+    ],
+    [
+      12.19,
+      4.5
+    ],
+    [
+      15.58,
+      6.5
+    ],
+    [
+      15.58,
+      15.0
+    ],
+    [
+      12.19,
+      16.8
+    ],
+    [
+      12.19,
+      21.625
+    ],
+    [
+      0,
+      21.625
+    ]
+  ],
+  "vertices_in": [
+    [
+      0,
+      0
+    ],
+    [
+      146.28,
+      0
+    ],
+    [
+      146.28,
+      54.0
+    ],
+    [
+      186.96,
+      78.0
+    ],
+    [
+      186.96,
+      180.0
+    ],
+    [
+      146.28,
+      201.6
+    ],
+    [
+      146.28,
+      259.5
+    ],
+    [
+      0,
+      259.5
+    ]
+  ],
+  "vertex_notes": [
+    "NW corner (origin)",
+    "NE corner of north wall",
+    "east wall, start of bay splay-in",
+    "bay face, north end",
+    "bay face, south end",
+    "east wall, end of splay-out",
+    "SE corner of south-east wall",
+    "SW corner"
+  ],
+  "edges": [
+    {
+      "from_index": 0,
+      "to_index": 1,
+      "from_vertex_ft": [
+        0,
+        0
+      ],
+      "to_vertex_ft": [
+        12.19,
+        0
+      ],
+      "length_ft": 12.19,
+      "length_in": 146.28,
+      "length_ft_in": "12'-2 1/4\"",
+      "bearing_deg_from_plus_x": 0.0
+    },
+    {
+      "from_index": 1,
+      "to_index": 2,
+      "from_vertex_ft": [
+        12.19,
+        0
+      ],
+      "to_vertex_ft": [
+        12.19,
+        4.5
+      ],
+      "length_ft": 4.5,
+      "length_in": 54.0,
+      "length_ft_in": "4'-6\"",
+      "bearing_deg_from_plus_x": 90.0
+    },
+    {
+      "from_index": 2,
+      "to_index": 3,
+      "from_vertex_ft": [
+        12.19,
+        4.5
+      ],
+      "to_vertex_ft": [
+        15.58,
+        6.5
+      ],
+      "length_ft": 3.936,
+      "length_in": 47.23,
+      "length_ft_in": "3'-11 1/4\"",
+      "bearing_deg_from_plus_x": 30.54
+    },
+    {
+      "from_index": 3,
+      "to_index": 4,
+      "from_vertex_ft": [
+        15.58,
+        6.5
+      ],
+      "to_vertex_ft": [
+        15.58,
+        15.0
+      ],
+      "length_ft": 8.5,
+      "length_in": 102.0,
+      "length_ft_in": "8'-6\"",
+      "bearing_deg_from_plus_x": 90.0
+    },
+    {
+      "from_index": 4,
+      "to_index": 5,
+      "from_vertex_ft": [
+        15.58,
+        15.0
+      ],
+      "to_vertex_ft": [
+        12.19,
+        16.8
+      ],
+      "length_ft": 3.8382,
+      "length_in": 46.06,
+      "length_ft_in": "3'-10 1/16\"",
+      "bearing_deg_from_plus_x": 152.03
+    },
+    {
+      "from_index": 5,
+      "to_index": 6,
+      "from_vertex_ft": [
+        12.19,
+        16.8
+      ],
+      "to_vertex_ft": [
+        12.19,
+        21.625
+      ],
+      "length_ft": 4.825,
+      "length_in": 57.9,
+      "length_ft_in": "4'-9 7/8\"",
+      "bearing_deg_from_plus_x": 90.0
+    },
+    {
+      "from_index": 6,
+      "to_index": 7,
+      "from_vertex_ft": [
+        12.19,
+        21.625
+      ],
+      "to_vertex_ft": [
+        0,
+        21.625
+      ],
+      "length_ft": 12.19,
+      "length_in": 146.28,
+      "length_ft_in": "12'-2 1/4\"",
+      "bearing_deg_from_plus_x": 180.0
+    },
+    {
+      "from_index": 7,
+      "to_index": 0,
+      "from_vertex_ft": [
+        0,
+        21.625
+      ],
+      "to_vertex_ft": [
+        0,
+        0
+      ],
+      "length_ft": 21.625,
+      "length_in": 259.5,
+      "length_ft_in": "21'-7 1/2\"",
+      "bearing_deg_from_plus_x": -90.0
+    }
+  ],
+  "perimeter_ft": 71.604,
+  "area_sq_ft_derived": 298.86,
+  "area_sq_ft_as_published": 298.75,
+  "area_note": "Shoelace on the published polygon gives 298.86 sq ft. The 2026 pages all cite 298.75. The 0.11 sq ft gap is rounding somewhere upstream and is not material, but it confirms nobody re-derived the number.",
+  "ceiling_height_ft": 8.5,
+  "ceiling_height_in": 102.0,
+  "ceiling_note": "8.5 ft is the modelled finished-ceiling plane. MEASURED-as-typed, but whether it is a slab or a dropped assembly, and how much plenum sits above it, is UNKNOWN. A cove, a tray and 12-16 recessed cans all depend on this.",
+  "volume_cu_ft": 2540.4,
+  "wall_faces": [
+    {
+      "id": "W-NORTH",
+      "from": 0,
+      "to": 1,
+      "length_ft": 12.19,
+      "note": "North wall. The 2026-05-28 brief's proposed mirror wall and the 3D scene's arched mirror alcove both sit here."
+    },
+    {
+      "id": "W-EAST-A",
+      "from": 1,
+      "to": 2,
+      "length_ft": 4.5,
+      "note": "East wall, north segment, before the bay."
+    },
+    {
+      "id": "W-BAY-IN",
+      "from": 2,
+      "to": 3,
+      "length_ft": 3.936,
+      "note": "Canted return into the bay. 30.5 deg off the +X axis, NOT 45 deg."
+    },
+    {
+      "id": "W-BAY",
+      "from": 3,
+      "to": 4,
+      "length_ft": 8.5,
+      "note": "Bay face. The existing PA/monitor speakers hang on this side, so the brief fixes this as the studio wall."
+    },
+    {
+      "id": "W-BAY-OUT",
+      "from": 4,
+      "to": 5,
+      "length_ft": 3.838,
+      "note": "Canted return out of the bay. 28.0 deg off the -X axis."
+    },
+    {
+      "id": "W-EAST-B",
+      "from": 5,
+      "to": 6,
+      "length_ft": 4.825,
+      "note": "East wall, south segment, after the bay."
+    },
+    {
+      "id": "W-SOUTH",
+      "from": 6,
+      "to": 7,
+      "length_ft": 12.19,
+      "note": "South wall."
+    },
+    {
+      "id": "W-WEST",
+      "from": 7,
+      "to": 0,
+      "length_ft": 21.625,
+      "note": "West wall. The longest unbroken run in the room and the bar wall in every loved-image layout."
+    }
+  ],
+  "doors": [
+    {
+      "id": "D-1",
+      "label": "Door to the Live Room",
+      "wall": "UNKNOWN",
+      "offset_from_corner_in": null,
+      "leaf_width_in": null,
+      "leaf_height_in": null,
+      "swing": null,
+      "status": "UNKNOWN",
+      "evidence": "Asserted in prose at 2026-05-28-trc-rehearsal-room-redesign-v2.html:142 ('three doors: Live Room, bay, entry'). Never dimensioned, never located."
+    },
+    {
+      "id": "D-2",
+      "label": "Bay door, near the mixing desk",
+      "wall": "W-BAY or W-EAST-B",
+      "offset_from_corner_in": null,
+      "leaf_width_in": null,
+      "leaf_height_in": null,
+      "swing": null,
+      "status": "PARTIALLY KNOWN",
+      "evidence": "The only door modelled in 3D, at local-source/trc-rehearsal-room-site/3d/index.html:314-315, on the bay corner near the desk. Visible in the 2025-03-07 before photo as a solid dark leaf with a lever handle, immediately left of the projecting pier. Visible in walkthrough frames f08 and f09. Dimensions still UNKNOWN."
+    },
+    {
+      "id": "D-3",
+      "label": "Entry door",
+      "wall": "UNKNOWN",
+      "offset_from_corner_in": null,
+      "leaf_width_in": null,
+      "leaf_height_in": null,
+      "swing": null,
+      "status": "UNKNOWN",
+      "evidence": "Labelled ENTRY in the 2D plan SVG inside 2026-05-28-trc-rehearsal-room-redesign-v2.html. Never carried into 3D. A glazed door edge appears at the right of walkthrough frame f13."
+    }
+  ],
+  "openings_other": [
+    {
+      "id": "O-HVAC-1",
+      "type": "HVAC supply grille",
+      "location": "High on the face of the projecting pier / bulkhead at the back of the room, directly above door D-2",
+      "size_in": null,
+      "status": "LOCATION KNOWN, SIZE UNKNOWN",
+      "evidence": "Visible in the 2025-03-07 before photo and in walkthrough frames f08 and f20. No tonnage, duct route, return location or NC rating is recorded anywhere."
+    },
+    {
+      "id": "O-PIER",
+      "type": "Projecting wall pier / bulkhead",
+      "location": "Back-centre of the room, carrying the HVAC grille and a dome security camera",
+      "size_in": null,
+      "status": "UNMODELLED, UNMEASURED",
+      "evidence": "Clearly present in the before photo. Absent from the 3D scene. It eats floor area that the 298.75 sq ft figure may or may not exclude."
+    },
+    {
+      "id": "O-WINDOWS",
+      "type": "Windows",
+      "location": "None",
+      "size_in": null,
+      "status": "CONFIRMED ABSENT",
+      "evidence": "2026-05-28-trc-rehearsal-room-redesign-v2.html states the room is windowless. Confirmed against the before photo and all 24 walkthrough frames."
+    }
+  ],
+  "unknown_flags": [
+    "All three door leaf widths, heights, swing directions and thresholds.",
+    "Which of the three doors is the acoustic door to the Live Room.",
+    "Whether 8.5 ft is a slab or a dropped ceiling, and the plenum depth above it.",
+    "The exact geometry of the two canted bay returns.",
+    "The footprint of the projecting pier and whether it is inside or outside the 298.75 sq ft.",
+    "Wall build-up behind the grey stretched fabric, which decides whether a mirror wall and wall-mounted monitors are trivial or structural.",
+    "Floor build-up under the light-oak LVP and whether an isolation layer exists.",
+    "Outlet, data and tie-line locations.",
+    "Riser height, footprint and construction.",
+    "Ceiling-mount load capacity for the moving head, the par cluster and any pendant or cove."
+  ]
+}

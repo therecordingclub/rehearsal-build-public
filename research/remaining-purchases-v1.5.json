@@ -1,0 +1,247 @@
+{
+  "version": "1.5",
+  "verified_date": "2026-09-28",
+  "currency": "USD unless noted",
+  "scope": "Current procurement candidates for the remaining bar stools, coffee table, rug system, television and television mount. This file does not change the approved layout, modeled objects or released products.",
+  "purchase_rule": "Recheck price, stock, finish and delivery at checkout. Field-fit and installation holds remain controlling.",
+  "families": [
+    {
+      "id": "BAR-STOOLS",
+      "quantity": 3,
+      "selection_status": "candidate; do not order until the three-seat full-size mockup is approved",
+      "recommendation": {
+        "brand": "JONATHAN Y",
+        "model": "Trinity Modern 30-inch Round Backless Bar Stool",
+        "retailer_sku": "Target TCIN 89893519",
+        "upc": "840011489117",
+        "finish": "black round metal seat with gold metal hairpin legs and integrated footrest",
+        "dimensions_in": {
+          "width": 17,
+          "depth": 17,
+          "seat_height": 30,
+          "seat_diameter": 13.5
+        },
+        "weight_capacity_lb": 275,
+        "assembly": "none",
+        "unit_price_observed": 189.99,
+        "quantity_price_observed": 569.97,
+        "stock_evidence": "Target page displayed In Stock and Add to cart on 2026-09-28; sold and shipped by JONATHAN Y & happimess.",
+        "product_url": "https://www.target.com/p/-/A-89893519"
+      },
+      "fit_analysis": {
+        "counter_height_in": 42,
+        "seat_to_counter_difference_in": 12,
+        "bar_length_in": 48,
+        "current_modeled_center_spacing_in": 18,
+        "three_stool_span_at_current_centers_in": 53,
+        "overhang_beyond_48_in_bar_at_current_centers_in": 5,
+        "tight_tangent_span_in": 51,
+        "result": "Three 17-inch stools do not fit within a 48-inch run even when touching. At the current 18-inch center spacing their combined body span is 53 inches. The 30-inch seat height suits a 42-inch counter, but quantity three remains a physical mockup and circulation decision. Do not infer fit from the product being compact or backless."
+      },
+      "installation_and_use_holds": [
+        "Tape three 17-inch circles at the actual bar and operate the refrigerator door, south entry, adjacent chair and walking route.",
+        "Confirm seated knee, footrest and elbow clearance; the 48-inch bar supplies only 16 inches of run per person.",
+        "Confirm the gold finish sample against the room brass finish before ordering all three.",
+        "Retain the supplier warranty and care instructions in the closeout packet."
+      ],
+      "sources": [
+        {
+          "type": "direct retailer listing",
+          "url": "https://www.target.com/p/-/A-89893519",
+          "supports": "model, finish, price, current stock display, dimensions, seat height, capacity, assembly, TCIN and UPC"
+        }
+      ]
+    },
+    {
+      "id": "COFFEE-TABLE",
+      "quantity": 1,
+      "selection_status": "custom quote preferred for the exact 30 by 30 by 16 inch design; buyable fallback held for specification confirmation",
+      "custom_quote": {
+        "brief": "Quote one 30-inch-diameter by approximately 16-inch-high round table with a smoked or black tempered-glass top, black structural base and restrained brushed-brass rim or accent. Fabricator must engineer glass thickness, edge finish, supports, stability and floor protection; field mockup controls.",
+        "price": null,
+        "reason": "The exact-size By-Boo Bunga dimensional reference is currently out of stock in the US, and the closest orderable marketplace alternative is one inch taller with internally inconsistent material fields."
+      },
+      "exact_dimensional_reference": {
+        "brand": "By-Boo",
+        "model": "Bunga Glass Top Single Coffee Table",
+        "retailer_sku": "Wayfair YBOO1890",
+        "finish": "black glass top, black conical metal base and gold rim",
+        "dimensions_in": {
+          "diameter": 30,
+          "height": 16
+        },
+        "price_observed": 614.99,
+        "stock_evidence": "Wayfair displayed Out of Stock on 2026-09-28.",
+        "product_url": "https://www.wayfair.com/furniture/pdp/by-boo-bunga-solid-coffee-table-yboo1890.html"
+      },
+      "buyable_fallback": {
+        "brand": "17 Stories",
+        "model": "Modern Contemporary Metal Nested Base and Tinted Tempered Glass Top 30-inch Round Coffee Table",
+        "retailer_sku": "Wayfair W117302305",
+        "finish": "listing describes tinted tempered glass with gold, chrome or black metal base",
+        "dimensions_in": {
+          "diameter": 30,
+          "height": 17
+        },
+        "price_observed": 309.99,
+        "stock_evidence": "A current price and product page were visible on 2026-09-28; no reliable inventory count was exposed.",
+        "product_url": "https://www.wayfair.com/furniture/pdp/17-stories-modern-contemporary-metal-nested-base-tinted-tempered-glass-top-30-inch-round-coffee-table-for-living-room-w117302305.html",
+        "hold": "Do not order until Wayfair confirms the selected gold-base variant and glass construction in writing. The prose describes tinted tempered glass, while the page specification table inconsistently labels the top color/material."
+      },
+      "installation_and_use_holds": [
+        "Tape a 30-inch circle at the planned center and verify occupied chair sweeps and the route around the table.",
+        "Approve a physical glass and brass sample under the final lighting.",
+        "For custom work, require the fabricator's tempered-glass marking, edge/support detail and stability signoff; do not treat this research as a fabrication detail.",
+        "Use floor-safe glides and retain care instructions."
+      ],
+      "sources": [
+        {
+          "type": "direct retailer listing",
+          "url": "https://www.wayfair.com/furniture/pdp/by-boo-bunga-solid-coffee-table-yboo1890.html",
+          "supports": "exact 30-inch diameter, 16-inch height, black glass/gold-rim appearance, price and out-of-stock status"
+        },
+        {
+          "type": "direct retailer listing",
+          "url": "https://www.wayfair.com/furniture/pdp/17-stories-modern-contemporary-metal-nested-base-tinted-tempered-glass-top-30-inch-round-coffee-table-for-living-room-w117302305.html",
+          "supports": "buyable fallback model, 30-inch diameter, 17-inch height, described finish and current displayed price"
+        }
+      ]
+    },
+    {
+      "id": "RUG-AND-PAD",
+      "quantity": 1,
+      "selection_status": "candidate; choose size only after the existing furniture layout is taped",
+      "recommendation": {
+        "brand": "Ruggable",
+        "model": "Sloane Black Flatwoven Rug + Standard Pad System",
+        "sku": "RUG-SYS-IND-RCT-CHN-SR007-08x10",
+        "finish": "tonal charcoal and grey geometric pattern with soft cream accents",
+        "dimensions_ft": {
+          "width": 8,
+          "length": 10
+        },
+        "construction": "2 mm flatwoven polyester cover with waterproof barrier over required nonslip Standard Rug Pad; completed standard pad is approximately 1/8 inch thick",
+        "price_observed": 579,
+        "price_valid_until": "2026-09-29",
+        "stock_evidence": "Ruggable structured product data reported InStock; page states made to order and ships free within 1–2 weeks.",
+        "product_url": "https://ruggable.com/products/sloane-black-rug?variant=41460137525303"
+      },
+      "standard_size_alternative": {
+        "brand": "Ruggable",
+        "model": "Sloane Black Flatwoven Rug + Standard Pad System",
+        "sku": "RUG-SYS-IND-RCT-CHN-SR007-09x12",
+        "dimensions_ft": {
+          "width": 9,
+          "length": 12
+        },
+        "price_observed": 729,
+        "price_valid_until": "2026-09-29",
+        "stock_evidence": "Ruggable structured product data reported InStock.",
+        "product_url": "https://ruggable.com/products/sloane-black-rug?variant=41460137558071"
+      },
+      "fit_analysis": {
+        "target_approx_ft": "10 by 9",
+        "recommended_difference": "The 8 by 10 can orient with its 10-foot axis on the desired long axis but is one foot narrower than the approximate 10 by 9 target.",
+        "alternative_difference": "The 9 by 12 matches the desired 9-foot short axis but extends two feet beyond the approximate 10-foot long axis.",
+        "result": "No rug size changes the furniture layout. Tape both standard rectangles around the retained furniture and door/access paths, then choose the one whose actual edges remain clear. Do not trim a Ruggable system."
+      },
+      "installation_and_use_holds": [
+        "Buy the cover and same-size Standard Pad as one system; the flatwoven cover requires a pad.",
+        "Install the pad on a clean, dry hard floor, align and smooth the cover from the center outward, and keep edges out of door and rolling-chair paths.",
+        "Confirm flooring-finish compatibility with Ruggable before long-term placement.",
+        "Follow the manufacturer wash and dry limits; its guide calls for at least a 3.8 cubic-foot washer for 8 by 10 and 4.2 cubic-foot washer for 9 by 12 flatwoven covers."
+      ],
+      "sources": [
+        {
+          "type": "manufacturer direct product page and structured offer",
+          "url": "https://ruggable.com/products/sloane-black-rug",
+          "supports": "pattern, low-pile construction, sizes, exact SKUs, system prices, availability, shipping and care"
+        },
+        {
+          "type": "manufacturer pad page",
+          "url": "https://ruggable.com/products/standard-rug-pad",
+          "supports": "required pad, 1/8-inch profile, use and washer-size guidance"
+        }
+      ]
+    },
+    {
+      "id": "TV-AND-MOUNT",
+      "quantity": 1,
+      "selection_status": "current purchase candidate with the same modeled cabinet envelope; M-13 must confirm the actual wall assembly before installation",
+      "television": {
+        "brand": "TCL",
+        "model": "50Q651G",
+        "manufacturer_variant_id": "44055800053825",
+        "retailer_sku": "Best Buy SKU 6579462",
+        "description": "50-inch Q6-Series 4K UHD HDR QLED Smart Google TV (2024)",
+        "finish": "black",
+        "dimensions_without_stand_in": {
+          "width": 43.7,
+          "height": 25.4,
+          "depth": 2.8
+        },
+        "weight_without_stand_lb": 19.6,
+        "vesa_mm": "300 x 300",
+        "vesa_screws": "M6 x 12 top pair; M6 x 16 bottom pair per TCL specification",
+        "price_observed": 299.99,
+        "stock_evidence": "TCL's live product JSON mapped variant 44055800053825 to SKU 50Q651G, available true, at $299.99. Best Buy also displayed Ready Today, shipping availability and Add to cart on 2026-09-28; local inventory is location-dependent.",
+        "manufacturer_url": "https://us.tcl.com/products/q-class-4k-uhd-hdr-qled-smart-tv-with-google-tv?variant=44055800053825",
+        "retailer_url": "https://www.bestbuy.com/product/tcl-50-class-q6-series-4k-uhd-hdr-qled-smart-google-tv-2024/J36QYTWKQY",
+        "manual_status": "No model-specific manual URL is asserted here. Retrieve the current 50Q651G manual from TCL support and reconcile it with the purchased unit before installation."
+      },
+      "mount": {
+        "brand": "SANUS Elite",
+        "model": "BLL2-B1",
+        "retailer_sku": "Best Buy SKU 5463303",
+        "finish": "black",
+        "type": "fixed-position, super-slim, low-profile",
+        "supported_tv_size_in": "32–80",
+        "weight_capacity_lb": 150,
+        "wall_offset_in": 0.67,
+        "vesa_compatibility": "Universal interface includes 300 x 300 mm; compatible with the TCL 50Q651G pattern subject to SANUS model confirmation and installer review.",
+        "price_observed": 89.99,
+        "stock_evidence": "Best Buy page displayed current price and pickup/shipping availability on 2026-09-28.",
+        "manufacturer_url": "https://www.sanus.com/en_US/products/tv-mounts/bll2/",
+        "retailer_url": "https://www.bestbuy.com/product/sanus-elite-super-slim-fixed-position-tv-wall-mount-for-most-tvs-32-80-up-to-150lbs-easy-cable-access-lateral-shift-black/J33JYH6VKV",
+        "installation_manual_url": "https://www.sanus.com/assets/products/bll2/documents/BLL2_IM_251023.pdf"
+      },
+      "fit_analysis": {
+        "modeled_reference_envelope_in": "43.7 W by 25.4 H by 2.8 D",
+        "cabinet_result": "The 50Q651G cabinet exactly matches the current modeled reference envelope.",
+        "mount_change": "The candidate and canonical verified reference both use 300 by 300 mm VESA. The purchased unit, current model-specific manual, mount and field template still control exact hole and blocking coordination.",
+        "assembled_depth_in": 3.47,
+        "assembled_depth_note": "Nominal TV depth plus mount offset only; connector bend radius, wall flatness, bracket geometry and cable access can increase the real projection."
+      },
+      "installation_and_use_holds": [
+        "The candidate uses the same cabinet envelope, so the accepted 3D representation can remain unchanged; identify 50Q651G explicitly in the procurement record.",
+        "At M-13, template the purchased TV body, 300 by 300 VESA pattern, bracket, cable exits, power/data path, service lift and all instrument removal arcs.",
+        "Confirm wall substrate and blocking with the installer. Follow the SANUS manual for the actual wood-stud, concrete or approved wall condition; never infer anchors from this research.",
+        "The 0.67-inch mount is very shallow. Prove plug and connector clearance before drilling, and use rated in-wall power/data methods rather than loose concealed cords.",
+        "Follow TCL screw sizes and SANUS spacer selection; verify screw engagement on the purchased TV without bottoming out.",
+        "Confirm final body-to-guitar clearances after the mount projection is known."
+      ],
+      "sources": [
+        {
+          "type": "manufacturer product specification",
+          "url": "https://us.tcl.com/products/q-class-4k-uhd-hdr-qled-smart-tv-with-google-tv?variant=44055800053825",
+          "supports": "variant 44055800053825 maps to SKU 50Q651G; 43.7 by 25.4 by 2.8 inch cabinet, 19.6 pound weight, 300 by 300 VESA pattern, M6 screw lengths, $299.99 price and available status"
+        },
+        {
+          "type": "authorized retailer listing",
+          "url": "https://www.bestbuy.com/product/tcl-50-class-q6-series-4k-uhd-hdr-qled-smart-google-tv-2024/J36QYTWKQY",
+          "supports": "exact model, SKU, current price and location-dependent stock display"
+        },
+        {
+          "type": "manufacturer mount page",
+          "url": "https://www.sanus.com/en_US/products/tv-mounts/bll2/",
+          "supports": "BLL2 type, TV-size range, profile, capacity, installation manual and lateral adjustment"
+        },
+        {
+          "type": "authorized retailer listing",
+          "url": "https://www.bestbuy.com/product/sanus-elite-super-slim-fixed-position-tv-wall-mount-for-most-tvs-32-80-up-to-150lbs-easy-cable-access-lateral-shift-black/J33JYH6VKV",
+          "supports": "BLL2-B1 SKU, black finish, current price, stock display and VESA list"
+        }
+      ]
+    }
+  ]
+}

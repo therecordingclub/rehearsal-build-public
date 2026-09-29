@@ -1,0 +1,541 @@
+{
+  "schema": "trc-static-share/v1",
+  "sourceVersion": "1.5",
+  "inventoryExcludes": "share-manifest.json",
+  "fileCount": 133,
+  "totalBytes": 58229388,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0
+    },
+    {
+      "path": "CNAME",
+      "bytes": 30
+    },
+    {
+      "path": "app.js",
+      "bytes": 43350
+    },
+    {
+      "path": "assets/approved-concept.png",
+      "bytes": 2174207
+    },
+    {
+      "path": "assets/approved-concept.webp",
+      "bytes": 238850
+    },
+    {
+      "path": "assets/assembly-details.svg",
+      "bytes": 7250
+    },
+    {
+      "path": "assets/bar-piano.svg",
+      "bytes": 7228
+    },
+    {
+      "path": "assets/barlow-condensed.woff2",
+      "bytes": 22308
+    },
+    {
+      "path": "assets/booth-existing.jpg",
+      "bytes": 54681
+    },
+    {
+      "path": "assets/booth-plan.svg",
+      "bytes": 26925
+    },
+    {
+      "path": "assets/current-room.jpeg",
+      "bytes": 3525472
+    },
+    {
+      "path": "assets/guitar-wall.svg",
+      "bytes": 15592
+    },
+    {
+      "path": "assets/licenses/barlowcondensed-OFL.txt",
+      "bytes": 4377
+    },
+    {
+      "path": "assets/licenses/ibmplexmono-OFL.txt",
+      "bytes": 4363
+    },
+    {
+      "path": "assets/licenses/ibmplexsans-OFL.txt",
+      "bytes": 4363
+    },
+    {
+      "path": "assets/lighting-plan.svg",
+      "bytes": 16231
+    },
+    {
+      "path": "assets/mirror-wall.svg",
+      "bytes": 5896
+    },
+    {
+      "path": "assets/plan-source.png",
+      "bytes": 221700
+    },
+    {
+      "path": "assets/plex-mono.woff2",
+      "bytes": 14708
+    },
+    {
+      "path": "assets/plex-sans.woff2",
+      "bytes": 45712
+    },
+    {
+      "path": "assets/products/ashley-kierreys-black/official-front.jpg",
+      "bytes": 29734
+    },
+    {
+      "path": "assets/products/ashley-kierreys-black/source.md",
+      "bytes": 1650
+    },
+    {
+      "path": "assets/products/cb2-mylene-nomad-charcoal/fabric-swatch.jpg",
+      "bytes": 413077
+    },
+    {
+      "path": "assets/products/cb2-mylene-nomad-charcoal/hero.jpg",
+      "bytes": 237308
+    },
+    {
+      "path": "assets/products/cb2-mylene-nomad-charcoal/source.md",
+      "bytes": 1243
+    },
+    {
+      "path": "assets/products/cb2-mylene-nomad-charcoal/three-quarter-shape-reference.jpg",
+      "bytes": 177677
+    },
+    {
+      "path": "assets/products/century-cornerstone-ltd7600-2crv/official-front.jpg",
+      "bytes": 26514
+    },
+    {
+      "path": "assets/products/century-cornerstone-ltd7600-2crv/official-side.jpg",
+      "bytes": 24353
+    },
+    {
+      "path": "assets/products/century-cornerstone-ltd7600-2crv/product-tearsheet.pdf",
+      "bytes": 210591
+    },
+    {
+      "path": "assets/products/century-cornerstone-ltd7600-2crv/source.md",
+      "bytes": 2099
+    },
+    {
+      "path": "assets/products/century-cornerstone-ltd7600-2crv/width-chart-36in.pdf",
+      "bytes": 65960
+    },
+    {
+      "path": "assets/products/craftmaster-c9-conversation-sofa/c9-schematics-tearpad-0426.pdf",
+      "bytes": 2032187
+    },
+    {
+      "path": "assets/products/craftmaster-c9-conversation-sofa/fabric-adios-45.webp",
+      "bytes": 119894
+    },
+    {
+      "path": "assets/products/craftmaster-c9-conversation-sofa/fabric-topanga-45.webp",
+      "bytes": 71598
+    },
+    {
+      "path": "assets/products/craftmaster-c9-conversation-sofa/official-room-scene.webp",
+      "bytes": 299826
+    },
+    {
+      "path": "assets/products/craftmaster-c9-conversation-sofa/source.md",
+      "bytes": 2636
+    },
+    {
+      "path": "assets/products/hay-aal81-soft-obsidian-black/dimensions.jpg",
+      "bytes": 62828
+    },
+    {
+      "path": "assets/products/hay-aal81-soft-obsidian-black/hero.jpg",
+      "bytes": 221018
+    },
+    {
+      "path": "assets/products/hay-aal81-soft-obsidian-black/source.md",
+      "bytes": 1377
+    },
+    {
+      "path": "assets/products/ikea-dyvlinge-kelinge-black/official-dimensions.jpg",
+      "bytes": 54000
+    },
+    {
+      "path": "assets/products/ikea-dyvlinge-kelinge-black/official-front.jpg",
+      "bytes": 100338
+    },
+    {
+      "path": "assets/products/ikea-dyvlinge-kelinge-black/official-side.jpg",
+      "bytes": 113428
+    },
+    {
+      "path": "assets/products/ikea-dyvlinge-kelinge-black/source.md",
+      "bytes": 1608
+    },
+    {
+      "path": "assets/products/jennifer-taylor-alpine-ebony-black/official-front.jpg",
+      "bytes": 87108
+    },
+    {
+      "path": "assets/products/jennifer-taylor-alpine-ebony-black/official-lifestyle.jpg",
+      "bytes": 317581
+    },
+    {
+      "path": "assets/products/jennifer-taylor-alpine-ebony-black/official-overall-dimensions.jpg",
+      "bytes": 66621
+    },
+    {
+      "path": "assets/products/jennifer-taylor-alpine-ebony-black/official-seat-dimensions.jpg",
+      "bytes": 68695
+    },
+    {
+      "path": "assets/products/jennifer-taylor-alpine-ebony-black/official-side.jpg",
+      "bytes": 92068
+    },
+    {
+      "path": "assets/products/jennifer-taylor-alpine-ebony-black/official-three-quarter.jpg",
+      "bytes": 126796
+    },
+    {
+      "path": "assets/products/jennifer-taylor-alpine-ebony-black/source.md",
+      "bytes": 2573
+    },
+    {
+      "path": "assets/products/living-spaces-gene-grey-curved/official-front.jpg",
+      "bytes": 242022
+    },
+    {
+      "path": "assets/products/living-spaces-gene-grey-curved/official-side.jpg",
+      "bytes": 65970
+    },
+    {
+      "path": "assets/products/living-spaces-gene-grey-curved/official-three-quarter.jpg",
+      "bytes": 35577
+    },
+    {
+      "path": "assets/products/living-spaces-gene-grey-curved/source.md",
+      "bytes": 1896
+    },
+    {
+      "path": "assets/products/living-spaces-santiago-onyx/official-front.jpg",
+      "bytes": 109452
+    },
+    {
+      "path": "assets/products/living-spaces-santiago-onyx/official-side.jpg",
+      "bytes": 194067
+    },
+    {
+      "path": "assets/products/living-spaces-santiago-onyx/official-three-quarter.jpg",
+      "bytes": 103903
+    },
+    {
+      "path": "assets/products/living-spaces-santiago-onyx/source.md",
+      "bytes": 2016
+    },
+    {
+      "path": "assets/products/mercer41-90-black-half-moon/official-side-detail.jpg",
+      "bytes": 212033
+    },
+    {
+      "path": "assets/products/mercer41-90-black-half-moon/official-three-quarter-left.jpg",
+      "bytes": 188669
+    },
+    {
+      "path": "assets/products/mercer41-90-black-half-moon/official-three-quarter-right.jpg",
+      "bytes": 180190
+    },
+    {
+      "path": "assets/products/mercer41-90-black-half-moon/official-top-curve.jpg",
+      "bytes": 241222
+    },
+    {
+      "path": "assets/products/mercer41-90-black-half-moon/source.md",
+      "bytes": 2087
+    },
+    {
+      "path": "assets/products/robert-allen-revive-obsidian/fabric.jpg",
+      "bytes": 115807
+    },
+    {
+      "path": "assets/products/robert-allen-revive-obsidian/source.md",
+      "bytes": 1625
+    },
+    {
+      "path": "assets/records/labeled-floor-plan-2024.pdf",
+      "bytes": 227165
+    },
+    {
+      "path": "assets/records/magicplan-floor-plan.pdf",
+      "bytes": 135382
+    },
+    {
+      "path": "assets/records/rehearsal-plan-detail.png",
+      "bytes": 221700
+    },
+    {
+      "path": "assets/room-3d-v1.3.png",
+      "bytes": 1988920
+    },
+    {
+      "path": "assets/room-3d-v1.4.png",
+      "bytes": 1761458
+    },
+    {
+      "path": "assets/room-photo-v1.3.png",
+      "bytes": 2196432
+    },
+    {
+      "path": "assets/room-photo-v1.4.png",
+      "bytes": 2312470
+    },
+    {
+      "path": "assets/room-plan.svg",
+      "bytes": 39533
+    },
+    {
+      "path": "assets/room-selected-furniture-v1.2.png",
+      "bytes": 2666643
+    },
+    {
+      "path": "assets/vendor/OrbitControls.js",
+      "bytes": 29868
+    },
+    {
+      "path": "assets/vendor/THREE-LICENSE.txt",
+      "bytes": 1081
+    },
+    {
+      "path": "assets/vendor/three.module.min.js",
+      "bytes": 670681
+    },
+    {
+      "path": "current.json",
+      "bytes": 875
+    },
+    {
+      "path": "evidence/claude-elements-reviewed.json",
+      "bytes": 32422
+    },
+    {
+      "path": "evidence/claude-elements-snapshot.json",
+      "bytes": 32503
+    },
+    {
+      "path": "evidence/current-brief.md",
+      "bytes": 7911
+    },
+    {
+      "path": "evidence/gear-inventory.csv",
+      "bytes": 12052
+    },
+    {
+      "path": "evidence/room-polygon-source.json",
+      "bytes": 9759
+    },
+    {
+      "path": "evidence/source-refresh.md",
+      "bytes": 2367
+    },
+    {
+      "path": "exports/material-kits-v1.5.csv",
+      "bytes": 40314
+    },
+    {
+      "path": "exports/quantity-calculations-v1.5.json",
+      "bytes": 2765
+    },
+    {
+      "path": "exports/rehearsal-room-build-guide-v1.0.pdf",
+      "bytes": 1667073
+    },
+    {
+      "path": "exports/rehearsal-room-build-guide-v1.5.pdf",
+      "bytes": 1942470
+    },
+    {
+      "path": "exports/rehearsal-room-saved-layouts-v1.5.json",
+      "bytes": 91070
+    },
+    {
+      "path": "exports/rehearsal-room-sharing-kit-v1.5.zip",
+      "bytes": 26776520
+    },
+    {
+      "path": "exports/shopping-list-v1.5.csv",
+      "bytes": 20828
+    },
+    {
+      "path": "exports/site-survey-v1.5.pdf",
+      "bytes": 41025
+    },
+    {
+      "path": "full-room-adapter.js",
+      "bytes": 25552
+    },
+    {
+      "path": "full-room-finishes.js",
+      "bytes": 6803
+    },
+    {
+      "path": "full-room-furniture.js",
+      "bytes": 32817
+    },
+    {
+      "path": "full-room.html",
+      "bytes": 1160437
+    },
+    {
+      "path": "furniture-catalog.js",
+      "bytes": 10268
+    },
+    {
+      "path": "furniture-profiles.js",
+      "bytes": 25284
+    },
+    {
+      "path": "guide-data.js",
+      "bytes": 232386
+    },
+    {
+      "path": "guide.json",
+      "bytes": 31966
+    },
+    {
+      "path": "index.html",
+      "bytes": 2351
+    },
+    {
+      "path": "initial-photo.json",
+      "bytes": 13886
+    },
+    {
+      "path": "layout.html",
+      "bytes": 11097
+    },
+    {
+      "path": "planner-geometry.js",
+      "bytes": 19462
+    },
+    {
+      "path": "planner-photo.js",
+      "bytes": 3339
+    },
+    {
+      "path": "planner-render.js",
+      "bytes": 4904
+    },
+    {
+      "path": "planner.css",
+      "bytes": 19607
+    },
+    {
+      "path": "planner.js",
+      "bytes": 48522
+    },
+    {
+      "path": "reference-layout.js",
+      "bytes": 3370
+    },
+    {
+      "path": "research/affordable-seating-v1.4.md",
+      "bytes": 8780
+    },
+    {
+      "path": "research/audit-findings.md",
+      "bytes": 13276
+    },
+    {
+      "path": "research/build-completeness-audit-v1.5.md",
+      "bytes": 19466
+    },
+    {
+      "path": "research/build-content.json",
+      "bytes": 47467
+    },
+    {
+      "path": "research/buyable-furniture-v1.2.md",
+      "bytes": 8292
+    },
+    {
+      "path": "research/furniture-accuracy-v1.1.md",
+      "bytes": 5038
+    },
+    {
+      "path": "research/image-reference-v1.1.md",
+      "bytes": 6007
+    },
+    {
+      "path": "research/installation-guide.json",
+      "bytes": 124755
+    },
+    {
+      "path": "research/material-install-notes-v1.5.md",
+      "bytes": 28271
+    },
+    {
+      "path": "research/material-install-sources-v1.5.json",
+      "bytes": 46378
+    },
+    {
+      "path": "research/procurement-notes.md",
+      "bytes": 5557
+    },
+    {
+      "path": "research/products.json",
+      "bytes": 24353
+    },
+    {
+      "path": "research/remaining-purchases-v1.5.json",
+      "bytes": 15205
+    },
+    {
+      "path": "research/remaining-purchases-v1.5.md",
+      "bytes": 7461
+    },
+    {
+      "path": "research/room-dimensions-records-v1.2.md",
+      "bytes": 15241
+    },
+    {
+      "path": "research/sofa-source-match-v1.3.md",
+      "bytes": 6711
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 26
+    },
+    {
+      "path": "room-records.json",
+      "bytes": 4298
+    },
+    {
+      "path": "room-results.css",
+      "bytes": 8018
+    },
+    {
+      "path": "room-v1.3.html",
+      "bytes": 10256
+    },
+    {
+      "path": "room-v1.5.html",
+      "bytes": 11690
+    },
+    {
+      "path": "shared-layouts.js",
+      "bytes": 43251
+    },
+    {
+      "path": "styles.css",
+      "bytes": 23898
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 190
+    }
+  ]
+}

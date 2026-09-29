@@ -1,0 +1,377 @@
+{
+  "verified_date": "2026-09-28",
+  "products": [
+    {
+      "id": "tcl-50q651g",
+      "category": "tv-display",
+      "name": "TCL 50Q651G 50-inch Q6 TV",
+      "url": "https://us.tcl.com/products/q-class-4k-uhd-hdr-qled-smart-tv-with-google-tv?variant=44055800053825",
+      "verified_date": "2026-09-28",
+      "facts": ["43.7 W × 25.4 H × 2.8 D in without stand; 19.6 lb; VESA 300 × 300 mm.", "Same body envelope as the rendered 50S551G reference.", "$299.99; the manufacturer variant maps to 50Q651G and listed available on September 28."],
+      "price_usd": 299.99,
+      "status": "current-purchase-candidate",
+      "release_gate": "M-13 wall template, actual TV/mount manuals, backing, connectors, ventilation and instrument-removal clearance.",
+      "notes": "Retrieve the matching 50Q651G manual from TCL support or the delivered carton. Do not use an older Q650G manual."
+    },
+    {
+      "id": "sanus-bll2-b1",
+      "category": "tv-mount",
+      "name": "SANUS Elite BLL2-B1 fixed TV mount",
+      "url": "https://www.sanus.com/en_US/products/tv-mounts/bll2/",
+      "verified_date": "2026-09-28",
+      "facts": ["0.67 in nominal wall offset; rated for 32–80 in TVs up to 150 lb.", "Universal interface includes 300 × 300 mm; installer must confirm the actual TV and substrate.", "$89.99 retailer observation; TV plus mount is nominally 3.47 in deep before connector clearance."],
+      "price_usd": 89.99,
+      "status": "candidate-fit",
+      "release_gate": "Verify TV compatibility, blocking and cable/service access before drilling.",
+      "notes": "Installation manual: https://www.sanus.com/assets/products/bll2/documents/BLL2_IM_251023.pdf"
+    },
+    {
+      "id": "jonathan-y-trinity-89893519",
+      "category": "bar-stool",
+      "name": "JONATHAN Y Trinity 30-inch backless stool",
+      "url": "https://www.target.com/p/-/A-89893519",
+      "verified_date": "2026-09-28",
+      "facts": ["17 × 17 in body; 30 in seat height; 13.5 in seat diameter.", "Black metal seat, gold hairpin legs and footrest; unupholstered alternative to the leather reference.", "$189.99 each / $569.97 for three; retailer listed stock September 28."],
+      "price_usd": 189.99,
+      "status": "hold-fit",
+      "release_gate": "Three 17 in bodies need 53 in at current 18 in centers, beyond the 48 in bar. Resolve quantity or bar layout in M-12 before buying.",
+      "notes": "No assembly. Test occupied seating, refrigerator operation, door routes and floor protection."
+    },
+    {
+      "id": "ruggable-sloane-black-8x10",
+      "category": "lounge-rug",
+      "name": "Ruggable Sloane Black flatwoven rug + Standard Pad",
+      "url": "https://ruggable.com/products/sloane-black-rug?variant=41460137525303",
+      "verified_date": "2026-09-28",
+      "facts": ["8 × 10 ft charcoal/grey patterned cover and matching pad system.", "12 in narrower than the modeled 9 × 10 ft rug; the room image has not been changed.", "$579 observed; made to order, listed 1–2 week shipping."],
+      "price_usd": 579,
+      "status": "candidate-size-change",
+      "release_gate": "Tape the actual rug edges in M-12 and confirm floor-finish compatibility. Buy one matching cover/pad system; do not double the pads.",
+      "notes": "The 9 × 12 ft alternative is $729 but extends 24 in beyond the nominal 10 ft axis. Both alternatives require fit approval."
+    },
+    {
+      "id": "by-boo-bunga-reference",
+      "category": "coffee-table",
+      "name": "By-Boo Bunga · size and appearance reference",
+      "url": "https://www.wayfair.com/furniture/pdp/by-boo-bunga-solid-coffee-table-yboo1890.html",
+      "verified_date": "2026-09-28",
+      "facts": ["30 in diameter × 16 in high; black glass, black conical base and gold rim.", "$614.99 observed, but the US listing showed out of stock."],
+      "price_usd": null,
+      "status": "reference-only-out-of-stock",
+      "release_gate": "Custom quote preserves the 30 × 16 in design. Fabricator designs glass thickness, edges, retention and stability.",
+      "notes": "The 30 × 17 in marketplace fallback has conflicting material fields. Require written confirmation before treating it as an equivalent."
+    },
+    {
+      "id": "tcl-50s551g",
+      "category": "tv-display",
+      "name": "TCL 50S551G 50-inch S Class 4K TV",
+      "url": "https://us.tcl.com/products/tcl-50-s-class-4k-uhd-hdr-led-smart-tv-with-google-tv-50s551g",
+      "verified_date": "2026-09-28",
+      "facts": [
+        "TCL lists the body without stand at 43.7 inches wide, 25.4 inches high, and 2.8 inches deep.",
+        "TCL lists the weight without stand as 19.6 pounds and the wall-mount pattern as VESA 300 by 300 millimeters.",
+        "The model is used as the v1.4 dimensional reference. TCL's direct listing was sold out on September 28, 2026; it is not a released purchase."
+      ],
+      "dimensions_in": {
+        "width": 43.7,
+        "depth": 2.8,
+        "height": 25.4
+      },
+      "price_usd": null,
+      "status": "dimensional-reference",
+      "release_gate": "Confirm the exact available model and delivered body, compatible listed mount, structural backing, connector and cable service, ventilation, glare, sightline, and full-size M-13 fit with actual instruments before purchase or drilling.",
+      "notes": "Proposed body center x 184.81, z 129, 67.7 inches AFF; bottom 55 and top 80.4 inches AFF. See evidence/right-wall-tv-layout-v1.4.md."
+    },
+    {
+      "id": "jennifer-taylor-alpine-64190-3-mbb",
+      "category": "selected-sofa",
+      "name": "Jennifer Taylor Home Alpine 90-inch Sofa, Ebony Black Boucle",
+      "url": "https://www.jennifertaylorhome.com/alpine-90-sherpa-sofa-ebony-black-boucle/",
+      "verified_date": "2026-09-28",
+      "facts": [
+        "The official dimension graphic lists 90.5 inches wide while the text specification lists 90 inches; this guide uses the conservative 90.5-inch planning width pending manufacturer confirmation. Depth is 36 inches and height is 27.5 inches.",
+        "The listed seat is 70.5 inches wide by 24 inches deep by 17.5 inches high; arm height is 27.5 inches.",
+        "The direct listing showed $1,252.99 and ready to ship in 5 business days when checked.",
+        "The selected finish is ebony black boucle over an oak frame with wedge legs; the gently rounded profile is not a true half-moon."
+      ],
+      "dimensions_in": {
+        "width": 90.5,
+        "depth": 36,
+        "height": 27.5,
+        "seat_width": 70.5,
+        "seat_depth": 24,
+        "seat_height": 17.5,
+        "arm_height": 27.5
+      },
+      "price_usd": 1252.99,
+      "status": "selected-reference",
+      "release_gate": "Complete the M-12 occupied mockup and M-15 delivery-route check; resolve the 90 versus 90.5 inch published-width discrepancy with the manufacturer; verify current price, stock, timing, exact upholstery, delivery, and return terms before ordering.",
+      "notes": "Selected v1.4 sofa. Use the conservative 90.5-inch envelope for planning. Price and timing are dated observations, not an order or availability guarantee."
+    },
+    {
+      "id": "ikea-dyvlinge-80570831",
+      "category": "selected-lounge-chair",
+      "name": "IKEA DYVLINGE Swivel Chair, Kelinge Black",
+      "url": "https://www.ikea.com/us/en/p/dyvlinge-swivel-chair-kelinge-black-80570831/",
+      "verified_date": "2026-09-28",
+      "facts": [
+        "IKEA article 805.708.31 is listed at 24.75 inches wide, 29.5 inches deep, and 26.75 inches high.",
+        "The listed seat height is 16.875 inches.",
+        "The direct listing showed $199 each, or $398 for the selected pair, when checked.",
+        "The selected chair uses black Kelinge corduroy upholstery and a chrome-color five-star swivel base; it is not leather."
+      ],
+      "dimensions_in": {
+        "width": 24.75,
+        "depth": 29.5,
+        "height": 26.75,
+        "seat_height": 16.875
+      },
+      "price_usd": 199,
+      "status": "selected-reference",
+      "release_gate": "Complete the M-12 occupied swivel-envelope mockup and M-15 route check; verify local stock, current price, delivery, and return terms before ordering two chairs.",
+      "notes": "Selected v1.4 chair. Price is per chair and is a dated observation, not an order or availability guarantee."
+    },
+    {
+      "id": "yamaha-nu1x",
+      "category": "owned-piano",
+      "name": "Yamaha AvantGrand NU1X",
+      "url": "https://usa.yamaha.com/products/musical_instruments/pianos/avantgrand/nu1x/specs.html",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "Yamaha lists the NU1X at 59-1/8 inches wide, 18-1/4 inches deep, and 40-5/16 inches high.",
+        "Yamaha lists the weight as 240 pounds 11 ounces.",
+        "Yamaha's regional NU1X specification page marks this exact model discontinued; the U.S. site retains its legacy specification and support page.",
+        "The listed finishes were polished ebony and polished brilliant white."
+      ],
+      "dimensions_in": {
+        "width": 59.125,
+        "depth": 18.25,
+        "height": 40.3125
+      },
+      "price_usd": null,
+      "status": "owned-check",
+      "release_gate": "Measure the owned NU1X at its widest, tallest, and deepest points and confirm bench, power, service, and circulation clearances before bar millwork or final floor marking.",
+      "notes": "Do not substitute NU1XA dimensions. The brief's 57.5-inch width understates Yamaha's NU1X specification by 1.625 inches. Discontinued-status source: https://ph.yamaha.com/en/musical-instruments/pianos/products/avantgrand/nu1x/specs.html"
+    },
+    {
+      "id": "korg-grandstage-x",
+      "category": "owned-stage-piano",
+      "name": "Korg Grandstage X",
+      "url": "https://www.korg.com/us/products/synthesizers/grandstage_x/",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "Korg's owner manual lists the instrument at 53.98 inches wide, 18.15 inches deep, and 6.61 inches high, excluding the music stand.",
+        "The listed weight is 55.12 pounds.",
+        "The listed power consumption is 20 watts."
+      ],
+      "dimensions_in": {
+        "width": 53.98,
+        "depth": 18.15,
+        "height": 6.61
+      },
+      "price_usd": null,
+      "status": "owned-check",
+      "release_gate": "Measure the selected stand, bench, music rest, pedals, and rear cable bend in the room; then confirm door, HVAC, and playing clearances at the southeast position.",
+      "notes": "The product body is almost 54 inches wide, not 53 inches. Manual source: https://cdn.korg.com/us/support/download/files/7a6d89c8e80cd703ad4a13e316de2470.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27Grandstage_X_OM_E1.pdf&response-content-type=application%2Fpdf"
+    },
+    {
+      "id": "string-swing-cc01k",
+      "category": "instrument-hanger",
+      "name": "String Swing CC01K Hardwood Home & Studio Guitar Keeper",
+      "url": "https://www.stringswing.com/guitar-hanger-hardwood-wall-mount-for-acoustic-and-electric-guitars/",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "The pivoting yoke is padded and is rated by String Swing for instruments up to 15 pounds.",
+        "The hardwood block is offered in Cherry, Oak, Ash, and Black Walnut.",
+        "String Swing directs wider classical-guitar and bass necks to its original CC01 yoke rather than assuming CC01K fits every instrument.",
+        "String Swing says its padding does not eat nitrocellulose, but prolonged pressure and under-cured nitro can still produce marks; it does not give an unconditional no-marking guarantee."
+      ],
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "Inventory every instrument's weight, neck width, headstock geometry, and finish; assign CC01K or CC01 per instrument; mock up both rows; and have the installer fasten into verified structural backing.",
+      "notes": "Clean padding with water only and keep it dust-free. Finish guidance: https://www.stringswing.com/nitrocellulose-statement/"
+    },
+    {
+      "id": "zephyr-presrv-prb15c01cg",
+      "category": "beverage-refrigerator",
+      "name": "Zephyr Presrv PRB15C01CG 15-inch Beverage Cooler",
+      "url": "https://docs.zephyronline.com/docs/specs/Presrv_PRB15C01CG_spec.pdf",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "The unit is front-venting and may be built in when its front air vent remains unobstructed.",
+        "Zephyr lists overall dimensions of 15 inches wide, 23-3/8 inches deep, and 33-7/8 to 34-7/8 inches high.",
+        "The installation manual requires a cabinet opening at least 15-1/8 inches wide and 34 inches high.",
+        "The manual requires at least 1 inch behind the unit for the electrical plug and 2-1/4 inches at the hinge side when installed next to a wall.",
+        "The listed storage configuration is 64 twelve-ounce cans plus four wine bottles, with a 34 to 50 degree Fahrenheit temperature range."
+      ],
+      "dimensions_in": {
+        "width": 15,
+        "depth": 23.375,
+        "height_min": 33.875,
+        "height_max": 34.875,
+        "cutout_width_min": 15.125,
+        "cutout_height_min": 34,
+        "rear_clearance_min": 1,
+        "wall_side_door_clearance_min": 2.25
+      },
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "Cabinet shop must issue a coordinated shop drawing that preserves the front vent, 15-1/8-inch minimum opening, 34-inch minimum height, 1-inch rear plug clearance, door swing, outlet location, and pull-out service access.",
+      "notes": "A 23-3/8-inch cabinet plus the required 1-inch rear clearance needs at least 24-3/8 inches before finish tolerance. A nominal 24-inch-deep flush bar therefore does not fit this installation; deepen the bar after shop drawing, recess the rear condition, or let the appliance face project. Manual: https://docs.zephyronline.com/docs/manuals/PRB15C01CG_manual.pdf"
+    },
+    {
+      "id": "diode-led-blaze-100-system",
+      "category": "linear-lighting-system",
+      "name": "Diode LED BLAZE 100 2700K Tape + S1 Black Channel + OMNIDRIVE Basics 96W Driver",
+      "url": "https://www.diodeled.com/blaze.html",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "BLAZE 100 part DI-24V-BLBSC1-27-016 is 24-volt, 2700K, 90+ CRI tape rated at 113 lumens and 1.46 watts per foot.",
+        "The manufacturer specifies a 55-foot maximum run and 3.93-inch cut points for this tape.",
+        "The recommended S1 black channel is DI-CHB-S1-96B, supplied in 96-inch lengths with a classic frosted lens.",
+        "OMNIDRIVE Basics part DI-ODBELV-24V96W-LPS is a 24-volt, 96-watt Class 2 driver with no minimum load and manufacturer-listed dimming to 5 percent.",
+        "Diode LED's driver sheet lists Lutron Caseta PD-5NE among recommended controls; Lutron identifies PD-5NE as its Caseta ELV-capable dimmer and requires a neutral connection."
+      ],
+      "dimensions_in": {
+        "tape_width": 0.31,
+        "channel_length": 96,
+        "channel_width": 0.67,
+        "channel_height": 0.31
+      },
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "Lighting designer and electrician must produce a zone, feed, channel-joint, driver-load, driver-access, and dimmer schedule. Keep every feed at or below 55 feet and every driver at or below 96 watts, confirm a neutral at each PD-5NE, and bench-test the exact tape-driver-dimmer load for low-end stability and flicker before release.",
+      "notes": "A room perimeter longer than 55 feet must be divided into multiple fed runs even when calculated wattage is below one driver's rating. Tape specification: https://www.diodeled.com/custom/download/productFile/filename/DI-BLBSC-Specification%20Sheet.pdf ; channel: https://www.diodeled.com/s1-channel.html ; driver: https://www.diodeled.com/omnidrive-basics-3348.html ; Lutron guidance: https://support.lutron.com/us/en/product/casetawireless/article/troubleshooting/Cas%C3%A9ta-Wireless-In-Wall-Dimmers"
+    },
+    {
+      "id": "nora-nm4-rdc27bb",
+      "category": "downlight",
+      "name": "Nora Lighting NM4-RDC27BB 4-inch Round Deep Cone Reflector",
+      "url": "https://noralighting.com/product/nm4-rdc/",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "Part NM4-RDC27BB is the 2700K matte-black configuration.",
+        "Nora lists 90+ CRI, 1027 delivered lumens, 15 watts, a 37-degree narrow-flood beam, and Triac or ELV dimming to 10 percent.",
+        "The listed ceiling cutout is 3.5 inches; the trim is 4.5 inches wide and the module is 4.875 inches high.",
+        "The module is listed as IC air-tight and wet-location rated; no housing is required.",
+        "Nora permits up to 40 feet between the module and its driver."
+      ],
+      "dimensions_in": {
+        "cutout_diameter": 3.5,
+        "outer_diameter": 4.5,
+        "height": 4.875
+      },
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "Approve a reflected-ceiling and photometric plan, verify the actual ceiling cavity and insulation condition, obtain the exact dimmer/load compatibility result, and mock up 2700K output against the black ceiling before ordering.",
+      "notes": "The manufacturer excludes direct contact with spray-foam insulation. Specification: https://noralighting.com/wp-content/uploads/2021/09/NM4-RDC_spec.pdf"
+    },
+    {
+      "id": "woodupp-akupanel-1029",
+      "category": "acoustic-slat-wall",
+      "name": "WoodUpp Akupanel Colored Black Wrapped on Black Felt, item 1029",
+      "url": "https://woodupp.com/products/akupanel",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "Item 1029 is a black-wrapped slat on black felt panel measuring 94.49 by 23.62 inches and 0.866 inch thick.",
+        "The construction uses 0.354-inch felt, 0.512-inch-deep by 1.063-inch-wide slats, and 0.512-inch gaps.",
+        "WoodUpp claims acoustic absorption Class A only when installed with 45 mm battens and insulation between them.",
+        "The manufacturer's expanded installation uses battens at 600 mm spacing and at least 15 screws per panel."
+      ],
+      "dimensions_in": {
+        "width": 23.62,
+        "height": 94.49,
+        "thickness": 0.866,
+        "slat_width": 1.063,
+        "slat_depth": 0.512,
+        "gap": 0.512
+      },
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "Order a finish sample and have the architect, acoustician, and installer approve the exact wall build-up, cavity insulation, substrate, fastener pattern, fire-test documentation, and interfaces with instrument backing and fabric-track areas.",
+      "notes": "The manufacturer's 'Class A' statement is an acoustic absorption class, not a fire-rating claim. Data sheet: https://woodupp.com/wp-content/uploads/2025/01/Akupanel-Datasheet.pdf"
+    },
+    {
+      "id": "fabritrak-geotrak-black",
+      "category": "acoustic-fabric-retention",
+      "name": "FabriTRAK GeoTRAK Black Fabric-Retention Profiles",
+      "url": "https://www.fabritrak.com/products/geotrak",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "GeoTRAK is a PVC-free black fabric-retention framework with fabric-receiving jaws.",
+        "FabriTRAK lists 1/2-inch, 1-inch, and 1-3/8-inch profile depths.",
+        "The system is site-installed by FabriTRAK dealers and professional installers and may be paired with acoustic core and finish fabric.",
+        "The retention system allows fabric to be installed without exposed mechanical fasteners at the face."
+      ],
+      "dimensions_in": {
+        "profile_depth_options": [
+          0.5,
+          1,
+          1.375
+        ]
+      },
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "A qualified dealer must submit the exact track, core, fabric, substrate, perimeter, outlet, door, HVAC, slat-junction, and service-removal details and the test documentation for the complete proposed assembly.",
+      "notes": "Component literature does not by itself establish the performance or compliance of the completed room assembly. System overview: https://www.fabritrak.com/products/fabritrak-system"
+    },
+    {
+      "id": "karndean-van-gogh-ebony-scb89",
+      "category": "dark-flooring",
+      "name": "Karndean Van Gogh Rigid Core Ebony SCB89",
+      "url": "https://www.karndean.com/en-us/floors/products/ebony-scb89",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "Ebony SCB89 is a black and charcoal-gray rigid-core plank measuring 48 by 7 inches.",
+        "Karndean lists a 20 mil wear layer, 4.5 mm total thickness, and 23.64 square feet per carton.",
+        "Karndean's U.S. rigid-core installation guide says laminate and any floating floor must be removed before installation.",
+        "The same guide says floating floors and cushion-backed flooring are not suitable substrates and must be removed."
+      ],
+      "dimensions_in": {
+        "plank_length": 48,
+        "plank_width": 7,
+        "thickness": 0.177
+      },
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "Identify whether the existing oak LVP is floating or adhered, inspect the underlying substrate, verify flatness and moisture conditions, order a room sample, and obtain the installer's written warranty for the exact floor assembly before release.",
+      "notes": "Do not install this floating product over an existing floating LVP. If the current oak LVP floats, Karndean's instructions require removal. Installation guide: https://www.karndean.com/globalassets/karndean/b2c-blocks/b2c-document-listing-block/usa/installation-guides/karndean-rigid-core_plank-and-tile-installation-guide-usa.pdf"
+    },
+    {
+      "id": "omega-antique-mirror-samples",
+      "category": "decorative-mirror",
+      "name": "Omega Antique Mirror Dark Cloud, Smoky Quartz, and Gold Vein Overlay Samples",
+      "url": "https://omegamirrorproducts.com/products/antique-mirrors/",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "Omega presents Dark Cloud Antique, Smoky Quartz Mirror, and Gold Vein Overlay Mirror as distinct decorative patterns.",
+        "The products are handcrafted and pattern variation is expected.",
+        "Omega offers physical samples for evaluation before fabrication."
+      ],
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "Order physical samples and build a full-size visual mockup. A local mirror fabricator and structural engineer must design the final panel sizes, edge treatment, safety backing or lamination, substrate, mechanical retention, access, and every overhead attachment before any wall-arch or ceiling release.",
+      "notes": "The source supports decorative sample selection only. It does not supply an overhead-load design. Do not specify an adhesive-only ceiling installation or claim code compliance without the engineered, project-specific assembly. Brochure: https://omegamirrorproducts.com/wp-content/uploads/2014/05/AntiqueMirrorBrochure_2014_WEB.pdf"
+    },
+    {
+      "id": "guilford-fr701-2100-408",
+      "category": "commercial-acoustic-fabric",
+      "name": "Guilford of Maine FR701, style 2100, color 408 Black",
+      "url": "https://www.guilfordofmaine.com/swatches/2100-408",
+      "verified_date": "2026-09-26",
+      "facts": [
+        "Color 408 is the black option in style 2100 FR701.",
+        "The fabric is 100 percent post-consumer recycled polyester with a 66-inch usable width and no backing or added finish.",
+        "Duvaltex reports 95 percent acoustic transparency for the fabric before anechoic termination.",
+        "The fabric is reported as ASTM E84 Class I or A, but the manufacturer recommends application testing and notes that dye-lot color can vary."
+      ],
+      "dimensions_in": {
+        "usable_width": 66
+      },
+      "price_usd": null,
+      "status": "candidate",
+      "release_gate": "Order a current fabric card and production sample, approve the dye lot and visual texture under the room lighting, verify stretch and retention with the selected track, and test or document the exact track-core-fabric assembly required for the project.",
+      "notes": "The fabric's component test results do not establish the acoustic or fire performance of the finished wall assembly. Current manufacturer family page: https://duvaltex.com/en-us/products/fr701r"
+    }
+  ]
+}

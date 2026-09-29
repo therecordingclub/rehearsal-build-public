@@ -1,0 +1,51 @@
+{
+  "version": "1.5",
+  "date": "2026-09-28",
+  "basis": "Original-record controls from room-records.json with estimated east-bay positions and an unverified 102-inch ceiling working value.",
+  "confidence": {
+    "printed_room_controls": "high",
+    "entry_booth_slider_registration": "moderate; current field condition unverified",
+    "east_bay_segments": "low; site laser required",
+    "ceiling": "low; site laser required"
+  },
+  "published_main_area_sqft": 298.75,
+  "modeled_working_outline_area_sqft": 299.738,
+  "main_perimeter_working_ft": 71.7553,
+  "booth_plus_vestibule_traced_sqft": 82.258,
+  "floor_waste_percent": 10,
+  "main_floor_allowance_sqft": 329.712,
+  "floor_candidate_carton_sqft": 23.64,
+  "floor_candidate_cartons": 14,
+  "floor_candidate_order_area_sqft": 330.96,
+  "main_wall_gross_working_sqft": 609.92,
+  "arch_light_net_ft": 76.375,
+  "arch_formula": "Sum [2 × (H − 12) + π × 12] / 12 for H = 80, 86, 92, 86, 80 inches; two uprights + semicircular head, no bottom",
+  "ceiling_light_net_ft": 32,
+  "bar_shelf_light_net_ft": 12,
+  "linear_light_net_working_ft": 192.13,
+  "linear_light_allowance_working_ft": 211.343,
+  "slat_return_net_working_sqft": 67.407,
+  "selected_furniture": [
+    {
+      "id": "SEAT-01",
+      "name": "Jennifer Taylor Home Alpine 90-inch sofa · Ebony Black Boucle",
+      "quantity": 1,
+      "specification": "Selected SKU 64190-3-MBB: use 90.5 W × 36 D × 27.5 H in for planning; the official dimension graphic says 90.5 W while the text specification says 90 W, so confirm with the manufacturer. Seat 70.5 W × 24 D × 17.5 H in; arm 27.5 H in. Ebony black boucle over an oak frame with wedge legs; gently rounded profile, not a true half-moon.",
+      "status": "Selected reference; direct listing showed $1,252.99 and ready to ship in 5 business days",
+      "urls": [
+        "https://www.jennifertaylorhome.com/alpine-90-sherpa-sofa-ebony-black-boucle/"
+      ]
+    },
+    {
+      "id": "SEAT-02",
+      "name": "IKEA DYVLINGE swivel armchairs · Kelinge black",
+      "quantity": 2,
+      "specification": "Selected article 805.708.31: each 24.75 W × 29.5 D × 26.75 H in with 16.875 in seat height. Black Kelinge corduroy upholstery with a chrome-color five-star swivel base; not leather. Selected sofa plus chair pair totals $1,650.99 before tax, $4,939.01 less than the prior HAY chair pair alone.",
+      "status": "Selected reference; IKEA listing showed $199 each ($398 pair)",
+      "urls": [
+        "https://www.ikea.com/us/en/p/dyvlinge-swivel-chair-kelinge-black-80570831/"
+      ]
+    }
+  ],
+  "release_note": "Quantities are coordination allowances. Field measurements, waste rules, carton and length yields, product availability, and named release gates control ordering."
+}

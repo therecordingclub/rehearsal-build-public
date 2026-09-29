@@ -1,0 +1,2975 @@
+{
+  "version": "1.5",
+  "verified_date": "2026-09-28",
+  "items": [
+    {
+      "id": "PRE-01",
+      "route": "service",
+      "materials": [
+        {
+          "name": "Field-survey record kit",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Dimension log, marked A01 plan, scale targets, room/object labels and photo index.",
+          "status": "quote-ready",
+          "sourceId": "M-01\u2026M-16"
+        },
+        {
+          "name": "Full-size layout tape",
+          "quantity": 1,
+          "unit": "allowance",
+          "spec": "Low-residue floor-safe tape in at least two colors for bodies and occupied/service envelopes.",
+          "status": "select after floor test"
+        },
+        {
+          "name": "Temporary wall template film/paper",
+          "quantity": 1,
+          "unit": "allowance",
+          "spec": "Removable material for TV, instruments, mirrors and mounting-zone templates.",
+          "status": "select after finish compatibility test"
+        }
+      ],
+      "tools": [
+        "calibrated laser distance meter",
+        "steel tape",
+        "digital level",
+        "camera",
+        "tripod",
+        "moisture meter appropriate to floor",
+        "non-marring layout tape"
+      ],
+      "before": [
+        "Confirm access to main room, booth, closet, ceiling inspection point and electrical panels.",
+        "Print current A01\u2013A05/E01 and M-01\u2026M-16 sheets; use one dated datum and revision.",
+        "Test tape/labels on each retained finish."
+      ],
+      "steps": [
+        "Establish the main finished-floor datum and named wall control points.",
+        "Measure shell, openings, booth/sliders, ceiling, services, gear and both raised platforms exactly as M-01\u2026M-16 require.",
+        "Photograph every measurement with scale and keyed location.",
+        "Tape every current furniture body plus occupied, swivel, door, appliance, service and instrument-removal envelopes.",
+        "Record discrepancies and stop downstream release where fit or fabrication changes.",
+        "Issue a signed field record and photo index."
+      ],
+      "checks": [
+        "Plan dimensions close and both diagonals reconcile.",
+        "Every M-number has a measured value, method, photo and responsible person.",
+        "Mockup can be walked with doors, sliders, chairs and fridge represented in operation."
+      ],
+      "handoff": [
+        "Field survey lead signs the dated record.",
+        "Greg approves the occupied layout; this approval does not release unengineered attachments."
+      ],
+      "sources": [
+        {
+          "label": "Current room plan",
+          "url": "assets/room-plan.svg"
+        },
+        {
+          "label": "Build content measurement register",
+          "url": "research/build-content.json"
+        }
+      ]
+    },
+    {
+      "id": "PRE-02",
+      "route": "service",
+      "materials": [
+        {
+          "name": "Field-verified coordination set",
+          "quantity": 1,
+          "unit": "package",
+          "spec": "Plans, elevations, reflected ceiling plan, details, schedules and revision log.",
+          "status": "not issued"
+        },
+        {
+          "name": "Submittal and release register",
+          "quantity": 1,
+          "unit": "register",
+          "spec": "Tracks shop drawings, samples, product data, calculations, approvals and hold points by guide item ID.",
+          "status": "create"
+        },
+        {
+          "name": "Permit/review record",
+          "quantity": 1,
+          "unit": "record",
+          "spec": "Written determination of landlord, building-official and inspection requirements.",
+          "status": "obtain"
+        }
+      ],
+      "tools": [
+        "PDF markup software",
+        "revision log",
+        "submittal register",
+        "coordination meeting record"
+      ],
+      "before": [
+        "PRE-01 field record is signed.",
+        "Conflicts C-01\u2026C-14 have owners and resolution paths.",
+        "Each trade receives the same current revision."
+      ],
+      "steps": [
+        "Redraw A01\u2013A05/E01 from the signed field record.",
+        "Add furniture/service zones, AFF mounting dimensions, circuits/control zones and field-verified backing.",
+        "Issue substrate-specific attachment details for mirrors, TV, hangers, track, panels and cloud.",
+        "Coordinate millwork, glazing, lighting, AV, floor, acoustic and HVAC interfaces.",
+        "Record permit/review direction and inspection points.",
+        "Publish a revision log and obtain named releases before quoting or ordering."
+      ],
+      "checks": [
+        "All drawings carry one revision/date and reconcile at shared dimensions.",
+        "No custom cut size or attachment relies on a concept image.",
+        "Every hold point has an owner, deliverable and release signature."
+      ],
+      "handoff": [
+        "Design professional issues the construction set.",
+        "Licensed trades/design professionals supply calculations and code-specific details in their scope."
+      ],
+      "sources": [
+        {
+          "label": "Guide scope schedule",
+          "url": "guide.json"
+        },
+        {
+          "label": "Trade scopes and conflicts",
+          "url": "research/build-content.json"
+        }
+      ]
+    },
+    {
+      "id": "PRE-03",
+      "route": "service",
+      "materials": [
+        {
+          "name": "Floor and path protection",
+          "quantity": 1,
+          "unit": "measured allowance",
+          "spec": "Non-staining breathable protection selected for retained LVP and corridor; taped without finish damage.",
+          "status": "field-select"
+        },
+        {
+          "name": "Dust containment",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Poly barriers, zipper access, HEPA air control and vent protection compatible with occupied-building rules.",
+          "status": "trade-select"
+        },
+        {
+          "name": "Asset labels and move log",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Unique removable labels, photos, destination log and cable tags for all retained equipment.",
+          "status": "ready"
+        },
+        {
+          "name": "Protected storage/crates",
+          "quantity": 1,
+          "unit": "measured allowance",
+          "spec": "Padded, dry, secure storage sized after inventory.",
+          "status": "field-size"
+        },
+        {
+          "name": "Disposal containers",
+          "quantity": 1,
+          "unit": "allowance",
+          "spec": "Separated waste/recycling containers for only approved removals.",
+          "status": "quote"
+        }
+      ],
+      "tools": [
+        "HEPA vacuum/air scrubber as required",
+        "lockout/tagout kit",
+        "moving blankets",
+        "carts",
+        "label printer",
+        "camera"
+      ],
+      "before": [
+        "Approve removal drawings and inventory destination.",
+        "Licensed electrician identifies circuits before fixture work.",
+        "Confirm sliders, camera, HVAC and egress stay operational or have approved outages."
+      ],
+      "steps": [
+        "Photograph and label every retained item and connection before disconnecting.",
+        "Move gear to protected storage and update the move log.",
+        "Install corridor, floor, slider, door, camera, grille and fabric protection.",
+        "Establish dust isolation without blocking supply/return or exits.",
+        "Lock out and verify affected lighting circuits.",
+        "Remove only issued-scope items; log salvage and disposal.",
+        "Inspect protection daily and repair breaches."
+      ],
+      "checks": [
+        "Retained items reconcile to the move log with no unrecorded damage.",
+        "No blocked egress, HVAC path, slider track or camera view.",
+        "Removed circuits are safe and identified."
+      ],
+      "handoff": [
+        "GC supplies site-specific containment and disposal plan.",
+        "Electrician supplies outage/lockout record."
+      ],
+      "sources": [
+        {
+          "label": "Protection/removal scope",
+          "url": "guide.json"
+        },
+        {
+          "label": "Current room plan",
+          "url": "assets/room-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "MIR-01",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Graduated antique-mirror arch panels",
+          "quantity": 5,
+          "unit": "custom panels",
+          "spec": "Illustrated 24-in widths and 80/86/92/86/80-in heights are template envelopes only; black-smoked antique appearance with approved gold-vein character.",
+          "status": "hold fabrication",
+          "sourceUrl": "https://omegamirrorproducts.com/products/antique-mirrors/",
+          "sourceId": "omega-antique-mirror-samples"
+        },
+        {
+          "name": "Safety backing/lamination and edge finish",
+          "quantity": 5,
+          "unit": "panel sets",
+          "spec": "Glass makeup and protected bottom/perimeter edges selected by glazier for the actual location.",
+          "status": "engineer/glazier to specify"
+        },
+        {
+          "name": "Mechanical retention and verified backers",
+          "quantity": 1,
+          "unit": "engineered set",
+          "spec": "Substrate-specific backers, retainers, clips/channels and compatible setting materials; loads and fasteners by issued design.",
+          "status": "not designed"
+        },
+        {
+          "name": "Perimeter interface trim",
+          "quantity": 1,
+          "unit": "measured set",
+          "spec": "Black or brass interface pieces coordinated with wall finish and removable halo access.",
+          "status": "sample/quote"
+        }
+      ],
+      "tools": [
+        "laser/template material",
+        "glass handling suction equipment",
+        "setting blocks/shims",
+        "non-marring PPE",
+        "torque/fastener tools specified by glazier"
+      ],
+      "before": [
+        "Complete M-03, M-07 and finished-wall/floor survey.",
+        "Approve a lit physical mirror sample and expected pattern variation.",
+        "Receive signed panel schedule, weights, safety-glass build-up and attachment detail."
+      ],
+      "steps": [
+        "Field-template each unique arch, gap and edge from the finished datum.",
+        "Fabricator labels panels and dry-checks templates before cutting glass.",
+        "Install verified backers and inspect them before wall closure.",
+        "Complete wall finish and halo rough-in while keeping access removable.",
+        "Set panels on specified blocks/supports and engage engineered mechanical retention in labeled order.",
+        "Fit edge protection/trim and clean with manufacturer-compatible products.",
+        "Glazier performs and records final retention and edge inspection."
+      ],
+      "checks": [
+        "Installed profiles match approved templates and A02 visual order.",
+        "No unsupported edge, sharp edge, unstable panel or trapped light-service component.",
+        "Panel labels, weights, retention and inspection photos are in the handover file."
+      ],
+      "handoff": [
+        "Glazier issues exact cut files, glass makeup, weights, edge and setting requirements.",
+        "Qualified designer issues backing, loads, mechanical retention and fasteners."
+      ],
+      "sources": [
+        {
+          "label": "Mirror elevation",
+          "url": "assets/mirror-wall.svg"
+        },
+        {
+          "label": "Omega antique mirror samples",
+          "url": "https://omegamirrorproducts.com/products/antique-mirrors/"
+        },
+        {
+          "label": "Coordination details",
+          "url": "assets/assembly-details.svg"
+        }
+      ]
+    },
+    {
+      "id": "MIR-02",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Antique ceiling-mirror visual assembly",
+          "quantity": 1,
+          "unit": "engineered assembly",
+          "spec": "96 x 96-in proposed visual zone; module sizes and joints determined after ceiling survey.",
+          "status": "hold fabrication",
+          "sourceUrl": "https://omegamirrorproducts.com/products/antique-mirrors/",
+          "sourceId": "omega-antique-mirror-samples"
+        },
+        {
+          "name": "Support frame/backer",
+          "quantity": 1,
+          "unit": "engineered set",
+          "spec": "Independent support/load path sized to structure; removable access coordinated with lighting.",
+          "status": "not designed"
+        },
+        {
+          "name": "Mechanical retention and secondary safety provisions",
+          "quantity": 1,
+          "unit": "engineered set",
+          "spec": "Supplier-designed hardware and fasteners for overhead use; adhesive is not the sole support.",
+          "status": "not designed"
+        },
+        {
+          "name": "Perimeter trim/access panels",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Finished black interface concealing light source while preserving driver and retainer inspection access.",
+          "status": "custom-detail"
+        }
+      ],
+      "tools": [
+        "rated access equipment",
+        "glass lifting/handling system",
+        "layout laser",
+        "temporary engineered bracing",
+        "inspection camera"
+      ],
+      "before": [
+        "Open and document the approved ceiling inspection point.",
+        "Obtain structural/support design, panel weights, glass safety build-up and installation/lift plan.",
+        "Coordinate detectors, HVAC, downlights, cove, drivers and access before fabrication."
+      ],
+      "steps": [
+        "Survey structure and set out the assembly from the field-issued E01 datum.",
+        "Install and inspect the engineered support frame/backer before concealment.",
+        "Complete electrical/halo rough-in and verify removable service paths.",
+        "Stage, label and lift modules under the glazier\u2019s approved plan.",
+        "Engage every specified mechanical retainer and secondary provision; do not rely on adhesive alone.",
+        "Install trim/access panels without hiding inspection points.",
+        "Support designer and glazier complete final documented inspection."
+      ],
+      "checks": [
+        "Assembly is level, stable and matches approved module/joint layout.",
+        "Every retainer and support is inspectable or documented before closure.",
+        "Lighting and drivers can be serviced without removing unsupported glass."
+      ],
+      "handoff": [
+        "Qualified support designer supplies loads, framing, anchors, sequencing and inspection requirements.",
+        "Glazier supplies module/cut schedule, weight, safety glass build-up and handling plan."
+      ],
+      "sources": [
+        {
+          "label": "Reflected ceiling coordination",
+          "url": "assets/lighting-plan.svg"
+        },
+        {
+          "label": "Coordination detail D3",
+          "url": "assets/assembly-details.svg"
+        },
+        {
+          "label": "Omega samples",
+          "url": "https://omegamirrorproducts.com/products/antique-mirrors/"
+        }
+      ]
+    },
+    {
+      "id": "BAR-01",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Cabinet carcass and finished panels",
+          "quantity": 1,
+          "unit": "assembly",
+          "spec": "48-in nominal run, proposed 26-in depth and 42-in finished counter height; cabinet-grade core, thickness and black finish set by approved shop drawing.",
+          "status": "quote-ready after survey"
+        },
+        {
+          "name": "Serviceable door/panel hardware",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Commercial hinges/slides, pulls or touch latches, removable fridge/service panels and stops; exact schedule pending design.",
+          "status": "select in submittal"
+        },
+        {
+          "name": "Leveling/toe-kick components",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Adjustable levelers/shims and finished toe kick compatible with floor decision.",
+          "status": "select in submittal"
+        },
+        {
+          "name": "Ventilation grilles/openings",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Keep candidate fridge front vent open and cabinet heat/service paths unobstructed.",
+          "status": "coordinate"
+        },
+        {
+          "name": "Backing/anchors",
+          "quantity": 1,
+          "unit": "engineered set",
+          "spec": "Substrate-specific restraint and blocking identified on shop drawings.",
+          "status": "field-dependent"
+        }
+      ],
+      "tools": [
+        "track saw/table saw",
+        "cabinet clamps",
+        "laser/level",
+        "scribe tools",
+        "manufacturer-specified fastener tools"
+      ],
+      "before": [
+        "Complete M-11/M-12 and choose the refrigerator.",
+        "Approve 24-in versus 26-in depth through occupied/fridge-service mockup.",
+        "Coordinate finished floor, outlet, stone, glass front, shelves and lighting."
+      ],
+      "steps": [
+        "Field-measure the run and service clearances from A03 datums.",
+        "Submit shop drawings showing materials, panels, hardware, vent, outlet and removable-service route.",
+        "Prefabricate and finish components; dry-fit the selected appliance opening.",
+        "Set, level and restrain the carcass to verified backing.",
+        "Verify appliance can insert, vent, open and pull out for service.",
+        "Release the installed carcass for stone template, then install finished service panels."
+      ],
+      "checks": [
+        "Finished counter datum is correct and carcass is level/plumb.",
+        "Fridge vent, plug, door and pull-out path remain fully usable.",
+        "All service panels and hardware operate without colliding with stools or piano."
+      ],
+      "handoff": [
+        "Millworker supplies material/hardware schedule and substrate-specific anchor detail.",
+        "Greg releases final bar depth and three-stool fit."
+      ],
+      "sources": [
+        {
+          "label": "Bar and piano elevation",
+          "url": "assets/bar-piano.svg"
+        },
+        {
+          "label": "Fridge/counter detail",
+          "url": "assets/assembly-details.svg"
+        }
+      ]
+    },
+    {
+      "id": "BAR-02",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Honed black stone or approved quartz top",
+          "quantity": 1,
+          "unit": "custom top",
+          "spec": "Field-templated nominal 48 x 26-in top; exact material, thickness, slab/lot and eased edge selected by sample.",
+          "status": "unselected"
+        },
+        {
+          "name": "Supports/brackets",
+          "quantity": 1,
+          "unit": "engineered set",
+          "spec": "Continuous cabinet support plus any concealed brackets required by final thickness/overhang.",
+          "status": "fabricator to design"
+        },
+        {
+          "name": "Compatible setting materials",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Non-staining bedding/sealant approved by both surface and cabinet manufacturers.",
+          "status": "select with material"
+        }
+      ],
+      "tools": [
+        "digital templating tools",
+        "stone handling equipment",
+        "level",
+        "seaming/setting tools specified by fabricator"
+      ],
+      "before": [
+        "Carcass is installed, level and accepted.",
+        "Final fridge/stool geometry and overhang are released.",
+        "Approve physical material sample, edge and seam plan."
+      ],
+      "steps": [
+        "Field-template the installed carcass and mark walls, appliance and finished edges.",
+        "Fabricator issues cut/edge/support drawing and confirms cabinet capacity.",
+        "Dry-check top and protect finished cabinet faces.",
+        "Install supports and set top with approved materials.",
+        "Complete seams/edge finish and cure per manufacturer.",
+        "Verify fridge ventilation/service and clean/protect the top."
+      ],
+      "checks": [
+        "Top is level, fully supported and matches approved edge/sample.",
+        "No unsupported overhang, blocked vent or appliance-service conflict.",
+        "Care/sealer instructions and material lot are recorded."
+      ],
+      "handoff": [
+        "Stone fabricator provides exact material, thickness, weight, joint and support requirements."
+      ],
+      "sources": [
+        {
+          "label": "Bar elevation",
+          "url": "assets/bar-piano.svg"
+        },
+        {
+          "label": "Counter coordination detail",
+          "url": "assets/assembly-details.svg"
+        }
+      ]
+    },
+    {
+      "id": "BAR-03",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Smoked safety-glass infill",
+          "quantity": 1,
+          "unit": "field-sized set",
+          "spec": "Tint/sample approved under 2700K light; glass type, thickness, edge and safety treatment by glazier.",
+          "status": "unselected"
+        },
+        {
+          "name": "Brushed-brass trim/retention",
+          "quantity": 1,
+          "unit": "measured set",
+          "spec": "Profile and finish sample coordinated with glass edges and cabinet service panel.",
+          "status": "unselected"
+        },
+        {
+          "name": "Diffused backlight interface",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Opaque/reflective backing and removable LED access coordinated with LGT-04.",
+          "status": "custom-detail"
+        },
+        {
+          "name": "Compatible setting/seal materials",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Non-staining materials approved for glass, metal and cabinet finish.",
+          "status": "glazier to specify"
+        }
+      ],
+      "tools": [
+        "glass handling tools",
+        "laser/level",
+        "non-marring spacers",
+        "manufacturer-specified sealant tools"
+      ],
+      "before": [
+        "Bar carcass is installed and service openings accepted.",
+        "Approve lit glass and brass samples.",
+        "Receive glazier shop drawing with retention and edge details."
+      ],
+      "steps": [
+        "Field-template the finished opening and removable service boundaries.",
+        "Fabricate and label glass and trim from approved template.",
+        "Complete backlight rough-in and test before glass closes the cavity.",
+        "Install specified retainers/setting blocks and fit glass without loading edges.",
+        "Install trim while preserving the service panel and ventilation.",
+        "Test light diffusion, dimming and panel removal; clean with compatible products."
+      ],
+      "checks": [
+        "Glass is retained, edges protected and free of point loads.",
+        "Lighting is even and serviceable.",
+        "Fridge vent and service panel remain clear."
+      ],
+      "handoff": [
+        "Glazier supplies glass makeup, weight, retention, setting and cleaning specification."
+      ],
+      "sources": [
+        {
+          "label": "Bar elevation",
+          "url": "assets/bar-piano.svg"
+        },
+        {
+          "label": "Coordination detail",
+          "url": "assets/assembly-details.svg"
+        }
+      ]
+    },
+    {
+      "id": "BAR-04",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Black-finished bottle shelves",
+          "quantity": 2,
+          "unit": "custom shelves",
+          "spec": "Nominal 48 L x 10 D in; exact core, thickness, edge and finish selected by shop drawing.",
+          "status": "unselected"
+        },
+        {
+          "name": "Rated shelf brackets/backing",
+          "quantity": 2,
+          "unit": "sets",
+          "spec": "Concealed or approved brackets sized for bottles/glassware and fastened to verified backing.",
+          "status": "not designed"
+        },
+        {
+          "name": "Recessed LED channel covers",
+          "quantity": 2,
+          "unit": "sets",
+          "spec": "Removable diffusers/covers and cable chase interface coordinated with LGT-04.",
+          "status": "custom-detail"
+        },
+        {
+          "name": "End stops or restraint detail",
+          "quantity": 2,
+          "unit": "sets",
+          "spec": "Detail to reduce bottle movement where required by final shelf design.",
+          "status": "designer review"
+        }
+      ],
+      "tools": [
+        "laser",
+        "stud/backing locator",
+        "level",
+        "drill/driver",
+        "load-test weights specified by designer"
+      ],
+      "before": [
+        "Complete M-07 and approve backing.",
+        "Approve bottle-height mockup, shelf AFF heights and representative load.",
+        "Coordinate LGT-04 feeds and removable cover."
+      ],
+      "steps": [
+        "Field-mark shelf centers from A03 and verify backing/cable zones.",
+        "Submit shelf/bracket/load and LED-channel shop detail.",
+        "Install backing before wall closure and photograph dimensions.",
+        "Finish wall, then mount brackets with specified substrate fasteners.",
+        "Fit shelves and LED covers; route cables without pinch points.",
+        "Apply the specified proof load and document deflection/fasteners."
+      ],
+      "checks": [
+        "Shelves are level, stable and match approved sample.",
+        "Rated load and fastener record are documented.",
+        "LED and wiring remain accessible; bottles do not block heat or fridge intake."
+      ],
+      "handoff": [
+        "Millworker/designer provides shelf load, bracket and fastener schedule."
+      ],
+      "sources": [
+        {
+          "label": "Bar elevation",
+          "url": "assets/bar-piano.svg"
+        }
+      ]
+    },
+    {
+      "id": "BAR-05",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "Zephyr Presrv PRB15C01CG beverage cooler",
+          "quantity": 1,
+          "unit": "unit",
+          "spec": "15 W x 23.375 D x 33.875\u201334.875 H in; front-venting built-in candidate. Final model/finish must be reconfirmed.",
+          "status": "candidate",
+          "sourceUrl": "https://docs.zephyronline.com/docs/specs/Presrv_PRB15C01CG_spec.pdf",
+          "sourceId": "zephyr-presrv-prb15c01cg"
+        },
+        {
+          "name": "Dedicated accessible receptacle/plug space",
+          "quantity": 1,
+          "unit": "location",
+          "spec": "At least 1-in rear plug allowance plus code-compliant outlet placement; circuit by licensed electrician.",
+          "status": "design required"
+        },
+        {
+          "name": "Hinge-side clearance",
+          "quantity": 2.25,
+          "unit": "in minimum",
+          "spec": "Candidate manual minimum when adjacent to a wall; verify actual orientation.",
+          "status": "verified candidate fact"
+        },
+        {
+          "name": "Floor/cabinet protection",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Non-blocking pads/protection that do not obstruct leveling or front vent.",
+          "status": "select"
+        }
+      ],
+      "tools": [
+        "appliance dolly",
+        "level",
+        "manufacturer-recommended leveling tools",
+        "electrical tester by electrician"
+      ],
+      "before": [
+        "Confirm final model, finish, hinge orientation, price, warranty and delivery.",
+        "Approve cabinet shop drawing with 15.125-in minimum opening, 34-in minimum height, rear plug space and front vent.",
+        "Verify route and service pull-out path."
+      ],
+      "steps": [
+        "Inspect delivered unit and model plate before modifying cabinetry.",
+        "Complete and test the receptacle before insertion.",
+        "Level the appliance per manual and slide it without pinching cord or blocking the front vent.",
+        "Set door/hinge clearances and verify full opening.",
+        "Run initial manufacturer start-up and temperature test.",
+        "Pull the unit out once to prove service access, then record serial/warranty."
+      ],
+      "checks": [
+        "Unit is level, vent unobstructed and door opens without collision.",
+        "Cord/plug is not crushed and service pull-out works.",
+        "Temperature and lighting operate per manufacturer check."
+      ],
+      "handoff": [
+        "Millworker releases final cutout and face projection.",
+        "Electrician confirms circuit and outlet location."
+      ],
+      "sources": [
+        {
+          "label": "Zephyr specification",
+          "url": "https://docs.zephyronline.com/docs/specs/Presrv_PRB15C01CG_spec.pdf"
+        },
+        {
+          "label": "Bar elevation",
+          "url": "assets/bar-piano.svg"
+        },
+        {
+          "label": "Fridge coordination detail",
+          "url": "assets/assembly-details.svg"
+        }
+      ]
+    },
+    {
+      "id": "BAR-06",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "JONATHAN Y Trinity 30-in backless bar stool",
+          "quantity": 3,
+          "unit": "stools",
+          "spec": "Target TCIN 89893519 / UPC 840011489117; black 17 W x 17 D-in metal body, 13.5-in round seat, 30-in seat height, gold metal hairpin legs/footrest, 275-lb published capacity, no assembly. Candidate only: three bodies span 53 in at the current 18-in centers and exceed the 48-in bar by 5 in.",
+          "status": "candidate; full-size fit held",
+          "sourceUrl": "https://www.target.com/p/-/A-89893519",
+          "sourceId": "remaining-purchases-v1.5:BAR-STOOLS"
+        },
+        {
+          "name": "Finish-safe floor glides",
+          "quantity": 3,
+          "unit": "sets",
+          "spec": "Confirm supplied feet and any added glide are compatible with the released floor; do not add a glide that destabilizes the hairpin base.",
+          "status": "field-select"
+        }
+      ],
+      "tools": [
+        "full-size layout tape",
+        "tape measure",
+        "level",
+        "manufacturer assembly tools"
+      ],
+      "before": [
+        "Retain the A03 48-in bar and current 18-in stool-center geometry as the comparison baseline.",
+        "Tape three 17-in bodies at the actual bar: at current centers the outer span is 53 in; even three touching bodies need 51 in.",
+        "Operate the refrigerator door, south entry, adjacent lounge chair and piano bench with three occupied mock stools.",
+        "Approve a physical gold finish sample against the room brass before any three-unit order."
+      ],
+      "steps": [
+        "Mark the 48-in counter run, current 18-in centers and three 17-in stool footprints from A03.",
+        "Seat three people and check the 12-in seat-to-counter height difference, knees, elbows, integrated footrests and counter overhang.",
+        "Test entry, refrigerator door/service, adjacent chair movement and piano-bench use with all three bodies in place.",
+        "Record any approved center shift or reduced quantity on the furniture plan; do not silently change the modeled layout.",
+        "After written fit and finish release, inspect each factory-assembled stool, fit approved glides if needed and place at the recorded centers."
+      ],
+      "checks": [
+        "The accepted quantity and centers are documented; three stools are not represented as fitting within the 48-in run.",
+        "Every accepted stool is stable and leaves the entry, refrigerator and piano usable.",
+        "TCIN, UPC, black/gold finish, published capacity and care/warranty record are in handover."
+      ],
+      "handoff": [
+        "Greg/furniture lead releases quantity and spacing only after the full-size occupied test.",
+        "Supplier confirms current stock, return terms and finish before order; the observed listing is not a reserved unit."
+      ],
+      "sources": [
+        {
+          "label": "A03 bar and piano elevation",
+          "url": "assets/bar-piano.svg"
+        },
+        {
+          "label": "Target \u2014 JONATHAN Y Trinity stool, TCIN 89893519",
+          "url": "https://www.target.com/p/-/A-89893519"
+        }
+      ]
+    },
+    {
+      "id": "KEY-01",
+      "route": "retain",
+      "materials": [
+        {
+          "name": "Yamaha AvantGrand NU1X",
+          "quantity": 1,
+          "unit": "piano",
+          "spec": "Published 59.125 W x 18.25 D x 40.3125 H in; physical model and ownership must be confirmed.",
+          "status": "owned-check",
+          "sourceUrl": "https://usa.yamaha.com/products/musical_instruments/pianos/avantgrand/nu1x/specs.html",
+          "sourceId": "yamaha-nu1x"
+        },
+        {
+          "name": "Piano bench",
+          "quantity": 1,
+          "unit": "bench",
+          "spec": "Identity, deployed envelope, finish and condition to be recorded in M-11.",
+          "status": "unverified retained"
+        },
+        {
+          "name": "Floor protection",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Caster/cup/pad system approved for piano weight and final floor without restricting leveling.",
+          "status": "select after floor decision"
+        },
+        {
+          "name": "Power/audio leads",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Existing or replacement leads labeled and routed without trip/service conflict.",
+          "status": "inventory"
+        }
+      ],
+      "tools": [
+        "piano mover equipment",
+        "rated dollies/straps",
+        "level",
+        "camera",
+        "cable labels"
+      ],
+      "before": [
+        "Read model plate and inspect condition.",
+        "Complete M-12 placement/bench test and M-15 delivery route.",
+        "Confirm final floor capacity/protection and accessible power."
+      ],
+      "steps": [
+        "Photograph and label piano, bench, pedals and cables before moving.",
+        "Use qualified piano movers and protect thresholds/walls.",
+        "Place from the field-approved A03 datum, preserving the bar gap and bench envelope.",
+        "Level/stabilize per Yamaha/mover guidance and install approved floor protection.",
+        "Connect power/audio, manage slack and test keys, pedals and outputs.",
+        "Record final location, condition and model plate."
+      ],
+      "checks": [
+        "Piano and bench match approved clearances and do not block entry/bar.",
+        "Instrument is stable, protected and fully functional.",
+        "Cables are labeled, serviceable and do not create a trip path."
+      ],
+      "handoff": [
+        "Greg confirms ownership/model and final gap.",
+        "Qualified mover provides lift/move method for actual route and weight."
+      ],
+      "sources": [
+        {
+          "label": "Yamaha NU1X specifications",
+          "url": "https://usa.yamaha.com/products/musical_instruments/pianos/avantgrand/nu1x/specs.html"
+        },
+        {
+          "label": "Bar and piano elevation",
+          "url": "assets/bar-piano.svg"
+        }
+      ]
+    },
+    {
+      "id": "SEAT-01",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "Jennifer Taylor Home Alpine sofa",
+          "quantity": 1,
+          "unit": "sofa",
+          "spec": "SKU 64190-3-MBB, Ebony Black boucle; use 90.5 W x 36 D x 27.5 H-in clearance envelope pending maker confirmation.",
+          "status": "selected-reference",
+          "sourceUrl": "https://www.jennifertaylorhome.com/alpine-90-sherpa-sofa-ebony-black-boucle/",
+          "sourceId": "jennifer-taylor-alpine-64190-3-mbb"
+        },
+        {
+          "name": "Manufacturer leg/assembly hardware",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Use only supplied hardware and current manufacturer instructions.",
+          "status": "included/verify"
+        },
+        {
+          "name": "Finish-safe floor protection",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Pads/glides compatible with oak legs and final floor.",
+          "status": "select"
+        }
+      ],
+      "tools": [
+        "delivery-route measure",
+        "moving blankets",
+        "manufacturer assembly tools",
+        "level"
+      ],
+      "before": [
+        "Resolve 90 versus 90.5-in width and approve upholstery sample/return terms.",
+        "Complete occupied M-12 mockup and M-15 route.",
+        "Confirm current stock, delivery service and damage-inspection procedure."
+      ],
+      "steps": [
+        "Inspect packaging and upholstery before accepting delivery; record damage.",
+        "Move by approved route without loading arms or fabric incorrectly.",
+        "Install supplied legs/hardware in manufacturer order and fit approved floor protection.",
+        "Place to current A01 pose only after field layout release.",
+        "Level, allow cushions to recover and recheck occupied circulation.",
+        "Record SKU, lot, care and warranty."
+      ],
+      "checks": [
+        "Finish, dimensions and two-cushion silhouette match approved reference.",
+        "Sofa is stable and clears all occupied/service paths.",
+        "Care/return/warranty records are delivered."
+      ],
+      "handoff": [
+        "Manufacturer confirms published width discrepancy.",
+        "Greg approves exact fabric and occupied fit."
+      ],
+      "sources": [
+        {
+          "label": "Jennifer Taylor product page",
+          "url": "https://www.jennifertaylorhome.com/alpine-90-sherpa-sofa-ebony-black-boucle/"
+        },
+        {
+          "label": "Room plan",
+          "url": "assets/room-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "SEAT-02",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "IKEA DYVLINGE swivel chair, Kelinge black",
+          "quantity": 2,
+          "unit": "chairs",
+          "spec": "Article 805.708.31; 24.75 W x 29.5 D x 26.75 H in, 16.875-in seat; black textured polyester textile and chrome-color five-star base.",
+          "status": "selected-reference",
+          "sourceUrl": "https://www.ikea.com/us/en/p/dyvlinge-swivel-chair-kelinge-black-80570831/",
+          "sourceId": "ikea-dyvlinge-80570831"
+        },
+        {
+          "name": "Manufacturer assembly hardware",
+          "quantity": 2,
+          "unit": "sets",
+          "spec": "Use supplied parts and current IKEA instructions; do not substitute.",
+          "status": "included/verify"
+        },
+        {
+          "name": "Finish-safe floor protection",
+          "quantity": 2,
+          "unit": "sets",
+          "spec": "Compatible with five-star bases and final floor without impairing swivel.",
+          "status": "select"
+        }
+      ],
+      "tools": [
+        "manufacturer assembly tools",
+        "torque tool only if manual specifies",
+        "moving blankets",
+        "tape measure"
+      ],
+      "before": [
+        "Approve low seat and textile sample.",
+        "Complete both occupied/swivel envelopes in M-12.",
+        "Verify local stock, two-unit quantity, delivery and return terms."
+      ],
+      "steps": [
+        "Inventory all parts against the manual.",
+        "Assemble each chair in manufacturer sequence and tighten only as directed.",
+        "Verify five-star base engagement and full swivel before placement.",
+        "Fit approved non-binding floor protection if needed.",
+        "Place at released A01 rotations and repeat occupied swivel/approach test.",
+        "Keep article, care and warranty records."
+      ],
+      "checks": [
+        "Both chairs swivel freely, sit level and have no loose connections.",
+        "Textile is Kelinge black and is not represented as leather.",
+        "Placed chairs clear doors, table, desk and instrument/service paths."
+      ],
+      "handoff": [
+        "Greg approves low seat and exact textile."
+      ],
+      "sources": [
+        {
+          "label": "IKEA product page",
+          "url": "https://www.ikea.com/us/en/p/dyvlinge-swivel-chair-kelinge-black-80570831/"
+        },
+        {
+          "label": "Room plan",
+          "url": "assets/room-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "SEAT-03",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Custom smoked-glass cocktail table",
+          "quantity": 1,
+          "unit": "table",
+          "spec": "Preferred: quote 30-in diameter x approximately 16-in high, smoked/black tempered-glass top, black structural base and restrained brushed-brass rim/accent. Fabricator designs glass thickness, edge, support, stability and floor protection.",
+          "status": "custom quote preferred; preserves render"
+        },
+        {
+          "name": "By-Boo Bunga dimensional reference",
+          "quantity": 1,
+          "unit": "reference only",
+          "spec": "Wayfair YBOO1890; 30-in diameter x 16-in high, black glass/conical black metal/gold rim. Exact visual/dimensional reference was out of stock when verified; do not order or imply availability.",
+          "status": "out-of-stock reference",
+          "sourceUrl": "https://www.wayfair.com/furniture/pdp/by-boo-bunga-solid-coffee-table-yboo1890.html",
+          "sourceId": "remaining-purchases-v1.5:COFFEE-TABLE"
+        },
+        {
+          "name": "17 Stories 30-in tinted-glass fallback",
+          "quantity": 1,
+          "unit": "table",
+          "spec": "Wayfair W117302305; 30-in diameter x 17-in high. Candidate fallback only after Wayfair confirms the selected gold-base variant and tinted tempered-glass construction in writing because listing fields conflict.",
+          "status": "candidate; specification held",
+          "sourceUrl": "https://www.wayfair.com/furniture/pdp/17-stories-modern-contemporary-metal-nested-base-tinted-tempered-glass-top-30-inch-round-coffee-table-for-living-room-w117302305.html",
+          "sourceId": "remaining-purchases-v1.5:COFFEE-TABLE"
+        },
+        {
+          "name": "Floor-safe glides/pads",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Specified for the actual base, rug and finished floor; custom fabricator includes and documents them.",
+          "status": "field-select"
+        }
+      ],
+      "tools": [
+        "manufacturer assembly tools",
+        "level",
+        "tape measure",
+        "glass-safe gloves"
+      ],
+      "before": [
+        "Keep the A01 30-in-diameter x approximately 16-in-high table envelope as the preferred design.",
+        "Tape a 30-in circle and test occupied chair sweeps, seated reach and circulation.",
+        "Approve physical smoked-glass and brass samples under final lighting.",
+        "For the 17-in-high fallback, repeat the full-size reach and chair-clearance test and obtain written finish/glass confirmation."
+      ],
+      "steps": [
+        "Issue the custom fabricator the approved envelope and finish brief; require a shop drawing for glass, edge, supports, stability and glides.",
+        "If using the buyable fallback, reconcile its listing fields in writing before ordering and record the exact variant.",
+        "Inspect tempered-glass marking, edges, base and all retainers before assembly or placement.",
+        "Assemble only to the maker/fabricator sequence without overtightening glass fittings; install specified floor protection.",
+        "Place at the released A01 center, level it and repeat seated reach, chair swivel and circulation checks."
+      ],
+      "checks": [
+        "Installed table is stable, glass is safety-rated/retained and every edge is undamaged.",
+        "The accepted height and footprint work with both chairs, sofa and circulation.",
+        "Custom shop drawing or exact retailer variant, care data and replacement/retainer information are delivered."
+      ],
+      "handoff": [
+        "Furniture lead chooses custom preferred or the held fallback after fit/sample review.",
+        "Custom fabricator supplies the engineered glass/support/stability detail; this card does not prescribe glass thickness."
+      ],
+      "sources": [
+        {
+          "label": "A01 room plan",
+          "url": "assets/room-plan.svg"
+        },
+        {
+          "label": "Wayfair \u2014 By-Boo Bunga exact-size reference",
+          "url": "https://www.wayfair.com/furniture/pdp/by-boo-bunga-solid-coffee-table-yboo1890.html"
+        },
+        {
+          "label": "Wayfair \u2014 17 Stories 30-in fallback",
+          "url": "https://www.wayfair.com/furniture/pdp/17-stories-modern-contemporary-metal-nested-base-tinted-tempered-glass-top-30-inch-round-coffee-table-for-living-room-w117302305.html"
+        }
+      ]
+    },
+    {
+      "id": "SEAT-04",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Custom dark patterned low-pile lounge rug",
+          "quantity": 1,
+          "unit": "rug",
+          "spec": "Preferred when the rendered footprint must be preserved: nominal 120 x 108 in (10 x 9 ft), with approved fiber, pattern, bound/serged edge and cleanability.",
+          "status": "custom option; preserves render"
+        },
+        {
+          "name": "Ruggable Sloane Black Flatwoven + Standard Pad, 8 x 10",
+          "quantity": 1,
+          "unit": "system",
+          "spec": "SKU RUG-SYS-IND-RCT-CHN-SR007-08x10; charcoal/grey geometric cover with cream accents, 2-mm polyester cover/waterproof barrier plus required same-size nonslip Standard Pad. One foot narrower than the modeled 10 x 9-ft footprint.",
+          "status": "candidate; full-size fit held",
+          "sourceUrl": "https://ruggable.com/products/sloane-black-rug?variant=41460137525303",
+          "sourceId": "remaining-purchases-v1.5:RUG-AND-PAD"
+        },
+        {
+          "name": "Ruggable Sloane Black Flatwoven + Standard Pad, 9 x 12 alternate",
+          "quantity": 1,
+          "unit": "system",
+          "spec": "SKU RUG-SYS-IND-RCT-CHN-SR007-09x12; matches the modeled 9-ft short axis but extends 2 ft beyond its 10-ft long axis. Do not trim the cover or pad.",
+          "status": "alternate; full-size fit held",
+          "sourceUrl": "https://ruggable.com/products/sloane-black-rug?variant=41460137558071",
+          "sourceId": "remaining-purchases-v1.5:RUG-AND-PAD"
+        },
+        {
+          "name": "Custom rug pad for custom 10 x 9-ft rug",
+          "quantity": 1,
+          "unit": "pad",
+          "spec": "RugPadUSA Eco-Plush 1/4-in, 100% felt, custom-cut slightly inside rug perimeter; no grip layer, so use only if heavy furniture securely anchors the rug and Karndean confirms compatibility.",
+          "status": "candidate for custom rug only",
+          "sourceUrl": "https://www.rugpadusa.com/products/eco-plush-1-4",
+          "sourceId": "floor-and-rug-pad"
+        }
+      ],
+      "tools": [
+        "layout tape",
+        "straightedge/knife appropriate to pad",
+        "HEPA vacuum",
+        "rug grippers if approved"
+      ],
+      "before": [
+        "Retain A01 modeled 120 x 108-in footprint as the comparison baseline; no standard size is a silent 3D substitution.",
+        "Tape 8 x 10 and 9 x 12 rectangles around the released sofa/chairs/table and verify doors, circulation, vents and service paths.",
+        "Choose custom 10 x 9 if preserving the render footprint matters more than a direct-buy system.",
+        "Approve the exact rug/pad sample and obtain written compatibility with the released finished floor."
+      ],
+      "steps": [
+        "Clean and fully dry the finished floor; confirm the selected rug and pad are the same approved size/system.",
+        "For Ruggable, lay the same-size Standard Pad and align/smooth the cover from the center outward; do not cut either component.",
+        "For the custom rug, install the approved custom-cut felt pad slightly inside the edge with no pad exposed.",
+        "Orient the accepted footprint to the recorded A01 layout, allow it to relax and align all pattern/edges.",
+        "Place furniture without dragging; test chair swivel, table stability, edge lift and every adjacent route.",
+        "Record the selected SKU/size or custom edge specification and the manufacturer cleaning method."
+      ],
+      "checks": [
+        "Accepted footprint is documented against the modeled 10 x 9 ft: 8 x 10 is 1 ft narrower; 9 x 12 is 2 ft longer.",
+        "Rug lies flat with no trip edge, pad exposure, blocked vent/threshold or rolling-chair conflict.",
+        "Cover, pad and finished-floor compatibility are documented; no Ruggable component was trimmed."
+      ],
+      "handoff": [
+        "Greg/furniture lead selects custom 10 x 9, 8 x 10 or 9 x 12 only after the full-size furniture test.",
+        "Flooring supplier confirms long-term pad compatibility and warranty treatment in writing."
+      ],
+      "sources": [
+        {
+          "label": "A01 room plan",
+          "url": "assets/room-plan.svg"
+        },
+        {
+          "label": "Ruggable Sloane Black rug",
+          "url": "https://ruggable.com/products/sloane-black-rug"
+        },
+        {
+          "label": "Ruggable Standard Rug Pad",
+          "url": "https://ruggable.com/products/standard-rug-pad"
+        },
+        {
+          "label": "RugPadUSA Eco-Plush 1/4-in custom pad",
+          "url": "https://www.rugpadusa.com/products/eco-plush-1-4"
+        }
+      ]
+    },
+    {
+      "id": "FIN-01",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "Karndean Van Gogh Rigid Core Ebony SCB89",
+          "quantity": 14,
+          "unit": "cartons candidate",
+          "spec": "14 x 23.64 = 330.96 sq ft for current 328.63-sq-ft allowance; final field takeoff and lot required.",
+          "status": "candidate",
+          "sourceUrl": "https://www.karndean.com/en-us/floors/products/ebony-scb89",
+          "sourceId": "karndean-van-gogh-ebony-scb89"
+        },
+        {
+          "name": "Transition/nosing profiles",
+          "quantity": 1,
+          "unit": "measured set",
+          "spec": "Exact profiles/finish for doors, sliders, booth and raised platforms after M-08/M-16.",
+          "status": "unselected"
+        },
+        {
+          "name": "Perimeter spacers and trim/base",
+          "quantity": 1,
+          "unit": "measured set",
+          "spec": "Manufacturer-compatible expansion accessories and approved black/dark trim.",
+          "status": "unselected"
+        },
+        {
+          "name": "Subfloor preparation materials",
+          "quantity": 1,
+          "unit": "field allowance",
+          "spec": "Patch/level/moisture products selected by installer for tested substrate.",
+          "status": "field-dependent"
+        },
+        {
+          "name": "Spare flooring",
+          "quantity": 1,
+          "unit": "allowance",
+          "spec": "Owner spare quantity set after carton rounding and final cut plan.",
+          "status": "not set"
+        }
+      ],
+      "tools": [
+        "moisture/flatness test tools",
+        "manufacturer-approved cutting tools",
+        "spacers/tapping tools per manual",
+        "HEPA vacuum",
+        "rollers only if system requires"
+      ],
+      "before": [
+        "Greg chooses dark floor versus retained oak.",
+        "M-08 identifies existing floating/adhered assembly and substrate; floating floor is removed before this candidate.",
+        "M-16 resolves platform/threshold geometry and installer issues warranted assembly.",
+        "Use the current Karndean guide to document substrate flatness, concrete/wood moisture, expansion, fixture sequence and transitions; do not add separate underlay without written approval."
+      ],
+      "steps": [
+        "Protect and inventory retained items; remove only the approved existing floor and preserve boards where feasible.",
+        "Prepare substrate to manufacturer flatness/moisture requirements and document readings.",
+        "Acclimate/store product as the current manual requires.",
+        "Set layout/start line and expansion zones from approved floor plan.",
+        "Install planks and cuts per manufacturer sequence, staggering and perimeter requirements.",
+        "Install released thresholds/nosings/base without pinning the floating field.",
+        "Clean, protect and record lot, cartons, spares and warranty."
+      ],
+      "checks": [
+        "Installed floor is flat, stable and warrantable with documented substrate readings.",
+        "Doors, sliders, fridge and platforms operate over completed transitions.",
+        "Expansion zones and spare material remain documented."
+      ],
+      "handoff": [
+        "Flooring installer supplies final takeoff, substrate products, transition/base schedule and written warranty.",
+        "Greg provides written approval before oak removal."
+      ],
+      "sources": [
+        {
+          "label": "Karndean Ebony SCB89 product page",
+          "url": "https://www.karndean.com/en-us/floors/products/ebony-scb89"
+        },
+        {
+          "label": "Karndean U.S. rigid-core installation guide",
+          "url": "https://www.karndean.com/globalassets/karndean/b2c-blocks/b2c-document-listing-block/usa/installation-guides/karndean-rigid-core_plank-and-tile-installation-guide-usa.pdf"
+        },
+        {
+          "label": "A01 room plan",
+          "url": "assets/room-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "FIN-02",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Guilford FR701 style 2100 color 408 Black",
+          "quantity": 1,
+          "unit": "field takeoff",
+          "spec": "66-in usable width; production sample/dye lot and measured yardage required.",
+          "status": "candidate",
+          "sourceUrl": "https://www.guilfordofmaine.com/swatches/2100-408",
+          "sourceId": "guilford-fr701-2100-408"
+        },
+        {
+          "name": "FabriTRAK GeoTRAK black profiles",
+          "quantity": 1,
+          "unit": "field takeoff",
+          "spec": "Final 0.5/1/1.375-in profile depth and linear footage selected with complete assembly.",
+          "status": "candidate",
+          "sourceUrl": "https://www.fabritrak.com/products/geotrak",
+          "sourceId": "fabritrak-geotrak-black"
+        },
+        {
+          "name": "Acoustic core/backing",
+          "quantity": 1,
+          "unit": "field takeoff",
+          "spec": "Core type/thickness, fire/acoustic documentation and substrate compatibility by acoustician/dealer.",
+          "status": "unselected"
+        },
+        {
+          "name": "Perimeter/corner/outlet/HVAC trim",
+          "quantity": 1,
+          "unit": "measured set",
+          "spec": "Track transitions and removable access details for all interruptions.",
+          "status": "unselected"
+        },
+        {
+          "name": "Charcoal finish for approved solid walls",
+          "quantity": 1,
+          "unit": "measured scope",
+          "spec": "Maker/color/primer/sheens selected after mockup; never coat retained fabric.",
+          "status": "unselected"
+        }
+      ],
+      "tools": [
+        "fabric-track tools by dealer",
+        "laser/level",
+        "substrate prep tools",
+        "HEPA vacuum",
+        "sample light at 2700K"
+      ],
+      "before": [
+        "M-07 documents wall build-up and M-14 establishes acoustic baseline.",
+        "Approve full assembly sample, dye lot, fire/acoustic documentation and solid-wall paint sample.",
+        "Issue wall elevations with fabric/solid/slat boundaries and access panels."
+      ],
+      "steps": [
+        "Remove only finish layers approved after acoustic review.",
+        "Repair/prepare substrate and install verified blocking where required.",
+        "Install track/core from approved elevations, keeping devices, grilles and service panels accessible.",
+        "Stretch and lock fabric with seams and grain aligned; do not contaminate face.",
+        "Apply approved charcoal finish only to released solid substrates.",
+        "Complete junction trim at doors, slats, ceiling and floor.",
+        "Inspect, clean and remeasure acoustic response."
+      ],
+      "checks": [
+        "Fabric is taut, removable where required and matches approved dye lot.",
+        "No covered device, grille, label or service access.",
+        "Finish disposition and before/after acoustic records are archived."
+      ],
+      "handoff": [
+        "Acoustician/dealer issues exact track-core-fabric assembly, takeoff and test documentation.",
+        "Painter issues substrate/primer/topcoat system."
+      ],
+      "sources": [
+        {
+          "label": "FR701 sample",
+          "url": "https://www.guilfordofmaine.com/swatches/2100-408"
+        },
+        {
+          "label": "FabriTRAK GeoTRAK",
+          "url": "https://www.fabritrak.com/products/geotrak"
+        },
+        {
+          "label": "Mirror wall elevation",
+          "url": "assets/mirror-wall.svg"
+        }
+      ]
+    },
+    {
+      "id": "FIN-03",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "WoodUpp Akupanel item 1029",
+          "quantity": 5,
+          "unit": "panels minimum before waste",
+          "spec": "94.49 x 23.62 x 0.866-in candidate, black wrapped slats on black felt; final count/cut plan required because wall is assumed 102 in high.",
+          "status": "candidate",
+          "sourceUrl": "https://woodupp.com/products/akupanel",
+          "sourceId": "woodupp-akupanel-1029"
+        },
+        {
+          "name": "Battens and cavity insulation",
+          "quantity": 1,
+          "unit": "field takeoff",
+          "spec": "Only if approved assembly uses expanded acoustic build-up; dimensions/material/test documentation by designer.",
+          "status": "unselected"
+        },
+        {
+          "name": "Black termination/infill trim",
+          "quantity": 1,
+          "unit": "measured set",
+          "spec": "Resolve 7.51-in height shortfall and all panel edges/joints.",
+          "status": "unselected"
+        },
+        {
+          "name": "Panel fasteners",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "Manufacturer/system fasteners matched to verified substrate and backing.",
+          "status": "not released"
+        },
+        {
+          "name": "Penetration/access trim",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "For hangers, wiring, devices and removable service zones.",
+          "status": "unselected"
+        }
+      ],
+      "tools": [
+        "track/mitre saw with dust extraction",
+        "laser/level",
+        "stud/backing locator",
+        "manufacturer-specified drill/driver",
+        "PPE"
+      ],
+      "before": [
+        "Field-verify both return lengths/angles, ceiling height and M-13 backing zones.",
+        "Approve panel sample, fire documentation and exact wall build-up.",
+        "Issue cut/termination plan resolving the 7.51-in shortfall."
+      ],
+      "steps": [
+        "Lay out slat rhythm, joints, top/bottom termination and penetration centers on each return.",
+        "Install approved battens/backing/insulation without covering service paths.",
+        "Cut panels with supported faces and controlled dust.",
+        "Fasten at the approved pattern into verified substrate/backing.",
+        "Fit black infill/termination and trimmed access penetrations.",
+        "Photograph hidden fasteners/backing and inspect alignment."
+      ],
+      "checks": [
+        "Slats are plumb, rhythm/joints match approved elevation and cut edges are finished.",
+        "Hanger/TV/service backing remains locatable and accessible.",
+        "Installed assembly matches submitted fire/acoustic build-up."
+      ],
+      "handoff": [
+        "Architect/acoustician/installer releases panel count, cut plan, build-up and substrate fasteners."
+      ],
+      "sources": [
+        {
+          "label": "WoodUpp product",
+          "url": "https://woodupp.com/products/akupanel"
+        },
+        {
+          "label": "TV and instrument elevation",
+          "url": "assets/guitar-wall.svg"
+        }
+      ]
+    },
+    {
+      "id": "FIN-04",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Benjamin Moore Aura Waterborne Interior Paint, Matte",
+          "quantity": 1,
+          "unit": "painter takeoff",
+          "spec": "SKU N522 in approved sampled black, such as Black 2132-10; published theoretical spread 350\u2013400 sq ft/gal is not a buy quantity. Measure solid surfaces and price the substrate-specific coat schedule.",
+          "status": "candidate; color/quantity held",
+          "sourceUrl": "https://store.benjaminmoore.com/storefront/us/en/coating/interior-paints/benjamin-moore/aura-interior-paint/aura/p/N522",
+          "sourceId": "matte-black-paint"
+        },
+        {
+          "name": "Benjamin Moore substrate-specific primer/sealer/stain blocker",
+          "quantity": 1,
+          "unit": "painter takeoff",
+          "spec": "Painter selects from the current Aura N522 TDS for each verified substrate and existing coating condition; no universal primer is specified.",
+          "status": "field-dependent",
+          "sourceUrl": "https://media.benjaminmoore.com/WebServices/prod/assets/production/datasheets/TDS_0522/522_TDS_US.pdf"
+        },
+        {
+          "name": "Benjamin Moore Scuff-X Interior Matte optional high-touch alternate",
+          "quantity": 1,
+          "unit": "approved-area takeoff",
+          "spec": "SKU N484 in approved black formula for doors/trim or other high-touch solid surfaces only after side-by-side color/sheen mockup.",
+          "status": "optional candidate",
+          "sourceUrl": "https://www.benjaminmoore.com/en-us/product/scuff-x-interior-paint-matte/N484"
+        },
+        {
+          "name": "Patch, prep, masking and protection materials",
+          "quantity": 1,
+          "unit": "field allowance",
+          "spec": "Painter selects fillers, abrasives, cleaners and low-tack/non-staining protection compatible with inspected substrates, mirrors, fabric, labels, devices and gear.",
+          "status": "trade-select"
+        }
+      ],
+      "tools": [
+        "HEPA sanding/extraction",
+        "work lights",
+        "wet-film/dry-film gauges if required",
+        "spray/roller tools selected by coating maker"
+      ],
+      "before": [
+        "Rough-in inspection is signed and all access locations recorded.",
+        "Approve substrate preparation and sheen/color mockups under room lighting.",
+        "Remove/protect gear and mask fabric, grilles, devices and labels."
+      ],
+      "steps": [
+        "Repair and prepare each released solid substrate to coating specification.",
+        "Prime test areas and verify adhesion/bleed before broad application.",
+        "Apply ceiling, fascia and trim coats in approved sequence and film coverage.",
+        "Maintain access-panel cuts and clean device edges.",
+        "Remove masking before it damages finish and correct punch items by same system.",
+        "Record product codes, lots and spare paint."
+      ],
+      "checks": [
+        "Uniform approved color/sheen with no coating on acoustic fabric, glass, devices or labels.",
+        "Access panels and service clearances remain operable.",
+        "Paint schedule and touch-up stock are handed over."
+      ],
+      "handoff": [
+        "Painter provides product/primer/substrate schedule, coverage takeoff and application data."
+      ],
+      "sources": [
+        {
+          "label": "Aura Matte N522 technical data sheet",
+          "url": "https://media.benjaminmoore.com/WebServices/prod/assets/production/datasheets/TDS_0522/522_TDS_US.pdf"
+        },
+        {
+          "label": "Benjamin Moore Aura Matte N522 product page",
+          "url": "https://store.benjaminmoore.com/storefront/us/en/coating/interior-paints/benjamin-moore/aura-interior-paint/aura/p/N522"
+        },
+        {
+          "label": "Benjamin Moore Scuff-X Matte N484",
+          "url": "https://www.benjaminmoore.com/en-us/product/scuff-x-interior-paint-matte/N484"
+        },
+        {
+          "label": "E01 reflected ceiling coordination",
+          "url": "assets/lighting-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "DESK-01",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Fixed production desk",
+          "quantity": 1,
+          "unit": "custom assembly",
+          "spec": "Nominal 72 L x 32 D x 30 H in; top/core/edge/base/finish set after equipment fit.",
+          "status": "unselected"
+        },
+        {
+          "name": "12U rack enclosure",
+          "quantity": 1,
+          "unit": "rack",
+          "spec": "Maker, rail spacing/depth/load, ventilation and finish required; reuse only after verification.",
+          "status": "unselected"
+        },
+        {
+          "name": "Rack accessories",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "Rails, cage nuts/screws, shelves, blank panels, ventilation/fans and rack power sized to final equipment.",
+          "status": "unselected"
+        },
+        {
+          "name": "Cable trays/grommets/service panels",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Removable, radius-safe cable management with labeled separation of power and signal.",
+          "status": "unselected"
+        },
+        {
+          "name": "Equipment restraints/arms",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Console/display/monitor support selected from actual loads and service motions.",
+          "status": "unselected"
+        },
+        {
+          "name": "Backing/anchors/levelers",
+          "quantity": 1,
+          "unit": "engineered set",
+          "spec": "Substrate-specific restraint and adjustable support on shop drawing.",
+          "status": "not released"
+        }
+      ],
+      "tools": [
+        "laser/level",
+        "millwork tools",
+        "rack-square gauge",
+        "ventilation test tools",
+        "manufacturer fastener tools"
+      ],
+      "before": [
+        "M-02/M-11/M-13 verify bay, PMC, console, displays, rack depth/heat and chair clearances.",
+        "AV integrator issues rack elevation and cable/airflow schedule.",
+        "Approve desk mockup and shop drawing."
+      ],
+      "steps": [
+        "Field-measure bay and lay out knee, rack, chair, speaker and service zones.",
+        "Submit desk/rack shop drawings with materials, load support, cooling, cable access and anchors.",
+        "Prefabricate, finish and dry-fit rack/equipment openings.",
+        "Install backing, set/level/restraint desk and keep panels removable.",
+        "Install rack rails/accessories and verify square/depth/air path.",
+        "Fit trays/grommets and hand off to AV for equipment set."
+      ],
+      "checks": [
+        "Desk/rack are stable, level and match approved finish.",
+        "All equipment can be connected, ventilated and removed without dismantling fixed work.",
+        "Chair, speakers, TV and instrument removal paths remain clear."
+      ],
+      "handoff": [
+        "Millworker supplies material/anchor/load shop drawing.",
+        "AV integrator supplies rack elevation, heat/load, power and cable schedule."
+      ],
+      "sources": [
+        {
+          "label": "TV and instrument elevation",
+          "url": "assets/guitar-wall.svg"
+        },
+        {
+          "label": "Room plan",
+          "url": "assets/room-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "TV-01",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "TCL 50S551G dimensional reference",
+          "quantity": 1,
+          "unit": "reference only",
+          "spec": "Existing v1.4 geometry reference: 43.7 W x 25.4 H x 2.8 D in, 19.6 lb, VESA 300 x 300 mm. Retain for geometry history; not the current buy claim.",
+          "status": "geometry reference",
+          "sourceUrl": "https://us.tcl.com/products/tcl-50-s-class-4k-uhd-hdr-led-smart-tv-with-google-tv-50s551g",
+          "sourceId": "tcl-50s551g"
+        },
+        {
+          "name": "TCL 50Q651G 50-in Q6 QLED Google TV",
+          "quantity": 1,
+          "unit": "display",
+          "spec": "Best Buy SKU 6579462; exact 43.7 W x 25.4 H x 2.8 D-in body without stand, 19.6 lb, black, VESA 300 x 300 mm; M6 x 12 top and M6 x 16 bottom screws per TCL specification. Same modeled cabinet envelope; candidate only until M-13.",
+          "status": "candidate; purchase and M-13 held",
+          "sourceUrl": "https://us.tcl.com/products/q-class-4k-uhd-hdr-qled-smart-tv-with-google-tv?variant=44055800053825",
+          "sourceId": "remaining-purchases-v1.5:TV-AND-MOUNT"
+        },
+        {
+          "name": "SANUS Elite BLL2-B1 fixed mount",
+          "quantity": 1,
+          "unit": "mount",
+          "spec": "Best Buy SKU 5463303; black, 32\u201380-in listed range, 150-lb capacity, 0.67-in nominal wall offset, includes 300 x 300-mm interface. Compatibility and actual projection remain subject to SANUS confirmation and M-13.",
+          "status": "candidate; wall fit held",
+          "sourceUrl": "https://www.sanus.com/en_US/products/tv-mounts/bll2/",
+          "sourceId": "remaining-purchases-v1.5:TV-AND-MOUNT"
+        },
+        {
+          "name": "Mount hardware/spacers and substrate fasteners",
+          "quantity": 1,
+          "unit": "coordinated set",
+          "spec": "Use SANUS-supplied TV hardware/spacers and qualified-installer-selected wall fasteners for the verified wall assembly; do not infer anchors from the 150-lb mount rating.",
+          "status": "field-dependent"
+        },
+        {
+          "name": "Recessed/accessible power, data and signal set",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Code-compliant power/data interface, rated signal/control cables, connector bend allowance and service loop; no loose concealed power cord.",
+          "status": "AV/electrical design required"
+        }
+      ],
+      "tools": [
+        "mount template",
+        "laser/level",
+        "stud/backing locator",
+        "torque tools per mount manual",
+        "AV signal tester"
+      ],
+      "before": [
+        "Retain the v1.4 43.7 x 25.4 x 2.8-in cabinet envelope; identify 50Q651G explicitly as the purchase candidate rather than silently swapping the model.",
+        "Retrieve the current model-specific 50Q651G manual/support documents at purchase and reconcile them with the delivered unit; a different model's manual is not accepted as the governing document.",
+        "Complete M-13 using the purchased display, SANUS mount, 300 x 300-mm VESA template, connectors and the actual instruments.",
+        "Issue wall backing/fastener and code-compliant power/data details before finish closure; prove plug/connector clearance behind the 0.67-in-profile mount."
+      ],
+      "steps": [
+        "Inspect the delivered 50Q651G model/serial, cabinet, connector locations, 300 x 300-mm VESA pattern and specified screw lengths; bench-test the display.",
+        "Read the current 50Q651G support documents and SANUS BLL2 manual; reconcile brackets, spacers, screw engagement, lift crew and wall type.",
+        "Install inspected backing and code-compliant power/data rough-in before finish closure.",
+        "Template the actual display, mount and cable exits on the released A04/M-13 elevation with every guitar/yoke/removal arc.",
+        "Fasten the mount to the released substrate detail, verify level and manual-specified tightening, attach TV brackets without bottoming screws, then lift and engage safety locks.",
+        "Connect labeled cables with proved bend clearance and service loop; test power, signal, ventilation, lateral position and safe removal/service."
+      ],
+      "checks": [
+        "Delivered 50Q651G matches the recorded 43.7 x 25.4 x 2.8-in cabinet, 19.6-lb weight and 300 x 300-mm VESA pattern.",
+        "BLL2 safety locks engage; display is level and actual projection/connector clearance are documented rather than inferred from 2.8 + 0.67 in.",
+        "Power/data are code-compliant and accessible; screen clears every instrument body, headstock, yoke, removal arc and desk sightline.",
+        "Model-specific TCL support record and SANUS BLL2 manual are included in closeout."
+      ],
+      "handoff": [
+        "AV installer retrieves and records the current model-specific 50Q651G manual/support document at purchase.",
+        "Qualified designer/carpenter supplies backing and wall-fastener detail; electrician supplies the in-wall power/data method."
+      ],
+      "sources": [
+        {
+          "label": "TCL 50S551G v1.4 geometry reference",
+          "url": "https://us.tcl.com/products/tcl-50-s-class-4k-uhd-hdr-led-smart-tv-with-google-tv-50s551g"
+        },
+        {
+          "label": "TCL 50Q651G manufacturer product/specification",
+          "url": "https://us.tcl.com/products/q-class-4k-uhd-hdr-qled-smart-tv-with-google-tv?variant=44055800053825"
+        },
+        {
+          "label": "Best Buy \u2014 TCL 50Q651G, SKU 6579462",
+          "url": "https://www.bestbuy.com/product/tcl-50-class-q6-series-4k-uhd-hdr-qled-smart-google-tv-2024/J36QYTWKQY"
+        },
+        {
+          "label": "SANUS BLL2 manufacturer page",
+          "url": "https://www.sanus.com/en_US/products/tv-mounts/bll2/"
+        },
+        {
+          "label": "SANUS BLL2 installation manual",
+          "url": "https://www.sanus.com/assets/products/bll2/documents/BLL2_IM_251023.pdf"
+        },
+        {
+          "label": "A04 TV and instrument elevation",
+          "url": "assets/guitar-wall.svg"
+        }
+      ]
+    },
+    {
+      "id": "GTR-01",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Structural backing for TV/instrument layout",
+          "quantity": 1,
+          "unit": "field-fit set",
+          "spec": "Continuous or localized backing sized to approved full-size template; material/thickness/fasteners by attachment design.",
+          "status": "not designed"
+        },
+        {
+          "name": "Instrument hangers",
+          "quantity": 10,
+          "unit": "proposed display positions",
+          "spec": "Ten-position design target; six instruments listed in inventory. Final count follows M-13; String Swing CC01K or CC01 assigned per actual neck/weight/finish. No hanger order before full-size fit.",
+          "status": "candidate",
+          "sourceUrl": "https://www.stringswing.com/guitar-hanger-hardwood-wall-mount-for-acoustic-and-electric-guitars/",
+          "sourceId": "string-swing-cc01k"
+        },
+        {
+          "name": "Hanger substrate fasteners",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "Per hanger, load and verified backing; do not use generic wall anchors without released detail.",
+          "status": "not released"
+        },
+        {
+          "name": "Penetration/finish trim",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Black trim/grommets coordinated with slat/fabric wall and removable access.",
+          "status": "unselected"
+        }
+      ],
+      "tools": [
+        "full-size removable template film",
+        "laser/level",
+        "backing locator",
+        "drill/driver",
+        "torque tools per hanger maker"
+      ],
+      "before": [
+        "Inventory actual instruments under GTR-02.",
+        "Complete M-13 with TV, mount, connectors, yokes and removal arcs.",
+        "Greg approves final count/elevation and qualified installer releases backing/fasteners."
+      ],
+      "steps": [
+        "Transfer approved full-size template to field datum and mark every load/penetration.",
+        "Install and photograph backing before wall closure.",
+        "Complete wall finish/slat penetrations without losing backing locations.",
+        "Install each assigned hanger with specified fasteners and orientation.",
+        "Apply a controlled proof/inspection procedure specified by installer before hanging instruments.",
+        "Hang one instrument at a time and test removal arc, finish contact, TV and lighting clearance."
+      ],
+      "checks": [
+        "Installed centers match approved field template.",
+        "Every hanger is matched to instrument weight/neck/finish and verified backing.",
+        "All instruments remove safely without TV, light, desk or neighboring-instrument contact."
+      ],
+      "handoff": [
+        "Installer supplies backing, loads, fasteners and proof/inspection method.",
+        "Greg approves final displayed instrument count and positions."
+      ],
+      "sources": [
+        {
+          "label": "String Swing hanger",
+          "url": "https://www.stringswing.com/guitar-hanger-hardwood-wall-mount-for-acoustic-and-electric-guitars/"
+        },
+        {
+          "label": "TV and instrument elevation",
+          "url": "assets/guitar-wall.svg"
+        }
+      ]
+    },
+    {
+      "id": "GTR-02",
+      "route": "retain",
+      "materials": [
+        {
+          "name": "Owned guitar",
+          "quantity": 1,
+          "unit": "listed instrument",
+          "spec": "Physical model, dimensions, weight, finish and hanger fit to verify.",
+          "status": "unverified retained"
+        },
+        {
+          "name": "Additional instruments for remaining display positions",
+          "quantity": "up to 4",
+          "unit": "held inventory / loan allowance",
+          "spec": "Ten display positions minus six listed instruments. Reconcile existing unlisted instruments and any approved loans before considering purchases; model, size, finish, hanger and funding remain undecided.",
+          "status": "inventory and display decision required; no purchase release"
+        },
+        {
+          "name": "Owned basses",
+          "quantity": 5,
+          "unit": "listed instruments",
+          "spec": "Physical models, dimensions, weights, finishes and hanger fit to verify.",
+          "status": "unverified retained"
+        },
+        {
+          "name": "Protective cases/storage",
+          "quantity": 6,
+          "unit": "sets",
+          "spec": "Retain accessible storage for any instrument not approved for display.",
+          "status": "inventory"
+        }
+      ],
+      "tools": [
+        "scale",
+        "tape/calipers",
+        "camera",
+        "removable labels",
+        "finish-safe handling supports"
+      ],
+      "before": [
+        "Create one inventory row per physical instrument.",
+        "Do not assume all six fit or that CC01K suits every neck.",
+        "Prepare safe temporary storage during wall work."
+      ],
+      "steps": [
+        "Photograph front/back/model/finish and record weight, overall body/headstock and neck/yoke dimensions.",
+        "Inspect finish condition and identify nitrocellulose or delicate surfaces.",
+        "Assign candidate hanger only after maker compatibility review.",
+        "Template each body, headstock, yoke and removal arc in M-13.",
+        "Greg selects the field-approved display count; store remaining instruments safely.",
+        "After hanger release, place and remove each instrument under observation."
+      ],
+      "checks": [
+        "Inventory reconciles to physical items and current owner list.",
+        "Each displayed instrument has a documented hanger assignment and no finish-pressure concern.",
+        "Non-displayed instruments have an identified protected location."
+      ],
+      "handoff": [
+        "Greg confirms ownership and display priority.",
+        "Instrument technician/maker guidance resolves finish or unusual-neck compatibility."
+      ],
+      "sources": [
+        {
+          "label": "TV and instrument elevation",
+          "url": "assets/guitar-wall.svg"
+        },
+        {
+          "label": "String Swing finish guidance",
+          "url": "https://www.stringswing.com/nitrocellulose-statement/"
+        }
+      ]
+    },
+    {
+      "id": "LGT-01",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "Diode LED BLAZE 100 2700K tape",
+          "quantity": 71.76,
+          "unit": "linear ft net",
+          "spec": "Part DI-24V-BLBSC1-27-016 candidate; field perimeter and waste/run split required.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/blaze.html",
+          "sourceId": "diode-led-blaze-100-system"
+        },
+        {
+          "name": "Diode LED S1 black channel bundle with classic frosted lens",
+          "quantity": 1,
+          "unit": "field takeoff",
+          "spec": "SKU DI-CHB-S1-96B, 96-in straight lengths; field takeoff, cut plan, waste and spare lenses required. Confirm quoted bundle contents.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "name": "Diode LED S1 black accessory pack",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "SKU DI-CHB-S1-ACCB; quantity by joint/end/feed schedule after distributor deducts accessories included in each channel bundle.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "name": "Diode-compatible feeds/leads/connectors/Class 2 wire",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "Project-specific CLICKTIGHT PRO connectors or supplier-approved factory/soldered leads, polarity-correct connections and conductor sizing from the signed run/voltage-drop schedule.",
+          "status": "design required",
+          "sourceUrl": "https://www.diodeled.com/custom/download/productFile/filename/CLICKTIGHT-PRO-Installation%20Guide.pdf/"
+        },
+        {
+          "name": "Diode LED OMNIDRIVE Basics 24V 96W Class 2 drivers",
+          "quantity": 1,
+          "unit": "load schedule",
+          "spec": "SKU DI-ODBELV-24V96W-LPS; count by zone, connected watts, conductor length and voltage drop, with accessible ventilated locations.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf"
+        }
+      ],
+      "tools": [
+        "channel saw/cutting fixture",
+        "solder/crimp tools specified by supplier",
+        "multimeter",
+        "light meter",
+        "dimming test load"
+      ],
+      "before": [
+        "Replace estimated perimeter with M-01 field length.",
+        "Approve cove profile, source concealment and 2700K dimming mockup.",
+        "Receive run/feed/driver/access and voltage-drop schedule; each candidate run stays within 55 ft."
+      ],
+      "steps": [
+        "Mark channel runs, joints, feeds and accessible driver locations from E01.",
+        "Install straight/aligned channel and deburr/clean before tape.",
+        "Pull labeled low-voltage leads separately from incompatible services.",
+        "Cut/connect tape only at maker points and seat it in clean channel.",
+        "Fit lenses/end caps, connect matched drivers and controls.",
+        "Energize by zone; test polarity, flicker, low-end dimming and visible hot spots."
+      ],
+      "checks": [
+        "Continuous even line with concealed source and aligned joints.",
+        "Run lengths/driver loads match signed schedule and access remains open.",
+        "Scene control passes flicker and camera tests."
+      ],
+      "handoff": [
+        "Lighting supplier/electrician supplies final takeoff, wire sizing, run/feed and driver schedule."
+      ],
+      "sources": [
+        {
+          "label": "Diode LED BLAZE product page",
+          "url": "https://www.diodeled.com/blaze.html"
+        },
+        {
+          "label": "BLAZE specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-BLBSC-Specification%20Sheet.pdf"
+        },
+        {
+          "label": "Diode LED S1 channel and bundle accessories",
+          "url": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "label": "OMNIDRIVE Basics specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf"
+        },
+        {
+          "label": "CLICKTIGHT PRO installation guide",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/CLICKTIGHT-PRO-Installation%20Guide.pdf/"
+        },
+        {
+          "label": "E01 reflected ceiling plan",
+          "url": "assets/lighting-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "LGT-02",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "Diode LED BLAZE 100 24V 2700K tape candidate",
+          "quantity": 76.37,
+          "unit": "linear ft net",
+          "spec": "SKU DI-24V-BLBSC1-27-016 may serve straight legs; 3.93-in cut points and 55-ft maximum run per feed. Curved arch-head source/channel remains supplier-designed and manufacturer-approved.",
+          "status": "candidate for straight segments; curve unresolved",
+          "sourceId": "diode-led-blaze-100-system",
+          "sourceUrl": "https://www.diodeled.com/blaze.html"
+        },
+        {
+          "name": "Straight/flexible black channels and diffusers",
+          "quantity": 1,
+          "unit": "field-template takeoff",
+          "spec": "Distinct components may be required for verticals and curved heads.",
+          "status": "unselected"
+        },
+        {
+          "name": "End caps/clips/joiners",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "Count from five field templates and supplier detail.",
+          "status": "unselected"
+        },
+        {
+          "name": "Individual concealed feeds/leads",
+          "quantity": 5,
+          "unit": "minimum runs",
+          "spec": "One serviceable feed strategy per arch unless supplier design states otherwise.",
+          "status": "design required"
+        },
+        {
+          "name": "Diode LED OMNIDRIVE Basics 24V 96W Class 2 drivers",
+          "quantity": 1,
+          "unit": "load schedule",
+          "spec": "SKU DI-ODBELV-24V96W-LPS candidate; quantity/load/voltage-drop and accessible locations coordinated under LGT-07.",
+          "status": "candidate pending signed load schedule",
+          "sourceUrl": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf"
+        }
+      ],
+      "tools": [
+        "field templates",
+        "channel forming/cutting tools approved by supplier",
+        "multimeter",
+        "dimming test equipment"
+      ],
+      "before": [
+        "MIR-01 final templates and glass/backing details are released.",
+        "Approve a full curved-head light mockup with mirror sample.",
+        "Supplier signs bend/cut/channel/feed and driver schedule."
+      ],
+      "steps": [
+        "Transfer each arch template to light-channel fabrication schedule.",
+        "Install backing, channels and removable access before mirror panels.",
+        "Pull and label individual feeds without crossing retainer zones.",
+        "Cut/connect light source per maker points and fit diffusers/end caps.",
+        "Bench-test each arch, then install mirrors without trapping service components.",
+        "Commission all five together for uniform output and dimming."
+      ],
+      "checks": [
+        "Halos follow both verticals and head evenly with bottom edge unlit.",
+        "No channel conflict with glass retention or exposed bright source.",
+        "Each feed/driver can be serviced without unsafe glass removal."
+      ],
+      "handoff": [
+        "Lighting supplier supplies approved curved system and takeoff.",
+        "Glazier coordinates access and no-go retention zones."
+      ],
+      "sources": [
+        {
+          "label": "A02 mirror elevation",
+          "url": "assets/mirror-wall.svg"
+        },
+        {
+          "label": "Diode LED BLAZE product page",
+          "url": "https://www.diodeled.com/blaze.html"
+        },
+        {
+          "label": "BLAZE specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-BLBSC-Specification%20Sheet.pdf"
+        },
+        {
+          "label": "Diode LED S1 channel and bundle accessories",
+          "url": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "label": "OMNIDRIVE Basics specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf"
+        },
+        {
+          "label": "CLICKTIGHT PRO installation guide",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/CLICKTIGHT-PRO-Installation%20Guide.pdf/"
+        }
+      ]
+    },
+    {
+      "id": "LGT-03",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "Diode LED BLAZE 100 24V 2700K tape",
+          "quantity": 32,
+          "unit": "linear ft net",
+          "spec": "Four sides of nominal 96 x 96-in zone; final module/perimeter field dimensions control. Candidate SKU DI-24V-BLBSC1-27-016; cut only at 3.93-in marks and keep each feed within the 55-ft published limit.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/blaze.html",
+          "sourceId": "diode-led-blaze-100-system"
+        },
+        {
+          "name": "Diode LED S1 black channel bundle with classic frosted lens",
+          "quantity": 1,
+          "unit": "field takeoff",
+          "spec": "Candidate SKU DI-CHB-S1-96B in straight 96-in lengths; profile must conceal source from seated views and remain removable.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "name": "Diode LED S1 accessory packs/corners",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "Candidate SKU DI-CHB-S1-ACCB plus supplier-approved corner/join detail; exact pieces from panel, feed and service-access design.",
+          "status": "candidate; quantity unresolved",
+          "sourceUrl": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "name": "Feeds/leads and OMNIDRIVE Basics 96W drivers",
+          "quantity": 1,
+          "unit": "load schedule",
+          "spec": "Driver candidate SKU DI-ODBELV-24V96W-LPS; count/load/wire/voltage drop coordinated in LGT-07 outside unsupported mirror area.",
+          "status": "design required",
+          "sourceUrl": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf"
+        }
+      ],
+      "tools": [
+        "laser/level",
+        "channel cutting tools",
+        "multimeter",
+        "dimming/camera test"
+      ],
+      "before": [
+        "MIR-02 support/modules and service access are released.",
+        "Approve sightline mockup from all seated positions.",
+        "Coordinate driver/feed routes clear of mirror retention."
+      ],
+      "steps": [
+        "Set out channel perimeter from issued E01 and mirror support frame.",
+        "Install channels/access components before glass modules.",
+        "Pull labeled leads and terminate tape at maker cut points.",
+        "Fit lenses/corners and test complete halo before mirror closure.",
+        "After mirrors install, retest dimming, flicker and service access."
+      ],
+      "checks": [
+        "Even concealed perimeter glow from all occupied views.",
+        "No support/retainer conflict and every driver remains accessible.",
+        "Zone responds correctly in all scenes."
+      ],
+      "handoff": [
+        "Lighting supplier/electrician issues final channel, corner, feed and driver schedule."
+      ],
+      "sources": [
+        {
+          "label": "E01 reflected ceiling plan",
+          "url": "assets/lighting-plan.svg"
+        },
+        {
+          "label": "D3 coordination detail",
+          "url": "assets/assembly-details.svg"
+        },
+        {
+          "label": "Diode LED BLAZE product page",
+          "url": "https://www.diodeled.com/blaze.html"
+        },
+        {
+          "label": "BLAZE specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-BLBSC-Specification%20Sheet.pdf"
+        },
+        {
+          "label": "Diode LED S1 channel and bundle accessories",
+          "url": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "label": "OMNIDRIVE Basics specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf"
+        },
+        {
+          "label": "CLICKTIGHT PRO installation guide",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/CLICKTIGHT-PRO-Installation%20Guide.pdf/"
+        }
+      ]
+    },
+    {
+      "id": "LGT-04",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "Diode LED BLAZE 100 24V 2700K tape",
+          "quantity": 12,
+          "unit": "linear ft net",
+          "spec": "Two 48-in shelves plus one 48-in counter accent; final millwork dimensions control. Candidate SKU DI-24V-BLBSC1-27-016; cut only at 3.93-in marks and keep each feed within the 55-ft published limit.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/blaze.html",
+          "sourceId": "diode-led-blaze-100-system"
+        },
+        {
+          "name": "Diode LED S1 black channel bundle with classic frosted lens",
+          "quantity": 3,
+          "unit": "runs",
+          "spec": "Candidate SKU DI-CHB-S1-96B; millworker confirms whether the straight surface/millwork profile suits each routed recess and remains removable.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "name": "Diode LED S1 accessory packs plus feeds/leads",
+          "quantity": 3,
+          "unit": "run sets",
+          "spec": "Candidate SKU DI-CHB-S1-ACCB, with project-specific CLICKTIGHT PRO or supplier-approved leads; exact count per millwork feed/joint schedule.",
+          "status": "candidate; quantity unresolved",
+          "sourceUrl": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "name": "Diode LED OMNIDRIVE Basics 24V 96W Class 2 driver",
+          "quantity": 1,
+          "unit": "load group",
+          "spec": "Candidate SKU DI-ODBELV-24V96W-LPS; quantity/load/location from signed schedule, accessible and clear of bottles/fridge intake.",
+          "status": "design required",
+          "sourceUrl": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf"
+        }
+      ],
+      "tools": [
+        "millwork routing template",
+        "channel saw",
+        "multimeter",
+        "dimming test load"
+      ],
+      "before": [
+        "BAR-01/BAR-04 shop drawings are released.",
+        "Approve recessed profile and diffusion mockup.",
+        "Assign feed chases and driver access before fabrication."
+      ],
+      "steps": [
+        "Route/fabricate straight channel recesses before millwork finish.",
+        "Install channels, pull labeled leads and protect recesses through finish work.",
+        "Cut/connect tape at maker points and fit lenses/end caps.",
+        "Connect accessible driver/control and restore removable covers.",
+        "Test heat, diffusion, dimming and fridge-vent separation with bottles in place."
+      ],
+      "checks": [
+        "Even light with no exposed diodes or pinched leads.",
+        "Channels/covers and driver remain removable.",
+        "No stored item or appliance vent is heated/blocked."
+      ],
+      "handoff": [
+        "Millworker and lighting supplier issue channel/recess/feed detail and driver location."
+      ],
+      "sources": [
+        {
+          "label": "A03 bar elevation",
+          "url": "assets/bar-piano.svg"
+        },
+        {
+          "label": "Diode LED BLAZE product page",
+          "url": "https://www.diodeled.com/blaze.html"
+        },
+        {
+          "label": "BLAZE specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-BLBSC-Specification%20Sheet.pdf"
+        },
+        {
+          "label": "Diode LED S1 channel and bundle accessories",
+          "url": "https://www.diodeled.com/s1-channel.html"
+        },
+        {
+          "label": "OMNIDRIVE Basics specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf"
+        },
+        {
+          "label": "CLICKTIGHT PRO installation guide",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/CLICKTIGHT-PRO-Installation%20Guide.pdf/"
+        }
+      ]
+    },
+    {
+      "id": "LGT-05",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "Nora NM4-RDC27BB 4-in black downlight",
+          "quantity": 6,
+          "unit": "fixtures",
+          "spec": "2700K matte-black candidate, 15W, 3.5-in cutout, 4.875-in module height.",
+          "status": "candidate",
+          "sourceUrl": "https://noralighting.com/product/nm4-rdc/",
+          "sourceId": "nora-nm4-rdc27bb"
+        },
+        {
+          "name": "Remote drivers/junction components",
+          "quantity": 6,
+          "unit": "fixture sets",
+          "spec": "Use exact listed components supplied/approved with selected fixture.",
+          "status": "included/verify"
+        },
+        {
+          "name": "Compatible dimmer/control interface",
+          "quantity": 1,
+          "unit": "zone set",
+          "spec": "Final device from LGT-07 compatibility test.",
+          "status": "unselected"
+        },
+        {
+          "name": "Extension/access accessories",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "Only manufacturer-listed components; driver stays accessible.",
+          "status": "field-dependent"
+        }
+      ],
+      "tools": [
+        "ceiling scanner/inspection camera",
+        "laser",
+        "manufacturer cutout template",
+        "electrical testers",
+        "light meter"
+      ],
+      "before": [
+        "M-03 verifies cavity, structure and insulation; no direct spray-foam contact.",
+        "Photometric review approves six current points and light levels.",
+        "Bench-test exact fixture/driver/dimmer load at low end."
+      ],
+      "steps": [
+        "Transfer six issued E01 points and scan each for conflicts.",
+        "Complete wiring/junction rough-in and inspection before cuts.",
+        "Cut only after mirror/HVAC/detector coordination is signed.",
+        "Install driver/junction and module per manufacturer clearances with access retained.",
+        "Energize, aim if applicable and measure scene levels.",
+        "Test dimming, flicker, camera response and heat/clearance."
+      ],
+      "checks": [
+        "All six fixtures align with E01 and avoid mirror/support conflicts.",
+        "Drivers/junctions remain accessible and compatibility test passes.",
+        "Light output, color and scenes match approved mockup."
+      ],
+      "handoff": [
+        "Electrician/lighting designer supplies photometric, circuit and compatibility schedule."
+      ],
+      "sources": [
+        {
+          "label": "Nora fixture",
+          "url": "https://noralighting.com/product/nm4-rdc/"
+        },
+        {
+          "label": "Reflected ceiling plan",
+          "url": "assets/lighting-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "LGT-06",
+      "route": "buy",
+      "materials": [
+        {
+          "name": "WAC 4-ft 120V single-circuit H Track, black",
+          "quantity": 1,
+          "unit": "track",
+          "spec": "SKU HT4-BK; 4-ft H-style track section. Feed, end cap and support hardware are separate and selected after ceiling/junction survey.",
+          "status": "candidate",
+          "sourceUrl": "https://waclighting.com/product/h-track/",
+          "sourceId": "room-lighting-fixtures"
+        },
+        {
+          "name": "WAC Silo X20 black H-track heads",
+          "quantity": 4,
+          "unit": "heads",
+          "spec": "SKU H-2020-927-BK; 20W, 2700K, 90 CRI, adjustable 15\u201350-degree beam. Four heads total 80W nominal; mock up beam and glare with actual TV/instruments.",
+          "status": "candidate",
+          "sourceUrl": "https://waclighting.com/product/silo-x20/",
+          "sourceId": "room-lighting-fixtures"
+        },
+        {
+          "name": "WAC H-track black live-end/feed and end cap",
+          "quantity": 1,
+          "unit": "coordinated set",
+          "spec": "Electrician selects exact WAC H-family feed after confirming feed side, grooved-side polarity and junction geometry; do not guess the feed SKU.",
+          "status": "field-select",
+          "sourceUrl": "https://waclighting.com/product/h-track/"
+        },
+        {
+          "name": "Mounting/backing fasteners",
+          "quantity": 1,
+          "unit": "released set",
+          "spec": "Qualified installer selects for verified ceiling structure and the WAC instructions; track/head ratings do not establish support capacity.",
+          "status": "not released"
+        },
+        {
+          "name": "Compatible dimmer/control",
+          "quantity": 1,
+          "unit": "zone",
+          "spec": "Coordinated in LGT-07 and approved by full/low-output and camera-flicker mockup.",
+          "status": "unselected"
+        }
+      ],
+      "tools": [
+        "laser",
+        "ceiling scanner",
+        "manufacturer mounting tools",
+        "electrical tester",
+        "light meter"
+      ],
+      "before": [
+        "Approve guitar/TV elevation and ceiling backing.",
+        "Select one compatible track/feed/head family and test beam/glare.",
+        "Coordinate control zone and circuit."
+      ],
+      "steps": [
+        "Lay out track from issued E01 and confirm every support/feed point.",
+        "Install and inspect backing/wiring before ceiling closure.",
+        "Mount track with specified fasteners, fit feed/end caps and verify continuity.",
+        "Insert four compatible heads and lock per manufacturer.",
+        "Aim only after TV/instruments/desk are in place.",
+        "Test dimming, glare, screen reflection and seated-eye exposure."
+      ],
+      "checks": [
+        "Track is straight, supported and electrically tested.",
+        "Four heads lock securely and illuminate instruments without screen/seated glare.",
+        "Control and aiming positions are recorded."
+      ],
+      "handoff": [
+        "Lighting designer selects track family, length, heads, beams and control.",
+        "Qualified designer/electrician supplies support/fastener and circuit detail."
+      ],
+      "sources": [
+        {
+          "label": "E01 reflected ceiling plan",
+          "url": "assets/lighting-plan.svg"
+        },
+        {
+          "label": "A04 TV/instrument elevation",
+          "url": "assets/guitar-wall.svg"
+        },
+        {
+          "label": "WAC H Track product page",
+          "url": "https://waclighting.com/product/h-track/"
+        },
+        {
+          "label": "WAC H Track installation instructions",
+          "url": "https://www.waclighting.com/storage/waclighting-images/inst_sheet/HT4_IN_0.pdf"
+        },
+        {
+          "label": "WAC Silo X20 product page",
+          "url": "https://waclighting.com/product/silo-x20/"
+        }
+      ]
+    },
+    {
+      "id": "LGT-07",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Lighting control processor/interface",
+          "quantity": 1,
+          "unit": "engineered package",
+          "spec": "One user interface with independent cove, downlight, mirror, bar/shelf, track and booth zones; DMX versus phase/ELV architecture unresolved.",
+          "status": "not designed"
+        },
+        {
+          "name": "Matched dimmers/relays",
+          "quantity": 1,
+          "unit": "load schedule",
+          "spec": "One or more devices per signed load/fixture compatibility schedule.",
+          "status": "unselected"
+        },
+        {
+          "name": "24V drivers",
+          "quantity": 1,
+          "unit": "load schedule",
+          "spec": "Accessible matched drivers sized per tape run and Class 2 limits; OMNIDRIVE 96W is candidate.",
+          "status": "candidate",
+          "sourceUrl": "https://www.diodeled.com/blaze.html"
+        },
+        {
+          "name": "Keypads/labels",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Scene interface and engraved/plain-language labels approved by Greg.",
+          "status": "unselected"
+        },
+        {
+          "name": "Driver/control enclosures and access panels",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Ventilated/code-compliant accessible locations.",
+          "status": "unselected"
+        }
+      ],
+      "tools": [
+        "load calculator",
+        "manufacturer compatibility tools",
+        "multimeter",
+        "oscilloscope/flicker meter if used",
+        "camera test setup",
+        "label printer"
+      ],
+      "before": [
+        "M-09/M-10 document circuits, neutrals, fixtures and retained controls.",
+        "Resolve control protocol and emergency/safety-device interaction.",
+        "Bench-test every exact fixture/driver/dimmer combination."
+      ],
+      "steps": [
+        "Build a zone/load/run schedule linked to LGT-01\u202606 and BOO-03.",
+        "Select compatible controls, drivers, interfaces and accessible enclosure locations.",
+        "Submit riser, device schedule, addressing/labels and scene intent.",
+        "Install after approved rough inspection; label line and low-voltage terminals.",
+        "Program lounge, session and meditation scenes plus booth task requirement.",
+        "Test low-end stability, flicker, camera response, outage recovery and manual operation.",
+        "Archive configuration and service map."
+      ],
+      "checks": [
+        "Every zone operates independently and scenes are repeatable.",
+        "No flicker/dropout/overload across tested range and drivers remain accessible.",
+        "Labels/configuration/as-builts let another technician service the system."
+      ],
+      "handoff": [
+        "Electrician/lighting designer issues architecture, load schedule, device SKUs and riser.",
+        "Greg approves interface and scene levels."
+      ],
+      "sources": [
+        {
+          "label": "Diode driver family",
+          "url": "https://www.diodeled.com/blaze.html"
+        },
+        {
+          "label": "Reflected ceiling plan",
+          "url": "assets/lighting-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "PWR-01",
+      "route": "service",
+      "materials": [
+        {
+          "name": "Branch-circuit/receptacle work",
+          "quantity": 1,
+          "unit": "engineered scope",
+          "spec": "Circuits, breakers, conductor/raceway and device types/quantities derive from licensed survey and load design.",
+          "status": "not designed"
+        },
+        {
+          "name": "Receptacles/boxes/plates",
+          "quantity": 1,
+          "unit": "device schedule",
+          "spec": "Locations for AV, TV, fridge, lighting and general use; exact ratings and finishes by electrical schedule.",
+          "status": "unselected"
+        },
+        {
+          "name": "Low-voltage pathways",
+          "quantity": 1,
+          "unit": "route schedule",
+          "spec": "Separate labeled pathways for analog, digital, network, display and member-laptop connections.",
+          "status": "not designed"
+        },
+        {
+          "name": "Cable supports/trays/grommets",
+          "quantity": 1,
+          "unit": "measured set",
+          "spec": "Accessible, bend-radius-safe components coordinated with desk/rack and millwork.",
+          "status": "unselected"
+        },
+        {
+          "name": "Labels and as-built directory",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Permanent circuit, pathway and endpoint labels.",
+          "status": "required"
+        }
+      ],
+      "tools": [
+        "licensed electrical test equipment",
+        "circuit tracer",
+        "load logger as required",
+        "grounding/noise test tools",
+        "label printer"
+      ],
+      "before": [
+        "M-09/M-10 trace panel, loads, grounding and controls.",
+        "AV supplies rack/power/signal requirements.",
+        "Permit/review and outage plan are approved."
+      ],
+      "steps": [
+        "Create circuit/load/device and low-voltage pathway schedules.",
+        "Coordinate boxes, routes and access with millwork, mirrors, panels and ceiling.",
+        "Install permitted rough-in, supports and accessible boxes; maintain separation.",
+        "Inspect before closure and photograph routes with dimensions.",
+        "Terminate devices, update panel directory and label endpoints.",
+        "Energize/test polarity, grounding, loads and GFCI/AFCI functions as applicable.",
+        "Run joint AV hum/static diagnosis without defeating safety earth."
+      ],
+      "checks": [
+        "Inspection passes and directory/device labels match as-built.",
+        "No hidden inaccessible junction or blocked service route.",
+        "Recorded power arrangement supports cold-start AV tests without unsafe grounding workarounds."
+      ],
+      "handoff": [
+        "Licensed electrician supplies code design, device/circuit/conductor/raceway schedule and inspection record.",
+        "AV integrator supplies load and pathway requirements."
+      ],
+      "sources": [
+        {
+          "label": "Reflected ceiling coordination",
+          "url": "assets/lighting-plan.svg"
+        },
+        {
+          "label": "Trade scope TR-03/TR-07",
+          "url": "research/build-content.json"
+        }
+      ]
+    },
+    {
+      "id": "AV-01",
+      "route": "service",
+      "materials": [
+        {
+          "name": "Retained AV/electronics inventory",
+          "quantity": 1,
+          "unit": "verified set",
+          "spec": "PMC/HS8/Turbosound, interfaces, Trinnov, sub, rack electronics, Korg and member-laptop station; identities/conditions to reconcile.",
+          "status": "owned-check"
+        },
+        {
+          "name": "Rack hardware and cable management",
+          "quantity": 1,
+          "unit": "scheduled set",
+          "spec": "Shelves, blanks, cage hardware, ventilation, trays and strain relief from final rack elevation.",
+          "status": "unselected"
+        },
+        {
+          "name": "Audio/data/display cables and adapters",
+          "quantity": 1,
+          "unit": "pull schedule",
+          "spec": "Types, lengths, connectors and spares from signal-flow and pathway plan.",
+          "status": "unselected"
+        },
+        {
+          "name": "R-number cable labels",
+          "quantity": 1,
+          "unit": "complete set",
+          "spec": "Durable label at both ends/head plus patch/rack records.",
+          "status": "required"
+        },
+        {
+          "name": "PA pole/base restraint and floor protection",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Actual load/footprint/aim and occupied-path stability to verify.",
+          "status": "unverified"
+        }
+      ],
+      "tools": [
+        "audio analyzer/interface",
+        "calibrated measurement mic",
+        "cable tester",
+        "network tester",
+        "label printer",
+        "SPL meter"
+      ],
+      "before": [
+        "M-11 reconciles model plates and dimensions; M-14 captures baseline.",
+        "Issue rack elevation, signal flow, patch map, cable/pull schedule and power plan.",
+        "DESK-01 and PWR-01 service paths are complete."
+      ],
+      "steps": [
+        "Photograph, label and test retained items before relocation.",
+        "Install rack hardware/power/cable management from approved elevation.",
+        "Pull and terminate labeled cables with required separation and service loops.",
+        "Set monitors, PA, Korg, amps and laptop station from released plan.",
+        "Patch and trace every R-number path with a second person.",
+        "Diagnose hum/static jointly with electrician; do not lift safety earth.",
+        "Run cold-start, latency, monitoring, PA coverage, TV, booth and member-laptop tests; archive results."
+      ],
+      "checks": [
+        "Every retained item is identified, functional and located in the as-built record.",
+        "Every labeled cable traces to the patch/signal-flow drawing.",
+        "Cold-start member workflow, Korg always-on audio, monitoring and PA coverage pass."
+      ],
+      "handoff": [
+        "AV integrator supplies rack elevation, signal flow, cable/connector quantities, power loads and commissioning forms.",
+        "Greg documents Trinnov/sub/Furman/no-sleep operating rules."
+      ],
+      "sources": [
+        {
+          "label": "Room plan",
+          "url": "assets/room-plan.svg"
+        },
+        {
+          "label": "Korg product reference",
+          "url": "https://www.korg.com/us/products/synthesizers/grandstage_x/"
+        },
+        {
+          "label": "AV trade scope",
+          "url": "research/build-content.json"
+        }
+      ]
+    },
+    {
+      "id": "BOO-01",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Wall absorber assemblies",
+          "quantity": 6,
+          "unit": "provisional panels",
+          "spec": "Nominal 24 x 48 x 2 in only; core, frame, fabric, fire data and final quantity follow M-14 design.",
+          "status": "provisional"
+        },
+        {
+          "name": "Ceiling cloud assembly",
+          "quantity": 1,
+          "unit": "provisional cloud",
+          "spec": "Nominal 48 x 48 in only; weight, suspension, air gap and secondary safety by qualified design.",
+          "status": "provisional"
+        },
+        {
+          "name": "Acoustic fabric/trim",
+          "quantity": 1,
+          "unit": "field takeoff",
+          "spec": "Finish selected with complete panel/core test documentation.",
+          "status": "unselected"
+        },
+        {
+          "name": "Wall mounting hardware/backing",
+          "quantity": 1,
+          "unit": "engineered set",
+          "spec": "Substrate-specific supports from treatment elevation.",
+          "status": "not designed"
+        },
+        {
+          "name": "Cloud suspension/support",
+          "quantity": 1,
+          "unit": "engineered set",
+          "spec": "Structure-specific suspension and safety provisions; no generic anchors.",
+          "status": "not designed"
+        }
+      ],
+      "tools": [
+        "measurement microphone/system",
+        "laser/level",
+        "backing locator",
+        "access equipment",
+        "manufacturer mounting tools"
+      ],
+      "before": [
+        "M-05/M-07 survey booth/glass/walls/ceiling and M-14 measure baseline.",
+        "Acoustician issues treatment locations, performance target and product assembly.",
+        "Support designer releases cloud load/suspension and backing."
+      ],
+      "steps": [
+        "Protect sliders, kit, camera, HVAC and retained absorption.",
+        "Install/photograph approved wall and ceiling backing before closure.",
+        "Fabricate/receive panels and verify labels, dimensions, weight, finish and fire data.",
+        "Lay out wall panels/cloud from issued A05 elevations.",
+        "Mount wall panels with specified hardware and service removability.",
+        "Suspend cloud under released design with all safety provisions.",
+        "Restore gear and run post-install acoustic/HVAC/noise measurements."
+      ],
+      "checks": [
+        "Panels/cloud match approved locations and remain stable/serviceable.",
+        "No obstruction to sliders, HVAC, camera, mic boom, TV or kit access.",
+        "Before/after measurements and assembly documentation meet acoustician acceptance."
+      ],
+      "handoff": [
+        "Acoustician supplies core/frame/fabric system, final quantities, locations and target.",
+        "Qualified designer supplies cloud/backing loads, suspension and fasteners."
+      ],
+      "sources": [
+        {
+          "label": "Booth plan",
+          "url": "assets/booth-plan.svg"
+        },
+        {
+          "label": "Acoustic/HVAC trade scope",
+          "url": "research/build-content.json"
+        }
+      ]
+    },
+    {
+      "id": "BOO-02",
+      "route": "custom",
+      "materials": [
+        {
+          "name": "Charcoal low-pile carpet tile or approved acoustic floor",
+          "quantity": 1,
+          "unit": "field takeoff",
+          "spec": "Final product/SKU/color/tile size follows curved booth and vestibule template.",
+          "status": "unselected"
+        },
+        {
+          "name": "Manufacturer-approved adhesive/tackifier",
+          "quantity": 1,
+          "unit": "coverage takeoff",
+          "spec": "Compatible with tested substrate and future service/removal intent.",
+          "status": "unselected"
+        },
+        {
+          "name": "Subfloor prep materials",
+          "quantity": 1,
+          "unit": "field allowance",
+          "spec": "Patch/level/moisture system selected after M-08.",
+          "status": "field-dependent"
+        },
+        {
+          "name": "Slider/threshold/edge transitions",
+          "quantity": 1,
+          "unit": "measured set",
+          "spec": "Low-profile profiles that preserve both slider tracks and kit access.",
+          "status": "unselected"
+        },
+        {
+          "name": "Retained Persian rug",
+          "quantity": 1,
+          "unit": "rug",
+          "spec": "Condition, exact size, cleaning and keep/remove decision to record.",
+          "status": "retained-check"
+        }
+      ],
+      "tools": [
+        "template material",
+        "moisture/flatness tools",
+        "flooring cutters",
+        "adhesive tools per maker",
+        "roller if specified"
+      ],
+      "before": [
+        "M-05 templates curve/vestibule/sliders and M-08 tests substrate.",
+        "Approve floor and retained-rug samples/condition.",
+        "Issue tile pattern, takeoff, adhesive and transition detail."
+      ],
+      "steps": [
+        "Remove/protect booth contents and slider tracks.",
+        "Prepare substrate to selected system and document moisture/flatness.",
+        "Snap layout from approved datum and pre-cut curved/threshold edges.",
+        "Apply approved adhesive/tackifier and install tiles in released pattern.",
+        "Install transitions without reducing slider operation or kit path.",
+        "Clean/cure, replace approved rug and test all slider layers."
+      ],
+      "checks": [
+        "No loose edge, trip point or adhesive contamination in tracks.",
+        "Sliders, doors, kit movement and mic-boom use remain clear.",
+        "Product lot, spare tiles, cleaning and warranty records are delivered."
+      ],
+      "handoff": [
+        "Flooring installer supplies final product, quantity, substrate/adhesive and transition schedule."
+      ],
+      "sources": [
+        {
+          "label": "Booth plan",
+          "url": "assets/booth-plan.svg"
+        }
+      ]
+    },
+    {
+      "id": "BOO-03",
+      "route": "service",
+      "materials": [
+        {
+          "name": "4-in 2700K booth downlights",
+          "quantity": 2,
+          "unit": "fixtures",
+          "spec": "Exact fixture/black trim/driver selected after cloud/ceiling survey; may use approved Nora family if compatible.",
+          "status": "unselected",
+          "sourceUrl": "https://noralighting.com/product/nm4-rdc/"
+        },
+        {
+          "name": "Separate booth dimmer/control",
+          "quantity": 1,
+          "unit": "zone set",
+          "spec": "Independent of lounge with usable task-light scene.",
+          "status": "unselected"
+        },
+        {
+          "name": "HVAC service/balance parts",
+          "quantity": 1,
+          "unit": "field allowance",
+          "spec": "No parts selected until airflow/noise/access survey identifies need.",
+          "status": "field-dependent"
+        },
+        {
+          "name": "AV/service cable hardware",
+          "quantity": 1,
+          "unit": "field allowance",
+          "spec": "Mic, TV, desk and kit route supports/labels from booth AV schedule.",
+          "status": "unselected"
+        }
+      ],
+      "tools": [
+        "ceiling inspection tools",
+        "electrical tester",
+        "light meter",
+        "airflow meter",
+        "measurement microphone",
+        "cable tester"
+      ],
+      "before": [
+        "Coordinate final cloud, camera, HVAC, mic boom and ceiling support.",
+        "Trace booth circuit/control and approve fixture/driver/dimmer compatibility.",
+        "Record baseline airflow/noise and retained AV condition."
+      ],
+      "steps": [
+        "Issue booth reflected ceiling/service plan.",
+        "Complete inspected electrical rough-in and any documented HVAC service.",
+        "Install two fixtures with accessible drivers and clear cloud/suspension zones.",
+        "Install/label booth AV supports and restore TV/desk/kit/mic routes.",
+        "Program separate booth task and dim scenes.",
+        "Measure light, airflow, noise and AV operation with booth configured."
+      ],
+      "checks": [
+        "Two fixtures and controls operate without cloud/camera/mic conflicts.",
+        "Air path and service access remain open; HVAC/noise results are documented.",
+        "Booth TV, desk, kit and microphone workflow pass."
+      ],
+      "handoff": [
+        "Electrician selects fixtures/control and supplies circuit detail.",
+        "HVAC/acoustic consultant defines any service parts and acceptance values.",
+        "AV integrator supplies booth cable route."
+      ],
+      "sources": [
+        {
+          "label": "Booth plan",
+          "url": "assets/booth-plan.svg"
+        },
+        {
+          "label": "Nora candidate",
+          "url": "https://noralighting.com/product/nm4-rdc/"
+        }
+      ]
+    },
+    {
+      "id": "CLOSE-01",
+      "route": "service",
+      "materials": [
+        {
+          "name": "Approved plant and vessel",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Live/faux decision, size and maintenance selected to avoid speakers, instruments and service paths.",
+          "status": "unselected"
+        },
+        {
+          "name": "Restrained brass/black accessories",
+          "quantity": 1,
+          "unit": "curated set",
+          "spec": "Quantities and shelf loads approved after room commissioning.",
+          "status": "unselected"
+        },
+        {
+          "name": "Flameless candles",
+          "quantity": 1,
+          "unit": "set",
+          "spec": "Battery/rechargeable only; no open flame.",
+          "status": "unselected"
+        },
+        {
+          "name": "Spare finish materials",
+          "quantity": 1,
+          "unit": "handover set",
+          "spec": "Labeled paint, flooring, fabric, slat, LED and trim spares by installed lot.",
+          "status": "required"
+        },
+        {
+          "name": "Operations/as-built binder",
+          "quantity": 1,
+          "unit": "digital+print set",
+          "spec": "As-builts, submittals, warranties, cleaning, patch/circuit/signal maps, driver/access photos and open items.",
+          "status": "required"
+        }
+      ],
+      "tools": [
+        "label printer",
+        "camera",
+        "inventory bins",
+        "cleaning tools approved for each finish"
+      ],
+      "before": [
+        "All construction, commissioning and punch work is complete.",
+        "Speaker/airflow/service/egress zones are marked for styling.",
+        "Collect current product and care records from every trade."
+      ],
+      "steps": [
+        "Walk the complete room with Greg and close or log punch items.",
+        "Place styling items within approved loads and clear zones.",
+        "Inventory and label spare materials by product/lot/location.",
+        "Assemble searchable as-builts, photos, manuals, warranties and configuration backups.",
+        "Demonstrate lighting, AV, appliance, cleaning and service access.",
+        "Record open items, owners and dates; obtain handover signature."
+      ],
+      "checks": [
+        "No styling item blocks airflow, speakers, instruments, egress or service access.",
+        "Spare materials and records reconcile to installed products.",
+        "Owner can operate scenes, AV, fridge and access service points from handed-over instructions."
+      ],
+      "handoff": [
+        "Each trade supplies final as-builts, warranties, cleaning and spare quantities.",
+        "Greg approves final styling selection."
+      ],
+      "sources": [
+        {
+          "label": "Room plan",
+          "url": "assets/room-plan.svg"
+        },
+        {
+          "label": "Build phase P6",
+          "url": "research/build-content.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "version": "1.5",
+  "verified_date": "2026-09-28",
+  "scope": "Primary-source buy and installation research for eight material and equipment families in guide.json. Quantities based on unverified room dimensions remain estimating quantities until the named field gates are closed.",
+  "authority_boundary": "Manufacturer literature governs the listed products. The architect, engineer, licensed trades, code official, and fabricators govern project-specific supports, wiring, fire assemblies, overhead retention, and substrate suitability. No anchor capacity or code approval is inferred here.",
+  "source_families": [
+    {
+      "id": "beverage-cooler",
+      "guide_items": ["BAR-05"],
+      "recommendation": "Zephyr Presrv PRB15C01CG 15-inch beverage cooler, with an optional matte-black Zephyr handle selected to match the approved bar hardware.",
+      "selection_status": "candidate; dimensions and installation constraints verified, cabinet fit unresolved",
+      "buy": [
+        {
+          "sku": "PRB15C01CG",
+          "item": "15-inch single-zone beverage cooler",
+          "quantity_basis": "1 unit",
+          "included_or_extra": "base appliance; product page lists one black wood rack, two adjustable glass shelves, carbon filtration, lock, and field-reversible door as features",
+          "release": "after coordinated bar shop drawing"
+        },
+        {
+          "sku": "PRHAN-C104 or PRHAN-C004",
+          "item": "matte-black contemporary or pro handle",
+          "quantity_basis": "1 kit after aesthetic selection",
+          "included_or_extra": "optional accessory; one handle per kit",
+          "release": "select one, do not order both"
+        },
+        {
+          "sku": "Z0F-C004",
+          "item": "replacement carbon filter",
+          "quantity_basis": "maintenance stock only",
+          "included_or_extra": "replacement consumable listed by Zephyr",
+          "release": "confirm replacement interval in the current manual"
+        },
+        {
+          "sku": "PRDC-C03",
+          "item": "adjustable drink caddy",
+          "quantity_basis": "optional",
+          "included_or_extra": "optional accessory",
+          "release": "only if Greg wants it after testing usable storage"
+        }
+      ],
+      "known_dimensions_and_constraints": [
+        "Appliance: 15 W x 23.375 D x 33.875-34.875 H inches.",
+        "Cabinet opening: at least 15.125 W x 34 H inches.",
+        "Allow at least 1 inch behind the unit for the electrical plug and 2.25 inches at the hinge side when next to a wall.",
+        "Keep the front ventilation grille unobstructed and preserve pull-out service access.",
+        "A 23.375-inch body plus the 1-inch rear plug clearance needs 24.375 inches before finish tolerance, so a nominal 24-inch flush cabinet is not a verified fit."
+      ],
+      "install_sequence": [
+        "Choose door hinge side and handle before the cabinet shop drawing; verify adjacent wall and door swing.",
+        "Show the exact opening, rear plug space, receptacle location, ventilation grille, finished floor buildup, face projection, and removal path on the millworker/electrical shop drawing.",
+        "Complete floor and cabinet work, provide the accessible grounded receptacle required by the current manual, and inspect the opening before delivery.",
+        "Level the appliance, attach the selected handle, slide it in without pinching the cord, and confirm the front vent is open.",
+        "Test door swing, lock, shelves, temperature controls, lighting, alarm, and removal access before turnover."
+      ],
+      "field_holds": [
+        "Do not fabricate the bar at a nominal 24-inch flush depth without an approved recess, deeper casework, or intentional appliance projection.",
+        "Do not enclose the front grille or place fixed trim where it blocks appliance removal.",
+        "Verify current electrical requirements from the manual and local code with the electrician."
+      ],
+      "official_sources": [
+        {
+          "title": "Zephyr Presrv 15-inch beverage cooler product page",
+          "url": "https://zephyronline.com/product/presrv-single-zone-beverage-cooler-15-inch/",
+          "type": "manufacturer product page",
+          "used_for": "model, features, accessories, door reversibility, built-in/freestanding status"
+        },
+        {
+          "title": "PRB15C01CG user and installation manual",
+          "url": "https://docs.zephyronline.com/docs/manuals/PRB15C01CG_manual.pdf",
+          "type": "manufacturer manual",
+          "used_for": "opening, plug, door clearance, ventilation, leveling, operation"
+        },
+        {
+          "title": "PRB15C01CG specification sheet",
+          "url": "https://docs.zephyronline.com/docs/specs/Presrv_PRB15C01CG_spec.pdf",
+          "type": "manufacturer specification",
+          "used_for": "dimensions and capacity"
+        }
+      ]
+    },
+    {
+      "id": "linear-lighting",
+      "guide_items": ["LGT-01", "LGT-02", "LGT-03", "LGT-04", "LGT-07"],
+      "recommendation": "Diode LED BLAZE 100 24V 2700K tape in black S1 channel, with separately accessible OMNIDRIVE Basics 96W drivers and a project-specific feed/load/control schedule.",
+      "selection_status": "candidate system; components verified, run schedule and curved-arch detail unresolved",
+      "buy": [
+        {
+          "sku": "DI-24V-BLBSC1-27-016",
+          "item": "BLAZE 100 24V 2700K 90+ CRI tape",
+          "quantity_basis": "net measured runs plus cut/joint allowance after the feed schedule; do not buy only from the current global linear-foot total",
+          "included_or_extra": "tape only",
+          "release": "after field measurement and segmented run schedule"
+        },
+        {
+          "sku": "DI-CHB-S1-96B",
+          "item": "96-inch black S1 channel bundle with classic frosted lens",
+          "quantity_basis": "shop-drawing takeoff by straight segment, with waste and spare lenses",
+          "included_or_extra": "manufacturer describes channel bundles as complete with accessories; confirm bundle contents on the supplier quote",
+          "release": "straight millwork and surface-mounted runs only unless Diode approves the curved detail"
+        },
+        {
+          "sku": "DI-CHB-S1-ACCB",
+          "item": "black S1 accessory pack",
+          "quantity_basis": "per joint/end/feed schedule",
+          "included_or_extra": "separate accessory pack",
+          "release": "supplier to reconcile with what each channel bundle includes"
+        },
+        {
+          "sku": "DI-ODBELV-24V96W-LPS",
+          "item": "OMNIDRIVE Basics 24V 96W Class 2 driver",
+          "quantity_basis": "one or more per zone based on calculated connected load, conductor length, voltage drop, and accessible locations",
+          "included_or_extra": "driver with listed junction-box form factor",
+          "release": "after signed electrical load schedule"
+        },
+        {
+          "sku": "project-specific",
+          "item": "Diode-compatible tape-to-wire connectors or soldered factory leads, Class 2 low-voltage wire, feeds, junctions, and dimmers",
+          "quantity_basis": "per run and control schedule",
+          "included_or_extra": "extras; electrician and Diode distributor select exact parts",
+          "release": "after bench test and wire/voltage-drop design"
+        }
+      ],
+      "known_dimensions_and_constraints": [
+        "BLAZE 100 selection is 1.46 W/ft, 113 lm/ft, 3.93-inch cut points, and a 55-foot maximum run from one feed.",
+        "OMNIDRIVE DI-ODBELV-24V96W-LPS is 24V, 96W, Class 2, IP20, no minimum load, and manufacturer-listed to dim to 5 percent; it is not a blanket approval for every control/load combination.",
+        "S1 is a low-profile straight aluminum channel for millwork or surface mounting. The arch heads need a separately approved flexible or segmented detail.",
+        "The approximately 71.76-foot room perimeter cannot be treated as one 55-foot BLAZE feed even if total wattage appears acceptable.",
+        "Drivers and junctions must remain accessible and adequately ventilated."
+      ],
+      "install_sequence": [
+        "Field-measure each lighting path and issue a zone-by-zone schedule showing segment length, cut points, feed end, connected watts, driver, wire route, voltage drop, control, and service access.",
+        "Build and approve a full system mockup using the exact tape, channel/lens, driver, dimmer, lead length, and representative dark finishes; test low-end dimming, flicker, camera behavior, heat, and color.",
+        "Rough in line voltage, accessible driver/junction locations, Class 2 conductors, neutrals required by the selected controls, and separated feeds while walls and millwork are open.",
+        "Dry-fit channels, end conditions, lenses, joints, and feed holes; cut straight channels cleanly and resolve the arch curve with a manufacturer-approved detail before finish work.",
+        "Clean the channel, cut tape only at marked cut points, make polarity-correct listed connections, and test every segment before closing the lens.",
+        "Commission each zone at full and minimum output; label drivers, circuits, zones, and service panels; record installed run lengths and loads."
+      ],
+      "field_holds": [
+        "Licensed electrician and lighting supplier must approve the line-voltage, Class 2, dimmer, and conductor design.",
+        "Do not conceal drivers or junction boxes behind non-removable mirrors, fabric, or millwork.",
+        "Do not bend straight S1 channel around arch heads or exceed tape bend/run limits without written manufacturer approval.",
+        "The current brief contains a DMX-versus-wall-dimmer control decision; resolve protocol before ordering drivers and controls."
+      ],
+      "official_sources": [
+        {
+          "title": "Diode LED BLAZE product page",
+          "url": "https://www.diodeled.com/blaze.html",
+          "type": "manufacturer product page",
+          "used_for": "tape family and downloads"
+        },
+        {
+          "title": "BLAZE specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-BLBSC-Specification%20Sheet.pdf",
+          "type": "manufacturer specification",
+          "used_for": "watts, lumens, cut increment, run limit"
+        },
+        {
+          "title": "Diode LED S1 channel page",
+          "url": "https://www.diodeled.com/s1-channel.html",
+          "type": "manufacturer product page",
+          "used_for": "channel SKUs, finishes, bundles, mounting"
+        },
+        {
+          "title": "OMNIDRIVE Basics specification sheet",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/DI-ODBELV-Specification%20Sheet.pdf",
+          "type": "manufacturer specification",
+          "used_for": "driver electrical and dimming limits"
+        },
+        {
+          "title": "CLICKTIGHT PRO installation guide",
+          "url": "https://www.diodeled.com/custom/download/productFile/filename/CLICKTIGHT-PRO-Installation%20Guide.pdf/",
+          "type": "manufacturer installation guide",
+          "used_for": "connector polarity, contact, wire, and Class 2 practices"
+        }
+      ]
+    },
+    {
+      "id": "floor-and-rug-pad",
+      "guide_items": ["FIN-01", "SEAT-04", "BOO-02"],
+      "recommendation": "Karndean Van Gogh Rigid Core Ebony SCB89 for the main floor, paired under the large furniture-anchored lounge rug with a custom-cut RugPadUSA Eco-Plush 1/4-inch all-felt pad. Preserve the booth-floor decision as a separate field-confirmed scope.",
+      "selection_status": "floor and pad candidates; samples, existing-floor demolition, substrate, and finished buildup unresolved",
+      "buy": [
+        {
+          "sku": "SCB89",
+          "item": "Karndean Van Gogh Rigid Core Ebony planks, 48 x 7 x 0.177 inches",
+          "quantity_basis": "current estimate: 14 cartons x 23.64 sq ft = 330.96 sq ft for a 328.63 sq ft allowance; recalculate after field survey and layout",
+          "included_or_extra": "flooring cartons only",
+          "release": "after substrate/moisture/flatness survey and sample approval"
+        },
+        {
+          "sku": "manufacturer-compatible project-specific profiles",
+          "item": "threshold, reducer, edge, and skirting profiles",
+          "quantity_basis": "field-measured openings and transitions",
+          "included_or_extra": "extras",
+          "release": "after finished floor elevations and door clearances are known"
+        },
+        {
+          "sku": "Eco-Plush 1/4",
+          "item": "RugPadUSA 100 percent heat-pressed felt rug pad",
+          "quantity_basis": "custom-cut for the approved rug; manufacturer examples finish 2 inches shorter in each overall dimension",
+          "included_or_extra": "separate rug pad; no grip layer",
+          "release": "only for a large rug securely anchored by furniture"
+        }
+      ],
+      "known_dimensions_and_constraints": [
+        "SCB89 is 4.5 mm thick with a 20 mil wear layer and 23.64 sq ft per carton.",
+        "Karndean requires removal of laminate, floating floors, and cushion-backed floors; identify whether the existing oak LVP is floating or adhered before pricing demolition.",
+        "Substrate must be solid, sound, smooth, clean, and level; Karndean limits unevenness to 3/16 inch over 10 feet.",
+        "Karndean calls for concrete moisture testing and wood moisture at or below 13 percent; the installer must use the current guide and record results.",
+        "Fixed cabinets and permanent fixtures go in before the floating floor, with the required expansion space maintained around them.",
+        "Karndean warns against rubber-backed mats. Eco-Plush is 100 percent felt and intended for larger rugs that do not require non-slip grip, but final floor compatibility remains subject to Karndean's warranty requirements."
+      ],
+      "install_sequence": [
+        "Approve full-size floor and rug/pad samples under the actual 2700K lighting, then verify carton batch and rug-pad compatibility in writing.",
+        "Survey room area, plank direction, thresholds, doors, fixed millwork, booth transition, flatness, moisture, and existing LVP construction; issue a demolition and transition plan.",
+        "Remove incompatible floating/cushioned flooring, repair and clean the substrate, document flatness and moisture, and acclimate/store material exactly as the current Karndean guide requires.",
+        "Install fixed bar/cabinet bases before the floating floor. Lay SCB89 with manufacturer-required expansion spaces, stagger, cutting, and locking procedure; do not pin the floor beneath fixed construction.",
+        "Fit transitions and skirting without trapping the floating field, protect the floor during remaining work, and retain labeled spare planks/carton information.",
+        "After cure/cleaning and furniture placement, install the custom-cut felt pad beneath the approved large rug with no pad exposed and with the rug held by furniture; check edges for trip or roll hazards."
+      ],
+      "field_holds": [
+        "Do not order from the 14-carton estimate until field area, layout waste, batch availability, and spare stock are reconciled.",
+        "Do not install SCB89 over an existing floating LVP.",
+        "Do not add a separate underlay unless Karndean approves the exact assembly in writing.",
+        "Do not use Eco-Plush under a small/mobile rug; it has no non-slip layer. Confirm that the approved lounge rug is held by heavy furniture and that the pad does not affect the flooring warranty."
+      ],
+      "official_sources": [
+        {
+          "title": "Karndean Ebony SCB89 product page",
+          "url": "https://www.karndean.com/en-us/floors/products/ebony-scb89",
+          "type": "manufacturer product page",
+          "used_for": "plank, wear layer, carton, and finish data"
+        },
+        {
+          "title": "Karndean U.S. rigid-core plank and tile installation guide",
+          "url": "https://www.karndean.com/globalassets/karndean/b2c-blocks/b2c-document-listing-block/usa/installation-guides/karndean-rigid-core_plank-and-tile-installation-guide-usa.pdf",
+          "type": "manufacturer installation guide",
+          "used_for": "substrates, moisture, flatness, acclimation, expansion, fixtures, mats"
+        },
+        {
+          "title": "RugPadUSA Eco-Plush 1/4-inch",
+          "url": "https://www.rugpadusa.com/products/eco-plush-1-4",
+          "type": "manufacturer product page",
+          "used_for": "100 percent felt construction, use case, custom sizing, no-grip limitation"
+        }
+      ]
+    },
+    {
+      "id": "acoustic-wall-finishes",
+      "guide_items": ["FIN-02", "FIN-03", "GTR-01"],
+      "recommendation": "Use Guilford of Maine FR701 2100-408 Black over a dealer-designed black FabriTRAK GeoTRAK/core assembly where retained acoustic walls are re-covered; use WoodUpp item 1029 only on the two slat returns after resolving panel height, assembly performance, backing, and interfaces.",
+      "selection_status": "coordinated candidate assembly; finish samples and dealer/installer shop drawing required",
+      "buy": [
+        {
+          "sku": "2100-408",
+          "item": "Guilford of Maine FR701 style 2100, Black 408, 66-inch usable width",
+          "quantity_basis": "dealer takeoff by panel/elevation, seam plan, direction, and matching dye lot, plus waste and repair stock",
+          "included_or_extra": "finish fabric only",
+          "release": "after sample, dye lot, track/core, and assembly approvals"
+        },
+        {
+          "sku": "GeoTRAK Black, profile depth to be selected",
+          "item": "FabriTRAK PVC-free black fabric-retention profiles",
+          "quantity_basis": "authorized dealer takeoff; 1/2, 1, and 1-3/8-inch profile depths are available",
+          "included_or_extra": "retention profiles only; core, perimeter details, substrate prep, and labor are separate",
+          "release": "after dealer shop drawing and complete-assembly documentation"
+        },
+        {
+          "sku": "WoodUpp item 1029",
+          "item": "Akupanel Colored Black Wrapped on Black Felt, 94.49 x 23.62 x 0.866 inches",
+          "quantity_basis": "installer takeoff for two nominal 102-inch-high returns plus approved top/bottom joint or taller-product detail",
+          "included_or_extra": "panel only",
+          "release": "after field dimensions, joint detail, and sample approval"
+        },
+        {
+          "sku": "WoodUpp black installation screws, 100-pack, or project-approved equivalent",
+          "item": "visible black panel screws",
+          "quantity_basis": "manufacturer indicates about 15 screws per panel for direct-to-wall installation; expanded assemblies require the approved batten/fastener schedule",
+          "included_or_extra": "separate installation accessory",
+          "release": "installer selects fastener for verified substrate and assembly"
+        }
+      ],
+      "known_dimensions_and_constraints": [
+        "FR701 is 100 percent post-consumer recycled polyester with 66-inch usable width, no backing, no added treatment, and no repeat. Manufacturer component results do not prove the finished wall assembly.",
+        "GeoTRAK is site-built and dealer-installed. The exact profile, acoustic core, fabric, edge, outlet, HVAC, service-access, and junction details must be submitted as one assembly.",
+        "WoodUpp's Class A statement is an acoustic absorption class when installed with 45 mm battens and insulation, not a fire-class claim.",
+        "The 94.49-inch WoodUpp panel is 7.51 inches short of the nominal 102-inch return height.",
+        "Acoustic finish and slat panels are not structural backing for TV or instrument hangers."
+      ],
+      "install_sequence": [
+        "Field-survey retained acoustic construction, solid wall areas, door/trim transitions, outlets, HVAC, lighting, TV/hanger backing, and service panels; do not remove existing absorptive work until the acoustician approves the scope.",
+        "Produce coordinated elevations showing GeoTRAK perimeter/profile depth, core, seams, FR701 direction, removable access, WoodUpp joints/cuts, blocking penetrations, and transition to plaster/paint.",
+        "Approve physical FR701, WoodUpp, and edge/junction samples under room lighting; reserve one FR701 dye lot and matching WoodUpp batch.",
+        "Install and inspect structural backing, rough-ins, substrate prep, and any batten/core work before covering. Keep structural attachments independent of finish panels.",
+        "Install GeoTRAK/core and tuck FR701 with controlled tension and clean corners; install WoodUpp per the approved direct-wall or expanded batten detail, re-securing cut slat ends to felt as directed by WoodUpp.",
+        "Finish outlets, returns, transitions, and removable access; photograph concealed backing and retain labeled fabric/panel repair stock."
+      ],
+      "field_holds": [
+        "A qualified FabriTRAK dealer must provide the assembly and current test documentation; component fire/acoustic data cannot be added together as an assembly rating.",
+        "Acoustician must approve retained cores, replacement cores, and coverage before demolition or fabrication.",
+        "Resolve the 7.51-inch WoodUpp height gap with an approved joint, base/header, or taller product; do not stretch the panel dimensions.",
+        "TV and instrument fasteners must land in verified independent backing, not felt, slats, fabric track, or acoustic core."
+      ],
+      "official_sources": [
+        {
+          "title": "Guilford of Maine FR701 2100-408 Black",
+          "url": "https://guilfordofmaine.com/swatches/2100-408",
+          "type": "manufacturer product page",
+          "used_for": "color, composition, width, component test data, dye-lot caution"
+        },
+        {
+          "title": "FabriTRAK GeoTRAK",
+          "url": "https://www.fabritrak.com/products/geotrak",
+          "type": "manufacturer system page",
+          "used_for": "profile depths, black PVC-free system, dealer installation"
+        },
+        {
+          "title": "FabriTRAK system brochure",
+          "url": "https://www.fabritrak.com/uploads/Master-Brochure_Combined_03_27_25.pdf",
+          "type": "manufacturer brochure",
+          "used_for": "profiles, jaws, site-built assembly, acoustic examples"
+        },
+        {
+          "title": "FabriTRAK fire test reports",
+          "url": "https://www.fabritrak.com/resources/test-reports/fire-tests",
+          "type": "manufacturer test-report index",
+          "used_for": "complete-assembly submittal source"
+        },
+        {
+          "title": "WoodUpp direct-wall installation guide",
+          "url": "https://woodupp.com/pages/installation-guide/akupanel-installation-on-wall-with-screws",
+          "type": "manufacturer installation guide",
+          "used_for": "fastener count, cuts, and installation sequence"
+        },
+        {
+          "title": "WoodUpp Akupanel product page",
+          "url": "https://woodupp.com/products/akupanel",
+          "type": "manufacturer product page",
+          "used_for": "panel finish and geometry"
+        }
+      ]
+    },
+    {
+      "id": "room-lighting-fixtures",
+      "guide_items": ["LGT-05", "LGT-06", "LGT-07", "BOO-03"],
+      "recommendation": "Nora NM4-RDC27BB 4-inch matte-black deep-cone downlights for the six main-room locations, plus a 4-foot WAC H Track in black with four Silo X20 H-2020-927-BK heads for the guitar wall. Booth fixture selection remains a separately coordinated scope unless the same downlight is approved there.",
+      "selection_status": "candidate fixture packages; ceiling cavity, photometrics, feed/accessories, dimming, and booth selection unresolved",
+      "buy": [
+        {
+          "sku": "NM4-RDC27BB",
+          "item": "Nora 4-inch round deep-cone reflector, 2700K, matte black",
+          "quantity_basis": "6 main-room fixtures per current guide; booth quantity/product separately confirmed",
+          "included_or_extra": "module with prewired driver/junction box; no housing required",
+          "release": "after reflected-ceiling plan, cavity scan, and dimmer mockup"
+        },
+        {
+          "sku": "NFC-R375 or current Nora-approved frame",
+          "item": "optional new-construction frame",
+          "quantity_basis": "only where needed by ceiling construction",
+          "included_or_extra": "optional accessory",
+          "release": "Nora must resolve current NFC-R375 literature versus older NMF-3 instruction reference before purchase"
+        },
+        {
+          "sku": "HT4-BK",
+          "item": "WAC 4-foot 120V single-circuit H Track, black",
+          "quantity_basis": "1 track",
+          "included_or_extra": "track section; feed and end hardware are separate",
+          "release": "after feed side, junction condition, and support are field-coordinated"
+        },
+        {
+          "sku": "H-2020-927-BK",
+          "item": "WAC Silo X20 20W H-track head, 2700K, 90 CRI, black, adjustable 15-50 degree beam",
+          "quantity_basis": "4 heads",
+          "included_or_extra": "track heads",
+          "release": "after beam/glare mockup with TV and instruments"
+        },
+        {
+          "sku": "field-selected WAC H-track accessories",
+          "item": "black live-end/feed connector and end cap, plus junction/support hardware",
+          "quantity_basis": "one coordinated set",
+          "included_or_extra": "extras",
+          "release": "electrician selects exact connector from actual feed side and ceiling junction; do not guess the feed SKU"
+        }
+      ],
+      "known_dimensions_and_constraints": [
+        "NM4-RDC27BB: 15W, 1027 delivered lumens, 2700K, 90+ CRI, 37-degree narrow flood, 3.5-inch cutout, 4.5-inch trim, 4.875-inch height, Triac/ELV dimming to 10 percent.",
+        "Nora lists the module IC airtight and wet-location rated but excludes direct contact with spray-foam insulation; maximum listed module-to-driver separation is 40 feet.",
+        "HT4-BK is a 4-foot, 120V, single-circuit H-style track. WAC lists 1920W maximum for the track; four selected 20W heads total 80W nominal.",
+        "H-2020-927-BK is 2700K/90 CRI and provides 715 lumens at 15 degrees to 985 lumens at 50 degrees per WAC's table.",
+        "Track polarity and contact orientation matter; follow the grooved-side instructions for the live end and heads."
+      ],
+      "install_sequence": [
+        "Issue a reflected-ceiling/photometric plan with exact downlight centers, mirror conflict zones, track/feed position, circuits, controls, ceiling depths, structure, insulation, and driver/junction access.",
+        "Mock up one downlight and one track head against black finishes at 2700K; test dimming, flicker/camera behavior, beam spread, TV/mirror glare, instrument highlights, and seated sightlines.",
+        "Licensed electrician turns power off, verifies ceiling cavities and structure, provides boxes/wiring/controls, and installs any required frames before closing the ceiling.",
+        "Use the Nora cut template only after scanning each location; connect the driver/J-box, keep it accessible, and seat the module with its spring clips without contact with prohibited insulation.",
+        "Install and support WAC H Track with the live end on the correct polarity side, fit the end cap, insert heads with contacts oriented to the grooved side, rotate/lock each head, and verify secure engagement.",
+        "After TV and instruments are installed, aim and set beam angles; commission each control zone at full and minimum output and label circuits/components."
+      ],
+      "field_holds": [
+        "Do not cut the ceiling until cavity, structure, insulation, mirror support, and services are scanned and the reflected-ceiling plan is approved.",
+        "Do not assume the older NMF-3 frame reference is current; have Nora/distributor confirm the exact frame/accessory for NM4-RDC27BB.",
+        "Do not aim track heads until the final TV and full-size instruments are installed; glare and heat on finishes require a real mockup.",
+        "The electrician selects track fasteners and feed components for verified structure and junction geometry; no support capacity is inferred here."
+      ],
+      "official_sources": [
+        {
+          "title": "Nora NM4-RDC product page",
+          "url": "https://noralighting.com/product/nm4-rdc/",
+          "type": "manufacturer product page",
+          "used_for": "configuration and accessory family"
+        },
+        {
+          "title": "Nora NM4-RDC specification",
+          "url": "https://noralighting.com/wp-content/uploads/2021/09/NM4-RDC_spec.pdf",
+          "type": "manufacturer specification",
+          "used_for": "photometric, electrical, cutout, dimensions, ratings"
+        },
+        {
+          "title": "Nora NM4-RDC installation instructions",
+          "url": "https://noralighting.com/wp-content/uploads/2022/01/IS-NM4-RDC.pdf",
+          "type": "manufacturer installation guide",
+          "used_for": "cutting, connection, clips, insulation and frame notes"
+        },
+        {
+          "title": "WAC H Track product page",
+          "url": "https://waclighting.com/product/h-track/",
+          "type": "manufacturer product page",
+          "used_for": "HT4-BK track family and ratings"
+        },
+        {
+          "title": "WAC H Track installation instructions",
+          "url": "https://www.waclighting.com/storage/waclighting-images/inst_sheet/HT4_IN_0.pdf",
+          "type": "manufacturer installation guide",
+          "used_for": "feed polarity, grooved side, head insertion and locking"
+        },
+        {
+          "title": "WAC Silo X20 product page",
+          "url": "https://waclighting.com/product/silo-x20/",
+          "type": "manufacturer product page",
+          "used_for": "H-2020-927-BK output, beam, color, finish, compatibility"
+        }
+      ]
+    },
+    {
+      "id": "instrument-display",
+      "guide_items": ["GTR-01", "GTR-02"],
+      "recommendation": "String Swing CC01K Black Walnut hangers for instruments whose measured neck geometry fits the Keeper yoke; use the original CC01 yoke where String Swing directs wider classical or bass necks. All hangers attach to verified independent backing through finish layers.",
+      "selection_status": "candidate hanger family; instrument-by-instrument fit and field elevation unresolved",
+      "buy": [
+        {
+          "sku": "CC01K, Black Walnut finish",
+          "item": "Hardwood wall-mount Guitar Keeper with pivoting padded yoke",
+          "quantity_basis": "one per inventoried instrument that passes the weight, neck, headstock, finish, and removal-clearance mockup",
+          "included_or_extra": "String Swing lists mounting hardware as included, but project fasteners may need replacement for the verified wall/backing assembly",
+          "release": "after full-size TV/instrument elevation and backing inspection"
+        },
+        {
+          "sku": "CC01 or compatible replacement yoke selected by String Swing",
+          "item": "wider-neck yoke option",
+          "quantity_basis": "per measured classical guitar/bass that does not fit CC01K",
+          "included_or_extra": "alternate product or replacement component",
+          "release": "assign per actual instrument; do not substitute by visual guess"
+        },
+        {
+          "sku": "project-specific",
+          "item": "structural blocking/backing, finish spacers if required, and substrate-compatible fasteners",
+          "quantity_basis": "carpenter/installer shop drawing",
+          "included_or_extra": "installer-supplied extras",
+          "release": "after wall investigation and full-size mockup"
+        }
+      ],
+      "known_dimensions_and_constraints": [
+        "String Swing rates CC01K for instruments up to 15 pounds and directs wider classical/bass necks to the original CC01 yoke rather than assuming one yoke fits all.",
+        "CC01K removal requires lifting the instrument approximately 2 inches before moving it forward; the field elevation also needs full headstock, body, TV, speaker, ceiling, and hand clearance.",
+        "String Swing says the padding does not eat nitrocellulose, but prolonged pressure and under-cured nitro can still mark; record each instrument finish and inspect contact points.",
+        "Finish slats, fabric track, and acoustic core are not structural backing.",
+        "The design brief targets ten display positions, while its inventory lists six instruments. Confirm the physical collection and remaining positions in the field-fit elevation."
+      ],
+      "install_sequence": [
+        "Inventory every instrument: model, overall width/height/depth, weight, neck width at the yoke, headstock shape, finish, strap hardware, and removal arc.",
+        "Template the actual TV, speakers, track-light beams, each full-size instrument, yoke center, required 2-inch lift, and hand/body clearance on the wall elevation.",
+        "Open or scan the wall, locate structure/services, and issue a backing/fastener drawing coordinated with fabric/slat finish thickness and removable access.",
+        "Install and photograph backing before finishes close; then transfer verified centers through the finished wall without relying on felt, slats, or fabric track.",
+        "Mount each block level with installer-selected fasteners into verified backing, fit the correct CC01K/CC01 yoke, and hand-check engagement before loading.",
+        "Load one instrument at a time, test pivot, lift/removal, finish contact, TV/speaker clearance, and headstock/ceiling clearance; label or document each assigned position."
+      ],
+      "field_holds": [
+        "Do not order one yoke type for every instrument until neck and headstock geometry are measured.",
+        "Do not reuse supplied drywall anchors; String Swing's instructions expressly warn against anchor reuse, and this project should use verified backing with compatible new fasteners.",
+        "Do not shrink instrument envelopes or claim all six fit until Greg approves the full-size field mockup.",
+        "Installer/engineer selects fasteners and backing from actual substrate and loads; no anchor capacity is specified here."
+      ],
+      "official_sources": [
+        {
+          "title": "String Swing CC01K Guitar Keeper",
+          "url": "https://www.stringswing.com/guitar-hanger-hardwood-wall-mount-for-acoustic-and-electric-guitars/",
+          "type": "manufacturer product and installation page",
+          "used_for": "capacity, finishes, yoke fit, included hardware, mounting and removal"
+        },
+        {
+          "title": "String Swing CC01K-style replacement yoke",
+          "url": "https://www.stringswing.com/yoke-cradle-replacement-2-inch-bolt-length-cc01k-style/",
+          "type": "manufacturer component page",
+          "used_for": "replacement-yoke identification"
+        },
+        {
+          "title": "String Swing nitrocellulose statement",
+          "url": "https://www.stringswing.com/nitrocellulose-statement/",
+          "type": "manufacturer care statement",
+          "used_for": "finish contact limitations"
+        }
+      ]
+    },
+    {
+      "id": "matte-black-paint",
+      "guide_items": ["FIN-04"],
+      "recommendation": "Benjamin Moore Aura Waterborne Interior Paint, Matte N522, in an approved black such as Black 2132-10; use Scuff-X Matte N484 only as a separately sampled high-touch alternate where added scuff resistance is needed.",
+      "selection_status": "credible candidate system; exact black, primer, substrate preparation, and quantity unresolved",
+      "buy": [
+        {
+          "sku": "N522, color Black 2132-10 or approved sampled black",
+          "item": "Aura Waterborne Interior Paint, Matte",
+          "quantity_basis": "painter takeoff from measured solid ceiling/wall/trim areas and substrate-dependent coat schedule; published spread rate 350-400 sq ft/gal is not a purchase quantity",
+          "included_or_extra": "finish paint only",
+          "release": "after sample boards and substrate schedule"
+        },
+        {
+          "sku": "Benjamin Moore substrate-specific primer",
+          "item": "primer/sealer/stain blocker selected from the current Aura TDS and actual substrate",
+          "quantity_basis": "painter takeoff by substrate and repair area",
+          "included_or_extra": "extra; exact product cannot be selected before substrate survey",
+          "release": "after adhesion/condition inspection"
+        },
+        {
+          "sku": "N484, approved black formula",
+          "item": "Scuff-X Interior Matte optional high-touch coating",
+          "quantity_basis": "doors/trim or other approved high-touch solid surfaces only",
+          "included_or_extra": "optional alternate",
+          "release": "only after side-by-side sheen/color mockup"
+        }
+      ],
+      "known_dimensions_and_constraints": [
+        "Aura N522 matte is listed at 3-5 gloss units at 85 degrees and a theoretical 350-400 sq ft/gal spread rate at 4.3 mil wet/2.1 mil dry.",
+        "The TDS lists approximately 1-hour touch and recoat at 77 F/50 percent RH, and states painted surfaces may be washed after two weeks; actual drying varies with conditions.",
+        "Manufacturer application temperature is 50-90 F; substrate must be clean, dry, sound, and properly prepared/primed.",
+        "Black color and sheen must be judged under the actual 2700K lighting. Paint stays off acoustic fabric, equipment, labels, mirror edges, and service components."
+      ],
+      "install_sequence": [
+        "Create a finish schedule separating solid plaster/drywall, ceiling, trim, doors, fabric/acoustic surfaces, slat panels, and items that remain unpainted.",
+        "Build large sample boards with the intended primer and two finish coats of shortlisted blacks; review at full and minimum 2700K lighting beside mirror, fabric, slat, floor, and furniture samples.",
+        "Complete rough-ins and patching; protect acoustic materials/equipment; clean, repair, sand, and dust substrates; test adhesion and isolate stains or incompatible coatings with the manufacturer-recommended primer.",
+        "Apply primer and finish at the TDS spread/recoat conditions, maintaining a consistent batch and wet edge; inspect black surfaces with grazing light before final coat.",
+        "Allow full cure before adhesive-backed finishes, mirrors, hardware, cleaning, or abrasion; record color formula, product, sheen, batch, and touch-up stock."
+      ],
+      "field_holds": [
+        "Painter must select primer and prep from the actual substrate and coating condition; no universal primer is specified.",
+        "Do not paint absorptive fabric/core, labels, ventilation openings, electrical hardware, or mirror bonding/retention surfaces unless their manufacturer approves it.",
+        "Do not release the whole-room color from a fan deck chip; approve a representative large-area 2700K mockup."
+      ],
+      "official_sources": [
+        {
+          "title": "Aura Waterborne Interior Paint Matte N522 technical data",
+          "url": "https://media.benjaminmoore.com/WebServices/prod/assets/production/datasheets/TDS_0522/522_TDS_US.pdf",
+          "type": "manufacturer technical data sheet",
+          "used_for": "substrates, prep, coverage, film, dry/recoat, cure/use conditions"
+        },
+        {
+          "title": "Benjamin Moore Aura Matte N522 product page",
+          "url": "https://store.benjaminmoore.com/storefront/us/en/coating/interior-paints/benjamin-moore/aura-interior-paint/aura/p/N522",
+          "type": "manufacturer product page",
+          "used_for": "current product family and sheen"
+        },
+        {
+          "title": "Benjamin Moore Scuff-X Matte N484",
+          "url": "https://www.benjaminmoore.com/en-us/product/scuff-x-interior-paint-matte/N484",
+          "type": "manufacturer product page",
+          "used_for": "optional high-touch alternate"
+        }
+      ]
+    },
+    {
+      "id": "decorative-mirrors",
+      "guide_items": ["MIR-01", "MIR-02", "LGT-02", "LGT-03"],
+      "recommendation": "Select Omega antique-mirror samples for visual direction, then have a qualified glazier and structural/support designer develop mechanically retained wall-arch and overhead assemblies from field templates. Use only backing, setting materials, and mirror adhesive that the mirror fabricator confirms are chemically compatible with the selected mirror backing.",
+      "selection_status": "sample candidate only; glass type/build-up, modules, retention, support, weight, and edge details unresolved",
+      "buy": [
+        {
+          "sku": "Omega sample set: Dark Cloud Antique, Smoky Quartz Mirror, Gold Vein Overlay Mirror",
+          "item": "physical decorative mirror samples",
+          "quantity_basis": "one reviewed set plus illuminated full-size mockup",
+          "included_or_extra": "samples only, not released glass",
+          "release": "now for comparison; no fabrication release"
+        },
+        {
+          "sku": "custom glazier submittal",
+          "item": "five field-templated wall mirror arches with approved mirror/glass build-up, edge finish, safety backing or lamination, pattern orientation, and mechanical retention",
+          "quantity_basis": "5 panels/modules per approved shop drawing; current 24-inch-wide arch coordinates are design intent, not cut sizes",
+          "included_or_extra": "custom fabrication package",
+          "release": "after M-03, M-07, M-12 and signed glazier shop drawing"
+        },
+        {
+          "sku": "engineered custom overhead assembly",
+          "item": "nominal 96 x 96-inch ceiling mirror visual zone, divided into support-designer-approved modules with safety build-up, perimeter/intermediate mechanical capture, and removable service access",
+          "quantity_basis": "one coordinated assembly",
+          "included_or_extra": "custom fabrication/support package",
+          "release": "after verified structure, total/panel weight, support calculations, code/seismic requirements, and signed shop drawing"
+        },
+        {
+          "sku": "fabricator-selected compatible system",
+          "item": "sealed/primed substrate, soft setting blocks/spacers, perimeter J-channel/frame/clips or other mechanical capture, safety backing/lamination, and mirror-rated neutral-cure sealant or mastic if used",
+          "quantity_basis": "glazier/support-designer takeoff",
+          "included_or_extra": "installation materials; exact brands/SKUs require compatibility submittal",
+          "release": "as one tested/approved assembly, not independent substitutions"
+        }
+      ],
+      "known_dimensions_and_constraints": [
+        "Omega's listed patterns are handcrafted and vary; physical sample and pattern layout approval are essential.",
+        "Walker Glass warns that support surfaces must be dry, stable, smooth, sealed/primed as appropriate, and cured before mirror installation; mirror should be installed late in the project.",
+        "Mechanical retention methods include J moulding/channel, clips, screws, or frames with setting blocks/spacers. Adhesive, if used, must be specifically compatible with the mirror backing and applied to allow ventilation/cure.",
+        "Walker reports manufacturer guidance favoring panel widths no greater than 48 inches; the support designer and fabricator must set actual module sizes.",
+        "Adhesive alone is not a released detail for the ceiling mirror."
+      ],
+      "install_sequence": [
+        "Approve Omega samples and an illuminated mockup showing antique pattern, gold veining, black backing/frame, edge appearance, LED separation, and reflection under actual room lighting.",
+        "Field-template every wall arch and survey the ceiling plane, supports, deflection, services, access, LED channels, clearances, and installation path.",
+        "Glazier/support designer submits panel/module drawings, glass/mirror type and thickness, pattern orientation, safety backing/lamination, panel and total weights, edge treatment, sealed substrate, soft setting blocks, mechanical retention, adhesive compatibility if any, service access, and replacement method.",
+        "Complete and inspect structural supports, blocking, wiring, channels, substrate sealing/curing, and dry conditions before glass delivery; confirm storage and handling plan.",
+        "Install setting blocks/spacers and mechanical capture, place panels without edge damage or hard-point contact, apply only approved mirror-compatible adhesive/sealant in the approved pattern, and keep required ventilation/drainage/service paths.",
+        "Inspect retention, joints, edges, reflections, LED hot spots, access, and panel identification; retain templates, shop drawings, approved products, and replacement information."
+      ],
+      "field_holds": [
+        "Wall-arch coordinates and nominal 96 x 96 ceiling zone are design intent, not fabrication cut sizes.",
+        "Support designer must verify structure, panelization, loads, deflection, attachments, safety build-up, and local code/seismic requirements; no anchor capacity is supplied here.",
+        "Do not use acidic/corrosive sealant, generic construction adhesive, unverified tape, or incompatible substrate coating against mirror backing.",
+        "Do not install overhead mirror with adhesive as the sole means of support.",
+        "Do not close lighting drivers or junctions behind non-removable mirror work."
+      ],
+      "official_sources": [
+        {
+          "title": "Omega Antique Mirrors",
+          "url": "https://omegamirrorproducts.com/products/antique-mirrors/",
+          "type": "manufacturer product page",
+          "used_for": "pattern families, handcrafted variation, sample selection"
+        },
+        {
+          "title": "Walker Glass: Seven Deadly Sins of Mirror Installation",
+          "url": "https://www.walkerglass.com/blog/seven-deadly-sins-of-mirror-installation/",
+          "type": "mirror manufacturer installation guidance",
+          "used_for": "substrate, panel size guidance, mechanical and chemical retention, ventilation, edge and moisture controls"
+        }
+      ]
+    }
+  ]
+}

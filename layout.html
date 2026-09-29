@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#f5f7fa">
+  <title>Arrange the room · Rehearsal Room 2</title>
+  <link rel="preload" href="assets/barlow-condensed.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="planner.css">
+  <script type="importmap">{"imports":{"three":"./assets/vendor/three.module.min.js"}}</script>
+  <script defer src="guide-data.js"></script>
+  <script defer src="planner-geometry.js"></script>
+  <script defer src="furniture-catalog.js"></script>
+  <script defer src="furniture-profiles.js"></script>
+  <script defer src="reference-layout.js"></script>
+  <script defer src="planner-render.js"></script>
+  <script defer src="planner-photo.js"></script>
+  <script defer src="shared-layouts.js"></script>
+  <script defer src="planner.js"></script>
+</head>
+<body>
+  <a class="skip" href="#plan">Skip to floor plan</a>
+  <header class="topbar">
+    <div class="title-block"><a class="back" href="room-v1.5.html">← Room + furniture</a><h1>Arrange the room.</h1></div>
+    <div class="mode-switch" role="group" aria-label="Room views"><button data-mode="2d" aria-pressed="true">Move furniture</button><button data-mode="render" aria-pressed="false">3D room</button><button data-mode="photo" aria-pressed="false">Room image</button></div>
+    <div class="layout-switch"><label for="layout-select">Your layouts</label><select id="layout-select" aria-label="Choose a saved layout"></select><button id="save-copy">Save as…</button></div>
+    <div class="file-actions"><button id="export-picture">Save picture ↓</button><details class="file-menu"><summary>More <span aria-hidden="true">⌄</span></summary><div><button id="image-reference-layout">Add original-design layout</button><button id="rename-layout">Rename layout</button><button id="export-backup">Export editable backup</button><button id="import-backup">Import layouts</button><button id="reset-layout">Reset this layout</button><a href="assets/approved-concept.png" target="_blank" rel="noopener">Original AI image ↗</a><a href="index.html">Build guide ↗</a></div></details></div>
+  </header>
+  <div class="workbar">
+    <div class="render-toolbar" hidden><div id="render-status" role="status">Opening full room…</div><div class="render-actions"><button id="compare-image" aria-pressed="false">Original image</button><button id="room-fullscreen">Full screen ↗</button></div></div>
+    <div class="photo-toolbar" hidden><div><div id="photo-status" role="status">Opening saved room image…</div><small>Saved image included. Layout edits stay in this browser; export a backup to share them. New photo requests stay with Greg.</small></div><div class="photo-actions"><button id="photo-reference" aria-label="Compare with original room image">Original image</button><a id="photo-download" hidden>Download ↓</a><button id="photo-generate" class="primary" hidden aria-hidden="true" tabindex="-1">Update photo</button></div></div>
+    <div class="view-tabs" role="group" aria-label="Room view"><button data-view="main" aria-pressed="true">Main room</button><button data-view="booth" aria-pressed="false">Drum booth</button><button data-view="all" aria-pressed="false">Everything</button></div>
+    <div class="edit-tools"><button id="undo" aria-label="Undo last furniture change" title="Undo (⌘/Ctrl Z)">↶ <span>Undo</span></button><button id="redo" aria-label="Redo furniture change" title="Redo (⌘/Ctrl Shift Z)">↷ <span>Redo</span></button><span class="divider"></span><label class="snap-label">Snap <select id="snap"><option value="0">Off</option><option value="1" selected>1 in</option><option value="3">3 in</option><option value="6">6 in</option></select></label><label class="check-label"><input type="checkbox" id="show-fit" checked> Fit marks</label></div>
+    <div class="zoom-tools"><button id="zoom-out" aria-label="Zoom out">−</button><output id="zoom-level">100%</output><button id="zoom-in" aria-label="Zoom in">+</button><button id="fit-view">Fit</button></div>
+  </div>
+  <main class="workspace">
+    <section class="plan-area" aria-label="Interactive floor plan">
+      <div id="room-render" hidden><iframe id="full-room" title="Full rehearsal room with your furniture arrangement" allow="fullscreen" allowfullscreen></iframe><div id="reference-comparison" hidden><img src="assets/approved-concept.png" alt="Original AI room image: curved upholstered sofa, upright piano on the left, leather lounge chairs and production desk on the right"><div>Original AI image · visual reference</div></div><div id="room-loading" role="status">Opening full room…</div></div>
+      <div id="photo-panel" hidden><img id="photo-image" src="assets/approved-concept.png" alt="Original approved room image"><span class="photo-caption">AI visualization · use the dimensioned plan for fit</span></div>
+      <div class="plan-tip" id="plan-tip">🖐 Drag a piece · select it to rotate</div>
+      <svg id="plan" xmlns="http://www.w3.org/2000/svg" viewBox="-26 -24 245 312" tabindex="0" role="group" aria-label="Editable rehearsal room floor plan. Select furniture and drag, use arrow keys to move, or R to rotate.">
+        <defs><pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M12 0H0V12" fill="none" stroke="#dce5ed" stroke-width=".35"/></pattern><pattern id="door-hatch" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 4L4 0" stroke="#d8a35e" stroke-width=".25"/></pattern></defs>
+        <g id="scene"></g><g id="selection-layer"></g>
+      </svg>
+      <div class="plan-bottom"><span id="plan-legend"><i class="swatch blue"></i>Selected <i class="swatch amber"></i>Footprint issue</span><span id="position-hint">Dimensions in inches</span></div>
+    </section>
+    <aside class="inspector" aria-label="Furniture controls">
+      <div id="selected-panel">
+        <div class="panel-kicker">Selected furniture</div><h2 id="selected-name">Choose a piece.</h2>
+        <div id="piece-size-readout"></div><div id="piece-accuracy"></div>
+        <div id="empty-selection"><div class="empty-mark" aria-hidden="true">↖</div><div>Click anything on the plan, or choose it below.</div></div>
+        <div id="piece-controls" hidden>
+          <div class="rotation-control"><label for="angle">Rotation <span>clockwise</span></label><div class="angle-row"><button data-turn="-15" aria-label="Rotate counterclockwise 15 degrees">↶ 15°</button><div><input id="angle" type="number" step="1" inputmode="decimal" aria-label="Rotation in degrees"><span>°</span></div><button data-turn="15" aria-label="Rotate clockwise 15 degrees">15° ↷</button></div><input id="angle-slider" type="range" min="0" max="359" step="1" aria-label="Rotation slider"><div class="quarter-turns"><button data-turn="-90">↶ Quarter turn</button><button data-turn="90">Quarter turn ↷</button></div></div>
+          <div class="field-grid"><label>Center X <span>in from west datum</span><input id="pos-x" type="number" step=".25" inputmode="decimal"></label><label>Center Z <span>in from north datum</span><input id="pos-z" type="number" step=".25" inputmode="decimal"></label></div>
+          <details class="dimensions"><summary>Furniture size + name</summary><label>Name<input id="piece-name" type="text" maxlength="60"></label><div class="field-grid"><label>Body width, in<input id="piece-width" type="number" min="2" max="300" step="any" inputmode="decimal"></label><label>Body depth, in<input id="piece-depth" type="number" min="2" max="300" step="any" inputmode="decimal"></label></div><div class="size-note">Object dimensions before rotation. Enter actual measurements here.</div><button id="restore-source-size" type="button">Restore source dimensions</button></details>
+          <label class="check-label lock"><input type="checkbox" id="piece-locked"> Lock in place</label>
+          <div class="piece-actions"><button id="duplicate-piece">Duplicate</button><button id="remove-piece">Remove</button></div>
+          <div id="piece-fit" aria-live="polite"></div>
+        </div>
+      </div>
+      <div class="furniture-heading"><h3>Furniture</h3><button id="add-piece">+ Add</button></div>
+      <label class="search-label"><span class="sr-only">Find furniture</span><input id="furniture-search" type="search" placeholder="Find a piece…"></label>
+      <div id="furniture-list" role="group" aria-label="Furniture list"></div>
+      <details class="fit-summary"><summary id="fit-summary-label">Fit checks</summary><div id="fit-list"></div></details>
+      <details class="shortcuts"><summary>Keys + gestures</summary><ul><li><kbd>↑ ↓ ← →</kbd> Move 1 in; Shift moves 6 in.</li><li><kbd>R</kbd> Rotate 15°; Shift reverses.</li><li><kbd>⌘/Ctrl Z</kbd> Undo; add Shift to redo.</li><li>Drag empty floor to pan. Pinch to zoom.</li><li>Blue handle rotates freely; Shift snaps to 15°.</li></ul></details>
+    </aside>
+  </main>
+  <footer class="statusbar"><span id="save-status" role="status">Saved in this browser</span><span>12′2¼″ north × 21′7½″ west from records · bay segments + ceiling still need measurement.</span><a href="room-v1.5.html#dimensions">Room records ↗</a></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="name-dialog" aria-labelledby="name-title"><form id="name-form"><h2 id="name-title">Save another layout</h2><label>Layout name<input id="layout-name" maxlength="60" required autocomplete="off"></label><div class="dialog-actions"><button type="button" data-close-dialog>Cancel</button><button class="primary" type="submit">Save layout</button></div></form></dialog>
+  <dialog id="add-dialog" aria-labelledby="add-title"><form id="add-form"><h2 id="add-title">Add furniture</h2><label>Name<input id="new-name" maxlength="60" value="New furniture" required></label><div class="field-grid"><label>Width, in<input id="new-width" type="number" min="2" max="300" value="30" required></label><label>Depth, in<input id="new-depth" type="number" min="2" max="300" value="30" required></label></div><label>Footprint<select id="new-shape"><option value="rect">Rectangle</option><option value="ellipse">Round / oval</option></select></label><div class="dialog-actions"><button type="button" data-close-dialog>Cancel</button><button class="primary" type="submit">Add to plan</button></div></form></dialog>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">Reset this layout?</h2><div id="reset-message">Bring back the starting furniture. Other saved layouts stay as they are.</div><div class="dialog-actions"><button type="button" data-close-dialog>Cancel</button><button id="confirm-reset" class="primary">Reset layout</button></div></dialog>
+  <input id="backup-file" type="file" accept="application/json,.json" hidden>
+  <noscript>This room planner needs JavaScript. <a href="index.html#drawings">Open the reference drawings.</a></noscript>
+</body>
+</html>

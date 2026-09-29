@@ -1,0 +1,87 @@
+code,name,make,model,category,location,sublocation,status,footprint_w_in,footprint_d_in,height_in,dimension_source,notes
+QTR29,1/4 inch TRS,,,1/4 IN,Cable Closet,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+QTR26,1/4 Inch TRS,,,1/4 IN,Cable Closet,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+QTR31,1/4 Inch TS,,,1/4 IN,Cable Closet,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+QTR25,1/4 Inch TS,,,1/4 IN,Cable Closet,,checked_out,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+QTR18,15' 1/8IN TS ,,,1/4 IN,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+QTR09,21'' 1/4 IN TS,,,1/4 IN,Cable Closet,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+QTRS03,1/4in TRS Cable ,,,1/4in TRS,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+AMPS06,Fender Hot Rod Deluxe IV,,,Amps,,,in_stock,23.5,10.5,18.4,MANUFACTURER,1x12 guitar combo.
+AMPS05,Fender Rumble 500,,,Amps,,,in_stock,23.4,17.4,20.5,MANUFACTURER,2x10 bass combo.
+AMPS01,Mark Bass Combo Head II,,,Amps,,,in_stock,14.0,10.0,4.0,ASSUMED,Head only. Confirm cabinet on site.
+BASS02,Breedlove Acoustic Bass,,,BASS,Vocal Booth,,in_stock,16.0,16.0,47.0,MARKET-STANDARD,On a floor stand.
+BASS05,Fender Jaguar Bass ,,,BASS,,,in_stock,15.0,15.0,46.0,MARKET-STANDARD,On a floor stand.
+BASS03,Fender Jazz Bass,,,BASS,,,in_stock,15.0,15.0,46.0,MARKET-STANDARD,On a floor stand. Stand footprint about 15 x 15 in.
+BASS04,Ibanez Bass,,,BASS,Vocal Booth,,in_stock,15.0,15.0,46.0,MARKET-STANDARD,On a floor stand.
+BASS01,Upright Bass,,,BASS,Vocal Booth,,in_stock,27.0,24.0,74.0,MARKET-STANDARD,"3/4 size upright on a folding stand. Stand footprint about 24 x 24 in. Currently leaning in the north-east area, walkthrough frames f07 and f08."
+BLUTTH02,Esinkin Bluetooth Adapter ,,,Bluetooth,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+CMP28,Apple Trackpad ,,,Computer,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+CMP27,Avid Logickeyboard ,,,Computer,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+CMP26,Mac Mini 2024 ,,,Computer,,,in_stock,5.0,5.0,2.0,MANUFACTURER,M4 Mac mini. Must never sleep (recable brief non-negotiable 2).
+DRUMS03,"Catalina Maple 10"" × 7"" Rack Tom",Gretch,,Drums,,,in_stock,10.0,10.0,7.0,MEASURED,
+DRUMS02,"Catalina Maple 12""× 8"" Rack Tom",Gretch,,Drums,,,in_stock,12.0,12.0,8.0,MEASURED,
+DRUMS01,"Catalina Maple 14""× 14"" Floor Tom",Gretch,,Drums,,,in_stock,14.0,14.0,14.0,MEASURED,
+DRUMS04,"Catalina Maple 14""× 5"" Snare Drum",Gretch,,Drums,,,in_stock,14.0,14.0,5.0,MEASURED,
+DRUMS06,"Catalina Maple 22""× 18.5"" Kick Drum",Gretch,,Drums,,,in_stock,22.0,18.5,22.0,MEASURED,Catalina Maple 22 x 18.5. Assembled kit footprint is 72 x 66 in including throne and cymbal stands.
+DRUMS20,DW 9000 HiHat Stand,,,Drums,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+DRUMS25,Gretch Catalina Rack Tom Mount,,,Drums,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+DRUMS29,"Paiste 20"" Dark Ride",,,Drums,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+DRUMS93,Rude Hi Hat Top 14”,,,Drums,,,in_stock,,,,UNKNOWN,No dimensions recorded and no confident market equivalent. Measure on site.
+DRUMS24,Yamaha Boom Cymbal Stand,,,Drums,,,in_stock,30.0,30.0,60.0,MARKET-STANDARD,Counts inside the 72 x 66 in kit footprint.
+DRUMS27,"Zildjian 14"" Planet Z HiHat Bottom",,,Drums,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+DRUMS26,"Zildjian 14"" Planet Z HiHat Top",,,Drums,Cable Closet,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+DRUMS94,Zildjian Custom Rack Crash 17”,,,Drums,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+GTR04,Fender Stratocaster,,,Guitars,,,in_stock,15.0,15.0,40.0,MARKET-STANDARD,On a floor stand.
+HPA03,Cokyiss Micro Amp HA800 8 Channel Headphone Amp ,,,Headphone Amp ,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+HPA02,Pyle 4 Channel Stereo Headphone Amplifier ,,,Headphone Amp ,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+HDP77,AKG K371 Headphones,,,Headphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+HDP76,AKG K371 Headphones,,,Headphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+HDP79,AKG K371 Headphones,,,Headphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+HDP78,AKG K371 Headphones,,,Headphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+INT07,Apollo 8p Interface,,,Interface,,,in_stock,19.0,12.9,1.75,MANUFACTURER,1U rack.
+INT08,Apollo 8p Interface,,,Interface,,,in_stock,19.0,12.9,1.75,MANUFACTURER,1U rack.
+INT14,Apollo Twin Interface,,,Interface,,,in_stock,6.3,6.0,2.6,MANUFACTURER,Desktop.
+KEYS03,Korg Grandstage X,,,Keyboards ,,,in_stock,53.0,14.6,5.7,MANUFACTURER,"88-key weighted board. Must always be in audio, and must sit at sitting height, not raised."
+KEYS04,Korg microKorg,,,Keyboards ,,,in_stock,20.9,9.1,3.4,MANUFACTURER,
+KEYS09,Korg RK100S 2 Keytar/Synthesizer,,,Keyboards ,Vocal Booth,,in_stock,35.4,8.7,3.5,MANUFACTURER,"Keytar. Stored, not a floor footprint."
+KEYS01,Nord Electro 2 ,,,Keyboards ,,,in_stock,42.5,12.2,4.5,MANUFACTURER,"Backup board only. Yamaha CP first, Korg second."
+KEYS05,YAMAHA Clavinova,,,Keyboards ,,,in_stock,57.0,18.0,33.5,MARKET-STANDARD,Yamaha CLP-class console piano with its own stand and bench.
+MCS13,Short Mic Stand (Round Bottom) ,,,Mic Stands,,,in_stock,30.0,30.0,60.0,MARKET-STANDARD,"Round-base or tripod stand, 30 in swing diameter."
+MIC20,AKG C214,,,Microphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC61,AKG D112 MKII,,,Microphones,,,checked_out,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC63,CAD C98,,,Microphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC62,CAD GXL 1200,,,Microphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC65,DPA 2015,,,Microphones,,,checked_out,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC64,DPA 2015 ,,,Microphones,,,checked_out,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC12,Lewitt MTP440 DM,,,Microphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC82,Neuman U87 Ai P48 ,,,Microphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC37,Shure SM57,,,Microphones,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+MIC38,Shure SM57,,,Microphones,,,checked_out,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+OBG08,Apollo x8p Interface ,,,Outboard Gear,,,in_stock,19.0,12.9,1.75,MANUFACTURER,1U rack.
+OBG10,Crown XLS 1502 Power Amplifier ,,,Outboard Gear,,,in_stock,19.0,12.6,3.5,MANUFACTURER,2U rack.
+OBG07,Furman M-8x Power Supply ,,,Outboard Gear,,,in_stock,19.0,8.0,1.75,MANUFACTURER,1U rack. Front plug stays permanently empty for member laptop chargers.
+OBG09,Trinnov Nova ,,,Outboard Gear,,,in_stock,19.0,13.0,1.75,MANUFACTURER,1U rack. Must stay powered or the PMCs will not play.
+PERC01,Chimes,,,Percussion,Vocal Booth,,in_stock,14.0,10.0,48.0,MARKET-STANDARD,On a stand.
+PFP01,M Audio Piano Pedal ,,,Piano Foot Pedal ,Cable Closet,Drawer 2,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+PFP02,M Audio Piano Pedal ,,,Piano Foot Pedal ,Cable Closet,Drawer 2,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+PFP11,M Gear Piano Pedal ,,,Piano Foot Pedal ,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+PFP10,VFP1 Piano Pedal ,,,Piano Foot Pedal ,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+PWR32,Powerstrip 5 plug ,,,Power Strip,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+PWR31,Powerstrip 5 Plug ,,,Power Strip,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+PSC03,Apollo x8p Power Supply,,,Power Supply Cord ,,,in_stock,19.0,12.9,1.75,MANUFACTURER,1U rack.
+SEAT02,Drum Throne ,,,Seats ,,,in_stock,20.0,20.0,20.0,MARKET-STANDARD,"Base diameter 20 in, seat height adjustable 18 to 24 in."
+SEAT01,Piano Bench ,,,Seats ,,,in_stock,30.0,14.0,20.0,MARKET-STANDARD,
+SPKR33,Kali Audio Sub ,,,Speakers,,,in_stock,16.4,17.1,17.4,ASSUMED,Model not recorded. Dimensions are for a Kali WS-12 and must be confirmed on site.
+SPKR29,PMC IB1 Speaker,,,Speakers,,,in_stock,15.8,19.7,39.4,MANUFACTURER,"PMC IB1 cabinet 1000 x 400 x 500 mm. Elijah wants these lowered to tweeter-at-ear, widened and angled in; long term flush into the wall as mains."
+SPKR31,PMC IB1 Speaker,,,Speakers,,,in_stock,15.8,19.7,39.4,MANUFACTURER,"PMC IB1 cabinet 1000 x 400 x 500 mm. Elijah wants these lowered to tweeter-at-ear, widened and angled in; long term flush into the wall as mains."
+SPKR30,PMC IB1 Speaker,,,Speakers,,,in_stock,15.8,19.7,39.4,MANUFACTURER,"PMC IB1 cabinet 1000 x 400 x 500 mm. Elijah wants these lowered to tweeter-at-ear, widened and angled in; long term flush into the wall as mains."
+SPKR05,Turbosound,,,Speakers,,,in_stock,14.0,15.0,27.0,ASSUMED,Model not recorded. PA top on a tripod stand; tripod footprint about 42 in diameter. project_trc_audio_docs flags Turbosound as off-site-use-only for this room.
+SPKR07,Turbosound,,,Speakers,,,in_stock,14.0,15.0,27.0,ASSUMED,Model not recorded. PA top on a tripod stand; tripod footprint about 42 in diameter. project_trc_audio_docs flags Turbosound as off-site-use-only for this room.
+SPKR02,YAMAHA HS8 ,,,Speakers,,,in_stock,9.8,13.1,15.4,MANUFACTURER,Yamaha HS8 nearfield. To sit inside the mains as true nearfields.
+SPKR01,YAMAHA HS8 ,,,Speakers,,,in_stock,9.8,13.1,15.4,MANUFACTURER,Yamaha HS8 nearfield. To sit inside the mains as true nearfields.
+SPKR32,Yamaha HS8S Sub ,,,Speakers,,,in_stock,11.8,15.9,13.8,MANUFACTURER,Yamaha HS8S subwoofer. Must stay powered or the PMCs will not play (recable brief).
+STN16,Gator Frameworks Keyboard Stand ,,,Stands,,,in_stock,40.0,22.0,38.0,MARKET-STANDARD,"X-stand or double-tier stand, open footprint."
+STN18,Xfinity Rockjam Keyboard Stand ,,,Stands,,,in_stock,40.0,22.0,38.0,MARKET-STANDARD,"X-stand or double-tier stand, open footprint."
+TV12,Insignia TV Remote ,,,Television,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."
+WR09,PMC-2 Stereo Monitor,,,Wireless Receiver ,,,in_stock,8.5,6.0,2.5,ASSUMED,"Monitor controller, desktop. Confirm on site."
+XLR30,20' XLR,,,XLR,,,in_stock,,,,NOT SPACE-RELEVANT,"Consumable, cable, accessory or rack-mounted item. No floor footprint."

@@ -1,0 +1,25 @@
+{
+  "version": "1.5",
+  "date": "2026-09-28",
+  "source": "independent project; originals read only",
+  "counts": {
+    "items": 37,
+    "phases": 7,
+    "tasks": 44,
+    "surveys": 16,
+    "drawings": 7,
+    "products": 19
+  },
+  "current": "room-v1.5.html",
+  "build_guide": "index.html",
+  "installation": "index.html#install",
+  "material_kits": "exports/material-kits-v1.5.csv",
+  "interactive_layout": "layout.html?arrangement=source-v1.4",
+  "room_3d": "layout.html?arrangement=source-v1.4#render",
+  "room_render": "layout.html?arrangement=source-v1.4#photo",
+  "room_records": "room-records.json",
+  "selected_furniture_image": "assets/room-3d-v1.4.png",
+  "offline_bundle": "exports/rehearsal-room-sharing-kit-v1.5.zip",
+  "immutable_packet": "exports/rehearsal-room-build-guide-v1.5.pdf",
+  "immutable_packet_status": "generated release; field release required"
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.0.0",
+  "units": "in",
+  "frame": {
+    "origin": "northwest finished-floor corner",
+    "x": "east",
+    "z": "south",
+    "y": "up"
+  },
+  "provenance": {
+    "audit": "research/room-dimensions-records-v1.2.md",
+    "printedSurvey": "local-source/trc-drive-exec/Facilities/TRC Floor Plan Sketch.pdf#page=1",
+    "printedPlan": "local-source/trc-drive-exec/Facilities/1660 9th St Floor Plan.pdf#page=1",
+    "vectorTrace": "local-source/image-blaster/trc-model/architecture/rehearsal-route-review/source-proof.json",
+    "vectorCrop": "local-source/image-blaster/trc-model/architecture/rehearsal-route-review/rehearsal-iso-vector-crop.png",
+    "status": "Record-corrected planner geometry. Printed controls are records; traced openings are plan registrations; bay segments and ceiling remain estimates."
+  },
+  "confidence": {
+    "high": "Printed dimension or area in the facility records.",
+    "moderate": "Reproducible graphical trace from the 2024 plan; current field condition is unverified.",
+    "low": "Working estimate retained to keep the planner operable; field measurement is required."
+  },
+  "mainRoom": {
+    "polygonIn": [
+      [0.0, 0.0],
+      [146.25, 0.0],
+      [146.25, 54.0],
+      [188.0, 78.0],
+      [188.0, 180.0],
+      [146.25, 201.6],
+      [146.25, 259.5],
+      [0.0, 259.5]
+    ],
+    "northControlIn": 146.25,
+    "westControlIn": 259.5,
+    "maximumWidthControlIn": 188.0,
+    "publishedAreaSqFt": 298.75,
+    "modeledAreaSqFt": 299.738,
+    "printedControlsConfidence": "high",
+    "eastBayStatus": "estimated eight-point working trace; site laser required",
+    "eastBayConfidence": "low",
+    "ceilingWorkingIn": 102.0,
+    "ceilingStatus": "unverified working assumption",
+    "ceilingConfidence": "low"
+  },
+  "entryDoor": {
+    "id": "DR-3",
+    "wall": "south",
+    "openingIn": {
+      "x0": 0.99,
+      "x1": 37.31,
+      "z": 259.5,
+      "graphicalWidth": 36.32
+    },
+    "nominalLeafWidthIn": 36.0,
+    "workingHeadIn": 80.0,
+    "headStatus": "unverified visualization value",
+    "hinge": "west jamb",
+    "swing": "north into main room",
+    "builderYawDeg": 180.0,
+    "mirrorX": false,
+    "confidence": "moderate",
+    "sourceStatus": "2024 plan-vector registration normalized to the printed main-room controls"
+  },
+  "westWall": {
+    "openings": [],
+    "status": "uninterrupted in the 2024 plan-vector record",
+    "confidence": "moderate"
+  },
+  "closet": {
+    "x0": 146.25,
+    "x1": 180.25,
+    "z0": 213.5,
+    "z1": 259.5,
+    "widthIn": 34.0,
+    "depthIn": 46.0,
+    "confidence": "high",
+    "door": {
+      "id": "DR-2",
+      "wall": "west face",
+      "workingOpeningZ0": 218.0,
+      "workingOpeningZ1": 254.0,
+      "workingLeafWidthIn": 36.0,
+      "status": "Door identity is visually supported; exact width, offset, hinge, swing and head remain field checks."
+    }
+  },
+  "vestibule": {
+    "x0": 75.65,
+    "x1": 146.25,
+    "z0": 259.5,
+    "z1": 288.54,
+    "depthIn": 29.04,
+    "confidence": "moderate"
+  },
+  "sliders": {
+    "openingX0": 75.65,
+    "openingX1": 146.25,
+    "openingWidthIn": 70.6,
+    "roomLayerZ": 261.0,
+    "boothLayerZ": 287.54,
+    "workingHeadIn": 84.0,
+    "headStatus": "unverified visualization value",
+    "layers": 2,
+    "leafDescription": "two parallel sliding-leaf pairs; current leaf position and exact overlap are unknown",
+    "confidence": "moderate"
+  },
+  "booth": {
+    "nominalWidthIn": 123.0,
+    "nominalDepthIn": 95.0,
+    "bodyBoundsIn": {
+      "x0": 61.0,
+      "x1": 184.0,
+      "z0": 288.54,
+      "z1": 383.54
+    },
+    "outlineIn": [
+      [75.65, 259.5],
+      [146.25, 259.5],
+      [146.25, 288.54],
+      [184.0, 288.54],
+      [184.0, 383.54],
+      [106.03, 372.83],
+      [96.58, 370.79],
+      [88.26, 366.41],
+      [81.44, 360.08],
+      [76.48, 352.14],
+      [73.75, 342.92],
+      [61.0, 288.54],
+      [75.65, 288.54]
+    ],
+    "curveStatus": "sampled from the 2024 PDF vector curve, then normalized to the printed 123 by 95 inch body",
+    "confidence": "moderate"
+  },
+  "walkthrough": {
+    "centerX": 110.95,
+    "pathIn": [
+      [110.95, 241.5],
+      [110.95, 259.5],
+      [110.95, 274.02],
+      [110.95, 288.54],
+      [110.95, 308.0]
+    ],
+    "minimumPortalClearanceIn": 35.3,
+    "bodyRadiusIn": 18.0
+  }
+}
