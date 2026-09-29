@@ -2,16 +2,12 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 133,
-  "totalBytes": 58229388,
+  "fileCount": 153,
+  "totalBytes": 70705122,
   "files": [
     {
       "path": ".nojekyll",
       "bytes": 0
-    },
-    {
-      "path": "CNAME",
-      "bytes": 30
     },
     {
       "path": "app.js",
@@ -286,6 +282,14 @@
       "bytes": 1761458
     },
     {
+      "path": "assets/room-budget-study-v1.6.png",
+      "bytes": 2364016
+    },
+    {
+      "path": "assets/room-budget-v1.6.png",
+      "bytes": 2259432
+    },
+    {
       "path": "assets/room-photo-v1.3.png",
       "bytes": 2196432
     },
@@ -314,8 +318,32 @@
       "bytes": 670681
     },
     {
+      "path": "budget-data.js",
+      "bytes": 292462
+    },
+    {
+      "path": "budget-options-data.js",
+      "bytes": 13663
+    },
+    {
+      "path": "budget-options.js",
+      "bytes": 5166
+    },
+    {
+      "path": "budget-v1.6.html",
+      "bytes": 18092
+    },
+    {
+      "path": "budget.css",
+      "bytes": 16270
+    },
+    {
+      "path": "budget.js",
+      "bytes": 16371
+    },
+    {
       "path": "current.json",
-      "bytes": 875
+      "bytes": 1298
     },
     {
       "path": "evidence/claude-elements-reviewed.json",
@@ -334,6 +362,10 @@
       "bytes": 12052
     },
     {
+      "path": "evidence/planner-3d-export-v1.1.png",
+      "bytes": 893052
+    },
+    {
       "path": "evidence/room-polygon-source.json",
       "bytes": 9759
     },
@@ -350,6 +382,10 @@
       "bytes": 2765
     },
     {
+      "path": "exports/rehearsal-room-budget-v1.6.csv",
+      "bytes": 138457
+    },
+    {
       "path": "exports/rehearsal-room-build-guide-v1.0.pdf",
       "bytes": 1667073
     },
@@ -362,8 +398,8 @@
       "bytes": 91070
     },
     {
-      "path": "exports/rehearsal-room-sharing-kit-v1.5.zip",
-      "bytes": 26776520
+      "path": "exports/rehearsal-room-sharing-kit-v1.6.zip",
+      "bytes": 32434627
     },
     {
       "path": "exports/shopping-list-v1.5.csv",
@@ -407,7 +443,7 @@
     },
     {
       "path": "index.html",
-      "bytes": 2351
+      "bytes": 2546
     },
     {
       "path": "initial-photo.json",
@@ -438,6 +474,10 @@
       "bytes": 48522
     },
     {
+      "path": "recap-prospectus-v1.0.html",
+      "bytes": 49084
+    },
+    {
       "path": "reference-layout.js",
       "bytes": 3370
     },
@@ -448,6 +488,18 @@
     {
       "path": "research/audit-findings.md",
       "bytes": 13276
+    },
+    {
+      "path": "research/budget-design-v1.6.md",
+      "bytes": 1436
+    },
+    {
+      "path": "research/budget-options-v1.6.json",
+      "bytes": 19011
+    },
+    {
+      "path": "research/budget-options-v1.6.md",
+      "bytes": 5337
     },
     {
       "path": "research/build-completeness-audit-v1.5.md",
@@ -482,6 +534,26 @@
       "bytes": 46378
     },
     {
+      "path": "research/pricing-architecture-v1.6.json",
+      "bytes": 86997
+    },
+    {
+      "path": "research/pricing-architecture-v1.6.md",
+      "bytes": 8102
+    },
+    {
+      "path": "research/pricing-furnishings-v1.6.json",
+      "bytes": 100217
+    },
+    {
+      "path": "research/pricing-furnishings-v1.6.md",
+      "bytes": 8472
+    },
+    {
+      "path": "research/pricing-systems-v1.6.json",
+      "bytes": 127111
+    },
+    {
       "path": "research/procurement-notes.md",
       "bytes": 5557
     },
@@ -490,12 +562,20 @@
       "bytes": 24353
     },
     {
+      "path": "research/recap-prospectus-v1.0.md",
+      "bytes": 29035
+    },
+    {
       "path": "research/remaining-purchases-v1.5.json",
       "bytes": 15205
     },
     {
       "path": "research/remaining-purchases-v1.5.md",
       "bytes": 7461
+    },
+    {
+      "path": "research/room-budget-v1.6.json",
+      "bytes": 364727
     },
     {
       "path": "research/room-dimensions-records-v1.2.md",
@@ -523,7 +603,7 @@
     },
     {
       "path": "room-v1.5.html",
-      "bytes": 11690
+      "bytes": 12219
     },
     {
       "path": "shared-layouts.js",

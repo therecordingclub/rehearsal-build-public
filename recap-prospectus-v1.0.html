@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#100d0a">
+  <title>Room for Revision | Video production prospectus</title>
+  <meta name="description" content="Production prospectus for a documentary case study about Greg and Astra redesigning The Recording Club rehearsal room.">
+  <style>
+    @font-face{font-family:BarlowCondensed;src:url("assets/barlow-condensed.woff2") format("woff2");font-style:normal;font-weight:400 800;font-display:swap}
+    @font-face{font-family:PlexSans;src:url("assets/plex-sans.woff2") format("woff2");font-style:normal;font-weight:300 700;font-display:swap}
+    @font-face{font-family:PlexMono;src:url("assets/plex-mono.woff2") format("woff2");font-style:normal;font-weight:400 700;font-display:swap}
+    :root{
+      --room:#100d0a;--charcoal:#1d1915;--charcoal-2:#252019;--paper:#f1eadf;--brass:#c18a43;
+      --brass-soft:#d7aa6d;--line:#41382d;--muted:#aaa092;--green:#68b68f;--amber:#e0ae54;--red:#d87868;
+      --pad:clamp(1rem,4vw,4.5rem);--max:1440px;--display:BarlowCondensed,Arial Narrow,sans-serif;
+      --body:PlexSans,Arial,sans-serif;--mono:PlexMono,ui-monospace,monospace
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--room)}
+    body{margin:0;background:var(--room);color:var(--paper);font-family:var(--body);line-height:1.45;-webkit-font-smoothing:antialiased}
+    img{display:block;max-width:100%;height:auto}
+    a{color:inherit;text-underline-offset:.22em;text-decoration-color:var(--brass)}
+    a:hover{color:var(--brass-soft)}
+    button,a{touch-action:manipulation}
+    :focus-visible{outline:3px solid var(--brass-soft);outline-offset:4px}
+    .shell{width:min(100%,var(--max));margin-inline:auto;padding-inline:var(--pad)}
+    .nav{position:sticky;top:0;z-index:50;height:72px;background:rgb(16 13 10 / .94);border-bottom:1px solid var(--line);backdrop-filter:blur(16px)}
+    .nav-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:2rem}
+    .wordmark{font:700 1.15rem/1 var(--display);letter-spacing:.08em;text-decoration:none;white-space:nowrap}
+    .nav-links{display:flex;align-items:center;gap:1.4rem;font:.74rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+    .nav-links a{text-decoration:none;color:var(--muted)}
+    .nav-links a:hover{color:var(--paper)}
+    .print-button{min-height:44px;padding:.7rem 1rem;border:1px solid var(--brass);background:transparent;color:var(--paper);font:.72rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+    .print-button:active{transform:translateY(1px)}
+    .hero{min-height:calc(100dvh - 72px);display:grid;align-items:stretch;border-bottom:1px solid var(--line)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);min-height:calc(100dvh - 72px)}
+    .hero-copy{display:flex;flex-direction:column;justify-content:center;padding:clamp(3rem,7vw,7rem) var(--pad) 3rem max(var(--pad),calc((100vw - var(--max))/2 + var(--pad)));position:relative}
+    .eyebrow{font:700 .7rem/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--brass-soft);margin:0 0 1.2rem}
+    h1,h2,h3{font-family:var(--display);margin:0;font-weight:700;text-wrap:balance}
+    h1{font-size:clamp(4rem,8vw,8.3rem);line-height:.82;letter-spacing:-.025em;text-transform:uppercase;max-width:7ch}
+    h2{font-size:clamp(2.55rem,5.3vw,5rem);line-height:.92;letter-spacing:-.015em;text-transform:uppercase;max-width:14ch}
+    h3{font-size:clamp(1.55rem,2.4vw,2.25rem);line-height:1;text-transform:uppercase}
+    .hero-sub{max-width:34rem;margin:1.5rem 0 0;color:#d2c8ba;font-size:clamp(1rem,1.35vw,1.25rem);line-height:1.45}
+    .hero-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:2rem}
+    .button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.85rem 1.15rem;border:1px solid var(--brass);font:700 .75rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+    .button.primary{background:var(--brass);color:#150f08}
+    .button.secondary{background:transparent;color:var(--paper)}
+    .hero-media{position:relative;min-width:0;overflow:hidden;background:#080604}
+    .hero-media img{width:100%;height:100%;object-fit:cover;object-position:51% center;filter:saturate(.88) contrast(1.04)}
+    .hero-media:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--room) 0,transparent 14%,transparent 100%);pointer-events:none}
+    .image-caption{font:.7rem/1.35 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:.65rem}
+    .hero-caption{position:absolute;left:1.25rem;bottom:1.25rem;z-index:1;padding:.55rem .7rem;background:rgb(16 13 10 / .9);border-left:3px solid var(--brass);color:var(--paper)}
+    .truth{border-bottom:1px solid var(--line);background:var(--charcoal)}
+    .truth-grid{display:grid;grid-template-columns:1fr 1fr}
+    .truth-block{padding:2.2rem var(--pad)}
+    .truth-block:first-child{border-right:1px solid var(--line)}
+    .truth-label{display:flex;align-items:center;gap:.6rem;font:700 .72rem/1 var(--mono);text-transform:uppercase;letter-spacing:.11em;margin-bottom:.8rem}
+    .truth-label.ready{color:var(--green)}.truth-label.pending{color:var(--amber)}
+    .truth-copy{font:700 clamp(1.35rem,2.2vw,2rem)/1.15 var(--display);text-transform:uppercase;max-width:28ch}
+    section{padding:clamp(4.5rem,8vw,8rem) 0;border-bottom:1px solid var(--line)}
+    .section-heading{display:flex;gap:.8rem;align-items:flex-start;margin-bottom:clamp(2rem,4vw,4rem)}
+    .section-heading .icon{font-size:1.55rem;line-height:1}
+    .section-heading h2{min-width:0}
+    .lede{max-width:58rem;color:#d1c6b7;font-size:clamp(1.05rem,1.5vw,1.35rem);line-height:1.5;margin:1.3rem 0 0}
+    .story-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(17rem,.85fr);gap:clamp(2rem,7vw,7rem);align-items:start}
+    .logline{font:500 clamp(1.8rem,3.6vw,3.3rem)/1.08 var(--display);text-transform:uppercase;color:var(--paper);max-width:20ch}
+    .role-map{border-left:1px solid var(--brass);padding-left:1.5rem;display:grid;gap:1.5rem}
+    .role-map dt{font:700 .7rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--brass-soft)}
+    .role-map dd{margin:.45rem 0 0;color:#d3c9bb;max-width:38ch}
+    .quote-stack{display:grid;gap:1px;background:var(--line);margin-top:clamp(2.5rem,6vw,6rem);border:1px solid var(--line)}
+    blockquote{margin:0;background:var(--room);padding:clamp(1.4rem,3.5vw,3.2rem);font:600 clamp(1.65rem,3.8vw,3.6rem)/1.05 var(--display);text-transform:uppercase}
+    blockquote span{display:block;margin-top:1rem;font:700 .68rem/1.4 var(--mono);letter-spacing:.1em;color:var(--brass-soft)}
+    .failure-plate{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(16rem,.65fr);margin-top:1px;border:1px solid var(--line);background:var(--charcoal)}
+    .failure-plate img{width:100%;height:100%;max-height:34rem;object-fit:cover;object-position:center}
+    .failure-plate figcaption{display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(1.3rem,3vw,3rem)}
+    .proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+    figure{margin:0;background:var(--room);min-width:0}
+    .proof-grid img{width:100%;aspect-ratio:4/3;object-fit:cover}
+    .proof-grid figure:nth-child(2) img{object-position:center 60%}
+    figcaption{padding:1rem 1rem 1.3rem}
+    .evidence-type{font:700 .68rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--brass-soft)}
+    .evidence-name{font:700 1.25rem/1.05 var(--display);text-transform:uppercase;margin-top:.5rem}
+    .evidence-note{font-size:.82rem;color:var(--muted);margin-top:.45rem}
+    .proof-note{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-top:0}
+    .proof-note div{background:var(--charcoal);padding:1rem;font-size:.9rem;color:#d1c6b7}
+    .proof-note strong{display:block;font:700 .7rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.35rem;color:var(--green)}
+    .proof-note div:last-child strong{color:var(--amber)}
+    .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:3.5rem}
+    .metric{background:var(--charcoal);padding:clamp(1.2rem,2.6vw,2.4rem)}
+    .metric strong{display:block;font:700 clamp(2.4rem,5vw,4.6rem)/.85 var(--display);font-variant-numeric:tabular-nums;color:var(--paper)}
+    .metric span{display:block;margin-top:.7rem;font:.68rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--brass-soft)}
+    .beat-sheet{border-top:1px solid var(--line)}
+    .beat{display:grid;grid-template-columns:7.5rem minmax(12rem,.65fr) minmax(18rem,1.35fr) 8.5rem;gap:1.25rem;padding:1.4rem 0;border-bottom:1px solid var(--line);align-items:start}
+    .timecode{font:700 .83rem/1.4 var(--mono);color:var(--brass-soft);font-variant-numeric:tabular-nums}
+    .beat h3{font-size:1.55rem}
+    .beat-copy{color:#c9beaf;font-size:.94rem}
+    .status{font:700 .65rem/1.35 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+    .status.ready{color:var(--green)}.status.partial{color:var(--amber)}.status.pending{color:var(--red)}
+    .runtime{margin-top:1.4rem;display:flex;justify-content:flex-end;gap:.8rem;align-items:baseline;font-family:var(--mono);color:var(--muted)}
+    .runtime strong{font:700 clamp(2.8rem,6vw,5.7rem)/1 var(--display);color:var(--paper)}
+    .script-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+    .script-page{background:var(--charcoal);padding:clamp(1.4rem,3vw,3rem)}
+    .script-page h3{margin-bottom:1.3rem}
+    .line{display:grid;grid-template-columns:6rem 1fr;gap:1rem;padding:1rem 0;border-top:1px solid var(--line)}
+    .speaker{font:700 .66rem/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--brass-soft)}
+    .dialogue{font-size:1rem;color:#e6ddcf}
+    .line.prompt .dialogue{font-family:var(--mono);color:var(--paper)}
+    .cut-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+    .cut{background:var(--charcoal);padding:clamp(1.2rem,2.4vw,2.2rem)}
+    .cut strong{font:700 clamp(3rem,5vw,4.5rem)/.9 var(--display);color:var(--brass-soft)}
+    .cut h3{margin:.8rem 0 1rem}
+    .mini-list{list-style:none;padding:0;margin:0;display:grid;gap:.65rem;color:#c9beaf;font-size:.88rem}
+    .mini-list li{display:grid;grid-template-columns:1.2rem 1fr;gap:.5rem}
+    .mini-list li:before{content:"🎬";font-size:.8rem}
+    .readiness{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+    .readiness-col{padding:clamp(1.4rem,3vw,3rem);background:var(--charcoal)}
+    .readiness-col h3{margin-bottom:1.3rem}.readiness-col.ready h3{color:var(--green)}.readiness-col.pending h3{color:var(--amber)}
+    .status-list{list-style:none;padding:0;margin:0;display:grid;gap:.8rem}
+    .status-list li{display:grid;grid-template-columns:1.4rem 1fr;gap:.6rem;color:#d1c6b7}
+    .status-list.ready li:before{content:"✅"}.status-list.pending li:before{content:"⚠️"}
+    .accordion{border-top:1px solid var(--line)}
+    details{border-bottom:1px solid var(--line)}
+    summary{list-style:none;cursor:pointer;padding:1.25rem 3rem 1.25rem 0;position:relative;font:700 clamp(1.3rem,2.2vw,1.9rem)/1 var(--display);text-transform:uppercase}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:"+";position:absolute;right:.5rem;top:50%;transform:translateY(-50%);font:400 1.5rem/1 var(--mono);color:var(--brass-soft)}
+    details[open] summary:after{content:"−"}
+    .detail-body{padding:0 0 1.6rem;display:grid;grid-template-columns:1fr 1fr;gap:2rem;color:#c9beaf}
+    .detail-body h4{margin:0 0 .6rem;font:700 .7rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--brass-soft)}
+    .detail-body ul{list-style:none;padding:0;margin:0;display:grid;gap:.55rem}
+    .detail-body li{display:grid;grid-template-columns:1.2rem 1fr;gap:.45rem}
+    .detail-body li:before{content:"📐";font-size:.8rem}
+    .timeline{display:grid;gap:0;border-top:1px solid var(--line)}
+    .timeline-row{display:grid;grid-template-columns:9rem minmax(12rem,.75fr) minmax(18rem,1.25fr);gap:1.5rem;padding:1.2rem 0;border-bottom:1px solid var(--line)}
+    .timeline-date{font:700 .75rem/1.4 var(--mono);color:var(--brass-soft)}
+    .timeline-event{font:700 1.1rem/1.15 var(--display);text-transform:uppercase}
+    .timeline-proof{color:var(--muted);font-size:.88rem}
+    .production-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,6rem)}
+    .field-notes{display:grid;gap:1rem}
+    .field-note{border-top:1px solid var(--line);padding-top:1rem}
+    .field-note strong{display:block;font:700 .73rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--brass-soft);margin-bottom:.45rem}
+    .field-note span{color:#d1c6b7}
+    pre{margin:0;background:#0a0806;border:1px solid var(--line);padding:1.25rem;overflow:auto;font:400 .76rem/1.6 var(--mono);color:#d8cdbc;tab-size:2}
+    .treatment-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+    .treatment{background:var(--charcoal);padding:clamp(1.3rem,2.5vw,2.4rem)}
+    .treatment h3{margin-bottom:1rem}
+    .budget-table{width:100%;border-collapse:collapse;border-top:1px solid var(--line)}
+    .budget-table th,.budget-table td{text-align:left;vertical-align:top;padding:1.15rem 1rem 1.15rem 0;border-bottom:1px solid var(--line)}
+    .budget-table th{font:.7rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+    .budget-table td{color:#d6ccbe}
+    .budget-table .money{font:700 1.5rem/1 var(--display);color:var(--paper);white-space:nowrap;font-variant-numeric:tabular-nums}
+    .estimate-note{margin-top:1.2rem;padding-left:1rem;border-left:3px solid var(--amber);color:#d1c6b7;font-size:.9rem}
+    .distribution-grid{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:clamp(2rem,6vw,6rem)}
+    .cta-line{font:700 clamp(2.2rem,4.8vw,4.8rem)/.95 var(--display);text-transform:uppercase;color:var(--paper);max-width:12ch}
+    .target-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+    .target-list li{background:var(--charcoal);padding:1.2rem;display:grid;grid-template-columns:auto 1fr;gap:.7rem;color:#d1c6b7}
+    .target-list li:before{content:"🎯"}
+    .gate{display:grid;grid-template-columns:1fr auto;gap:1rem;align-items:center;padding:1.1rem 0;border-bottom:1px solid var(--line)}
+    .gate:first-child{border-top:1px solid var(--line)}
+    .gate span:first-child{color:#d7cdbf}.gate span:last-child{font:700 .66rem/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--amber)}
+    .close{padding:clamp(5rem,10vw,10rem) 0;text-align:center;background:var(--charcoal)}
+    .close h2{max-width:11ch;margin-inline:auto;font-size:clamp(3.7rem,8vw,8rem)}
+    .close .lede{margin:1.5rem auto 0;max-width:38rem}
+    .close-actions{display:flex;justify-content:center;gap:.75rem;flex-wrap:wrap;margin-top:2rem}
+    .source-note{font:.68rem/1.5 var(--mono);letter-spacing:.04em;color:#887e71;margin-top:3rem}
+    @media (max-width:1000px){
+      .nav-links a{display:none}.hero-grid{grid-template-columns:1fr;min-height:auto}.hero-copy{min-height:58dvh;padding-left:var(--pad)}
+      .hero-media{min-height:48dvh}.hero-media:after{background:linear-gradient(180deg,var(--room) 0,transparent 18%)}
+      .story-grid,.production-grid,.distribution-grid{grid-template-columns:1fr}.failure-plate{grid-template-columns:1fr}.beat{grid-template-columns:6.5rem 1fr 8rem}.beat-copy{grid-column:2/4}
+      .proof-grid{grid-template-columns:1fr 1fr}.proof-grid figure:last-child{grid-column:1/3}.metrics{grid-template-columns:1fr 1fr}
+      .cut-grid,.treatment-grid{grid-template-columns:1fr}.timeline-row{grid-template-columns:7rem 1fr}.timeline-proof{grid-column:2}.budget-table{font-size:.9rem}
+    }
+    @media (max-width:700px){
+      .nav{height:64px}.print-button{display:none}.hero{min-height:auto}.hero-copy{min-height:58dvh;padding-top:3rem}.hero-media{min-height:40dvh}
+      h1{font-size:clamp(3.7rem,20vw,5.6rem)}.truth-grid,.script-grid,.readiness,.proof-note{grid-template-columns:1fr}.truth-block:first-child{border-right:0;border-bottom:1px solid var(--line)}
+      .proof-grid{grid-template-columns:1fr}.proof-grid figure:last-child{grid-column:auto}.metrics{grid-template-columns:1fr 1fr}.metric strong{font-size:3rem}
+      .beat{grid-template-columns:1fr 7rem;gap:.7rem}.beat .timecode{grid-column:1}.beat h3{grid-column:1}.beat-copy{grid-column:1/3}.beat .status{grid-column:2;grid-row:1/3;text-align:right}
+      .line{grid-template-columns:1fr;gap:.35rem}.cut-grid{grid-template-columns:1fr}.detail-body{grid-template-columns:1fr}.timeline-row{grid-template-columns:1fr;gap:.45rem}.timeline-proof{grid-column:auto}
+      .target-list{grid-template-columns:1fr}.budget-table,.budget-table tbody,.budget-table tr,.budget-table td{display:block}.budget-table thead{display:none}.budget-table tr{padding:1rem 0;border-bottom:1px solid var(--line)}.budget-table td{border:0;padding:.3rem 0}.budget-table td:before{content:attr(data-label);display:block;font:.64rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+      section{padding-block:4.5rem}.gate{grid-template-columns:1fr}.gate span:last-child{padding-bottom:.3rem}
+    }
+    @media (max-width:390px){.metrics{grid-template-columns:1fr}.hero-actions,.close-actions{display:grid}.button{width:100%}.proof-note{display:block}.proof-note div+div{border-top:1px solid var(--line)}}
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+    @media print{
+      :root{--room:#fff;--charcoal:#f3f0eb;--charcoal-2:#ece8e1;--paper:#17130f;--muted:#594f44;--line:#b9b0a4;--brass:#76501f;--brass-soft:#76501f}
+      body{background:#fff;color:#17130f;font-size:10pt}.nav,.hero-actions,.close-actions{display:none}.hero,.hero-grid{min-height:auto}.hero-grid{grid-template-columns:1fr 1fr}.hero-copy{padding:2cm 1cm}.hero-media{min-height:11cm}.hero-media:after{display:none}
+      section{padding:1.2cm 0;break-inside:avoid}.shell{padding-inline:1cm}.truth-grid,.story-grid,.production-grid,.distribution-grid{grid-template-columns:1fr 1fr}.proof-grid{grid-template-columns:repeat(3,1fr)}
+      .beat{grid-template-columns:2.8cm 1fr 1.4fr 2.8cm}.script-grid,.readiness{grid-template-columns:1fr 1fr}.cut-grid{grid-template-columns:repeat(2,1fr)}.treatment-grid{grid-template-columns:repeat(3,1fr)}
+      details{break-inside:avoid}details .detail-body,details:not([open])>.detail-body{display:grid!important}summary:after{display:none}a{text-decoration:none}.close{background:#f3f0eb}.source-note{color:#594f44}
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" aria-label="Prospectus navigation">
+    <div class="shell nav-inner">
+      <a class="wordmark" href="#top">TRC / ROOM FOR REVISION</a>
+      <div class="nav-links">
+        <a href="#story">Story</a><a href="#cut">5:30 cut</a><a href="#capture">Capture</a><a href="#budget">Video budget</a><a href="budget-v1.6.html">$25k room plan</a>
+        <button class="print-button" type="button" onclick="window.print()">Print prospectus</button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Video production prospectus</div>
+          <h1>Room for revision</h1>
+          <div class="hero-sub">A documentary case study about turning one approved concept into a traceable room plan, one correction at a time.</div>
+          <div class="hero-actions">
+            <a class="button primary" href="#cut">Read the 5:30 cut</a>
+            <a class="button secondary" href="#readiness">See what is missing</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="assets/approved-concept.png" alt="Approved AI concept for the dark rehearsal room with illuminated antique mirrors, piano, lounge seating, bar, studio desk, and guitars" width="1536" height="1024" fetchpriority="high">
+          <div class="hero-caption image-caption">Approved concept / design starting point / room not built</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="truth">
+      <div class="shell truth-grid">
+        <div class="truth-block">
+          <div class="truth-label ready">✅ Planning evidence is ready</div>
+          <div class="truth-copy">The planning record supplies the first four minutes of the proposed film.</div>
+        </div>
+        <div class="truth-block">
+          <div class="truth-label pending">⚠️ The ending still needs reality</div>
+          <div class="truth-copy">Field work, construction, invoices, and the reveal must be filmed before picture lock.</div>
+        </div>
+      </div>
+    </div>
+
+    <section id="story">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">🎬</span><div><h2>The corrections are the story</h2></div></div>
+        <div class="story-grid">
+          <div class="logline">A studio owner starting without design or construction experience pushes Astra from rough models to a room plan professionals can inspect.</div>
+          <dl class="role-map">
+            <div><dt>Greg</dt><dd>Taste, persistence, musical judgment, room knowledge, and final decisions.</dd></div>
+            <div><dt>Astra</dt><dd>Primary owner of the independent planning system, research, modeling, procurement logic, and guide assembly.</dd></div>
+            <div><dt>Existing concept</dt><dd>The approved visual starting point from Greg's earlier room work with Claude. It is credited, not reassigned.</dd></div>
+            <div><dt>Bounded GPT helpers</dt><dd>Isolated research and production tasks returned to Astra for integration and judgment.</dd></div>
+            <div><dt>Trades and site</dt><dd>Measurements, engineering, fabrication, installation, tests, and the facts software cannot supply.</dd></div>
+          </dl>
+        </div>
+        <div class="quote-stack" aria-label="Verified prompt quotes from Greg">
+          <blockquote>“make the furniture accurately sized and shaped!!”<span>VERBATIM PROMPT</span></blockquote>
+          <blockquote>“you still have to do better”<span>VERBATIM PROMPT</span></blockquote>
+          <blockquote>“i mean EVERYTHING - all the walls mirrors desk every last detail of the room needs to be found and priced out”<span>VERBATIM PROMPT</span></blockquote>
+        </div>
+        <figure class="failure-plate">
+          <img src="evidence/planner-3d-export-v1.1.png" alt="Early rough 3D planning model with gray block furniture, room walls, mirrors, piano, bar, and studio desk" width="1592" height="1272" loading="lazy">
+          <figcaption><div class="evidence-type">Early 3D / iteration</div><div class="evidence-name">Let the first model look rough</div><div class="evidence-note">The awkward version gives the corrections meaning. It should stay on screen long enough to inspect.</div></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="proof">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">📐</span><div><h2>Every image carries its evidence state</h2><div class="lede">The edit must keep the real room, concept, model, visualization, and final installation visually distinct.</div></div></div>
+        <div class="proof-grid">
+          <figure>
+            <img src="assets/current-room.jpeg" alt="Real rehearsal room before construction with gray acoustic walls, wood floor, microphones, speakers, and camera equipment" width="6240" height="4160" loading="lazy">
+            <figcaption><div class="evidence-type">Real room / before</div><div class="evidence-name">What exists today</div><div class="evidence-note">Physical evidence. Match this camera angle after the build.</div></figcaption>
+          </figure>
+          <figure>
+            <img src="assets/room-3d-v1.4.png" alt="Corrected live 3D model of the planned rehearsal room with black seating, piano, bar, desk, TV, guitars, and illuminated mirrors" width="1536" height="1024" loading="lazy">
+            <figcaption><div class="evidence-type">Live 3D model / planning</div><div class="evidence-name">What can be moved</div><div class="evidence-note">Editable spatial planning. It does not prove field fit or construction.</div></figcaption>
+          </figure>
+          <figure>
+            <img src="assets/room-photo-v1.4.png" alt="AI visualization of the planned rehearsal room with black furniture, antique mirrors, warm lighting, bar, piano, studio desk, and TV" width="1536" height="1024" loading="lazy">
+            <figcaption><div class="evidence-type">AI visualization / not built</div><div class="evidence-name">What the plan could feel like</div><div class="evidence-note">A finished image derived from the planned layout. It is not a completion photo.</div></figcaption>
+          </figure>
+        </div>
+        <div class="proof-note">
+          <div><strong>✅ Ready comparison</strong>Before photo, approved concept, early model, corrected 3D, and finished visualization.</div>
+          <div><strong>⚠️ Required final frame</strong>The installed room, matched to the before camera and labeled as physical completion.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cut">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">🎬</span><div><h2>The hero cut lands at 5:30</h2><div class="lede">Four minutes tell the evidence-backed redesign story. The final 1:30 depends on field work and the physical build.</div></div></div>
+        <div class="metrics" aria-label="Verified v1.5 guide counts">
+          <div class="metric"><strong>37</strong><span>Installation scopes</span></div>
+          <div class="metric"><strong>158</strong><span>Components and services</span></div>
+          <div class="metric"><strong>227</strong><span>Ordered build steps</span></div>
+          <div class="metric"><strong>112</strong><span>Acceptance checks</span></div>
+        </div>
+        <div class="beat-sheet">
+          <article class="beat"><div class="timecode">00:00 to 00:25</div><h3>The correction</h3><div class="beat-copy">Rough model, approved concept, real room, blunt prompts, and the finished guide.</div><div class="status ready">✅ Assets ready</div></article>
+          <article class="beat"><div class="timecode">00:25 to 00:55</div><h3>The room Greg knows</h3><div class="beat-copy">TRC in use. Greg has deep music and studio experience, while starting without design or construction experience.</div><div class="status partial">⚠️ Interview needed</div></article>
+          <article class="beat"><div class="timecode">00:55 to 01:25</div><h3>A beautiful starting point</h3><div class="beat-copy">Credit the existing approved concept, then establish Astra's primary role in the independent planning system.</div><div class="status ready">✅ Core proof ready</div></article>
+          <article class="beat"><div class="timecode">01:25 to 02:10</div><h3>The first model fails</h3><div class="beat-copy">Wrong orientation, wrong scale, and generic shapes make Greg's corrections visible.</div><div class="status partial">⚠️ Capture versions</div></article>
+          <article class="beat"><div class="timecode">02:10 to 03:05</div><h3>Look up the records</h3><div class="beat-copy">Plans, room polygon, door swings, exact dimensions, and uncertainty replace plausible guesses.</div><div class="status ready">✅ Records ready</div></article>
+          <article class="beat"><div class="timecode">03:05 to 04:00</div><h3>Every detail becomes a build book</h3><div class="beat-copy">Furniture, TV, products, and budget revisions land on 37 scopes, 158 components, 227 steps, and 112 checks.</div><div class="status ready">✅ v1.5 verified</div></article>
+          <article class="beat"><div class="timecode">04:00 to 04:40</div><h3>The stop signs</h3><div class="beat-copy">Measurements, raised platforms, engineering, attachments, invoices, and orders remain open. The room is not built.</div><div class="status partial">⚠️ Field work needed</div></article>
+          <article class="beat"><div class="timecode">04:40 to 05:30</div><h3>Build and reveal</h3><div class="beat-copy">Short milestone clips carry survey, trades, installation, matched before and after, and Greg's reaction.</div><div class="status pending">⚠️ Entire scene pending</div></article>
+        </div>
+        <div class="runtime"><span>Total runtime</span><strong>5:30</strong></div>
+      </div>
+    </section>
+
+    <section id="script">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">🎬</span><div><h2>Greg's voice stays blunt and specific</h2><div class="lede">Narration is proposed copy. Quotation styling is reserved for the three verified prompts.</div></div></div>
+        <div class="script-grid">
+          <div class="script-page">
+            <h3>Open</h3>
+            <div class="line"><div class="speaker">Greg VO</div><div class="dialogue">I had never designed or built a room like this. I did know the room, and I knew when the picture in front of me was wrong.</div></div>
+            <div class="line prompt"><div class="speaker">On screen</div><div class="dialogue">“make the furniture accurately sized and shaped!!”</div></div>
+            <div class="line"><div class="speaker">Greg VO</div><div class="dialogue">The first 3D pass was rough. The room was turned around, the furniture was the wrong scale, and a polished image could hide all of it.</div></div>
+            <div class="line prompt"><div class="speaker">On screen</div><div class="dialogue">“you still have to do better”</div></div>
+          </div>
+          <div class="script-page">
+            <h3>Close</h3>
+            <div class="line"><div class="speaker">Greg VO</div><div class="dialogue">We have not built the room yet. Measurements, engineering, trade drawings, orders, invoices, installation, and the final reveal are still ahead.</div></div>
+            <div class="line"><div class="speaker">Greg VO</div><div class="dialogue">What Astra helped me build first was a way to make the project inspectable. I can see the room, move it, trace each decision, and hand each trade a clear next step.</div></div>
+            <div class="line"><div class="speaker">Greg VO</div><div class="dialogue">The finished room will be the last piece of evidence. We are filming that next.</div></div>
+            <div class="line prompt"><div class="speaker">End card</div><div class="dialogue">THE RECORDING CLUB / ROOM FOR REVISION / FOLLOW THE BUILD</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cutdowns">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">🎬</span><div><h2>Two cutdowns carry one claim</h2><div class="lede">Each short moves from correction to evidence to the next chapter. Neither presents the visualization as a finished room.</div></div></div>
+        <div class="cut-grid">
+          <article class="cut"><strong>30</strong><h3>The correction</h3><ul class="mini-list"><li>Rough 3D plus verified prompt.</li><li>Before, concept, corrected model.</li><li>37 / 158 / 227 / 112 proof hit.</li><li>End on “Follow the build.”</li></ul></article>
+          <article class="cut"><strong>60</strong><h3>Do better</h3><ul class="mini-list"><li>Two blunt corrections.</li><li>Greg's relevant experience.</li><li>Plans, exact products, guide.</li><li>Field gates remain visible.</li></ul></article>
+        </div>
+        <div class="estimate-note">A separate 90-second edit is deferred. It can replace the 60-second cut or use verified leftover edit hours, but it cannot push the plan past the $1,000 cash ceiling.</div>
+      </div>
+    </section>
+
+    <section id="readiness">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">✅</span><div><h2>The film has a strong first act, not an ending</h2></div></div>
+        <div class="readiness">
+          <div class="readiness-col ready">
+            <h3>Ready now</h3>
+            <ul class="status-list ready"><li>Real room before photo.</li><li>Approved concept and source brief.</li><li>Early rough 3D evidence.</li><li>Corrected live 3D model.</li><li>Finished visualization, clearly labeled.</li><li>v1.5 guide, drawings, installation system, and exports.</li><li>Verified 37 / 158 / 227 / 112 counts.</li><li>Git timeline from independent repo creation through v1.5.</li></ul>
+          </div>
+          <div class="readiness-col pending">
+            <h3>Must be captured</h3>
+            <ul class="status-list pending"><li>Greg's interviews before, during, and after the build.</li><li>Field measurements and both raised platforms.</li><li>Full-size layout mockup and discrepancies.</li><li>Trade drawings and professional decisions.</li><li>Final costs, invoices, schedule, and change record.</li><li>Construction, concealed conditions, tests, and punch list.</li><li>Matched final photography and room reveal.</li><li>Installed performance and post-use reflection.</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="capture">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">📐</span><div><h2>Capture the facts before the room changes</h2><div class="lede">The locked before angle, room-use footage, native screen recordings, and first interview are the immediate priorities.</div></div></div>
+        <div class="accordion">
+          <details open><summary>Before-state day</summary><div class="detail-body"><div><h4>Room</h4><ul><li>Mark tripod feet, height, focal length, tilt, lighting state, and time of day.</li><li>Film eight corners, booth link, raised areas, ceiling, services, gear, doors, and current use.</li><li>Record a slow walkthrough in both directions and 60 seconds of room tone.</li></ul></div><div><h4>Process</h4><ul><li>Interview Greg in the current room.</li><li>Record the guide, early 3D, concept, live 3D, visualization, products, and packet natively.</li><li>Slate every recording with version and date.</li></ul></div></div></details>
+          <details><summary>Field survey and mockup</summary><div class="detail-body"><div><h4>Measurements</h4><ul><li>Keep laser value, datum, and measured location visible in one shot.</li><li>Complete M-01 through M-16, including both raised storage-door areas.</li><li>Record every discrepancy between record, model, and field.</li></ul></div><div><h4>Fit</h4><ul><li>Tape furniture bodies and occupied envelopes.</li><li>Test doors, chair swivel, appliance service, instrument removal, and delivery routes.</li><li>Interview Greg and survey lead beside the marked plan.</li></ul></div></div></details>
+          <details><summary>Trade development</summary><div class="detail-body"><div><h4>Decisions</h4><ul><li>Film mirror, finish, light, fabric, slat, rug, and furniture samples.</li><li>Capture redlines, shop drawings, loads, attachments, controls, and cutouts.</li><li>Show the dated evidence when a custom item is released.</li></ul></div><div><h4>Interviews</h4><ul><li>Ask the lead builder what changed after measuring.</li><li>Ask a glazier or millworker which physical detail controlled the work.</li><li>Keep final quote and invoice totals off screen until verified and cleared.</li></ul></div></div></details>
+          <details><summary>Construction and reveal</summary><div class="detail-body"><div><h4>Build</h4><ul><li>Film protection, retained-equipment logs, timelapse, and every concealed condition before closure.</li><li>Capture one wide, one medium, and one detail for each major scope.</li><li>Record tests, punch list, as-built labels, and real site corrections.</li></ul></div><div><h4>Reveal</h4><ul><li>Recreate the locked before angle before anyone enters.</li><li>Capture Greg's first unscripted walkthrough.</li><li>Compare before, concept, 3D, visualization, and installed room with fixed labels.</li></ul></div></div></details>
+          <details><summary>Interview map</summary><div class="detail-body"><div><h4>Greg</h4><ul><li>Film before work, after survey, and after reveal.</li><li>Ask what he knew about the room, what failed first, and why he kept pushing.</li><li>Define his design and construction inexperience without diminishing his music and studio experience.</li></ul></div><div><h4>Trades and process</h4><ul><li>Ask the lead builder what changed after the field survey.</li><li>Ask one specialty trade which physical detail controlled fabrication.</li><li>Show Astra's workflow through sourced evidence, not a scripted endorsement.</li></ul></div></div></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">📊</span><div><h2>The current proof map is dated and traceable</h2></div></div>
+        <div class="timeline">
+          <div class="timeline-row"><div class="timeline-date">2026-09-13</div><div class="timeline-event">Approved concept</div><div class="timeline-proof"><a href="assets/approved-concept.png">Existing concept art</a> from Greg's earlier room work becomes the visual target.</div></div>
+          <div class="timeline-row"><div class="timeline-date">2026-09-26</div><div class="timeline-event">Independent guide starts</div><div class="timeline-proof">Commit <code>d78ad64</code> establishes the repo and its design direction.</div></div>
+          <div class="timeline-row"><div class="timeline-date">2026-09-26</div><div class="timeline-event">v1.0 is released</div><div class="timeline-proof">Commit <code>761686c</code> packages seven drawings and a 32-page guide.</div></div>
+          <div class="timeline-row"><div class="timeline-date">2026-09-27</div><div class="timeline-event">Model corrections</div><div class="timeline-proof">Commits <code>d6c2f4a</code>, <code>9bf7ca3</code>, and <code>96f6bbe</code> preserve the editable planner, full room, and source-matched furniture work.</div></div>
+          <div class="timeline-row"><div class="timeline-date">2026-09-28</div><div class="timeline-event">Measurement request staged</div><div class="timeline-proof">Commit <code>79ec3cc</code> records both raised areas. The request remains staged, not sent.</div></div>
+          <div class="timeline-row"><div class="timeline-date">2026-09-28</div><div class="timeline-event">v1.5 installation system</div><div class="timeline-proof">Commit <code>f8f4250</code> adds accurate affordable furniture and the complete current material installation guide.</div></div>
+          <div class="timeline-row"><div class="timeline-date">FUTURE</div><div class="timeline-event">Physical completion</div><div class="timeline-proof">Survey, trade releases, orders, invoices, construction, tests, and reveal require new dated evidence.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="field-plan">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">📐</span><div><h2>One in-house assistant can preserve the milestones</h2><div class="lede">Use existing TRC phones, cameras, tripod, microphones, lights, and storage. No new equipment or rental package is assumed.</div></div></div>
+        <div class="production-grid">
+          <div class="field-notes">
+            <div class="field-note"><strong>Picture</strong><span>4K at 23.98 fps. Lock exposure and white balance. Use 59.94 fps only for chosen detail shots.</span></div>
+            <div class="field-note"><strong>Vertical safety</strong><span>Protect a centered 4:5 frame in wides so 9:16 and 1:1 cutdowns survive.</span></div>
+            <div class="field-note"><strong>Sound</strong><span>Lav plus boom for Greg when possible. Record 60 seconds of room tone at every stage.</span></div>
+            <div class="field-note"><strong>Matched camera</strong><span>Record tripod position, lens, height, tilt, lighting, and time of day for the reveal.</span></div>
+            <div class="field-note"><strong>Screen capture</strong><span>Record interfaces natively. Keep version and date in the filename.</span></div>
+            <div class="field-note"><strong>Backup</strong><span>Two verified copies after every shoot day before cards are cleared.</span></div>
+          </div>
+          <pre aria-label="Production folder structure">TRC-Room-For-Revision/
+  00_ADMIN/
+  01_PROJECT_EVIDENCE/
+  02_VIDEO/
+    before/
+    survey/
+    trade-development/
+    construction/
+    reveal/
+  03_AUDIO/
+  04_SCREEN/
+  05_STILLS/
+  06_EDIT/
+  07_DELIVERY/
+    hero-16x9/
+    cutdowns-9x16/
+    cutdowns-1x1/
+    captions/
+    thumbnails/
+
+YYYYMMDD_STAGE_CAMERA_SHOT_TAKE.ext
+20261012_SURVEY_A_MEASURE-M16_T02.mov</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="treatment">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">🎬</span><div><h2>The treatment feels like a marked-up studio binder</h2></div></div>
+        <div class="treatment-grid">
+          <article class="treatment"><h3>Picture</h3><ul class="mini-list"><li>Hard cuts reveal version changes.</li><li>Failures stay on screen long enough to inspect.</li><li>Real before footage keeps its natural texture.</li><li>No generic AI glow, particles, or fake typing.</li></ul></article>
+          <article class="treatment"><h3>Sound</h3><ul class="mini-list"><li>Cable clicks, keys, drums, tape pulls, laser beeps, saws, and relays build rhythm.</li><li>If cleared music is used, it drops out under “you still have to do better.”</li><li>Dialogue leads the web mix.</li><li>Captions ship with the hero and both cutdowns.</li></ul></article>
+          <article class="treatment"><h3>Graphics</h3><ul class="mini-list"><li>Barlow Condensed for chapters.</li><li>IBM Plex Mono for timecode and proof.</li><li>Five labels only: record, model, visualization, field verified, pending.</li><li>Every number cites a dated version.</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="budget">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">📊</span><div><h2>Cap incremental video cash at $1,000</h2><div class="lede">The allowance stays inside the room project's hard $25,000 all-in cap. It is a plan, not spending authorization.</div></div></div>
+        <div class="readiness" style="margin-bottom:3rem">
+          <div class="readiness-col ready">
+            <h3>8 paid capture hours</h3>
+            <ul class="status-list ready"><li>2 hours for before-state room, Greg interview, and matched camera record.</li><li>1 hour for field survey and floor mockup.</li><li>2 hours across four short trade or construction milestones.</li><li>2 hours for final installation, matched reveal, and Greg reaction.</li><li>1 hour for native screen recordings, file labels, and edit handoff.</li></ul>
+          </div>
+          <div class="readiness-col pending">
+            <h3>16 paid edit hours</h3>
+            <ul class="status-list pending"><li>2 hours for ingest, organization, sync, and project setup.</li><li>6 hours to assemble the 5:30 story from the locked outline and Astra selects.</li><li>4 hours for proof labels, simple comparisons, captions, and source notes.</li><li>2 hours for one consolidated revision.</li><li>2 hours to export the hero and 30/60 cutdowns.</li></ul>
+          </div>
+        </div>
+        <table class="budget-table">
+          <thead><tr><th>Line</th><th>Allowance</th><th>Condition</th><th>Project-cap treatment</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Line">Studio assistant capture</td><td data-label="Allowance" class="money">$200</td><td data-label="Condition">8 paid hours at $25 per hour, spread across milestones.</td><td data-label="Project-cap treatment">Included inside $25,000.</td></tr>
+            <tr><td data-label="Line">Editing support</td><td data-label="Allowance" class="money">$640</td><td data-label="Condition">16 paid hours at $40 per hour, one revision round.</td><td data-label="Project-cap treatment">Included inside $25,000.</td></tr>
+            <tr><td data-label="Line">Storage or music-rights reserve</td><td data-label="Allowance" class="money">$160</td><td data-label="Condition">Spend only if existing storage or a cleared TRC-owned track cannot cover delivery.</td><td data-label="Project-cap treatment">Unspent cash stays in the room budget.</td></tr>
+            <tr><td data-label="Line">Maximum incremental cash</td><td data-label="Allowance" class="money">$1,000</td><td data-label="Condition">24 paid hours, existing equipment, simple proof graphics.</td><td data-label="Project-cap treatment">Hard ceiling, no automatic spend.</td></tr>
+          </tbody>
+        </table>
+        <div class="estimate-note">Greg contributes an estimated 4 to 6 owner hours for interviews, decisions, and two review passes. Astra works inside the existing service on evidence mapping, transcript, selects, captions, and factual checks. No new equipment, rental crew, outside agency, or free contractor labor is assumed. A TRC-owned track may be used only after written rights and contributor clearance. Otherwise use no music or a documented zero-cost source.</div>
+      </div>
+    </section>
+
+    <section id="distribution">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">🎯</span><div><h2>The release sends viewers from the story to the receipts</h2></div></div>
+        <div class="distribution-grid">
+          <div>
+            <div class="cta-line">Follow the build. Inspect the receipts.</div>
+            <div class="lede">Hero on YouTube and TRC's project page. Cutdowns on Instagram, LinkedIn, and short-form channels. A three-month follow-up reports what held up.</div>
+          </div>
+          <ul class="target-list">
+            <li>70% of test viewers distinguish concept, 3D, visualization, and installed room.</li>
+            <li>50% viewer retention at 30 seconds on the hero.</li>
+            <li>35% completion on the 5:30 hero.</li>
+            <li>2.5% click-through from project page to guide.</li>
+            <li>10 qualified conversations in the first 60 days.</li>
+            <li>Zero factual corrections about authorship, status, cost, schedule, or savings.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="gates">
+      <div class="shell">
+        <div class="section-heading"><span class="icon">⚠️</span><div><h2>Picture lock waits for physical evidence</h2></div></div>
+        <div class="gate"><span>Field dimensions and both raised storage-door areas</span><span>Pending</span></div>
+        <div class="gate"><span>Custom engineering, trade drawings, attachments, and release records</span><span>Pending</span></div>
+        <div class="gate"><span>Final orders, invoices, installed costs, and schedule record</span><span>Pending</span></div>
+        <div class="gate"><span>Construction, testing, punch list, and as-built evidence</span><span>Pending</span></div>
+        <div class="gate"><span>Matched final photography, reveal, and post-build interview</span><span>Pending</span></div>
+        <div class="gate"><span>Rights, releases, prompt excerpts, music, logos, and private-record clearance</span><span>Preproduction</span></div>
+      </div>
+    </section>
+
+    <section class="close">
+      <div class="shell">
+        <h2>The story is ready to film now</h2>
+        <div class="lede">Capture the current room before it changes. Finish the documentary when the room can answer back.</div>
+        <div class="close-actions">
+          <a class="button primary" href="research/recap-prospectus-v1.0.md">Open production dossier</a>
+          <a class="button secondary" href="room-v1.5.html">Inspect the room plan</a>
+          <a class="button secondary" href="exports/rehearsal-room-build-guide-v1.5.pdf">Open the v1.5 packet</a>
+        </div>
+        <div class="source-note">Production prospectus only. No video has been produced. Physical construction and final reveal remain pending.</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

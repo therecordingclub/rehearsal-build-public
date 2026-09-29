@@ -19,7 +19,15 @@
   "room_render": "layout.html?arrangement=source-v1.4#photo",
   "room_records": "room-records.json",
   "selected_furniture_image": "assets/room-3d-v1.4.png",
-  "offline_bundle": "exports/rehearsal-room-sharing-kit-v1.5.zip",
+  "offline_bundle": "exports/rehearsal-room-sharing-kit-v1.6.zip",
   "immutable_packet": "exports/rehearsal-room-build-guide-v1.5.pdf",
-  "immutable_packet_status": "generated release; field release required"
+  "immutable_packet_status": "generated release; field release required",
+  "sharing_version": "1.6",
+  "budget": "budget-v1.6.html",
+  "budget_data": "research/room-budget-v1.6.json",
+  "budget_concept": "assets/room-budget-v1.6.png",
+  "budget_options": "research/budget-options-v1.6.json",
+  "budget_csv": "exports/rehearsal-room-budget-v1.6.csv",
+  "budget_status": "Proposed $25,000 package; field checks and fixed trade bids outstanding",
+  "recap_prospectus": "recap-prospectus-v1.0.html"
 }
