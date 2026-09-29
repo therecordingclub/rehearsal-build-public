@@ -359,7 +359,8 @@
     $('show-fit').disabled=mode!=='2d';
     $('snap').disabled=mode!=='2d';
     window.history.replaceState(null,'',location.pathname+location.search+(mode==='2d'?'':'#'+mode));
-    if(mode!=='2d')finishedRenderer?.refresh();
+    finishedRenderer?.setActive(mode==='render');
+    if(mode==='render')void finishedRenderer?.refresh().catch(()=>{});
     if(mode==='photo')roomPhoto?.show();
     draw();
   }

@@ -2,8 +2,8 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 215,
-  "totalBytes": 264742485,
+  "fileCount": 217,
+  "totalBytes": 346444125,
   "files": [
     {
       "path": ".nojekyll",
@@ -459,7 +459,7 @@
     },
     {
       "path": "current.json",
-      "bytes": 1766
+      "bytes": 1794
     },
     {
       "path": "documentary.css",
@@ -550,6 +550,10 @@
       "bytes": 81722775
     },
     {
+      "path": "exports/rehearsal-room-sharing-kit-v1.8.zip",
+      "bytes": 81718889
+    },
+    {
       "path": "exports/shopping-list-v1.5.csv",
       "bytes": 20828
     },
@@ -559,7 +563,7 @@
     },
     {
       "path": "full-room-adapter.js",
-      "bytes": 25552
+      "bytes": 26677
     },
     {
       "path": "full-room-finishes.js",
@@ -570,8 +574,12 @@
       "bytes": 32817
     },
     {
+      "path": "full-room-scene.js",
+      "bytes": 1138817
+    },
+    {
       "path": "full-room.html",
-      "bytes": 1160437
+      "bytes": 1120
     },
     {
       "path": "furniture-catalog.js",
@@ -599,7 +607,7 @@
     },
     {
       "path": "layout.html",
-      "bytes": 11097
+      "bytes": 11148
     },
     {
       "path": "planner-geometry.js",
@@ -611,15 +619,15 @@
     },
     {
       "path": "planner-render.js",
-      "bytes": 4904
+      "bytes": 6713
     },
     {
       "path": "planner.css",
-      "bytes": 19607
+      "bytes": 19772
     },
     {
       "path": "planner.js",
-      "bytes": 48522
+      "bytes": 48595
     },
     {
       "path": "recap-prospectus-v1.0.html",

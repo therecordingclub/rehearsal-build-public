@@ -156,13 +156,34 @@ export function attachFullRoom(context) {
   let disposed = false;
   let currentLayoutId = null;
   let fixedGallery = null;
-  const ownsErrorBridge = !hostWindow.__trcRoomErrorBridgeInstalled;
+  const transport = context.transport || 'message';
+  const messageTransport = transport === 'message';
+  const evidenceRoot = context.evidenceRoot || hostWindow.document;
+  const evidenceDocument = context.evidenceDocument || hostWindow.document;
+  const evidenceHost = context.evidenceHost || hostWindow.document.documentElement;
+  const exposeGlobal = context.exposeGlobal !== false;
+  const ownsErrorBridge = messageTransport && !hostWindow.__trcRoomErrorBridgeInstalled;
 
   const scheduleTimeout = context.scheduleTimeout || hostWindow.setTimeout.bind(hostWindow);
   const cancelTimeout = context.cancelTimeout || hostWindow.clearTimeout.bind(hostWindow);
   const post = (target, origin, message) => {
     if (target && typeof target.postMessage === 'function') target.postMessage(message, origin);
   };
+
+  function evidenceNode(id) {
+    let node = evidenceRoot.getElementById?.(id) || evidenceRoot.querySelector?.(`#${id}`);
+    if (!node) {
+      node = evidenceDocument.createElement('script');
+      node.id = id;
+      node.type = 'application/json';
+      const target = typeof evidenceRoot.appendChild === 'function' ? evidenceRoot : evidenceRoot.body;
+      if (!target || typeof target.appendChild !== 'function') {
+        throw new Error('The full-room evidence root cannot accept nodes.');
+      }
+      target.appendChild(node);
+    }
+    return node;
+  }
 
   function installRightWallGallery() {
     const layout = rightWallGalleryLayout();
@@ -211,15 +232,9 @@ export function attachFullRoom(context) {
       (tv.depthIn / 2 + tv.mountGapIn / 2) * INCH,0,0);
     scene.add(group);
 
-    let evidence = hostWindow.document.getElementById('trc-room-tv-data');
-    if (!evidence) {
-      evidence = hostWindow.document.createElement('script');
-      evidence.id = 'trc-room-tv-data';
-      evidence.type = 'application/json';
-      hostWindow.document.body.appendChild(evidence);
-    }
+    const evidence = evidenceNode('trc-room-tv-data');
     evidence.textContent = JSON.stringify(layout);
-    hostWindow.document.documentElement.dataset.roomTvModel = tv.model;
+    evidenceHost.dataset.roomTvModel = tv.model;
 
     return {
       group,
@@ -466,16 +481,10 @@ export function attachFullRoom(context) {
   }
 
   function writePoseEvidence(layout, applied) {
-    let node = hostWindow.document.getElementById('trc-room-pose-data');
-    if (!node) {
-      node = hostWindow.document.createElement('script');
-      node.id = 'trc-room-pose-data';
-      node.type = 'application/json';
-      hostWindow.document.body.appendChild(node);
-    }
+    const node = evidenceNode('trc-room-pose-data');
     node.textContent = JSON.stringify({layoutId:currentLayoutId,name:layout?.name || '',items:applied});
-    hostWindow.document.documentElement.dataset.roomLayoutId = currentLayoutId || '';
-    hostWindow.document.documentElement.dataset.roomItemCount = String(applied.length);
+    evidenceHost.dataset.roomLayoutId = currentLayoutId || '';
+    evidenceHost.dataset.roomItemCount = String(applied.length);
   }
 
   function applyLayout(layout) {
@@ -560,15 +569,17 @@ export function attachFullRoom(context) {
     return result;
   }
 
+  function captureDataURL({photo = false} = {}) {
+    if (disposed) throw new Error('The full-room scene has been disposed.');
+    if (photo === true) return capturePhotoFrame();
+    if (typeof prepareFrame === 'function') prepareFrame();
+    else renderCurrentFrame();
+    return renderer.domElement.toDataURL('image/png');
+  }
+
   function capture(requestId, target, origin, photo = false) {
     try {
-      let dataURL;
-      if (photo === true) dataURL = capturePhotoFrame();
-      else {
-        if (typeof prepareFrame === 'function') prepareFrame();
-        else renderCurrentFrame();
-        dataURL = renderer.domElement.toDataURL('image/png');
-      }
+      const dataURL = captureDataURL({photo});
       post(target, origin, {type:'trc-room-capture-result',requestId,dataUrl:dataURL,layoutId:currentLayoutId});
     } catch (error) {
       post(target, origin, {type:'trc-room-capture-result',requestId,
@@ -594,26 +605,33 @@ export function attachFullRoom(context) {
   function notifyReady() {
     try {
       if (typeof prepareFrame === 'function') prepareFrame();
-      hostWindow.document.documentElement.dataset.roomReady = 'true';
-      post(hostWindow.parent, hostWindow.location.origin, {
-        type:'trc-room-ready', api:1, mappedCatalogItems:Object.keys(FULL_ROOM_BINDINGS).length
-      });
+      evidenceHost.dataset.roomReady = 'true';
+      if (messageTransport) {
+        post(hostWindow.parent, hostWindow.location.origin, {
+          type:'trc-room-ready', api:1, mappedCatalogItems:Object.keys(FULL_ROOM_BINDINGS).length
+        });
+      }
     } catch (error) {
-      reportError({error});
+      if (messageTransport) reportError({error});
+      else {
+        evidenceHost.dataset.roomReady = 'error';
+        throw error;
+      }
     }
   }
 
   function reportError(event) {
     const error = event?.error?.message || event?.reason?.message || event?.message ||
       String(event?.reason || 'The full room encountered an error.');
-    hostWindow.document.documentElement.dataset.roomReady = 'error';
-    post(hostWindow.parent, hostWindow.location.origin, {type:'trc-room-error',error});
+    evidenceHost.dataset.roomReady = 'error';
+    if (typeof context.onError === 'function') context.onError(event?.error || event?.reason || new Error(error));
+    if (messageTransport) post(hostWindow.parent, hostWindow.location.origin, {type:'trc-room-error',error});
   }
 
   function dispose() {
     if (disposed) return;
     disposed = true;
-    hostWindow.removeEventListener('message', onMessage);
+    if (messageTransport) hostWindow.removeEventListener('message', onMessage);
     if (ownsErrorBridge) {
       hostWindow.removeEventListener('error', reportError);
       hostWindow.removeEventListener('unhandledrejection', reportError);
@@ -624,21 +642,24 @@ export function attachFullRoom(context) {
     registered.clear();
     fixedGallery?.dispose();
     fixedGallery = null;
+    if (exposeGlobal && hostWindow.__fullRoomAdapter?.dispose === dispose) {
+      delete hostWindow.__fullRoomAdapter;
+    }
   }
 
   fixedGallery = installRightWallGallery();
-  hostWindow.addEventListener('message', onMessage);
+  if (messageTransport) hostWindow.addEventListener('message', onMessage);
   if (ownsErrorBridge) {
     hostWindow.addEventListener('error', reportError);
     hostWindow.addEventListener('unhandledrejection', reportError);
   }
-  if (new URLSearchParams(hostWindow.location.search || '').get('embedded') === '1') {
-    const help = hostWindow.document.getElementById('help');
-    if (help) help.textContent = 'Walk: WASD or arrows, drag to look, Q/E to turn, R/F height. Orbit: drag and use the wheel. Use the 2D plan to edit furniture.';
+  if (context.embedded === true || new URLSearchParams(hostWindow.location.search || '').get('embedded') === '1') {
+    const help = evidenceRoot.getElementById?.('help') || evidenceRoot.querySelector?.('#help');
+    if (help) help.textContent = 'Walk: WASD or arrows, drag to look, Q/E to turn, R/F height. Orbit: drag and use the wheel. Choose Move furniture to edit the layout.';
   }
-  if (hostWindow.document.readyState === 'complete') notifyReady();
+  if (transport === 'none' || transport === 'direct' || hostWindow.document.readyState === 'complete') notifyReady();
   else hostWindow.addEventListener('load', notifyReady, {once:true});
-  const api = {applyLayout,capture,dispose};
-  hostWindow.__fullRoomAdapter = api;
+  const api = {applyLayout,capture,captureDataURL,dispose};
+  if (exposeGlobal) hostWindow.__fullRoomAdapter = api;
   return api;
 }

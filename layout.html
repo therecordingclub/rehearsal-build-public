@@ -7,17 +7,16 @@
   <meta name="theme-color" content="#f5f7fa">
   <title>Arrange the room · Rehearsal Room 2</title>
   <link rel="preload" href="assets/barlow-condensed.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="planner.css">
+  <link rel="stylesheet" href="planner.css?v=1.8">
   <script type="importmap">{"imports":{"three":"./assets/vendor/three.module.min.js"}}</script>
   <script defer src="guide-data.js"></script>
   <script defer src="planner-geometry.js"></script>
   <script defer src="furniture-catalog.js"></script>
   <script defer src="furniture-profiles.js"></script>
   <script defer src="reference-layout.js"></script>
-  <script defer src="planner-render.js"></script>
+  <script defer src="planner-render.js?v=1.8"></script>
   <script defer src="planner-photo.js"></script>
-  <script defer src="shared-layouts.js"></script>
-  <script defer src="planner.js"></script>
+  <script defer src="planner.js?v=1.8"></script>
 </head>
 <body>
   <a class="skip" href="#plan">Skip to floor plan</a>
@@ -36,7 +35,7 @@
   </div>
   <main class="workspace">
     <section class="plan-area" aria-label="Interactive floor plan">
-      <div id="room-render" hidden><iframe id="full-room" title="Full rehearsal room with your furniture arrangement" allow="fullscreen" allowfullscreen></iframe><div id="reference-comparison" hidden><img src="assets/approved-concept.png" alt="Original AI room image: curved upholstered sofa, upright piano on the left, leather lounge chairs and production desk on the right"><div>Original AI image · visual reference</div></div><div id="room-loading" role="status">Opening full room…</div></div>
+      <div id="room-render" hidden><div id="full-room" role="region" aria-label="Full rehearsal room with your furniture arrangement"></div><div id="reference-comparison" hidden><img src="assets/approved-concept.png" alt="Original AI room image: curved upholstered sofa, upright piano on the left, leather lounge chairs and production desk on the right"><div>Original AI image · visual reference</div></div><div id="room-loading" role="status"><span id="room-loading-message">Opening full room…</span><button id="room-retry" type="button" hidden>Try 3D again</button></div></div>
       <div id="photo-panel" hidden><img id="photo-image" src="assets/approved-concept.png" alt="Original approved room image"><span class="photo-caption">AI visualization · use the dimensioned plan for fit</span></div>
       <div class="plan-tip" id="plan-tip">🖐 Drag a piece · select it to rotate</div>
       <svg id="plan" xmlns="http://www.w3.org/2000/svg" viewBox="-26 -24 245 312" tabindex="0" role="group" aria-label="Editable rehearsal room floor plan. Select furniture and drag, use arrow keys to move, or R to rotate.">
