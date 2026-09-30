@@ -3,7 +3,7 @@ export const FULL_ROOM_BINDINGS = Object.freeze({
   'SEAT-02A': {primary:'S-02', sources:['S-02']},
   'SEAT-02B': {primary:'S-03', sources:['S-03']},
   'SEAT-03': {primary:'T-01', sources:['T-01','DC-1']},
-  'BAR-01': {primary:'B-01', sources:['B-01','B-02']},
+  'BAR-01': {primary:'B-01', sources:['B-01','B-02','B-03','B-04']},
   'BAR-06': {primary:'S-04', sources:['S-04']},
   'KEY-01': {primary:'K-01', sources:['K-01','L-11']},
   'BENCH-01': {primary:'K-02', sources:['K-02']},

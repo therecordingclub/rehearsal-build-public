@@ -2,8 +2,8 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 217,
-  "totalBytes": 346444125,
+  "fileCount": 218,
+  "totalBytes": 428163930,
   "files": [
     {
       "path": ".nojekyll",
@@ -11,7 +11,7 @@
     },
     {
       "path": "app.js",
-      "bytes": 43350
+      "bytes": 43352
     },
     {
       "path": "assets/approved-concept.png",
@@ -459,7 +459,7 @@
     },
     {
       "path": "current.json",
-      "bytes": 1794
+      "bytes": 1800
     },
     {
       "path": "documentary.css",
@@ -550,6 +550,10 @@
       "bytes": 81722775
     },
     {
+      "path": "exports/rehearsal-room-sharing-kit-v1.8.1.zip",
+      "bytes": 81719761
+    },
+    {
       "path": "exports/rehearsal-room-sharing-kit-v1.8.zip",
       "bytes": 81718889
     },
@@ -563,7 +567,7 @@
     },
     {
       "path": "full-room-adapter.js",
-      "bytes": 26677
+      "bytes": 26691
     },
     {
       "path": "full-room-finishes.js",
@@ -575,11 +579,11 @@
     },
     {
       "path": "full-room-scene.js",
-      "bytes": 1138817
+      "bytes": 1138819
     },
     {
       "path": "full-room.html",
-      "bytes": 1120
+      "bytes": 1128
     },
     {
       "path": "furniture-catalog.js",
@@ -607,7 +611,7 @@
     },
     {
       "path": "layout.html",
-      "bytes": 11148
+      "bytes": 11150
     },
     {
       "path": "planner-geometry.js",
@@ -619,7 +623,7 @@
     },
     {
       "path": "planner-render.js",
-      "bytes": 6713
+      "bytes": 6715
     },
     {
       "path": "planner.css",
@@ -839,11 +843,11 @@
     },
     {
       "path": "room-v1.3.html",
-      "bytes": 10256
+      "bytes": 10260
     },
     {
       "path": "room-v1.5.html",
-      "bytes": 12353
+      "bytes": 12357
     },
     {
       "path": "shared-layouts.js",

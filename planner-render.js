@@ -12,7 +12,7 @@
     const loading = document.getElementById('room-loading');
     const loadingMessage = document.getElementById('room-loading-message');
     const retry = document.getElementById('room-retry');
-    const loadScene = options.loadScene || ((attempt) => import(`./full-room-scene.js?v=1.8${attempt > 1 ? '&retry='+attempt : ''}`));
+    const loadScene = options.loadScene || ((attempt) => import(`./full-room-scene.js?v=1.8.1${attempt > 1 ? '&retry='+attempt : ''}`));
     let scene = null, mount = null, applying = null, captureQueue = Promise.resolve();
     let layout = options.getLayout(), lastSignature = '', revision = 0, applied = 0;
     let active = false, disposed = false, attempts = 0, readinessTimer = null;
