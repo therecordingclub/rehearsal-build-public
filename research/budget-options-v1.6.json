@@ -1,14 +1,14 @@
 {
   "version": "1.6",
-  "checkedAt": "2026-09-28",
+  "checkedAt": "2026-09-29",
   "currency": "USD",
   "title": "$25,000 room allocation options",
   "source": {
     "file": "research/room-budget-v1.6.json",
     "version": "1.6",
     "hardCap": 25000,
-    "baselineAllIn": 24948.52,
-    "priceRevision": "1.7"
+    "baselineAllIn": 24813.44,
+    "priceRevision": "1.8"
   },
   "calculationPolicy": {
     "filmAllowance": 1000,
@@ -41,16 +41,16 @@
       "rowOverrides": [],
       "additionalRows": [],
       "categoryAllocations": {
-        "materials": 11580.06,
+        "materials": 11471.39,
         "labor": 7625.0,
         "services": 970.0,
-        "roomBase": 20175.06,
+        "roomBase": 20066.39,
         "film": 1000,
-        "taxReserve": 1158.01,
-        "freightReserve": 347.4,
-        "contingency": 2268.05,
-        "allIn": 24948.52,
-        "unallocatedHeadroom": 51.48
+        "taxReserve": 1147.14,
+        "freightReserve": 344.14,
+        "contingency": 2255.77,
+        "allIn": 24813.44,
+        "unallocatedHeadroom": 186.56
       },
       "deltaFromBaseline": {
         "materials": 0.0,
@@ -75,7 +75,7 @@
         "Existing black ceiling and illuminated openings",
         "New charcoal main-room fabric and retained acoustic treatment",
         "Black slat-panel bay returns",
-        "Complete compact bar, smoked front, three stools and backlit bottle shelves",
+        "Complete compact bar, smoked front, two upholstered stools and backlit bottle shelves",
         "Black sofa, two black swivel chairs, cocktail table and dark rug",
         "Production desk, guitar wall and 50-inch TV",
         "Warm perimeter, arch, shelf, track and booth lighting",
@@ -268,6 +268,14 @@
           "includeInTotal": false
         },
         {
+          "id": "FUR-083",
+          "includeInTotal": true
+        },
+        {
+          "id": "FUR-085",
+          "includeInTotal": false
+        },
+        {
           "id": "FUR-067",
           "includeInTotal": false
         },
@@ -412,19 +420,19 @@
         "unallocatedHeadroom": 46.22
       },
       "deltaFromBaseline": {
-        "materials": -447.1,
+        "materials": -338.43,
         "labor": 160.0,
         "services": 350.0,
-        "roomBase": 62.9,
-        "taxReserve": -44.71,
-        "freightReserve": -13.41,
-        "contingency": 0.48,
-        "allIn": 5.26
+        "roomBase": 171.57,
+        "taxReserve": -33.84,
+        "freightReserve": -10.15,
+        "contingency": 12.76,
+        "allIn": 140.34
       },
       "reallocation": {
         "addedBase": 3090.36,
-        "deferredBase": 3027.46,
-        "netBaseChange": 62.9,
+        "deferredBase": 2918.79,
+        "netBaseChange": 171.57,
         "changePackages": [
           {
             "id": "restore-acm-ceiling-inset",
@@ -514,10 +522,10 @@
               "FUR-027",
               "FUR-028"
             ],
-            "materialsDelta": -1058.96,
+            "materialsDelta": -821.98,
             "laborDelta": -560.0,
             "servicesDelta": 0.0,
-            "baseDelta": -1618.96
+            "baseDelta": -1381.98
           },
           {
             "id": "defer-slat-returns",
@@ -541,10 +549,21 @@
               "FUR-045",
               "FUR-046"
             ],
-            "materialsDelta": -214.68,
+            "materialsDelta": -243.0,
             "laborDelta": 0.0,
             "servicesDelta": 0.0,
-            "baseDelta": -214.68
+            "baseDelta": -243.0
+          },
+          {
+            "id": "defer-new-desk-chair",
+            "type": "defer",
+            "rowIds": [
+              "FUR-085"
+            ],
+            "materialsDelta": -99.99,
+            "laborDelta": 0.0,
+            "servicesDelta": 0.0,
+            "baseDelta": -99.99
           },
           {
             "id": "defer-discretionary-decor",
@@ -579,9 +598,10 @@
         "Compact bar carcass",
         "Black counter",
         "Smoked bar front",
-        "Three bar stools",
+        "Two upholstered bar stools",
         "Black slat-panel bay returns",
         "Dark rug and pad",
+        "New black desk chair; existing light rolling chair retained as the alternate",
         "Plant, pot, tray, coasters, candles, bottle props, framed print and picture hardware"
       ],
       "includedVisualFeatures": [
@@ -675,16 +695,16 @@
       ],
       "additionalRows": [],
       "categoryAllocations": {
-        "materials": 10723.78,
+        "materials": 10615.11,
         "labor": 7055.0,
         "services": 970.0,
-        "roomBase": 18748.78,
+        "roomBase": 18640.11,
         "film": 1000,
-        "taxReserve": 1072.38,
-        "freightReserve": 321.71,
-        "contingency": 2114.29,
-        "allIn": 23257.16,
-        "unallocatedHeadroom": 1742.84
+        "taxReserve": 1061.51,
+        "freightReserve": 318.45,
+        "contingency": 2102.01,
+        "allIn": 23122.08,
+        "unallocatedHeadroom": 1877.92
       },
       "deltaFromBaseline": {
         "materials": -856.28,
@@ -759,7 +779,7 @@
         "Five black-and-gold arched mirrors",
         "Existing black ceiling and illuminated openings",
         "New charcoal main-room fabric and retained acoustic treatment",
-        "Complete compact bar, smoked front, three stools and backlit bottle shelves",
+        "Complete compact bar, smoked front, two upholstered stools and backlit bottle shelves",
         "Black sofa, two black swivel chairs and dark rug",
         "Production desk, guitar wall and 50-inch TV",
         "Warm perimeter, arch, shelf, track and booth lighting",
@@ -773,5 +793,5 @@
       "decisionRule": "Choose this while field measurements and trade bids are outstanding. Keep both the contingency and unallocated funds available for required work."
     }
   ],
-  "priceRevision": "1.7"
+  "priceRevision": "1.8"
 }

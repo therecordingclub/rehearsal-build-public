@@ -30,7 +30,7 @@ const INCH = 1 / 12;
 export const RIGHT_WALL_TV_SPEC = Object.freeze({
   id:'TV-MAIN',
   manufacturer:'TCL',
-  model:'50S551G',
+  model:'50Q651G',
   diagonalIn:50,
   widthIn:43.7,
   heightIn:25.4,
@@ -40,8 +40,8 @@ export const RIGHT_WALL_TV_SPEC = Object.freeze({
   wallId:'W-BAY',
   centerZIn:129,
   centerYIn:67.7,
-  mountGapIn:.75,
-  status:'Manufacturer model envelope; retail availability and mount selection remain open.'
+  mountGapIn:.67,
+  status:'Budget TCL 50Q651G with SANUS BLL2 mount; cables and field mounting heights remain unverified.'
 });
 
 const RIGHT_WALL_SEGMENTS = Object.freeze({
@@ -51,21 +51,15 @@ const RIGHT_WALL_SEGMENTS = Object.freeze({
   southReturn:Object.freeze({a:Object.freeze([186.96,180]),b:Object.freeze([146.28,201.6])})
 });
 
-// The bay can hold the 43.7 in TV and two 13 in guitars with 10.65 in
-// instrument-to-screen gaps. The other eight instruments stay full scale on
-// adjacent wall segments; field hanger heights and removal clearance remain a
-// construction measurement hold.
+// Five retained wall instruments plus one spare hanger. The upright stays in
+// floor storage. Hanger elevations and removal clearance require a field check.
 const RIGHT_WALL_GUITAR_STATIONS = Object.freeze([
-  Object.freeze({id:'G-01',segment:'eastA',alongIn:10.125,widthIn:13.5}),
-  Object.freeze({id:'G-02',segment:'eastA',alongIn:27,widthIn:13.5}),
-  Object.freeze({id:'G-03',segment:'eastA',alongIn:43.875,widthIn:13.5}),
-  Object.freeze({id:'G-04',segment:'northReturn',alongIn:13.5767,widthIn:13}),
-  Object.freeze({id:'G-05',segment:'northReturn',alongIn:33.6533,widthIn:13}),
-  Object.freeze({id:'G-06',segment:'bay',alongIn:12,widthIn:13}),
-  Object.freeze({id:'G-07',segment:'bay',alongIn:90,widthIn:13}),
-  Object.freeze({id:'G-08',segment:'southReturn',alongIn:8.265,widthIn:13.5}),
-  Object.freeze({id:'G-09',segment:'southReturn',alongIn:23.28,widthIn:13.5}),
-  Object.freeze({id:'G-10',segment:'southReturn',alongIn:38.045,widthIn:13})
+  Object.freeze({id:'G-01',segment:'eastA',alongIn:27,widthIn:16}),
+  Object.freeze({id:'G-02',segment:'northReturn',alongIn:13.5767,widthIn:13.5}),
+  Object.freeze({id:'G-03',segment:'northReturn',alongIn:33.6533,widthIn:13.5}),
+  Object.freeze({id:'G-04',segment:'bay',alongIn:12,widthIn:13}),
+  Object.freeze({id:'G-05',segment:'bay',alongIn:90,widthIn:13}),
+  Object.freeze({id:'G-06',segment:'southReturn',alongIn:23.28,widthIn:3,spare:true})
 ]);
 
 function wallPose(segment, alongIn, projectionIn = 3.4) {
@@ -329,8 +323,9 @@ export function attachFullRoom(context) {
     });
   }
 
-  function cloneMapped(binding) {
-    const primarySource = ELG[binding.primary];
+  function cloneMapped(binding, item) {
+    const sourceObjects=context.sourcesForItem?.(item,binding)||ELG;
+    const primarySource = sourceObjects[binding.primary];
     if (!primarySource) return null;
     const wrapper = new THREE.Group();
     wrapper.name = `planner-${binding.key}`;
@@ -345,7 +340,7 @@ export function attachFullRoom(context) {
     let body = null;
 
     for (const sourceId of binding.sources) {
-      const source = ELG[sourceId];
+      const source = sourceObjects[sourceId];
       if (!source) continue;
       const clone = source.clone(true);
       const objectMap = rebindClonedObjectData(source, clone);
@@ -441,7 +436,7 @@ export function attachFullRoom(context) {
   }
 
   function createEntry(item, binding, inputKey) {
-    const entry = productEntry(item) || (binding ? cloneMapped(binding) : null) || customEntry(item);
+    const entry = productEntry(item) || (binding ? cloneMapped(binding,item) : null) || customEntry(item);
     entry.productInputKey = inputKey;
     scene.add(entry.group);
     return entry;

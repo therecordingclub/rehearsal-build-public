@@ -12,7 +12,7 @@
 <body>
 <div id="full-room" aria-label="Interactive three-dimensional rehearsal room"></div>
 <script type="module">
-import {mountFullRoom} from './full-room-scene.js?v=1.8.1';
+import {mountFullRoom} from './full-room-scene.js?v=1.9';
 const host=document.getElementById('full-room');
 mountFullRoom(host,{embedded:false}).catch((error)=>{host.dataset.roomReady='error';console.error(error);});
 </script>

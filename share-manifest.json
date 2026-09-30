@@ -2,8 +2,8 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 218,
-  "totalBytes": 428163930,
+  "fileCount": 243,
+  "totalBytes": 517262487,
   "files": [
     {
       "path": ".nojekyll",
@@ -11,7 +11,7 @@
     },
     {
       "path": "app.js",
-      "bytes": 43352
+      "bytes": 43350
     },
     {
       "path": "assets/approved-concept.png",
@@ -94,6 +94,42 @@
       "bytes": 126376
     },
     {
+      "path": "assets/products/budget-blackstone/retailer-swatch.jpg",
+      "bytes": 137980
+    },
+    {
+      "path": "assets/products/budget-blackstone/source.md",
+      "bytes": 601
+    },
+    {
+      "path": "assets/products/budget-emery-stool/official-front.jpg",
+      "bytes": 64699
+    },
+    {
+      "path": "assets/products/budget-emery-stool/source.md",
+      "bytes": 863
+    },
+    {
+      "path": "assets/products/budget-harput-rug/official-top.webp",
+      "bytes": 146638
+    },
+    {
+      "path": "assets/products/budget-harput-rug/source.md",
+      "bytes": 673
+    },
+    {
+      "path": "assets/products/budget-table/matching-model-front.jpg",
+      "bytes": 157345
+    },
+    {
+      "path": "assets/products/budget-table/matching-model-room.jpg",
+      "bytes": 278468
+    },
+    {
+      "path": "assets/products/budget-table/source.md",
+      "bytes": 1557
+    },
+    {
       "path": "assets/products/cb2-mylene-nomad-charcoal/fabric-swatch.jpg",
       "bytes": 413077
     },
@@ -128,6 +164,14 @@
     {
       "path": "assets/products/century-cornerstone-ltd7600-2crv/width-chart-36in.pdf",
       "bytes": 65960
+    },
+    {
+      "path": "assets/products/corrigan-seattle-black/retailer-front.jpg",
+      "bytes": 103033
+    },
+    {
+      "path": "assets/products/corrigan-seattle-black/source.md",
+      "bytes": 1303
     },
     {
       "path": "assets/products/craftmaster-c9-conversation-sofa/c9-schematics-tearpad-0426.pdf",
@@ -214,6 +258,18 @@
       "bytes": 1608
     },
     {
+      "path": "assets/products/ikea-renberget-black/official-front.jpg",
+      "bytes": 81105
+    },
+    {
+      "path": "assets/products/ikea-renberget-black/official-product.jpg",
+      "bytes": 39191
+    },
+    {
+      "path": "assets/products/ikea-renberget-black/source.md",
+      "bytes": 894
+    },
+    {
       "path": "assets/products/interior-crafts-curved-used/seller-photo-1.jpg",
       "bytes": 43710
     },
@@ -278,6 +334,18 @@
       "bytes": 2016
     },
     {
+      "path": "assets/products/luxe-weavers-black-trellis/alternate-glam.webp",
+      "bytes": 202028
+    },
+    {
+      "path": "assets/products/luxe-weavers-black-trellis/retailer-top.webp",
+      "bytes": 466164
+    },
+    {
+      "path": "assets/products/luxe-weavers-black-trellis/source.md",
+      "bytes": 1131
+    },
+    {
       "path": "assets/products/marketplace-black-curved/seller-photo-1.jpg",
       "bytes": 32904
     },
@@ -328,6 +396,10 @@
     {
       "path": "assets/records/rehearsal-plan-detail.png",
       "bytes": 221700
+    },
+    {
+      "path": "assets/room-3d-budget-v1.9.png",
+      "bytes": 1870710
     },
     {
       "path": "assets/room-3d-v1.3.png",
@@ -435,11 +507,11 @@
     },
     {
       "path": "budget-data.js",
-      "bytes": 296324
+      "bytes": 298841
     },
     {
       "path": "budget-options-data.js",
-      "bytes": 13995
+      "bytes": 14336
     },
     {
       "path": "budget-options.js",
@@ -447,19 +519,19 @@
     },
     {
       "path": "budget-v1.6.html",
-      "bytes": 18936
+      "bytes": 21644
     },
     {
       "path": "budget.css",
-      "bytes": 16270
+      "bytes": 17024
     },
     {
       "path": "budget.js",
-      "bytes": 16473
+      "bytes": 16663
     },
     {
       "path": "current.json",
-      "bytes": 1800
+      "bytes": 1802
     },
     {
       "path": "documentary.css",
@@ -522,6 +594,10 @@
       "bytes": 141580
     },
     {
+      "path": "exports/rehearsal-room-budget-v1.8.csv",
+      "bytes": 143379
+    },
+    {
       "path": "exports/rehearsal-room-build-guide-v1.0.pdf",
       "bytes": 1667073
     },
@@ -558,6 +634,10 @@
       "bytes": 81718889
     },
     {
+      "path": "exports/rehearsal-room-sharing-kit-v1.9.zip",
+      "bytes": 85316274
+    },
+    {
       "path": "exports/shopping-list-v1.5.csv",
       "bytes": 20828
     },
@@ -567,7 +647,23 @@
     },
     {
       "path": "full-room-adapter.js",
-      "bytes": 26691
+      "bytes": 26407
+    },
+    {
+      "path": "full-room-budget-desk-chair.js",
+      "bytes": 4834
+    },
+    {
+      "path": "full-room-budget-furniture.js",
+      "bytes": 14679
+    },
+    {
+      "path": "full-room-budget-retained.js",
+      "bytes": 17554
+    },
+    {
+      "path": "full-room-budget.js",
+      "bytes": 23360
     },
     {
       "path": "full-room-finishes.js",
@@ -579,15 +675,15 @@
     },
     {
       "path": "full-room-scene.js",
-      "bytes": 1138819
+      "bytes": 1140493
     },
     {
       "path": "full-room.html",
-      "bytes": 1128
+      "bytes": 1126
     },
     {
       "path": "furniture-catalog.js",
-      "bytes": 10268
+      "bytes": 14720
     },
     {
       "path": "furniture-profiles.js",
@@ -603,7 +699,7 @@
     },
     {
       "path": "index.html",
-      "bytes": 2654
+      "bytes": 2645
     },
     {
       "path": "initial-photo.json",
@@ -611,7 +707,7 @@
     },
     {
       "path": "layout.html",
-      "bytes": 11150
+      "bytes": 11235
     },
     {
       "path": "planner-geometry.js",
@@ -623,7 +719,7 @@
     },
     {
       "path": "planner-render.js",
-      "bytes": 6715
+      "bytes": 6713
     },
     {
       "path": "planner.css",
@@ -631,7 +727,7 @@
     },
     {
       "path": "planner.js",
-      "bytes": 48595
+      "bytes": 51238
     },
     {
       "path": "recap-prospectus-v1.0.html",
@@ -639,7 +735,7 @@
     },
     {
       "path": "reference-layout.js",
-      "bytes": 3370
+      "bytes": 5655
     },
     {
       "path": "research/affordable-seating-v1.4.md",
@@ -663,7 +759,7 @@
     },
     {
       "path": "research/budget-options-v1.6.json",
-      "bytes": 22339
+      "bytes": 22921
     },
     {
       "path": "research/budget-options-v1.6.md",
@@ -727,7 +823,7 @@
     },
     {
       "path": "research/pricing-furnishings-v1.6.json",
-      "bytes": 103864
+      "bytes": 106446
     },
     {
       "path": "research/pricing-furnishings-v1.6.md",
@@ -759,7 +855,7 @@
     },
     {
       "path": "research/room-budget-v1.6.json",
-      "bytes": 368812
+      "bytes": 371571
     },
     {
       "path": "research/room-dimensions-records-v1.2.md",
@@ -843,11 +939,15 @@
     },
     {
       "path": "room-v1.3.html",
-      "bytes": 10260
+      "bytes": 10256
     },
     {
       "path": "room-v1.5.html",
-      "bytes": 12357
+      "bytes": 11983
+    },
+    {
+      "path": "room-v1.9.html",
+      "bytes": 1197
     },
     {
       "path": "shared-layouts.js",

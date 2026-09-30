@@ -8,7 +8,11 @@
   const svg = $('plan');
   const rooms = [GUIDE.room.polygon, GUIDE.room.booth];
   const R = GUIDE.room.records;
-  const storeKey = 'trc-rehearsal-planner-v1' + (new URLSearchParams(location.search).has('qa') ? '-qa' : '');
+  const query = new URLSearchParams(location.search);
+  const requestedArrangement = query.get('arrangement');
+  const hasExplicitArrangement = query.has('arrangement');
+  const budgetPreset = window.ReferenceLayout.budget;
+  const storeKey = 'trc-rehearsal-planner-v1' + (query.has('qa') ? '-qa' : '');
   const clone = (value) => JSON.parse(JSON.stringify(value));
   const esc = (value) => String(value).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const id = () => 'layout-' + (crypto.randomUUID ? crypto.randomUUID() : Date.now() + '-' + Math.random().toString(36).slice(2));
@@ -36,11 +40,11 @@
     return piece.kind === 'stools' ? [-18,0,18].map((offset, i) => ({...common, id:piece.id + '-' + (i+1), name:'Bar stool ' + (i+1), z:piece.z + offset, w:15, d:15, shape:'ellipse'})) : [common];
   }).map((item) => decorate(item));
   const freshLayout = (name = 'Starting arrangement') => ({id:id(), name, items:clone(startingItems), updatedAt:new Date().toISOString()});
-  const blankState = () => {
+  function blankState() {
     if (window.SharedLayoutBackup) return validatedState(window.SharedLayoutBackup);
     const first = freshLayout();
     return {kind:'trc-rehearsal-layouts', schema:1, activeId:first.id, layouts:[first], snap:1, showFit:true};
-  };
+  }
 
   function validatedItems(items) {
     if (!Array.isArray(items) || items.length > 100) throw new Error('Each layout needs a furniture list with no more than 100 pieces.');
@@ -61,7 +65,8 @@
       if (!layout || typeof layout !== 'object') throw new Error('A saved layout is invalid.');
       const layoutId = typeof layout.id === 'string' && layout.id.length < 100 && !used.has(layout.id) ? layout.id : id();
       used.add(layoutId);
-      return {id:layoutId, name:String(layout.name || 'Imported layout').slice(0,60), items:validatedItems(layout.items), updatedAt:typeof layout.updatedAt === 'string' ? layout.updatedAt.slice(0,40) : new Date().toISOString()};
+      return {id:layoutId, name:String(layout.name || 'Imported layout').slice(0,60), items:validatedItems(layout.items), updatedAt:typeof layout.updatedAt === 'string' ? layout.updatedAt.slice(0,40) : new Date().toISOString(),
+        ...(layout.sourcePresetId === budgetPreset.id ? {sourcePresetId:budgetPreset.id} : {})};
     });
     return {kind:'trc-rehearsal-layouts', schema:1, activeId:layouts.some((layout) => layout.id === input.activeId) ? input.activeId : layouts[0].id, layouts, snap:[0,1,3,6].includes(input.snap) ? input.snap : 1, showFit:input.showFit !== false};
   }
@@ -71,13 +76,14 @@
   let recoveryMessage = '';
   let lastStoredRaw = null;
   let loadedFromStorage = false;
+  let hadValidSavedState = Boolean(window.SharedLayoutBackup);
   try {
     const raw = localStorage.getItem(storeKey);
     lastStoredRaw = raw;
     if (raw) {
       try {
         const parsed = JSON.parse(raw);
-        state = validatedState(parsed); loadedFromStorage = true;
+        state = validatedState(parsed); loadedFromStorage = true; hadValidSavedState = true;
         if (parsed.layouts.some((layout) => layout.items.some((item) => item.catalogVersion !== C.version))) {
           if (!localStorage.getItem(storeKey+'-before-shapes-v2')) localStorage.setItem(storeKey+'-before-shapes-v2',raw);
           loadedFromStorage = false;
@@ -91,8 +97,46 @@
       }
     }
   } catch (_) { storageBlocked = true; recoveryMessage = 'Browser storage is unavailable. Export an editable backup before leaving.'; }
-  const requestedPreset = window.ReferenceLayout.presets[new URLSearchParams(location.search).get('arrangement')];
-  if (requestedPreset) {
+  const requestedPreset = window.ReferenceLayout.presets[requestedArrangement];
+  // QA without an arrangement intentionally keeps its long-standing clean
+  // starting-data path. Production bare URLs default to the budget once, while
+  // an existing budget copy never overrides the saved selection on reload.
+  const wantsBudget = requestedArrangement === 'budget-v1.9' ||
+    (!hasExplicitArrangement && !query.has('qa'));
+  if (wantsBudget) {
+    let preset = state.layouts.find((layout) => layout.id === budgetPreset.id);
+    let created = false;
+    if (!preset && state.layouts.length < 30) {
+      let backupReady = true;
+      if (hadValidSavedState && lastStoredRaw) {
+        try {
+          const backupKey = storeKey + '-before-budget-v1.9';
+          if (!localStorage.getItem(backupKey)) localStorage.setItem(backupKey,lastStoredRaw);
+        } catch (_) {
+          backupReady = false;
+          storageBlocked = true;
+          recoveryMessage = 'The balanced-plan copy was not added because the original saved data could not be backed up.';
+        }
+      }
+      if (backupReady) {
+        const source = state.layouts.find((layout) => layout.id === state.activeId);
+        const items = hadValidSavedState
+          ? budgetPreset.upgrade(clone(source.items))
+          : budgetPreset.build(clone(startingItems));
+        preset = {...freshLayout(budgetPreset.name),id:budgetPreset.id,sourcePresetId:budgetPreset.id,
+          items:validatedItems(items)};
+        if (hadValidSavedState) state.layouts.push(preset);
+        else state = {...state,activeId:preset.id,layouts:[preset]};
+        created = true;
+      }
+    }
+    if (preset && (created || requestedArrangement === 'budget-v1.9')) {
+      state.activeId = preset.id;
+      loadedFromStorage = false;
+    } else if (!preset && state.layouts.length >= 30) {
+      recoveryMessage = 'Your collection has 30 layouts. Existing layouts and the current selection were kept; export a backup before adding the balanced $25k plan.';
+    }
+  } else if (requestedPreset) {
     const presetId = requestedPreset.id;
     let preset = state.layouts.find((layout) => layout.id === presetId);
     if (!preset && state.layouts.length < 30) {
@@ -581,7 +625,9 @@
     const name = $('layout-name').value.trim();
     if (!name) return;
     if (nameMode === 'copy') {
-      const layout = {...clone(active()), id:id(),name:name.slice(0,60)};
+      const source = active();
+      const layout = {...clone(source), id:id(),name:name.slice(0,60)};
+      if (source.id === budgetPreset.id || source.sourcePresetId === budgetPreset.id) layout.sourcePresetId = budgetPreset.id;
       state.layouts.push(layout); state.activeId = layout.id;
     } else active().name = name.slice(0,60);
     $('name-dialog').close(); persist(); updateLayoutOptions(); render();
@@ -600,7 +646,12 @@
     $('add-dialog').close(); select(selectedId,true); toast('Piece added. Drag it into place.');
   });
   $('reset-layout').addEventListener('click', () => { $('reset-message').textContent = `Restore the starting furniture in “${active().name}”? Other saved layouts stay as they are. You can undo this reset.`; $('reset-dialog').showModal(); document.querySelector('.file-menu').open = false; });
-  $('confirm-reset').addEventListener('click', () => { mutate(() => { active().items = clone(startingItems); selectedId = 'SEAT-01'; }); $('reset-dialog').close(); fitView('main'); toast('Starting furniture restored. Undo is available.'); });
+  $('confirm-reset').addEventListener('click', () => { mutate(() => {
+    const layout = active();
+    const isBudget = layout.id === budgetPreset.id || layout.sourcePresetId === budgetPreset.id;
+    layout.items = validatedItems(isBudget ? budgetPreset.build(clone(startingItems)) : clone(startingItems));
+    selectedId = 'SEAT-01';
+  }); $('reset-dialog').close(); fitView('main'); toast('Starting furniture restored. Undo is available.'); });
   $('image-reference-layout').addEventListener('click', () => {
     if (state.layouts.length >= 30) return toast('There are already 30 layouts. Export a backup before removing one.');
     const layout = freshLayout(window.ReferenceLayout.affordable.name);
