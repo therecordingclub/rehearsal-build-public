@@ -2,8 +2,8 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 243,
-  "totalBytes": 517262487,
+  "fileCount": 259,
+  "totalBytes": 626661266,
   "files": [
     {
       "path": ".nojekyll",
@@ -11,7 +11,7 @@
     },
     {
       "path": "app.js",
-      "bytes": 43350
+      "bytes": 43351
     },
     {
       "path": "assets/approved-concept.png",
@@ -418,6 +418,46 @@
       "bytes": 2259432
     },
     {
+      "path": "assets/room-meeting-lounge-v1.0.png",
+      "bytes": 2171001
+    },
+    {
+      "path": "assets/room-meeting-lounge-v1.0.webp",
+      "bytes": 210372
+    },
+    {
+      "path": "assets/room-meeting-lounge-v1.1.png",
+      "bytes": 2212018
+    },
+    {
+      "path": "assets/room-meeting-lounge-v1.1.webp",
+      "bytes": 246286
+    },
+    {
+      "path": "assets/room-meeting-lounge-v1.2.png",
+      "bytes": 2081942
+    },
+    {
+      "path": "assets/room-meeting-lounge-v1.2.webp",
+      "bytes": 195624
+    },
+    {
+      "path": "assets/room-meeting-rehearsal-v1.1.png",
+      "bytes": 2403563
+    },
+    {
+      "path": "assets/room-meeting-rehearsal-v1.1.webp",
+      "bytes": 270592
+    },
+    {
+      "path": "assets/room-meeting-rehearsal-v1.2.png",
+      "bytes": 2233364
+    },
+    {
+      "path": "assets/room-meeting-rehearsal-v1.2.webp",
+      "bytes": 206696
+    },
+    {
       "path": "assets/room-photo-v1.3.png",
       "bytes": 2196432
     },
@@ -503,7 +543,7 @@
     },
     {
       "path": "astra-room-documentary-v1.0.html",
-      "bytes": 44678
+      "bytes": 44570
     },
     {
       "path": "budget-data.js",
@@ -531,7 +571,7 @@
     },
     {
       "path": "current.json",
-      "bytes": 1802
+      "bytes": 2269
     },
     {
       "path": "documentary.css",
@@ -610,6 +650,10 @@
       "bytes": 91070
     },
     {
+      "path": "exports/rehearsal-room-sharing-kit-v1.10.zip",
+      "bytes": 97106125
+    },
+    {
       "path": "exports/rehearsal-room-sharing-kit-v1.5.zip",
       "bytes": 26776520
     },
@@ -644,6 +688,14 @@
     {
       "path": "exports/site-survey-v1.5.pdf",
       "bytes": 41025
+    },
+    {
+      "path": "exports/team-next-steps-v1.0.csv",
+      "bytes": 5567
+    },
+    {
+      "path": "exports/team-next-steps-v1.0.txt",
+      "bytes": 5170
     },
     {
       "path": "full-room-adapter.js",
@@ -699,7 +751,7 @@
     },
     {
       "path": "index.html",
-      "bytes": 2645
+      "bytes": 2757
     },
     {
       "path": "initial-photo.json",
@@ -707,7 +759,7 @@
     },
     {
       "path": "layout.html",
-      "bytes": 11235
+      "bytes": 11242
     },
     {
       "path": "planner-geometry.js",
@@ -743,7 +795,7 @@
     },
     {
       "path": "research/astra-room-documentary-v1.0.json",
-      "bytes": 36566
+      "bytes": 36512
     },
     {
       "path": "research/astra-room-documentary-v1.0.md",
@@ -939,11 +991,11 @@
     },
     {
       "path": "room-v1.3.html",
-      "bytes": 10256
+      "bytes": 10258
     },
     {
       "path": "room-v1.5.html",
-      "bytes": 11983
+      "bytes": 11985
     },
     {
       "path": "room-v1.9.html",
@@ -972,6 +1024,18 @@
     {
       "path": "styles.css",
       "bytes": 23898
+    },
+    {
+      "path": "team-plan-v1.0.html",
+      "bytes": 21405
+    },
+    {
+      "path": "team-plan.css",
+      "bytes": 24501
+    },
+    {
+      "path": "team-plan.js",
+      "bytes": 4124
     },
     {
       "path": "vercel.json",
