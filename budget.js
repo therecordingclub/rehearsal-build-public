@@ -34,11 +34,11 @@
     return(base+D.recapAllowance+mat*(D.assumptions.taxReservePercent+D.assumptions.deliveryReservePercent)/100)*(1+D.assumptions.contingencyPercent/100);
   }
   function summary(){
-    const t=total();$('#grand-total').textContent=money(t.grand);$('#budget-range').textContent=`Estimate range ${whole(baselineRange('extendedLow'))}–${whole(baselineRange('extendedHigh'))}. The upper range is a cost risk, not permission to exceed $25,000.`;
-    $('#cap-status').textContent=t.headroom>=0?`${money(t.headroom)} remains below the $25,000 ceiling.`:`${money(-t.headroom)} over the $25,000 ceiling. Stop orders and revise the scope.`;
+    const t=total();$('#grand-total').textContent=money(t.grand);$('#budget-range').textContent=`Estimate range ${whole(baselineRange('extendedLow'))}–${whole(baselineRange('extendedHigh'))}. Aim for $10,000-15,000; the ceiling remains $25,000.`;
+    $('#cap-status').textContent=t.headroom>=0?`${money(t.headroom)} remains below the $25,000 ceiling; we are trying to squeeze the project to $10,000-15,000.`:`${money(-t.headroom)} over the $25,000 ceiling; target $10,000-15,000. Revise the scope before orders.`;
     $('#cap-status').classList.toggle('over',t.headroom<0);$('.budget-summary').classList.toggle('over-cap',t.headroom<0);
     const changed=D.lines.some(isEdited)||Object.keys(D.assumptions).some(k=>state.reserves[k]!==D.assumptions[k]);
-    $('#total-label').textContent=changed?'🟡 YOUR WORKING BUDGET WITH RESERVES':'🟡 PLANNING BUDGET WITH RESERVES';
+    $('#total-label').textContent=changed?'🟡 YOUR WORKING BUDGET WITH RESERVES':'🟡 EARLIER ESTIMATE WITH RESERVES';
     $('#totals').innerHTML=[['Materials + furniture',t.materials],['Installation labor',t.labor],['Preparation + services',t.services],['Project evidence capture',t.recap],['Tax reserve',t.tax],['Delivery reserve',t.delivery],['Contingency',t.contingency]].map(([n,v])=>`<div><dt>${n}</dt><dd>${money(v)}</dd></div>`).join('');
     $$('.scope').forEach(el=>{const scopeRows=D.lines.filter(r=>r.scope===el.dataset.scope);el.querySelector('.scope-sum').textContent=money(total(scopeRows).subtotal);});
     $$('.price-line').forEach(el=>{const r=rows.get(el.dataset.line),c=current(r);el.classList.toggle('excluded-line',!c.includeInTotal);el.querySelector('.line-extended').innerHTML=`${money(c.includeInTotal?Math.round(c.quantity*c.unitPrice*100)/100:0)}<small>${c.includeInTotal?'line total':'excluded from total'}</small>`;el.querySelector('.price-badge').textContent=isEdited(r)?'Your edit':label[r.priceType];el.querySelector('.price-badge').className='badge price-badge '+(isEdited(r)?'edited':r.priceType);});

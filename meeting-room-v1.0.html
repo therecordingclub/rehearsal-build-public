@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#f5f6f7">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Room proportions · TRC Rehearsal Room 2</title>
+  <link rel="stylesheet" href="meeting-room-v1.0.css">
+  <script src="reference-layout.js?v=2" defer></script>
+  <script type="importmap">{"imports":{"three":"./assets/vendor/three.module.min.js"}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#room-model">Skip to the room model</a>
+  <header class="masthead">
+    <a class="back-link" href="team-plan.html">← Team plan</a>
+    <div class="eyebrow">📐 THE RECORDING CLUB · REHEARSAL ROOM</div>
+    <h1>Room proportions.</h1>
+    <div class="headline-note">Built from the facility plans. Central furniture stays in both lighting modes.</div>
+  </header>
+
+  <main>
+    <section class="model-section" aria-labelledby="model-title">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">🎯 DIMENSIONED ROOM MODEL</div>
+          <h2 id="model-title">One layout. Two lighting modes.</h2>
+        </div>
+        <div class="mode-controls" role="group" aria-label="Room view">
+          <button type="button" data-meeting-mode="lounge" aria-pressed="true">Lounge</button>
+          <button type="button" data-meeting-mode="bright" aria-pressed="false">Bright rehearsal</button>
+          <button type="button" data-meeting-mode="plan" aria-pressed="false">3D plan</button>
+        </div>
+      </div>
+      <div class="model-frame" id="room-model" tabindex="-1">
+        <div id="meeting-room-scene" aria-label="Directly rendered three-dimensional meeting room"></div>
+        <div class="model-status" id="model-status" role="status" aria-live="polite">Loading the record-backed model…</div>
+      </div>
+      <div class="model-key">
+        <span>↔ Drag to look around</span>
+        <span>◐ Bright changes lights only</span>
+        <a href="assets/room-meeting-model-lounge-v1.0.png" download>Download scaled lounge view ↓</a>
+        <a href="assets/room-meeting-model-bright-v1.0.png" download>Download scaled bright view ↓</a>
+      </div>
+    </section>
+
+    <section class="plan-section" id="dimensions" aria-labelledby="plan-title">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">📊 DIMENSIONED PLAN</div>
+          <h2 id="plan-title">Check the room and furniture sizes.</h2>
+        </div>
+        <div class="confidence-key" aria-label="Confidence key">
+          <span><i class="high"></i>Printed room record</span>
+          <span><i class="moderate"></i>Traced from 2024 plan</span>
+          <span><i class="low"></i>Measure on site</span>
+        </div>
+      </div>
+      <div class="metric-strip" aria-label="Room dimensions">
+        <div><strong>12′2¼″</strong><span>mirror wall · facility plan</span></div>
+        <div><strong>21′7½″</strong><span>room depth · facility plan</span></div>
+        <div><strong>15′8″</strong><span>widest bay · 2024 plan</span></div>
+        <div><strong>8′6″</strong><span>ceiling · provisional</span></div>
+      </div>
+      <div class="plan-hint">↔ Swipe sideways to see the full plan.</div>
+      <div id="dimensioned-plan" class="plan-frame" aria-live="polite"></div>
+      <div class="footprint-heading">Modeled furniture footprints · verify the actual pieces before ordering</div>
+      <ul id="furniture-sizes" class="furniture-sizes" aria-label="Modeled furniture dimensions"></ul>
+    </section>
+
+    <section class="evidence-grid" aria-labelledby="evidence-title">
+      <div class="section-heading full">
+        <div>
+          <div class="eyebrow">🔍 PLAN RECORDS + SITE CHECKS</div>
+          <h2 id="evidence-title">What is known. What needs measuring.</h2>
+        </div>
+      </div>
+      <article>
+        <strong>✓ Plan dimensions</strong>
+        <span>Mirror wall 146.25 in · room depth 259.5 in</span>
+      </article>
+      <article>
+        <strong>✓ Openings located from plans</strong>
+        <span>D3 on south wall · sliders 70.6 in · closet 34 × 46 in</span>
+      </article>
+      <article>
+        <strong>✓ Fixed lounge group</strong>
+        <span>Alpine sofa · two DYVLINGE chairs · round table</span>
+      </article>
+      <article class="warn">
+        <strong>! Field checks remain</strong>
+        <span>Bay segments · ceiling · rail positions · door heads</span>
+      </article>
+    </section>
+
+    <details class="source-detail">
+      <summary><span>🔎</span><strong>Dimension sources</strong><small>Room records, assumptions and model details</small></summary>
+      <div class="source-grid">
+        <a href="room-records.json"><strong>Room records</strong><span>Authoritative inch geometry</span></a>
+        <a href="research/room-dimensions-records-v1.2.md"><strong>Dimension audit</strong><span>Evidence hierarchy + limits</span></a>
+        <a href="research/meeting-geometry-v1.0.json"><strong>Meeting geometry</strong><span>Layout, lighting, camera + boundaries</span></a>
+      </div>
+    </details>
+  </main>
+
+  <script type="module" src="meeting-room-v1.0.js"></script>
+</body>
+</html>

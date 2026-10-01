@@ -1,0 +1,63 @@
+@import url("team-plan.css?v=1.0");
+
+.room-figure img {
+  max-height: none;
+}
+
+.role-date {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.geometry-note {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+}
+
+.budget-grid {
+  grid-template-columns: 1.35fr repeat(4, 1fr);
+}
+
+.budget-history {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 1020px) {
+  .budget-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 441px) and (max-width: 1020px) {
+  .budget-grid > div:last-child {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 760px) {
+  .budget-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 440px) {
+  .budget-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .room-figure img {
+    max-height: 6.5in;
+  }
+
+  .budget-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

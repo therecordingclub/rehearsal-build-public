@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "Meeting-room deterministic geometry",
+  "units": "in",
+  "threeUnit": "ft",
+  "geometrySource": {
+    "path": "room-records.json",
+    "schemaVersion": "1.0.0",
+    "audit": "research/room-dimensions-records-v1.2.md",
+    "rule": "Room-record dimensions remain in inches and are divided by 12 exactly once at the Three.js boundary."
+  },
+  "room": {
+    "frame": {
+      "origin": "northwest finished-floor corner",
+      "x": "east",
+      "z": "south",
+      "y": "up"
+    },
+    "polygonIn": [
+      [0.0, 0.0],
+      [146.25, 0.0],
+      [146.25, 54.0],
+      [188.0, 78.0],
+      [188.0, 180.0],
+      [146.25, 201.6],
+      [146.25, 259.5],
+      [0.0, 259.5]
+    ],
+    "controls": {
+      "northIn": {"value": 146.25, "confidence": "high", "status": "printed facility record"},
+      "westIn": {"value": 259.5, "confidence": "high", "status": "printed facility record"},
+      "maximumWidthIn": {"value": 188.0, "confidence": "moderate", "status": "printed 2024 plan control"},
+      "publishedAreaSqFt": {"value": 298.75, "confidence": "high", "status": "published facility record"},
+      "modeledAreaSqFt": {"value": 299.738, "confidence": "low", "status": "derived from the estimated eight-point working outline"},
+      "ceilingIn": {"value": 102.0, "confidence": "low", "status": "provisional working assumption accepted for this model; field measurement remains pending"}
+    },
+    "eastBay": {
+      "confidence": "low",
+      "status": "Eight-point working trace only; angles and segment runs require a site laser."
+    }
+  },
+  "openings": {
+    "entryD3": {
+      "wall": "south",
+      "x0": 0.99,
+      "x1": 37.31,
+      "z": 259.5,
+      "nominalLeafWidthIn": 36.0,
+      "hinge": "west jamb",
+      "swing": "north into main room",
+      "confidence": "moderate",
+      "headIn": {"value": 80.0, "confidence": "low", "status": "visualization only"}
+    },
+    "southSliders": {
+      "x0": 75.65,
+      "x1": 146.25,
+      "widthIn": 70.6,
+      "roomLayerZ": 261.0,
+      "boothLayerZ": 287.54,
+      "confidence": "moderate"
+    },
+    "closet": {
+      "x0": 146.25,
+      "x1": 180.25,
+      "z0": 213.5,
+      "z1": 259.5,
+      "widthIn": 34.0,
+      "depthIn": 46.0,
+      "confidence": "high",
+      "doorDetailsConfidence": "low"
+    }
+  },
+  "layout": {
+    "baseline": "exports/rehearsal-room-saved-layouts-v1.5.json#reference-affordable-v1.4",
+    "builder": "ReferenceLayout.budget.build",
+    "id": "meeting-room-v1.0",
+    "fixedCentralGroup": [
+      {"id": "SEAT-01", "product": "Alpine ebony black sofa", "catalogId": "SEAT-ALPINE"},
+      {"id": "SEAT-02A", "product": "IKEA DYVLINGE black swivel chair A", "catalogId": "SEAT-DYVLINGE"},
+      {"id": "SEAT-02B", "product": "IKEA DYVLINGE black swivel chair B", "catalogId": "SEAT-DYVLINGE"},
+      {"id": "SEAT-03", "product": "Crosley Furniture 30-inch round black glass table", "catalogId": "TABLE-CH35"}
+    ],
+    "compactCabinetOption": {
+      "id": "BAR-01",
+      "sourceModel": "Existing detailed bar/cabinet model",
+      "modelPlacementIn": {"x": 11.0, "z": 160.0, "width": 32.0, "depth": 18.0, "rotationDeg": 270.0},
+      "status": "Design option, not a field measurement",
+      "stoolsIncluded": false
+    }
+  },
+  "lighting": {
+    "modes": {
+      "lounge": {"scene": "lounge", "status": "default"},
+      "bright": {"scene": "session", "status": "optional lighting-only change"}
+    },
+    "rails": [
+      {
+        "id": "front-speaker-rail",
+        "modelSourceId": "E-03",
+        "description": "Existing detailed-scene track at the front speaker / guitar-wall zone",
+        "confidence": "low",
+        "status": "Existing design-model registration; exact rail size and field position remain unverified"
+      },
+      {
+        "id": "rear-upper-left-rail",
+        "description": "Requested hanging fixtures on the upper-left / rear existing rail",
+        "modelPlacementIn": {"start": [16.0, 42.0], "end": [16.0, 212.0], "height": 96.0},
+        "fixtureCount": 3,
+        "confidence": "low",
+        "status": "Diagrammatic design registration only; no rail dimension or field position is claimed"
+      }
+    ]
+  },
+  "camera": {
+    "perspective": {
+      "positionIn": [36.0, 63.0, 247.2],
+      "yawRad": -0.38,
+      "pitchRad": -0.13,
+      "verticalFovDeg": 62.0,
+      "projection": "perspective",
+      "status": "Deterministic interior viewpoint chosen from the floor-plan bounds"
+    },
+    "plan": {
+      "projection": "orthographic",
+      "centerIn": [90.0, 163.0],
+      "status": "Renderer-native plan mode"
+    }
+  },
+  "capture": {
+    "widthPx": 1536,
+    "heightPx": 1024,
+    "mimeType": "image/png"
+  },
+  "modelBoundaries": [
+    "The north and west controls and published area come from facility records.",
+    "The east-bay vertices and 102-inch ceiling are working assumptions.",
+    "Rail placements are diagrammatic registrations until field measured.",
+    "Furniture footprints are planning geometry, not installation clearances.",
+    "Lounge and bright captures use one unchanged layout; bright changes light settings only."
+  ]
+}

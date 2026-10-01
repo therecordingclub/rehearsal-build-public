@@ -2,8 +2,8 @@
   "schema": "trc-static-share/v1",
   "sourceVersion": "1.5",
   "inventoryExcludes": "share-manifest.json",
-  "fileCount": 259,
-  "totalBytes": 626661266,
+  "fileCount": 276,
+  "totalBytes": 734551370,
   "files": [
     {
       "path": ".nojekyll",
@@ -442,6 +442,22 @@
       "bytes": 195624
     },
     {
+      "path": "assets/room-meeting-lounge-v1.3.png",
+      "bytes": 2176971
+    },
+    {
+      "path": "assets/room-meeting-lounge-v1.3.webp",
+      "bytes": 213220
+    },
+    {
+      "path": "assets/room-meeting-model-bright-v1.0.png",
+      "bytes": 2223633
+    },
+    {
+      "path": "assets/room-meeting-model-lounge-v1.0.png",
+      "bytes": 1917124
+    },
+    {
       "path": "assets/room-meeting-rehearsal-v1.1.png",
       "bytes": 2403563
     },
@@ -456,6 +472,14 @@
     {
       "path": "assets/room-meeting-rehearsal-v1.2.webp",
       "bytes": 206696
+    },
+    {
+      "path": "assets/room-meeting-rehearsal-v1.3.png",
+      "bytes": 2299976
+    },
+    {
+      "path": "assets/room-meeting-rehearsal-v1.3.webp",
+      "bytes": 227624
     },
     {
       "path": "assets/room-photo-v1.3.png",
@@ -555,11 +579,11 @@
     },
     {
       "path": "budget-options.js",
-      "bytes": 5212
+      "bytes": 5283
     },
     {
       "path": "budget-v1.6.html",
-      "bytes": 21644
+      "bytes": 21930
     },
     {
       "path": "budget.css",
@@ -567,11 +591,11 @@
     },
     {
       "path": "budget.js",
-      "bytes": 16663
+      "bytes": 16728
     },
     {
       "path": "current.json",
-      "bytes": 2269
+      "bytes": 2450
     },
     {
       "path": "documentary.css",
@@ -654,6 +678,10 @@
       "bytes": 97106125
     },
     {
+      "path": "exports/rehearsal-room-sharing-kit-v1.11.zip",
+      "bytes": 98750587
+    },
+    {
       "path": "exports/rehearsal-room-sharing-kit-v1.5.zip",
       "bytes": 26776520
     },
@@ -696,6 +724,14 @@
     {
       "path": "exports/team-next-steps-v1.0.txt",
       "bytes": 5170
+    },
+    {
+      "path": "exports/team-next-steps-v1.1.csv",
+      "bytes": 5681
+    },
+    {
+      "path": "exports/team-next-steps-v1.1.txt",
+      "bytes": 5376
     },
     {
       "path": "full-room-adapter.js",
@@ -751,7 +787,7 @@
     },
     {
       "path": "index.html",
-      "bytes": 2757
+      "bytes": 2762
     },
     {
       "path": "initial-photo.json",
@@ -759,7 +795,19 @@
     },
     {
       "path": "layout.html",
-      "bytes": 11242
+      "bytes": 11222
+    },
+    {
+      "path": "meeting-room-v1.0.css",
+      "bytes": 9343
+    },
+    {
+      "path": "meeting-room-v1.0.html",
+      "bytes": 5355
+    },
+    {
+      "path": "meeting-room-v1.0.js",
+      "bytes": 22225
     },
     {
       "path": "planner-geometry.js",
@@ -860,6 +908,10 @@
     {
       "path": "research/material-install-sources-v1.5.json",
       "bytes": 46378
+    },
+    {
+      "path": "research/meeting-geometry-v1.0.json",
+      "bytes": 5133
     },
     {
       "path": "research/openai-documentary-evidence-v1.0.md",
@@ -1030,8 +1082,24 @@
       "bytes": 21405
     },
     {
+      "path": "team-plan-v1.1.css",
+      "bytes": 975
+    },
+    {
+      "path": "team-plan-v1.1.html",
+      "bytes": 21683
+    },
+    {
+      "path": "team-plan-v1.1.js",
+      "bytes": 4045
+    },
+    {
       "path": "team-plan.css",
       "bytes": 24501
+    },
+    {
+      "path": "team-plan.html",
+      "bytes": 565
     },
     {
       "path": "team-plan.js",

@@ -1,0 +1,119 @@
+TRC REHEARSAL ROOM · TEAM NEXT STEPS V1.1
+Meeting source: Limitless D5O6D74s0By3w6vqoEip · September 30, 2026
+Plan revision: October 1, 2026
+
+THE REHEARSAL ROOM
+Central furniture stays. Lounge lighting with a bright rehearsal option.
+
+ASSIGNED ROLES + RECOMMENDED TASKS
+
+The named planning and execution roles come from the meeting. Detailed task splits are recommendations for those owners to confirm. October 2 planning and October 31 completion are meeting deadlines. October 8–9 installation is tentative.
+
+Greg's follow-up keeps the central sofa, chairs and coffee table in both modes and establishes the stretch cost-reduction target.
+
+Anton · planning and sourcing lead · next: Oct 2
+- Own one complete ready-to-order package.
+- List item, source, all-in cost, quantity and exact room location.
+- Add fixing method, install time, confirmed arrival and one owner.
+- Aim for $10,000–15,000 while staying below the $25,000 ceiling before orders release.
+
+Elijah · execution oversight · next: Oct 2
+- Confirm the crew plan, trade needs, work hours and room-closure conditions.
+- Release the installation sequence after materials and booking are confirmed.
+- Assign Joe one bounded support package; Joe did not receive a final meeting assignment.
+
+Taji · day-to-day preparation · next: Oct 2
+- Measure rails, walls, doors and every footprint.
+- Measure around the central sofa, chairs and coffee table; prove storage-door access.
+- Stage tools, materials, protection and labels by build phase.
+
+John Q · construction and mounts · next: Oct 2
+- Confirm substrate, fixing, load and service access for every mounted item.
+- Specify rail-fixture wiring and LED diffusion.
+- Assess the ISO booth input 4 repair and escalate work that needs a qualified trade.
+
+Greg + Jacob · design and booking decisions · next: Oct 2
+- Choose compact locked cabinet or converted-closet storage after the floor mockup.
+- Approve the lounge and bright rehearsal controls.
+- Clear the tentative Oct 8–9 room closure against the existing booking.
+
+Joe · support pending Elijah assignment · Oct 8–9 only if assigned
+- Do not assume purchasing or build ownership.
+- Complete only the bounded task Elijah assigns from the final install plan.
+
+BUDGET
+
+Aim for $10,000–15,000; $25,000 remains the ceiling.
+This is a stretch cost-reduction target, not a final quote.
+Historical estimate: $24,813.44
+Historical estimate allowances:
+- Contingency: $2,255.77
+- Tax: $1,147.14
+- Freight: $344.14
+- Documentary allowance: $1,000.00
+
+Requote and reconcile the historical estimate. New rail fixtures, controls, diffusion, distress film, patch repair and optional booth work need prices and costed offsets. Shrink or defer the drinks counter, optional booth work and outer shelving first.
+
+DEADLINES
+
+Friday, Oct 2 · ready-to-order package
+- Exact handoff hour remains open between 9 and 11 AM.
+- Every item has all nine order fields complete.
+- Aim for $10,000–15,000 and do not exceed the $25,000 ceiling.
+
+Oct 8–9 · tentative two-day installation
+- Proceed only if every required delivery is in hand.
+- Proceed only if crew, trade coverage and booking move are confirmed.
+
+Oct 31 · fixed completion
+- Room complete, tested, defects closed and actual spend recorded.
+
+ROOM DIRECTION
+
+- Default lounge lighting; bright rehearsal is optional.
+- Keep the central sofa, chairs and coffee table in place in both modes.
+- Use the existing overhead metal rails for hanging fixtures.
+- Put retained rails and fixtures into the schematic before installation.
+- Diffuse or conceal visible LED strip sources.
+- Keep the storage closets and full door access.
+- Do not mount a guitar across the storage doors.
+- Retain core gear unless inspection requires service.
+- Use stock distressed-mirror film only after the sample passes.
+- Omit the expensive ceiling treatment.
+- Repair and test the ISO booth input 4 buzz.
+- Confirm finish suitability with the supplier; test an acoustic-fabric sample before release.
+OPEN OR OPTIONAL
+
+- Compact locked cabinet versus converted back closet.
+- Booth carpet, velvet, plants and extra LEDs.
+- Rollable shelving in the outer area.
+- Joe's exact support package.
+
+INSTALL SEQUENCE
+
+1. Measure and tape.
+2. Price, place and assign every item.
+3. Sample fixtures, diffusion, distress film, finish and repair method.
+4. Release only the approved package after cost reconciliation.
+5. Receive, inspect, protect retained gear and stage by phase.
+6. Repair input 4; install verified finishes, mounts, rail lights and mirrors.
+7. Set the central furniture and retained gear; commission lounge and bright rehearsal modes.
+8. Close the punch list, actual-spend ledger and maintenance handoff.
+
+COMPLETION CHECK
+
+[ ] Every order row has all nine fields.
+[ ] All-in total aims for $10,000–15,000 and does not exceed the $25,000 ceiling.
+[ ] Cabinet or closet choice has a taped footprint and cost.
+[ ] Lighting sample proves lounge and bright rehearsal modes.
+[ ] LED sources are diffused or hidden.
+[ ] Fixings match measured substrates and loads.
+[ ] Storage doors open fully; no guitar crosses them.
+[ ] Input 4 passes a clean signal test.
+[ ] Retained core gear is connected, tested and labeled.
+[ ] Actual spend, defects and maintenance notes are recorded.
+
+REFERENCE
+Budget: budget-v1.6.html
+Room model: meeting-room-v1.0.html
+Team plan: team-plan-v1.1.html
